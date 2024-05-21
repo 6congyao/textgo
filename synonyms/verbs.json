@@ -1,0 +1,12188 @@
+{
+    "abandon": [
+        "forsake",
+        "desolate",
+        "desert"
+    ],
+    "absent": [
+        "remove"
+    ],
+    "absorb": [
+        "engross",
+        "engage",
+        "occupy",
+        "suck",
+        "imbibe",
+        "draw",
+        "assimilate",
+        "ingest"
+    ],
+    "steep": [
+        "immerse",
+        "engulf",
+        "plunge",
+        "engross",
+        "absorb",
+        "infuse"
+    ],
+    "pilfer": [
+        "cabbage",
+        "purloin",
+        "pinch",
+        "abstract",
+        "snarf",
+        "swipe",
+        "hook",
+        "sneak",
+        "filch",
+        "nobble",
+        "lift"
+    ],
+    "delineate": [
+        "limn",
+        "outline"
+    ],
+    "draft": [
+        "outline"
+    ],
+    "sketch": [
+        "outline",
+        "adumbrate"
+    ],
+    "abuse": [
+        "clapperclaw",
+        "blackguard",
+        "shout"
+    ],
+    "pervert": [
+        "misuse",
+        "abuse"
+    ],
+    "mistreat": [
+        "maltreat",
+        "abuse",
+        "ill-use",
+        "step",
+        "ill-treat"
+    ],
+    "trace": [
+        "draw",
+        "line",
+        "describe",
+        "delineate",
+        "retrace",
+        "follow"
+    ],
+    "specify": [
+        "define",
+        "delineate",
+        "delimit",
+        "delimitate",
+        "set",
+        "determine",
+        "fix",
+        "limit",
+        "particularize",
+        "particularise",
+        "specialize",
+        "specialise"
+    ],
+    "define": [
+        "delineate"
+    ],
+    "blueprint": [
+        "draft",
+        "draught"
+    ],
+    "enlist": [
+        "draft"
+    ],
+    "gulp": [
+        "quaff",
+        "swig"
+    ],
+    "misapply": [
+        "misuse"
+    ],
+    "twist": [
+        "pervert",
+        "convolute",
+        "sophisticate",
+        "sprain",
+        "wrench",
+        "turn",
+        "wrick",
+        "rick",
+        "twine",
+        "distort"
+    ],
+    "corrupt": [
+        "pervert",
+        "subvert",
+        "demoralize",
+        "demoralise",
+        "debauch",
+        "debase",
+        "profane",
+        "vitiate",
+        "deprave",
+        "misdirect",
+        "spoil"
+    ],
+    "accelerate": [
+        "speed",
+        "quicken"
+    ],
+    "stress": [
+        "accent",
+        "accentuate",
+        "emphasize",
+        "emphasise",
+        "punctuate"
+    ],
+    "wrench": [
+        "twist"
+    ],
+    "wind": [
+        "twist",
+        "curve",
+        "wrap",
+        "roll",
+        "twine"
+    ],
+    "flex": [
+        "bend",
+        "deform",
+        "twist",
+        "turn"
+    ],
+    "writhe": [
+        "wrestle",
+        "wriggle",
+        "worm",
+        "squirm",
+        "twist"
+    ],
+    "braid": [
+        "lace",
+        "plait",
+        "pleach"
+    ],
+    "eddy": [
+        "purl",
+        "whirlpool",
+        "swirl",
+        "whirl"
+    ],
+    "bend": [
+        "flex"
+    ],
+    "spin": [
+        "whirl",
+        "reel",
+        "gyrate"
+    ],
+    "turn": [
+        "grow",
+        "release"
+    ],
+    "take": [
+        "accept",
+        "have",
+        "make",
+        "submit",
+        "read",
+        "occupy"
+    ],
+    "accept": [
+        "take",
+        "swallow",
+        "admit",
+        "consent",
+        "have"
+    ],
+    "bear": [
+        "accept",
+        "assume",
+        "hold"
+    ],
+    "defile": [
+        "sully",
+        "corrupt",
+        "taint",
+        "cloud"
+    ],
+    "bribe": [
+        "corrupt",
+        "buy"
+    ],
+    "try": [
+        "strain",
+        "stress",
+        "render",
+        "seek",
+        "attempt",
+        "essay",
+        "assay"
+    ],
+    "hold": [
+        "carry",
+        "bear",
+        "contain",
+        "support",
+        "sustain",
+        "throw",
+        "have",
+        "make",
+        "give"
+    ],
+    "behave": [
+        "acquit",
+        "bear",
+        "deport",
+        "conduct",
+        "comport",
+        "carry"
+    ],
+    "wear": [
+        "bear",
+        "don",
+        "assume",
+        "endure"
+    ],
+    "yield": [
+        "pay",
+        "bear",
+        "succumb",
+        "relent",
+        "soften",
+        "give",
+        "afford"
+    ],
+    "digest": [
+        "endure",
+        "stomach",
+        "bear",
+        "stand",
+        "tolerate",
+        "support",
+        "brook",
+        "abide",
+        "suffer",
+        "condense",
+        "concentrate"
+    ],
+    "contract": [
+        "take",
+        "get",
+        "undertake"
+    ],
+    "drive": [
+        "take",
+        "ride",
+        "get",
+        "aim",
+        "motor"
+    ],
+    "contain": [
+        "take",
+        "hold"
+    ],
+    "claim": [
+        "take",
+        "exact",
+        "arrogate"
+    ],
+    "subscribe": [
+        "take",
+        "support"
+    ],
+    "lease": [
+        "rent",
+        "hire",
+        "charter",
+        "engage",
+        "take",
+        "let"
+    ],
+    "carry": [
+        "pack",
+        "take",
+        "hold",
+        "persuade",
+        "sway",
+        "run",
+        "extend",
+        "convey",
+        "express"
+    ],
+    "aim": [
+        "take",
+        "train",
+        "direct",
+        "purpose",
+        "purport",
+        "propose"
+    ],
+    "learn": [
+        "study",
+        "read",
+        "take",
+        "hear",
+        "discover",
+        "see",
+        "larn",
+        "acquire"
+    ],
+    "assume": [
+        "take",
+        "strike",
+        "acquire",
+        "adopt",
+        "usurp",
+        "seize",
+        "arrogate",
+        "presume"
+    ],
+    "consume": [
+        "ingest",
+        "take",
+        "have",
+        "eat",
+        "deplete",
+        "exhaust",
+        "squander",
+        "waste",
+        "ware"
+    ],
+    "remove": [
+        "take",
+        "withdraw",
+        "transfer"
+    ],
+    "film": [
+        "shoot",
+        "take"
+    ],
+    "necessitate": [
+        "ask",
+        "postulate",
+        "need",
+        "require",
+        "take",
+        "involve",
+        "demand"
+    ],
+    "consider": [
+        "take",
+        "deal",
+        "debate",
+        "moot",
+        "deliberate",
+        "count",
+        "weigh"
+    ],
+    "fill": [
+        "take",
+        "occupy"
+    ],
+    "choose": [
+        "take",
+        "select",
+        "prefer",
+        "opt"
+    ],
+    "bring": [
+        "convey",
+        "take",
+        "land",
+        "get",
+        "fetch",
+        "work",
+        "play",
+        "wreak"
+    ],
+    "lead": [
+        "take",
+        "direct",
+        "conduct",
+        "guide",
+        "top",
+        "head"
+    ],
+    "tug": [
+        "labor",
+        "labour",
+        "push",
+        "drive"
+    ],
+    "repel": [
+        "drive",
+        "repulse",
+        "rebuff"
+    ],
+    "force": [
+        "drive",
+        "ram",
+        "thrust"
+    ],
+    "campaign": [
+        "run"
+    ],
+    "hear": [
+        "try"
+    ],
+    "sample": [
+        "try",
+        "taste"
+    ],
+    "judge": [
+        "adjudicate",
+        "try"
+    ],
+    "test": [
+        "prove",
+        "try",
+        "examine",
+        "essay"
+    ],
+    "agree": [
+        "hold",
+        "concur",
+        "concord"
+    ],
+    "declare": [
+        "adjudge",
+        "hold"
+    ],
+    "halt": [
+        "hold",
+        "arrest"
+    ],
+    "control": [
+        "hold",
+        "contain",
+        "check",
+        "curb",
+        "moderate",
+        "verify",
+        "command"
+    ],
+    "apply": [
+        "hold"
+    ],
+    "defy": [
+        "withstand",
+        "hold",
+        "dare",
+        "resist",
+        "refuse"
+    ],
+    "oblige": [
+        "bind",
+        "hold",
+        "obligate",
+        "accommodate"
+    ],
+    "defend": [
+        "guard",
+        "hold",
+        "support",
+        "represent"
+    ],
+    "reserve": [
+        "hold",
+        "book"
+    ],
+    "prevail": [
+        "hold",
+        "obtain",
+        "persist",
+        "run",
+        "endure",
+        "triumph"
+    ],
+    "accommodate": [
+        "hold",
+        "admit",
+        "reconcile",
+        "conciliate"
+    ],
+    "retain": [
+        "hold",
+        "continue",
+        "keep"
+    ],
+    "restrain": [
+        "confine",
+        "hold",
+        "constrain",
+        "keep",
+        "encumber",
+        "cumber"
+    ],
+    "harbor": [
+        "harbour",
+        "hold",
+        "entertain",
+        "nurse",
+        "shield"
+    ],
+    "deem": [
+        "hold"
+    ],
+    "have": [
+        "hold",
+        "get",
+        "make",
+        "experience",
+        "feature"
+    ],
+    "keep": [
+        "maintain",
+        "hold",
+        "preserve"
+    ],
+    "handle": [
+        "palm"
+    ],
+    "delay": [
+        "detain"
+    ],
+    "rent": [
+        "hire",
+        "charter",
+        "lease"
+    ],
+    "moderate": [
+        "chair",
+        "lead"
+    ],
+    "run": [
+        "lead",
+        "go",
+        "pass",
+        "extend",
+        "consort",
+        "unravel",
+        "bleed",
+        "execute",
+        "flow",
+        "feed",
+        "course"
+    ],
+    "precede": [
+        "lead",
+        "preface",
+        "premise",
+        "introduce",
+        "predate"
+    ],
+    "go": [
+        "lead",
+        "proceed",
+        "move",
+        "depart"
+    ],
+    "conduct": [
+        "lead",
+        "direct",
+        "deal"
+    ],
+    "contribute": [
+        "lead",
+        "conduce",
+        "give"
+    ],
+    "head": [
+        "lead"
+    ],
+    "leave": [
+        "result",
+        "lead",
+        "allow",
+        "provide",
+        "depart"
+    ],
+    "tip": [
+        "fee",
+        "bung"
+    ],
+    "star": [
+        "asterisk"
+    ],
+    "call": [
+        "telephone",
+        "phone",
+        "ring"
+    ],
+    "determine": [
+        "check",
+        "see",
+        "ascertain",
+        "watch",
+        "learn",
+        "set",
+        "shape",
+        "mold",
+        "influence",
+        "regulate",
+        "find"
+    ],
+    "teach": [
+        "learn",
+        "instruct"
+    ],
+    "memorize": [
+        "memorise",
+        "con",
+        "learn"
+    ],
+    "abridge": [
+        "foreshorten",
+        "abbreviate",
+        "shorten",
+        "cut",
+        "contract",
+        "reduce"
+    ],
+    "narrow": [
+        "contract"
+    ],
+    "condense": [
+        "concentrate",
+        "contract",
+        "distill",
+        "distil"
+    ],
+    "shrink": [
+        "contract",
+        "reduce",
+        "shrivel"
+    ],
+    "compress": [
+        "constrict",
+        "squeeze",
+        "compact",
+        "contract",
+        "press"
+    ],
+    "sign": [
+        "contract",
+        "subscribe",
+        "signal",
+        "signalize",
+        "signalise",
+        "ratify"
+    ],
+    "target": [
+        "aim",
+        "place",
+        "direct",
+        "point"
+    ],
+    "calculate": [
+        "aim",
+        "direct",
+        "estimate",
+        "reckon",
+        "figure",
+        "forecast",
+        "cipher",
+        "cypher",
+        "compute"
+    ],
+    "purpose": [
+        "resolve"
+    ],
+    "give": [
+        "yield",
+        "dedicate",
+        "consecrate",
+        "commit",
+        "devote",
+        "render",
+        "apply",
+        "pay",
+        "gift",
+        "present",
+        "throw"
+    ],
+    "succumb": [
+        "yield"
+    ],
+    "concede": [
+        "yield",
+        "grant",
+        "cede",
+        "profess",
+        "confess"
+    ],
+    "render": [
+        "yield",
+        "return",
+        "give",
+        "generate",
+        "deliver",
+        "submit"
+    ],
+    "tire": [
+        "wear",
+        "weary",
+        "jade",
+        "outwear",
+        "fag",
+        "fatigue",
+        "pall"
+    ],
+    "break": [
+        "wear",
+        "bust",
+        "recrudesce",
+        "develop",
+        "discontinue",
+        "stop",
+        "burst",
+        "erupt",
+        "separate"
+    ],
+    "post": [
+        "carry",
+        "brand"
+    ],
+    "dribble": [
+        "carry",
+        "drip",
+        "drop"
+    ],
+    "stock": [
+        "carry",
+        "stockpile"
+    ],
+    "impart": [
+        "conduct",
+        "transmit",
+        "convey",
+        "carry",
+        "channel",
+        "leave",
+        "give"
+    ],
+    "transport": [
+        "carry",
+        "send",
+        "ship"
+    ],
+    "act": [
+        "behave",
+        "do",
+        "play",
+        "roleplay",
+        "playact",
+        "represent",
+        "move"
+    ],
+    "pledge": [
+        "subscribe",
+        "plight"
+    ],
+    "view": [
+        "consider"
+    ],
+    "regard": [
+        "consider"
+    ],
+    "think": [
+        "believe",
+        "consider",
+        "conceive",
+        "opine",
+        "suppose",
+        "imagine",
+        "reckon",
+        "guess",
+        "cogitate",
+        "cerebrate"
+    ],
+    "study": [
+        "consider",
+        "meditate",
+        "contemplate"
+    ],
+    "see": [
+        "consider",
+        "reckon",
+        "view",
+        "regard",
+        "check",
+        "insure",
+        "ensure",
+        "control",
+        "ascertain",
+        "assure",
+        "escort"
+    ],
+    "simulate": [
+        "assume",
+        "sham",
+        "feign"
+    ],
+    "check": [
+        "arrest",
+        "stop",
+        "contain",
+        "mark",
+        "tick",
+        "chink",
+        "checker",
+        "chequer",
+        "retard",
+        "delay"
+    ],
+    "incorporate": [
+        "contain",
+        "comprise"
+    ],
+    "fetch": [
+        "bring"
+    ],
+    "lend": [
+        "impart",
+        "bestow",
+        "contribute",
+        "add",
+        "bring",
+        "loan"
+    ],
+    "institute": [
+        "bring"
+    ],
+    "satiate": [
+        "sate",
+        "replete",
+        "fill"
+    ],
+    "fit": [
+        "meet",
+        "satisfy",
+        "fill",
+        "fulfill",
+        "fulfil",
+        "go"
+    ],
+    "occupy": [
+        "fill",
+        "reside"
+    ],
+    "devour": [
+        "demolish",
+        "down",
+        "consume",
+        "guttle",
+        "raven",
+        "pig"
+    ],
+    "murder": [
+        "slay",
+        "hit",
+        "dispatch",
+        "off",
+        "remove"
+    ],
+    "lodge": [
+        "accommodate",
+        "wedge",
+        "stick",
+        "deposit"
+    ],
+    "adapt": [
+        "accommodate"
+    ],
+    "suit": [
+        "accommodate",
+        "fit"
+    ],
+    "fall": [
+        "return",
+        "pass",
+        "devolve",
+        "come",
+        "descend",
+        "settle",
+        "light",
+        "shine",
+        "strike"
+    ],
+    "reelect": [
+        "return"
+    ],
+    "refund": [
+        "return",
+        "repay"
+    ],
+    "retort": [
+        "repay",
+        "return",
+        "riposte",
+        "rejoin"
+    ],
+    "revert": [
+        "return",
+        "retrovert",
+        "regress"
+    ],
+    "entrance": [
+        "spellbind"
+    ],
+    "company": [
+        "companion",
+        "accompany"
+    ],
+    "achieve": [
+        "accomplish",
+        "attain",
+        "reach"
+    ],
+    "accord": [
+        "allot",
+        "grant"
+    ],
+    "become": [
+        "suit",
+        "turn",
+        "go",
+        "get"
+    ],
+    "befit": [
+        "suit",
+        "beseem"
+    ],
+    "charge": [
+        "lodge",
+        "file",
+        "saddle",
+        "burden",
+        "level",
+        "point",
+        "bill",
+        "accuse"
+    ],
+    "club": [
+        "bludgeon"
+    ],
+    "adjust": [
+        "conform",
+        "adapt",
+        "set",
+        "correct"
+    ],
+    "report": [
+        "describe",
+        "account",
+        "cover"
+    ],
+    "account": [
+        "calculate"
+    ],
+    "score": [
+        "mark",
+        "nock",
+        "hit",
+        "tally"
+    ],
+    "compel": [
+        "oblige",
+        "obligate"
+    ],
+    "capture": [
+        "enamour",
+        "trance",
+        "catch",
+        "becharm",
+        "enamor",
+        "captivate",
+        "beguile",
+        "charm",
+        "fascinate",
+        "bewitch",
+        "entrance",
+        "enchant"
+    ],
+    "blame": [
+        "charge",
+        "pick",
+        "fault"
+    ],
+    "load": [
+        "charge",
+        "adulterate",
+        "stretch",
+        "dilute",
+        "debase",
+        "lade",
+        "laden"
+    ],
+    "agitate": [
+        "rouse",
+        "charge",
+        "commove",
+        "excite",
+        "vex",
+        "disturb",
+        "foment"
+    ],
+    "consign": [
+        "charge"
+    ],
+    "commit": [
+        "institutionalize",
+        "institutionalise",
+        "send",
+        "charge",
+        "practice"
+    ],
+    "appoint": [
+        "charge",
+        "name",
+        "nominate",
+        "constitute"
+    ],
+    "tear": [
+        "shoot",
+        "charge",
+        "buck",
+        "rupture",
+        "snap",
+        "bust"
+    ],
+    "harmonize": [
+        "harmonise",
+        "consort",
+        "accord",
+        "concord",
+        "agree",
+        "chord",
+        "reconcile"
+    ],
+    "grade": [
+        "score",
+        "mark"
+    ],
+    "seduce": [
+        "score",
+        "make"
+    ],
+    "align": [
+        "aline",
+        "adjust",
+        "ordinate",
+        "coordinate",
+        "array"
+    ],
+    "placard": [
+        "bill"
+    ],
+    "accuse": [
+        "impeach",
+        "incriminate",
+        "criminate"
+    ],
+    "change": [
+        "exchange",
+        "commute",
+        "convert",
+        "alter",
+        "vary",
+        "modify"
+    ],
+    "punctuate": [
+        "mark"
+    ],
+    "set": [
+        "mark",
+        "localize",
+        "localise",
+        "place",
+        "countersink"
+    ],
+    "scar": [
+        "mark",
+        "pock",
+        "pit"
+    ],
+    "notice": [
+        "mark",
+        "note",
+        "acknowledge"
+    ],
+    "stigmatize": [
+        "stigmatise",
+        "brand",
+        "denounce",
+        "mark"
+    ],
+    "commemorate": [
+        "mark",
+        "remember",
+        "memorialize",
+        "memorialise",
+        "immortalize",
+        "immortalise"
+    ],
+    "distinguish": [
+        "mark",
+        "differentiate",
+        "separate",
+        "secern",
+        "secernate",
+        "severalize",
+        "severalise",
+        "tell"
+    ],
+    "tag": [
+        "label",
+        "mark"
+    ],
+    "scratch": [
+        "engrave",
+        "grave",
+        "inscribe",
+        "scrape"
+    ],
+    "stew": [
+        "grudge"
+    ],
+    "rate": [
+        "rank",
+        "range",
+        "order",
+        "grade",
+        "place",
+        "value"
+    ],
+    "peck": [
+        "pick",
+        "beak"
+    ],
+    "round": [
+        "labialize",
+        "labialise"
+    ],
+    "acknowledge": [
+        "recognize",
+        "recognise",
+        "know",
+        "receipt"
+    ],
+    "admit": [
+        "acknowledge",
+        "allow",
+        "include",
+        "intromit"
+    ],
+    "worry": [
+        "care",
+        "vex"
+    ],
+    "manage": [
+        "deal",
+        "care",
+        "handle"
+    ],
+    "wish": [
+        "care",
+        "like",
+        "bid"
+    ],
+    "concern": [
+        "interest",
+        "occupy",
+        "worry"
+    ],
+    "caution": [
+        "admonish",
+        "monish"
+    ],
+    "pluck": [
+        "pull",
+        "tear",
+        "deplume",
+        "deplumate",
+        "displume",
+        "plunk",
+        "pick",
+        "tweak"
+    ],
+    "spang": [
+        "bang"
+    ],
+    "slam": [
+        "bang"
+    ],
+    "hit": [
+        "strike"
+    ],
+    "knock": [
+        "criticize",
+        "criticise"
+    ],
+    "shake": [
+        "agitate",
+        "didder"
+    ],
+    "stir": [
+        "shift",
+        "budge",
+        "agitate"
+    ],
+    "crusade": [
+        "fight",
+        "press",
+        "campaign",
+        "push",
+        "agitate"
+    ],
+    "invest": [
+        "put",
+        "commit",
+        "place",
+        "vest",
+        "enthrone",
+        "clothe",
+        "adorn"
+    ],
+    "entrust": [
+        "intrust",
+        "trust",
+        "confide",
+        "commit",
+        "leave"
+    ],
+    "perpetrate": [
+        "commit",
+        "pull"
+    ],
+    "burden": [
+        "burthen",
+        "weight"
+    ],
+    "develop": [
+        "acquire",
+        "evolve",
+        "grow"
+    ],
+    "acquire": [
+        "win",
+        "gain"
+    ],
+    "grow": [
+        "develop",
+        "produce",
+        "get",
+        "acquire",
+        "raise",
+        "farm"
+    ],
+    "get": [
+        "acquire",
+        "receive",
+        "catch",
+        "capture",
+        "let",
+        "have"
+    ],
+    "comment": [
+        "notice",
+        "remark"
+    ],
+    "detect": [
+        "observe",
+        "find",
+        "discover",
+        "notice"
+    ],
+    "dissemble": [
+        "pretend",
+        "act",
+        "cloak",
+        "mask"
+    ],
+    "work": [
+        "act",
+        "process"
+    ],
+    "model": [
+        "simulate",
+        "pose",
+        "sit",
+        "posture",
+        "mold",
+        "mould",
+        "pattern"
+    ],
+    "imitate": [
+        "copy",
+        "simulate"
+    ],
+    "modernize": [
+        "modernise",
+        "develop"
+    ],
+    "train": [
+        "develop",
+        "prepare",
+        "educate",
+        "rail"
+    ],
+    "explicate": [
+        "formulate",
+        "develop"
+    ],
+    "originate": [
+        "arise",
+        "rise",
+        "develop",
+        "uprise",
+        "grow",
+        "initiate",
+        "start"
+    ],
+    "evolve": [
+        "germinate",
+        "develop"
+    ],
+    "beget": [
+        "get",
+        "engender",
+        "father",
+        "mother",
+        "sire",
+        "generate"
+    ],
+    "suffer": [
+        "sustain",
+        "have",
+        "get",
+        "lose",
+        "meet",
+        "hurt",
+        "endure"
+    ],
+    "perplex": [
+        "vex",
+        "stick",
+        "get",
+        "puzzle",
+        "mystify",
+        "baffle",
+        "beat",
+        "pose",
+        "bewilder",
+        "flummox",
+        "stupefy",
+        "nonplus",
+        "gravel",
+        "amaze",
+        "dumbfound"
+    ],
+    "draw": [
+        "get",
+        "quarter",
+        "cast",
+        "pull",
+        "make"
+    ],
+    "catch": [
+        "get",
+        "arrest",
+        "overhear",
+        "grab"
+    ],
+    "scram": [
+        "get"
+    ],
+    "make": [
+        "get",
+        "work",
+        "urinate",
+        "piddle",
+        "puddle",
+        "micturate",
+        "piss",
+        "pee",
+        "pee-pee",
+        "wee",
+        "wee-wee",
+        "pretend",
+        "create",
+        "do"
+    ],
+    "induce": [
+        "stimulate",
+        "cause",
+        "have",
+        "get",
+        "make",
+        "induct",
+        "rush",
+        "hasten"
+    ],
+    "experience": [
+        "receive",
+        "have",
+        "get",
+        "see"
+    ],
+    "arrive": [
+        "get",
+        "come"
+    ],
+    "receive": [
+        "get",
+        "find",
+        "obtain",
+        "incur",
+        "have",
+        "invite"
+    ],
+    "settle": [
+        "determine",
+        "root",
+        "locate"
+    ],
+    "decide": [
+        "determine",
+        "settle",
+        "resolve",
+        "adjudicate"
+    ],
+    "mature": [
+        "maturate",
+        "grow"
+    ],
+    "action": [
+        "sue",
+        "litigate",
+        "process"
+    ],
+    "gloss": [
+        "comment",
+        "annotate"
+    ],
+    "sour": [
+        "turn",
+        "ferment",
+        "work",
+        "acidify",
+        "acidulate",
+        "acetify"
+    ],
+    "ferment": [
+        "work"
+    ],
+    "solve": [
+        "lick",
+        "work"
+    ],
+    "exploit": [
+        "work",
+        "tap"
+    ],
+    "knead": [
+        "work"
+    ],
+    "shape": [
+        "form",
+        "work",
+        "mold",
+        "mould",
+        "forge"
+    ],
+    "influence": [
+        "work"
+    ],
+    "cultivate": [
+        "crop",
+        "work"
+    ],
+    "exercise": [
+        "work"
+    ],
+    "function": [
+        "work",
+        "operate",
+        "go",
+        "run"
+    ],
+    "feign": [
+        "sham",
+        "pretend",
+        "affect",
+        "dissemble"
+    ],
+    "trail": [
+        "train",
+        "shack"
+    ],
+    "coach": [
+        "train"
+    ],
+    "educate": [
+        "school",
+        "train",
+        "cultivate",
+        "civilize",
+        "civilise"
+    ],
+    "prepare": [
+        "groom",
+        "train"
+    ],
+    "discipline": [
+        "train",
+        "check",
+        "condition",
+        "correct"
+    ],
+    "string": [
+        "thread",
+        "draw"
+    ],
+    "complicate": [
+        "perplex",
+        "refine",
+        "rarify",
+        "elaborate"
+    ],
+    "watch": [
+        "view",
+        "see",
+        "catch",
+        "observe",
+        "follow"
+    ],
+    "overtake": [
+        "catch"
+    ],
+    "hitch": [
+        "catch"
+    ],
+    "hurt": [
+        "ache",
+        "suffer",
+        "wound",
+        "injure",
+        "bruise",
+        "offend",
+        "spite"
+    ],
+    "feel": [
+        "experience",
+        "finger",
+        "sense"
+    ],
+    "know": [
+        "experience",
+        "live",
+        "cognize",
+        "cognise"
+    ],
+    "explain": [
+        "explicate"
+    ],
+    "own": [
+        "have",
+        "possess"
+    ],
+    "overhaul": [
+        "modernize",
+        "modernise"
+    ],
+    "plow": [
+        "plough",
+        "turn"
+    ],
+    "suppurate": [
+        "mature"
+    ],
+    "senesce": [
+        "age",
+        "mature",
+        "maturate"
+    ],
+    "ripen": [
+        "mature"
+    ],
+    "meet": [
+        "encounter",
+        "receive",
+        "see",
+        "gather",
+        "assemble",
+        "forgather",
+        "foregather",
+        "play"
+    ],
+    "welcome": [
+        "receive"
+    ],
+    "fracture": [
+        "break"
+    ],
+    "crack": [
+        "check",
+        "break"
+    ],
+    "pause": [
+        "intermit",
+        "break"
+    ],
+    "collapse": [
+        "give",
+        "break",
+        "founder",
+        "burst"
+    ],
+    "bankrupt": [
+        "ruin",
+        "break",
+        "smash"
+    ],
+    "demote": [
+        "bump",
+        "relegate",
+        "break"
+    ],
+    "separate": [
+        "part",
+        "split",
+        "break",
+        "disunite",
+        "divide"
+    ],
+    "dampen": [
+        "damp",
+        "soften",
+        "weaken",
+        "break",
+        "deaden"
+    ],
+    "fail": [
+        "die",
+        "go",
+        "break",
+        "flunk",
+        "bomb",
+        "betray",
+        "miscarry",
+        "neglect"
+    ],
+    "unwrap": [
+        "disclose",
+        "reveal",
+        "discover",
+        "expose",
+        "divulge",
+        "break",
+        "uncover",
+        "undo"
+    ],
+    "better": [
+        "break",
+        "improve",
+        "amend",
+        "ameliorate",
+        "meliorate"
+    ],
+    "violate": [
+        "break"
+    ],
+    "transgress": [
+        "offend",
+        "infract",
+        "violate",
+        "breach",
+        "break",
+        "trespass",
+        "overstep"
+    ],
+    "interrupt": [
+        "break",
+        "disturb",
+        "disrupt"
+    ],
+    "disembowel": [
+        "eviscerate",
+        "draw"
+    ],
+    "tie": [
+        "draw",
+        "bind"
+    ],
+    "guide": [
+        "run",
+        "draw",
+        "pass",
+        "steer"
+    ],
+    "attract": [
+        "pull",
+        "draw",
+        "appeal"
+    ],
+    "pull": [
+        "draw",
+        "overstretch"
+    ],
+    "withdraw": [
+        "draw",
+        "retreat",
+        "recede",
+        "retire"
+    ],
+    "puff": [
+        "drag",
+        "draw",
+        "huff",
+        "chuff",
+        "whiff"
+    ],
+    "describe": [
+        "depict",
+        "draw"
+    ],
+    "reap": [
+        "draw",
+        "harvest",
+        "glean"
+    ],
+    "hook": [
+        "solicit",
+        "accost",
+        "snare",
+        "snitch",
+        "thieve",
+        "cop",
+        "glom"
+    ],
+    "cook": [
+        "fix",
+        "ready",
+        "make",
+        "prepare"
+    ],
+    "stool": [
+        "defecate",
+        "shit",
+        "ca-ca",
+        "crap",
+        "make",
+        "tiller"
+    ],
+    "reach": [
+        "make",
+        "attain",
+        "hit",
+        "gain",
+        "touch",
+        "contact"
+    ],
+    "name": [
+        "nominate",
+        "make",
+        "call",
+        "identify"
+    ],
+    "construct": [
+        "build",
+        "make"
+    ],
+    "form": [
+        "constitute",
+        "make",
+        "spring",
+        "organize",
+        "organise"
+    ],
+    "do": [
+        "make",
+        "manage",
+        "fare",
+        "come",
+        "perform"
+    ],
+    "gain": [
+        "clear",
+        "make",
+        "earn",
+        "realize",
+        "realise",
+        "advance",
+        "win",
+        "gather"
+    ],
+    "create": [
+        "make"
+    ],
+    "produce": [
+        "make",
+        "create"
+    ],
+    "cause": [
+        "do",
+        "make"
+    ],
+    "shuffle": [
+        "ruffle",
+        "mix",
+        "scuffle",
+        "shamble"
+    ],
+    "brand": [
+        "trademark",
+        "brandmark"
+    ],
+    "clear": [
+        "solve",
+        "top",
+        "crystallize",
+        "crystallise",
+        "crystalize",
+        "crystalise",
+        "enlighten",
+        "illuminate",
+        "elucidate"
+    ],
+    "resolve": [
+        "solve"
+    ],
+    "domesticate": [
+        "cultivate",
+        "naturalize",
+        "naturalise",
+        "tame",
+        "domesticize",
+        "domesticise",
+        "reclaim"
+    ],
+    "analyze": [
+        "analyse",
+        "study",
+        "examine",
+        "canvass",
+        "psychoanalyze",
+        "psychoanalyse",
+        "dissect"
+    ],
+    "survey": [
+        "appraise"
+    ],
+    "charm": [
+        "influence",
+        "tempt",
+        "becharm"
+    ],
+    "massage": [
+        "knead"
+    ],
+    "drill": [
+        "exercise",
+        "practice",
+        "practise"
+    ],
+    "practice": [
+        "practise",
+        "exercise",
+        "do",
+        "apply",
+        "use"
+    ],
+    "exert": [
+        "exercise"
+    ],
+    "use": [
+        "utilize",
+        "utilise",
+        "apply",
+        "employ",
+        "expend",
+        "habituate"
+    ],
+    "officiate": [
+        "function"
+    ],
+    "serve": [
+        "function",
+        "attend",
+        "assist",
+        "service",
+        "process",
+        "do",
+        "dish",
+        "help"
+    ],
+    "overwork": [
+        "exploit"
+    ],
+    "total": [
+        "tot",
+        "sum",
+        "summate",
+        "add",
+        "tally",
+        "number",
+        "come",
+        "amount"
+    ],
+    "add": [
+        "append",
+        "supply"
+    ],
+    "address": [
+        "accost",
+        "call",
+        "direct",
+        "speak"
+    ],
+    "cover": [
+        "treat",
+        "handle",
+        "plow",
+        "deal",
+        "address",
+        "compensate",
+        "overcompensate",
+        "insure",
+        "underwrite",
+        "continue",
+        "extend"
+    ],
+    "summarize": [
+        "summarise",
+        "sum"
+    ],
+    "brood": [
+        "hatch",
+        "cover",
+        "incubate",
+        "hover",
+        "loom",
+        "dwell"
+    ],
+    "overlay": [
+        "cover"
+    ],
+    "breed": [
+        "cover",
+        "multiply"
+    ],
+    "shroud": [
+        "enshroud",
+        "hide",
+        "cover"
+    ],
+    "traverse": [
+        "track",
+        "cover",
+        "cross",
+        "deny"
+    ],
+    "embrace": [
+        "encompass",
+        "comprehend",
+        "cover",
+        "hug",
+        "bosom",
+        "squeeze"
+    ],
+    "top": [
+        "pinch"
+    ],
+    "screen": [
+        "sieve",
+        "sort",
+        "test"
+    ],
+    "wax": [
+        "full",
+        "mount",
+        "climb",
+        "rise"
+    ],
+    "deepen": [
+        "change"
+    ],
+    "transfer": [
+        "change",
+        "transpose",
+        "transplant",
+        "shift",
+        "reassign"
+    ],
+    "exchange": [
+        "change",
+        "interchange"
+    ],
+    "switch": [
+        "shift",
+        "change"
+    ],
+    "shield": [
+        "screen"
+    ],
+    "riddle": [
+        "screen"
+    ],
+    "sieve": [
+        "sift"
+    ],
+    "blind": [
+        "dim"
+    ],
+    "overlie": [
+        "overlay"
+    ],
+    "crown": [
+        "top",
+        "coronate"
+    ],
+    "exceed": [
+        "transcend",
+        "overstep",
+        "pass",
+        "top",
+        "surpass"
+    ],
+    "pall": [
+        "dull"
+    ],
+    "cross": [
+        "traverse",
+        "span",
+        "sweep"
+    ],
+    "grizzle": [
+        "brood",
+        "stew"
+    ],
+    "sulk": [
+        "pout",
+        "brood"
+    ],
+    "surfeit": [
+        "cloy"
+    ],
+    "espouse": [
+        "embrace",
+        "adopt"
+    ],
+    "engender": [
+        "breed",
+        "spawn"
+    ],
+    "administer": [
+        "dispense",
+        "administrate"
+    ],
+    "distribute": [
+        "administer",
+        "deal",
+        "lot",
+        "dispense",
+        "allot"
+    ],
+    "stagger": [
+        "distribute",
+        "flounder",
+        "reel",
+        "keel",
+        "lurch",
+        "swag",
+        "careen"
+    ],
+    "circulate": [
+        "circularize",
+        "circularise",
+        "distribute",
+        "disseminate",
+        "propagate",
+        "broadcast",
+        "spread",
+        "diffuse",
+        "disperse"
+    ],
+    "spread": [
+        "distribute",
+        "scatter",
+        "overspread",
+        "propagate"
+    ],
+    "lurch": [
+        "pitch",
+        "shift",
+        "skunk"
+    ],
+    "diffuse": [
+        "spread"
+    ],
+    "unfold": [
+        "spread",
+        "open",
+        "stretch",
+        "extend"
+    ],
+    "scatter": [
+        "sprinkle",
+        "dot",
+        "dust",
+        "disperse"
+    ],
+    "gap": [
+        "breach"
+    ],
+    "dramatize": [
+        "dramatise",
+        "adopt"
+    ],
+    "adopt": [
+        "borrow",
+        "follow",
+        "espouse"
+    ],
+    "marry": [
+        "wed",
+        "conjoin",
+        "espouse",
+        "tie",
+        "splice"
+    ],
+    "embroider": [
+        "pad",
+        "lard",
+        "embellish",
+        "aggrandize",
+        "aggrandise",
+        "dramatize",
+        "dramatise",
+        "broider"
+    ],
+    "advance": [
+        "gain",
+        "progress"
+    ],
+    "promote": [
+        "upgrade",
+        "advance",
+        "raise",
+        "elevate",
+        "boost",
+        "further",
+        "encourage"
+    ],
+    "progress": [
+        "advance"
+    ],
+    "boost": [
+        "advance",
+        "supercharge"
+    ],
+    "profit": [
+        "gain",
+        "benefit"
+    ],
+    "derive": [
+        "gain",
+        "come",
+        "descend",
+        "educe"
+    ],
+    "hike": [
+        "boost"
+    ],
+    "rise": [
+        "uprise",
+        "ascend",
+        "prove",
+        "jump",
+        "lift",
+        "rear",
+        "climb",
+        "arise"
+    ],
+    "advertise": [
+        "advertize",
+        "promote",
+        "push",
+        "publicize",
+        "publicise"
+    ],
+    "venture": [
+        "hazard",
+        "adventure",
+        "stake",
+        "jeopardize",
+        "embark"
+    ],
+    "gamble": [
+        "chance",
+        "risk",
+        "hazard",
+        "adventure"
+    ],
+    "mention": [
+        "advert",
+        "cite",
+        "name",
+        "refer"
+    ],
+    "allude": [
+        "touch",
+        "advert"
+    ],
+    "attend": [
+        "hang",
+        "advert",
+        "look",
+        "see"
+    ],
+    "deduce": [
+        "infer",
+        "deduct",
+        "derive"
+    ],
+    "strive": [
+        "reach",
+        "strain"
+    ],
+    "pass": [
+        "hand",
+        "reach",
+        "give",
+        "clear",
+        "overtake",
+        "overhaul"
+    ],
+    "range": [
+        "run",
+        "array",
+        "straddle"
+    ],
+    "raise": [
+        "conjure",
+        "invoke",
+        "evoke",
+        "stir",
+        "arouse",
+        "lift",
+        "leaven",
+        "prove",
+        "erect",
+        "rear",
+        "elevate"
+    ],
+    "resurrect": [
+        "rise",
+        "uprise",
+        "raise",
+        "upraise"
+    ],
+    "rebel": [
+        "arise",
+        "rise",
+        "renegade"
+    ],
+    "heighten": [
+        "rise"
+    ],
+    "ascend": [
+        "rise"
+    ],
+    "surface": [
+        "rise"
+    ],
+    "arise": [
+        "rise",
+        "uprise"
+    ],
+    "lift": [
+        "raise",
+        "elevate"
+    ],
+    "propose": [
+        "suggest",
+        "advise",
+        "offer"
+    ],
+    "advise": [
+        "notify",
+        "apprise",
+        "apprize"
+    ],
+    "rede": [
+        "advise",
+        "counsel",
+        "interpret"
+    ],
+    "note": [
+        "observe",
+        "mention",
+        "remark"
+    ],
+    "preach": [
+        "advocate",
+        "prophesy"
+    ],
+    "recommend": [
+        "urge",
+        "advocate"
+    ],
+    "guess": [
+        "infer",
+        "venture",
+        "pretend",
+        "hazard"
+    ],
+    "nominate": [
+        "propose"
+    ],
+    "project": [
+        "propose",
+        "externalize",
+        "externalise",
+        "cast",
+        "contrive",
+        "throw"
+    ],
+    "suffice": [
+        "do",
+        "answer",
+        "serve"
+    ],
+    "service": [
+        "serve"
+    ],
+    "commend": [
+        "recommend",
+        "remember"
+    ],
+    "visualize": [
+        "visualise",
+        "envision",
+        "project",
+        "fancy",
+        "see",
+        "figure",
+        "picture",
+        "image"
+    ],
+    "plan": [
+        "project",
+        "contrive",
+        "design"
+    ],
+    "affect": [
+        "impress",
+        "move",
+        "strike",
+        "impact",
+        "touch"
+    ],
+    "involve": [
+        "affect",
+        "regard"
+    ],
+    "count": [
+        "matter",
+        "weigh",
+        "bet",
+        "depend",
+        "swear",
+        "rely",
+        "bank",
+        "look",
+        "calculate",
+        "reckon",
+        "number",
+        "enumerate",
+        "numerate"
+    ],
+    "imply": [
+        "involve",
+        "connote"
+    ],
+    "reckon": [
+        "count"
+    ],
+    "incriminate": [
+        "imply",
+        "inculpate"
+    ],
+    "entail": [
+        "imply",
+        "mean",
+        "implicate"
+    ],
+    "consort": [
+        "associate",
+        "affiliate",
+        "assort"
+    ],
+    "choir": [
+        "chorus"
+    ],
+    "ladder": [
+        "run"
+    ],
+    "melt": [
+        "run",
+        "disappear",
+        "evaporate",
+        "meld"
+    ],
+    "move": [
+        "go",
+        "run",
+        "displace"
+    ],
+    "race": [
+        "run",
+        "rush"
+    ],
+    "hunt": [
+        "run"
+    ],
+    "ply": [
+        "run"
+    ],
+    "tend": [
+        "lean",
+        "incline",
+        "run"
+    ],
+    "play": [
+        "run",
+        "toy",
+        "recreate",
+        "spiel"
+    ],
+    "operate": [
+        "run",
+        "control"
+    ],
+    "scat": [
+        "run",
+        "scarper",
+        "lam",
+        "bunk",
+        "escape"
+    ],
+    "afford": [
+        "open",
+        "give"
+    ],
+    "feed": [
+        "give",
+        "feast",
+        "eat"
+    ],
+    "grant": [
+        "give"
+    ],
+    "sacrifice": [
+        "give"
+    ],
+    "establish": [
+        "give",
+        "base",
+        "ground",
+        "found",
+        "plant",
+        "constitute",
+        "institute",
+        "launch"
+    ],
+    "translate": [
+        "interpret",
+        "render",
+        "transform"
+    ],
+    "picture": [
+        "depict",
+        "render",
+        "show"
+    ],
+    "interpret": [
+        "render",
+        "construe",
+        "see"
+    ],
+    "supply": [
+        "provide",
+        "render",
+        "furnish"
+    ],
+    "blacken": [
+        "melanize",
+        "melanise",
+        "black"
+    ],
+    "char": [
+        "blacken",
+        "sear",
+        "scorch",
+        "coal"
+    ],
+    "aggregate": [
+        "combine"
+    ],
+    "match": [
+        "fit",
+        "correspond",
+        "check",
+        "jibe",
+        "gibe",
+        "tally",
+        "agree",
+        "mate",
+        "couple",
+        "pair",
+        "twin"
+    ],
+    "equal": [
+        "match",
+        "equalize",
+        "equalise",
+        "equate",
+        "touch",
+        "rival",
+        "be"
+    ],
+    "pit": [
+        "oppose",
+        "match",
+        "stone"
+    ],
+    "copulate": [
+        "mate",
+        "pair",
+        "couple"
+    ],
+    "pair": [
+        "couple",
+        "geminate"
+    ],
+    "stone": [
+        "lapidate"
+    ],
+    "help": [
+        "aid",
+        "assist",
+        "facilitate"
+    ],
+    "refer": [
+        "pertain",
+        "relate",
+        "concern",
+        "touch"
+    ],
+    "avail": [
+        "help"
+    ],
+    "wield": [
+        "handle",
+        "manage",
+        "exert",
+        "maintain"
+    ],
+    "wangle": [
+        "finagle",
+        "manage"
+    ],
+    "oversee": [
+        "supervise",
+        "superintend",
+        "manage"
+    ],
+    "cope": [
+        "contend",
+        "grapple",
+        "deal",
+        "manage"
+    ],
+    "prey": [
+        "feed"
+    ],
+    "lug": [
+        "tote",
+        "tug"
+    ],
+    "forecast": [
+        "calculate"
+    ],
+    "storm": [
+        "force",
+        "surprise"
+    ],
+    "wedge": [
+        "squeeze",
+        "force"
+    ],
+    "push": [
+        "force",
+        "crowd"
+    ],
+    "impel": [
+        "force"
+    ],
+    "coerce": [
+        "hale",
+        "squeeze",
+        "pressure",
+        "force"
+    ],
+    "effect": [
+        "effectuate"
+    ],
+    "disgust": [
+        "revolt",
+        "repel",
+        "nauseate",
+        "sicken"
+    ],
+    "rebuff": [
+        "snub",
+        "repel"
+    ],
+    "vent": [
+        "ventilate",
+        "air"
+    ],
+    "publicize": [
+        "publicise",
+        "air",
+        "bare"
+    ],
+    "air": [
+        "send",
+        "broadcast",
+        "beam",
+        "transmit"
+    ],
+    "bode": [
+        "portend",
+        "auspicate",
+        "prognosticate",
+        "omen",
+        "presage",
+        "betoken",
+        "foreshadow",
+        "augur",
+        "foretell",
+        "prefigure",
+        "forecast",
+        "predict"
+    ],
+    "raven": [
+        "prey",
+        "predate"
+    ],
+    "release": [
+        "free",
+        "liberate",
+        "relinquish",
+        "resign"
+    ],
+    "cinch": [
+        "girth"
+    ],
+    "unblock": [
+        "unfreeze",
+        "free",
+        "release"
+    ],
+    "free": [
+        "release",
+        "liberate",
+        "unloose",
+        "unloosen",
+        "loose",
+        "discharge",
+        "disengage"
+    ],
+    "secrete": [
+        "release"
+    ],
+    "exhaust": [
+        "discharge",
+        "expel",
+        "eject",
+        "release",
+        "beat",
+        "tucker"
+    ],
+    "publish": [
+        "issue",
+        "release"
+    ],
+    "spill": [
+        "talk",
+        "shed",
+        "disgorge",
+        "slop",
+        "splatter"
+    ],
+    "alarm": [
+        "alert"
+    ],
+    "dismay": [
+        "alarm",
+        "appal",
+        "appall",
+        "horrify"
+    ],
+    "depress": [
+        "deject",
+        "dismay",
+        "dispirit",
+        "demoralize",
+        "demoralise"
+    ],
+    "lower": [
+        "depress",
+        "lour"
+    ],
+    "alien": [
+        "alienate"
+    ],
+    "allow": [
+        "permit",
+        "tolerate",
+        "appropriate",
+        "earmark",
+        "reserve",
+        "grant"
+    ],
+    "permit": [
+        "allow",
+        "let",
+        "countenance"
+    ],
+    "let": [
+        "allow",
+        "permit"
+    ],
+    "forget": [
+        "leave",
+        "block",
+        "bury"
+    ],
+    "bequeath": [
+        "will",
+        "leave"
+    ],
+    "exit": [
+        "leave"
+    ],
+    "license": [
+        "licence",
+        "certify"
+    ],
+    "die": [
+        "decease",
+        "perish",
+        "go",
+        "exit",
+        "expire",
+        "pass",
+        "conk",
+        "choke",
+        "croak",
+        "pall"
+    ],
+    "debase": [
+        "alloy"
+    ],
+    "mix": [
+        "mingle",
+        "commix",
+        "unify",
+        "amalgamate"
+    ],
+    "desegregate": [
+        "integrate",
+        "mix"
+    ],
+    "blend": [
+        "flux",
+        "mix",
+        "conflate",
+        "commingle",
+        "immix",
+        "fuse",
+        "coalesce",
+        "meld",
+        "combine",
+        "merge",
+        "go",
+        "intermix",
+        "immingle",
+        "intermingle"
+    ],
+    "alter": [
+        "neuter",
+        "spay",
+        "castrate"
+    ],
+    "interpolate": [
+        "alter",
+        "falsify",
+        "extrapolate"
+    ],
+    "transmit": [
+        "transfer",
+        "transport",
+        "channel",
+        "channelize",
+        "channelise"
+    ],
+    "transplant": [
+        "transfer",
+        "graft"
+    ],
+    "interchange": [
+        "tack",
+        "switch",
+        "alternate",
+        "flip",
+        "flip-flop"
+    ],
+    "throw": [
+        "flip",
+        "switch",
+        "thrust"
+    ],
+    "trade": [
+        "swap",
+        "swop",
+        "switch",
+        "merchandise"
+    ],
+    "intensify": [
+        "deepen",
+        "compound",
+        "heighten"
+    ],
+    "commute": [
+        "convert",
+        "exchange",
+        "transpose"
+    ],
+    "substitute": [
+        "replace",
+        "interchange",
+        "exchange",
+        "deputize",
+        "deputise",
+        "sub"
+    ],
+    "rally": [
+        "rebound"
+    ],
+    "alternate": [
+        "jump"
+    ],
+    "understudy": [
+        "alternate"
+    ],
+    "counterchange": [
+        "transpose",
+        "interchange"
+    ],
+    "foster": [
+        "nurture",
+        "further"
+    ],
+    "rectify": [
+        "remediate",
+        "remedy",
+        "repair",
+        "amend"
+    ],
+    "correct": [
+        "rectify",
+        "right"
+    ],
+    "reform": [
+        "reclaim",
+        "regenerate",
+        "rectify"
+    ],
+    "refine": [
+        "rectify"
+    ],
+    "right": [
+        "compensate",
+        "redress",
+        "correct"
+    ],
+    "decline": [
+        "slump",
+        "correct",
+        "wane"
+    ],
+    "compensate": [
+        "counterbalance",
+        "correct",
+        "recompense",
+        "remunerate",
+        "repair",
+        "indemnify"
+    ],
+    "chastise": [
+        "castigate",
+        "objurgate",
+        "chasten",
+        "correct"
+    ],
+    "polish": [
+        "refine",
+        "fine-tune",
+        "down",
+        "round",
+        "smooth",
+        "smoothen",
+        "shine"
+    ],
+    "come": [
+        "amount",
+        "follow"
+    ],
+    "measure": [
+        "evaluate",
+        "valuate",
+        "assess",
+        "appraise",
+        "value",
+        "mensurate"
+    ],
+    "occur": [
+        "come"
+    ],
+    "hail": [
+        "come",
+        "herald"
+    ],
+    "quantify": [
+        "measure"
+    ],
+    "dress": [
+        "arrange",
+        "set",
+        "do",
+        "coif",
+        "coiffe",
+        "coiffure",
+        "clothe",
+        "enclothe",
+        "garb",
+        "raiment",
+        "tog",
+        "garment",
+        "habilitate",
+        "apparel",
+        "groom",
+        "curry",
+        "decorate"
+    ],
+    "perform": [
+        "execute",
+        "do"
+    ],
+    "acclaim": [
+        "hail",
+        "herald"
+    ],
+    "hang": [
+        "fall",
+        "flow"
+    ],
+    "accrue": [
+        "fall"
+    ],
+    "decrease": [
+        "diminish",
+        "lessen",
+        "fall",
+        "minify"
+    ],
+    "precipitate": [
+        "fall"
+    ],
+    "descend": [
+        "fall"
+    ],
+    "drop": [
+        "unload",
+        "discharge"
+    ],
+    "happen": [
+        "hap",
+        "occur",
+        "pass",
+        "materialize",
+        "materialise",
+        "befall",
+        "bechance"
+    ],
+    "anchor": [
+        "ground"
+    ],
+    "canonize": [
+        "canonise",
+        "saint"
+    ],
+    "enshrine": [
+        "saint",
+        "shrine"
+    ],
+    "slant": [
+        "angle",
+        "weight"
+    ],
+    "fish": [
+        "angle"
+    ],
+    "lean": [
+        "tilt",
+        "tip",
+        "slant",
+        "angle"
+    ],
+    "list": [
+        "lean",
+        "heel",
+        "name"
+    ],
+    "cant": [
+        "tilt",
+        "slant",
+        "pitch"
+    ],
+    "careen": [
+        "wobble",
+        "shift",
+        "tilt"
+    ],
+    "rock": [
+        "sway",
+        "shake"
+    ],
+    "reduce": [
+        "slim",
+        "slenderize",
+        "thin",
+        "trim",
+        "cut",
+        "concentrate",
+        "tighten"
+    ],
+    "dilute": [
+        "thin",
+        "reduce",
+        "cut"
+    ],
+    "number": [
+        "list"
+    ],
+    "bevel": [
+        "chamfer"
+    ],
+    "gear": [
+        "pitch"
+    ],
+    "deliver": [
+        "pitch",
+        "present",
+        "redeem",
+        "save"
+    ],
+    "slope": [
+        "incline",
+        "pitch"
+    ],
+    "peddle": [
+        "monger",
+        "huckster",
+        "hawk",
+        "vend",
+        "pitch"
+    ],
+    "flip": [
+        "toss",
+        "sky",
+        "pitch",
+        "flick",
+        "twitch"
+    ],
+    "announce": [
+        "annunciate",
+        "harbinger",
+        "foretell",
+        "herald",
+        "declare",
+        "denote"
+    ],
+    "pique": [
+        "offend"
+    ],
+    "answer": [
+        "resolve",
+        "reply",
+        "respond"
+    ],
+    "predict": [
+        "foretell",
+        "prognosticate",
+        "call",
+        "forebode",
+        "anticipate",
+        "promise"
+    ],
+    "anticipate": [
+        "previse",
+        "foreknow",
+        "foresee",
+        "forestall",
+        "counter"
+    ],
+    "expect": [
+        "anticipate",
+        "look",
+        "await",
+        "wait"
+    ],
+    "ask": [
+        "require",
+        "expect",
+        "inquire",
+        "enquire"
+    ],
+    "antique": [
+        "antiquate"
+    ],
+    "apologize": [
+        "apologise",
+        "excuse",
+        "rationalize",
+        "rationalise"
+    ],
+    "snip": [
+        "clip",
+        "crop",
+        "trim",
+        "lop",
+        "dress",
+        "prune"
+    ],
+    "trim": [
+        "garnish",
+        "dress"
+    ],
+    "preen": [
+        "primp",
+        "plume",
+        "dress",
+        "congratulate"
+    ],
+    "nip": [
+        "clip",
+        "snip"
+    ],
+    "clip": [
+        "curtail"
+    ],
+    "spare": [
+        "save"
+    ],
+    "shave": [
+        "trim"
+    ],
+    "pare": [
+        "trim"
+    ],
+    "overdress": [
+        "prink",
+        "attire",
+        "overclothe"
+    ],
+    "invoke": [
+        "appeal"
+    ],
+    "appeal": [
+        "invoke"
+    ],
+    "recruit": [
+        "levy",
+        "raise"
+    ],
+    "enhance": [
+        "heighten",
+        "raise"
+    ],
+    "arouse": [
+        "elicit",
+        "enkindle",
+        "kindle",
+        "evoke",
+        "fire",
+        "raise",
+        "provoke",
+        "sex",
+        "excite",
+        "stir"
+    ],
+    "rear": [
+        "raise",
+        "nurture",
+        "parent",
+        "erect"
+    ],
+    "appear": [
+        "seem"
+    ],
+    "look": [
+        "appear",
+        "seem"
+    ],
+    "front": [
+        "look",
+        "face",
+        "breast"
+    ],
+    "search": [
+        "look",
+        "seek"
+    ],
+    "spirit": [
+        "inspirit"
+    ],
+    "research": [
+        "search",
+        "explore"
+    ],
+    "enforce": [
+        "implement",
+        "apply",
+        "impose",
+        "constrain"
+    ],
+    "excrete": [
+        "egest",
+        "eliminate",
+        "pass"
+    ],
+    "authorize": [
+        "authorise",
+        "pass",
+        "clear"
+    ],
+    "sink": [
+        "pass",
+        "lapse",
+        "drop",
+        "settle",
+        "subside"
+    ],
+    "evanesce": [
+        "fade",
+        "fleet",
+        "pass"
+    ],
+    "communicate": [
+        "pass",
+        "intercommunicate"
+    ],
+    "spend": [
+        "pass",
+        "expend",
+        "drop"
+    ],
+    "elapse": [
+        "lapse",
+        "pass"
+    ],
+    "legislate": [
+        "pass"
+    ],
+    "forfeit": [
+        "waive",
+        "forgo",
+        "forego"
+    ],
+    "award": [
+        "grant",
+        "present"
+    ],
+    "crumble": [
+        "crumple",
+        "tumble",
+        "collapse"
+    ],
+    "crash": [
+        "dash",
+        "ram"
+    ],
+    "fertilize": [
+        "fertilise",
+        "feed",
+        "fecundate"
+    ],
+    "rehearse": [
+        "practise",
+        "practice"
+    ],
+    "build": [
+        "establish"
+    ],
+    "install": [
+        "instal",
+        "establish"
+    ],
+    "prove": [
+        "demonstrate",
+        "establish",
+        "show",
+        "shew"
+    ],
+    "bore": [
+        "drill",
+        "tire"
+    ],
+    "appreciate": [
+        "apprize",
+        "apprise",
+        "revalue"
+    ],
+    "prize": [
+        "value",
+        "treasure",
+        "appreciate"
+    ],
+    "taste": [
+        "savor",
+        "savour"
+    ],
+    "approach": [
+        "near"
+    ],
+    "respect": [
+        "esteem",
+        "value",
+        "prize",
+        "prise",
+        "honor",
+        "honour",
+        "observe"
+    ],
+    "pry": [
+        "prise",
+        "prize",
+        "lever",
+        "jimmy"
+    ],
+    "loot": [
+        "plunder"
+    ],
+    "smack": [
+        "taste",
+        "peck",
+        "reek",
+        "smell",
+        "thwack"
+    ],
+    "wonder": [
+        "marvel",
+        "question",
+        "inquire",
+        "enquire"
+    ],
+    "appropriate": [
+        "capture",
+        "seize",
+        "conquer"
+    ],
+    "intrude": [
+        "pry",
+        "nose",
+        "poke",
+        "obtrude",
+        "irrupt"
+    ],
+    "plunder": [
+        "despoil",
+        "loot",
+        "reave",
+        "strip",
+        "rifle",
+        "ransack",
+        "pillage",
+        "foray"
+    ],
+    "approve": [
+        "o.k.",
+        "okay",
+        "sanction"
+    ],
+    "deck": [
+        "adorn",
+        "decorate",
+        "grace",
+        "embellish",
+        "beautify",
+        "coldcock",
+        "dump",
+        "floor",
+        "bedight",
+        "bedeck"
+    ],
+    "decorate": [
+        "adorn",
+        "grace",
+        "ornament",
+        "embellish",
+        "beautify"
+    ],
+    "estimate": [
+        "gauge",
+        "approximate",
+        "guess",
+        "judge"
+    ],
+    "spike": [
+        "lace",
+        "fortify"
+    ],
+    "arch": [
+        "curve",
+        "arc"
+    ],
+    "transfix": [
+        "impale",
+        "empale",
+        "spike"
+    ],
+    "crouch": [
+        "stoop",
+        "bend",
+        "bow"
+    ],
+    "submit": [
+        "bow",
+        "defer",
+        "accede",
+        "state",
+        "posit"
+    ],
+    "empty": [
+        "discharge"
+    ],
+    "fire": [
+        "discharge",
+        "light",
+        "ignite"
+    ],
+    "acquit": [
+        "assoil",
+        "clear",
+        "discharge",
+        "exonerate",
+        "exculpate"
+    ],
+    "dispatch": [
+        "discharge",
+        "complete",
+        "despatch"
+    ],
+    "squat": [
+        "crouch",
+        "scrunch",
+        "hunker"
+    ],
+    "resign": [
+        "reconcile",
+        "submit"
+    ],
+    "relegate": [
+        "submit",
+        "classify"
+    ],
+    "present": [
+        "submit",
+        "pose",
+        "represent"
+    ],
+    "absolve": [
+        "free"
+    ],
+    "exempt": [
+        "relieve",
+        "free"
+    ],
+    "dislodge": [
+        "free",
+        "bump"
+    ],
+    "rid": [
+        "free",
+        "disembarrass"
+    ],
+    "evacuate": [
+        "void",
+        "empty"
+    ],
+    "vacate": [
+        "empty",
+        "abandon",
+        "resign",
+        "renounce"
+    ],
+    "fuel": [
+        "fire"
+    ],
+    "burn": [
+        "fire",
+        "incinerate",
+        "combust",
+        "glow"
+    ],
+    "displace": [
+        "fire",
+        "can",
+        "dismiss",
+        "sack",
+        "terminate"
+    ],
+    "devolve": [
+        "deteriorate",
+        "drop",
+        "degenerate"
+    ],
+    "neglect": [
+        "pretermit",
+        "omit",
+        "drop",
+        "miss",
+        "overlook",
+        "overleap",
+        "ignore",
+        "disregard"
+    ],
+    "shed": [
+        "cast",
+        "throw",
+        "drop",
+        "molt",
+        "exuviate",
+        "moult",
+        "slough"
+    ],
+    "dismiss": [
+        "drop",
+        "disregard",
+        "discount",
+        "ignore"
+    ],
+    "dangle": [
+        "swing",
+        "drop"
+    ],
+    "flatten": [
+        "drop"
+    ],
+    "fell": [
+        "drop"
+    ],
+    "argue": [
+        "indicate",
+        "contend",
+        "debate",
+        "fence",
+        "reason"
+    ],
+    "coat": [
+        "surface",
+        "cake"
+    ],
+    "sharpen": [
+        "heighten",
+        "taper",
+        "point"
+    ],
+    "face-lift": [
+        "lift"
+    ],
+    "airlift": [
+        "lift"
+    ],
+    "rustle": [
+        "lift"
+    ],
+    "plagiarize": [
+        "plagiarise",
+        "lift"
+    ],
+    "hoist": [
+        "lift",
+        "wind"
+    ],
+    "revoke": [
+        "annul",
+        "lift",
+        "countermand",
+        "reverse",
+        "repeal",
+        "overturn",
+        "rescind",
+        "vacate"
+    ],
+    "revive": [
+        "resurrect"
+    ],
+    "arm": [
+        "fortify",
+        "gird"
+    ],
+    "branch": [
+        "ramify",
+        "fork",
+        "furcate",
+        "separate"
+    ],
+    "ramify": [
+        "branch"
+    ],
+    "process": [
+        "treat"
+    ],
+    "armor": [
+        "armour"
+    ],
+    "complexify": [
+        "ramify"
+    ],
+    "attack": [
+        "round",
+        "assail",
+        "snipe",
+        "assault",
+        "aggress"
+    ],
+    "beat": [
+        "flap",
+        "bunk",
+        "scramble",
+        "pound",
+        "thump",
+        "crush",
+        "shell",
+        "trounce",
+        "vanquish"
+    ],
+    "arrange": [
+        "put",
+        "order",
+        "set"
+    ],
+    "format": [
+        "arrange",
+        "initialize",
+        "initialise"
+    ],
+    "stage": [
+        "arrange",
+        "present",
+        "represent"
+    ],
+    "outwit": [
+        "overreach",
+        "outsmart",
+        "outfox",
+        "beat",
+        "circumvent"
+    ],
+    "pulsate": [
+        "beat",
+        "quiver",
+        "throb",
+        "pulse"
+    ],
+    "tick": [
+        "ticktock",
+        "ticktack",
+        "beat",
+        "retick"
+    ],
+    "drum": [
+        "beat",
+        "thrum"
+    ],
+    "pulse": [
+        "pulsate"
+    ],
+    "encircle": [
+        "circle"
+    ],
+    "lap": [
+        "lick",
+        "swish",
+        "swosh",
+        "swoosh"
+    ],
+    "assail": [
+        "assault",
+        "attack"
+    ],
+    "bicycle": [
+        "cycle",
+        "bike",
+        "pedal",
+        "wheel"
+    ],
+    "motorbike": [
+        "motorcycle",
+        "cycle"
+    ],
+    "collar": [
+        "nail",
+        "apprehend",
+        "arrest",
+        "nab",
+        "cop"
+    ],
+    "crop": [
+        "browse",
+        "graze",
+        "range",
+        "pasture"
+    ],
+    "roll": [
+        "wander",
+        "swan",
+        "stray",
+        "tramp",
+        "roam",
+        "cast",
+        "ramble",
+        "rove",
+        "range",
+        "drift",
+        "vagabond",
+        "revolve",
+        "undulate",
+        "flap",
+        "wave"
+    ],
+    "hitchhike": [
+        "hitch",
+        "thumb"
+    ],
+    "buck": [
+        "jerk",
+        "hitch"
+    ],
+    "limp": [
+        "gimp",
+        "hobble",
+        "hitch"
+    ],
+    "overwhelm": [
+        "overpower",
+        "whelm",
+        "overcome",
+        "overtake",
+        "deluge"
+    ],
+    "stem": [
+        "stanch",
+        "staunch",
+        "halt"
+    ],
+    "stop": [
+        "halt",
+        "block",
+        "kibosh"
+    ],
+    "freeze": [
+        "block",
+        "immobilize",
+        "immobilise",
+        "suspend"
+    ],
+    "grok": [
+        "comprehend",
+        "savvy",
+        "dig",
+        "grasp",
+        "compass",
+        "apprehend"
+    ],
+    "circumnavigate": [
+        "compass"
+    ],
+    "double": [
+        "duplicate"
+    ],
+    "pace": [
+        "step"
+    ],
+    "master": [
+        "control"
+    ],
+    "restrict": [
+        "control",
+        "trammel",
+        "limit",
+        "bound",
+        "confine",
+        "throttle",
+        "curtail",
+        "curb"
+    ],
+    "manipulate": [
+        "control"
+    ],
+    "command": [
+        "require"
+    ],
+    "snap": [
+        "crack",
+        "click",
+        "flick",
+        "snarl"
+    ],
+    "examine": [
+        "see"
+    ],
+    "visit": [
+        "see",
+        "inspect",
+        "call"
+    ],
+    "witness": [
+        "find",
+        "see"
+    ],
+    "understand": [
+        "realize",
+        "realise",
+        "see",
+        "read",
+        "interpret",
+        "translate",
+        "infer"
+    ],
+    "seethe": [
+        "roll",
+        "boil"
+    ],
+    "hustle": [
+        "pluck",
+        "roll"
+    ],
+    "wheel": [
+        "roll"
+    ],
+    "cast": [
+        "mold",
+        "mould"
+    ],
+    "coil": [
+        "loop",
+        "curl"
+    ],
+    "barricade": [
+        "block",
+        "blockade",
+        "stop",
+        "bar",
+        "barricado"
+    ],
+    "end": [
+        "stop",
+        "finish",
+        "terminate",
+        "cease"
+    ],
+    "intercept": [
+        "stop"
+    ],
+    "discontinue": [
+        "stop",
+        "cease",
+        "quit"
+    ],
+    "reason": [
+        "conclude"
+    ],
+    "articulate": [
+        "enunciate",
+        "vocalize",
+        "vocalise"
+    ],
+    "pronounce": [
+        "articulate",
+        "enounce",
+        "enunciate",
+        "say",
+        "label",
+        "judge"
+    ],
+    "joint": [
+        "articulate"
+    ],
+    "ridicule": [
+        "roast",
+        "guy",
+        "blackguard",
+        "rib"
+    ],
+    "request": [
+        "bespeak",
+        "quest"
+    ],
+    "rule": [
+        "find",
+        "harness",
+        "rein",
+        "decree"
+    ],
+    "put": [
+        "set",
+        "place",
+        "pose",
+        "position",
+        "lay",
+        "assign"
+    ],
+    "place": [
+        "put",
+        "set",
+        "localize",
+        "localise"
+    ],
+    "rape": [
+        "ravish",
+        "violate",
+        "assault",
+        "dishonor",
+        "dishonour",
+        "outrage",
+        "spoil",
+        "despoil",
+        "plunder"
+    ],
+    "assemble": [
+        "gather",
+        "piece",
+        "tack"
+    ],
+    "touch": [
+        "adjoin",
+        "meet",
+        "contact",
+        "disturb",
+        "stir"
+    ],
+    "converge": [
+        "meet"
+    ],
+    "tint": [
+        "tinct",
+        "tinge",
+        "touch"
+    ],
+    "partake": [
+        "touch",
+        "share"
+    ],
+    "insist": [
+        "assert"
+    ],
+    "affirm": [
+        "verify",
+        "assert",
+        "avow",
+        "aver",
+        "swan",
+        "swear"
+    ],
+    "assert": [
+        "asseverate",
+        "maintain"
+    ],
+    "equip": [
+        "fit",
+        "outfit"
+    ],
+    "burst": [
+        "bust",
+        "split"
+    ],
+    "tax": [
+        "assess",
+        "task"
+    ],
+    "importune": [
+        "insist"
+    ],
+    "confirm": [
+        "corroborate",
+        "sustain",
+        "substantiate",
+        "support",
+        "affirm",
+        "reassert"
+    ],
+    "assign": [
+        "attribute",
+        "specify",
+        "allot",
+        "portion"
+    ],
+    "arrogate": [
+        "assign"
+    ],
+    "impute": [
+        "ascribe",
+        "assign",
+        "attribute"
+    ],
+    "delegate": [
+        "designate",
+        "depute",
+        "assign"
+    ],
+    "frame": [
+        "redact",
+        "cast",
+        "put",
+        "couch",
+        "compose",
+        "border"
+    ],
+    "induct": [
+        "invest",
+        "seat"
+    ],
+    "endow": [
+        "indue",
+        "gift",
+        "empower",
+        "invest",
+        "endue",
+        "dower"
+    ],
+    "ensnare": [
+        "entrap",
+        "frame"
+    ],
+    "station": [
+        "post",
+        "send",
+        "place"
+    ],
+    "identify": [
+        "place",
+        "discover",
+        "key",
+        "distinguish",
+        "describe",
+        "name"
+    ],
+    "locate": [
+        "place",
+        "site"
+    ],
+    "seat": [
+        "sit"
+    ],
+    "consociate": [
+        "associate"
+    ],
+    "associate": [
+        "relate",
+        "link",
+        "colligate",
+        "connect"
+    ],
+    "premise": [
+        "premiss"
+    ],
+    "predate": [
+        "precede",
+        "forego",
+        "forgo",
+        "antecede",
+        "antedate",
+        "foredate"
+    ],
+    "promise": [
+        "assure"
+    ],
+    "reassure": [
+        "assure"
+    ],
+    "assure": [
+        "tell"
+    ],
+    "guarantee": [
+        "ensure",
+        "insure",
+        "assure",
+        "secure",
+        "warrant",
+        "vouch"
+    ],
+    "represent": [
+        "interpret",
+        "correspond"
+    ],
+    "undertake": [
+        "guarantee",
+        "tackle",
+        "attempt"
+    ],
+    "inflict": [
+        "visit",
+        "impose"
+    ],
+    "sympathize": [
+        "sympathise",
+        "empathize",
+        "empathise",
+        "understand"
+    ],
+    "probe": [
+        "examine"
+    ],
+    "guard": [
+        "ward"
+    ],
+    "sport": [
+        "feature",
+        "boast"
+    ],
+    "frolic": [
+        "lark",
+        "rollick",
+        "skylark",
+        "disport",
+        "sport",
+        "cavort",
+        "gambol",
+        "frisk",
+        "romp"
+    ],
+    "impound": [
+        "attach",
+        "sequester",
+        "confiscate",
+        "seize",
+        "pound"
+    ],
+    "bind": [
+        "tie",
+        "attach",
+        "bond",
+        "bandage"
+    ],
+    "constipate": [
+        "bind"
+    ],
+    "adhere": [
+        "bond",
+        "bind",
+        "stick"
+    ],
+    "connect": [
+        "link",
+        "tie",
+        "join",
+        "unite"
+    ],
+    "cling": [
+        "cleave",
+        "adhere",
+        "stick",
+        "cohere",
+        "hang"
+    ],
+    "clog": [
+        "constipate",
+        "overload",
+        "clot",
+        "congest",
+        "choke",
+        "foul"
+    ],
+    "cut": [
+        "burn",
+        "prune",
+        "rationalize",
+        "rationalise",
+        "skip",
+        "tailor"
+    ],
+    "sunburn": [
+        "burn"
+    ],
+    "cauterize": [
+        "cauterise",
+        "burn"
+    ],
+    "bite": [
+        "sting",
+        "burn"
+    ],
+    "tan": [
+        "bronze"
+    ],
+    "preempt": [
+        "displace"
+    ],
+    "awaken": [
+        "wake",
+        "waken",
+        "rouse",
+        "arouse"
+    ],
+    "stimulate": [
+        "arouse",
+        "brace",
+        "energize",
+        "energise",
+        "shake",
+        "excite",
+        "stir"
+    ],
+    "quiz": [
+        "test"
+    ],
+    "evaluate": [
+        "judge"
+    ],
+    "listen": [
+        "hear"
+    ],
+    "auction": [
+        "auctioneer"
+    ],
+    "reference": [
+        "cite"
+    ],
+    "audit": [
+        "scrutinize",
+        "scrutinise",
+        "inspect"
+    ],
+    "click": [
+        "dawn",
+        "penetrate",
+        "tick"
+    ],
+    "cluck": [
+        "click",
+        "clack"
+    ],
+    "chatter": [
+        "click",
+        "piffle",
+        "palaver",
+        "prate",
+        "tittle-tattle",
+        "twaddle",
+        "clack",
+        "maunder",
+        "prattle",
+        "blab",
+        "gibber",
+        "tattle",
+        "blabber",
+        "gabble"
+    ],
+    "empower": [
+        "authorise",
+        "authorize"
+    ],
+    "condescend": [
+        "deign",
+        "descend",
+        "stoop"
+    ],
+    "invalidate": [
+        "annul",
+        "quash",
+        "void",
+        "avoid",
+        "nullify",
+        "vitiate"
+    ],
+    "debar": [
+        "forefend",
+        "forfend",
+        "obviate",
+        "deflect",
+        "avert",
+        "avoid"
+    ],
+    "cancel": [
+        "invalidate",
+        "offset",
+        "scratch",
+        "scrub"
+    ],
+    "bar": [
+        "debar",
+        "exclude"
+    ],
+    "suspend": [
+        "debar"
+    ],
+    "delete": [
+        "cancel"
+    ],
+    "banish": [
+        "relegate",
+        "bar",
+        "ban",
+        "ostracize",
+        "ostracise",
+        "shun",
+        "blackball"
+    ],
+    "mangle": [
+        "mutilate",
+        "murder"
+    ],
+    "dirty": [
+        "soil",
+        "begrime",
+        "grime",
+        "colly",
+        "bemire"
+    ],
+    "pamper": [
+        "featherbed",
+        "cosset",
+        "cocker",
+        "baby",
+        "coddle",
+        "mollycoddle",
+        "spoil",
+        "indulge"
+    ],
+    "back": [
+        "endorse",
+        "indorse",
+        "support"
+    ],
+    "second": [
+        "back",
+        "endorse",
+        "indorse"
+    ],
+    "background": [
+        "downplay"
+    ],
+    "ride": [
+        "mount",
+        "sit"
+    ],
+    "climb": [
+        "mount"
+    ],
+    "patronize": [
+        "patronise",
+        "patronage",
+        "support",
+        "condescend",
+        "shop",
+        "frequent",
+        "sponsor"
+    ],
+    "corroborate": [
+        "underpin",
+        "support"
+    ],
+    "validate": [
+        "corroborate",
+        "formalize",
+        "formalise"
+    ],
+    "maintain": [
+        "defend"
+    ],
+    "champion": [
+        "defend"
+    ],
+    "fight": [
+        "oppose",
+        "defend",
+        "struggle"
+    ],
+    "sponsor": [
+        "patronize",
+        "patronise"
+    ],
+    "pocket": [
+        "bag"
+    ],
+    "bulge": [
+        "bag",
+        "bulk",
+        "pouch",
+        "protrude"
+    ],
+    "start": [
+        "protrude",
+        "pop",
+        "bulge",
+        "go",
+        "commence"
+    ],
+    "free-base": [
+        "base"
+    ],
+    "begin": [
+        "start",
+        "commence"
+    ],
+    "startle": [
+        "jump",
+        "start",
+        "galvanize",
+        "galvanise"
+    ],
+    "depart": [
+        "part",
+        "start",
+        "quit"
+    ],
+    "shock": [
+        "floor",
+        "offend",
+        "scandalize",
+        "scandalise",
+        "appal",
+        "appall",
+        "outrage"
+    ],
+    "outdo": [
+        "outflank",
+        "trump",
+        "best",
+        "scoop"
+    ],
+    "soap": [
+        "lather"
+    ],
+    "rout": [
+        "root",
+        "rootle",
+        "gouge",
+        "expel"
+    ],
+    "bake": [
+        "broil"
+    ],
+    "broil": [
+        "bake"
+    ],
+    "poise": [
+        "balance"
+    ],
+    "balance": [
+        "equilibrate",
+        "equilibrize",
+        "equilibrise"
+    ],
+    "counterweight": [
+        "counterpoise",
+        "counterpose"
+    ],
+    "brace": [
+        "poise",
+        "steady",
+        "stabilize",
+        "stabilise"
+    ],
+    "balloon": [
+        "inflate",
+        "billow"
+    ],
+    "ban": [
+        "censor"
+    ],
+    "ring": [
+        "band",
+        "knell",
+        "peal"
+    ],
+    "fructify": [
+        "set"
+    ],
+    "rig": [
+        "set",
+        "manipulate"
+    ],
+    "sic": [
+        "set"
+    ],
+    "typeset": [
+        "set"
+    ],
+    "jell": [
+        "set",
+        "congeal"
+    ],
+    "plant": [
+        "set",
+        "implant"
+    ],
+    "fix": [
+        "prepare",
+        "ready",
+        "set"
+    ],
+    "surround": [
+        "environ",
+        "ring",
+        "skirt",
+        "border"
+    ],
+    "resound": [
+        "echo",
+        "ring",
+        "reverberate"
+    ],
+    "bid": [
+        "call",
+        "beseech",
+        "entreat",
+        "adjure",
+        "press",
+        "conjure"
+    ],
+    "shout": [
+        "cry",
+        "call",
+        "yell",
+        "scream",
+        "holler",
+        "hollo",
+        "squall"
+    ],
+    "cry": [
+        "weep"
+    ],
+    "intend": [
+        "destine",
+        "designate",
+        "specify",
+        "mean",
+        "think"
+    ],
+    "stipulate": [
+        "qualify",
+        "condition",
+        "specify"
+    ],
+    "implant": [
+        "engraft",
+        "embed",
+        "imbed",
+        "plant"
+    ],
+    "situate": [
+        "fix",
+        "posit",
+        "deposit",
+        "locate"
+    ],
+    "sterilize": [
+        "sterilise",
+        "desex",
+        "unsex",
+        "desexualize",
+        "desexualise",
+        "fix"
+    ],
+    "fixate": [
+        "fix"
+    ],
+    "fasten": [
+        "fix",
+        "secure"
+    ],
+    "repair": [
+        "mend",
+        "fix",
+        "bushel",
+        "doctor",
+        "restore",
+        "resort"
+    ],
+    "wall": [
+        "palisade",
+        "fence",
+        "surround"
+    ],
+    "besiege": [
+        "beleaguer",
+        "surround",
+        "circumvent"
+    ],
+    "smother": [
+        "surround",
+        "stifle",
+        "strangle",
+        "muffle",
+        "repress",
+        "asphyxiate",
+        "suffocate"
+    ],
+    "pink": [
+        "ping",
+        "knock"
+    ],
+    "tap": [
+        "rap",
+        "knock",
+        "pink",
+        "tip"
+    ],
+    "bump": [
+        "knock"
+    ],
+    "strike": [
+        "hit",
+        "scratch",
+        "expunge",
+        "excise"
+    ],
+    "stumble": [
+        "hit",
+        "trip",
+        "falter",
+        "bumble"
+    ],
+    "shoot": [
+        "hit",
+        "pip",
+        "spud",
+        "germinate",
+        "pullulate",
+        "bourgeon",
+        "sprout"
+    ],
+    "find": [
+        "happen",
+        "chance",
+        "bump",
+        "encounter",
+        "feel",
+        "regain"
+    ],
+    "solicit": [
+        "beg",
+        "tap"
+    ],
+    "tapdance": [
+        "tap"
+    ],
+    "wiretap": [
+        "tap",
+        "intercept",
+        "bug"
+    ],
+    "rap": [
+        "knap"
+    ],
+    "trip": [
+        "actuate",
+        "trigger",
+        "activate",
+        "spark"
+    ],
+    "deposit": [
+        "bank"
+    ],
+    "inject": [
+        "shoot"
+    ],
+    "fritter": [
+        "dissipate",
+        "shoot",
+        "fool"
+    ],
+    "photograph": [
+        "snap",
+        "shoot"
+    ],
+    "dart": [
+        "dash",
+        "scoot",
+        "scud",
+        "flash",
+        "shoot"
+    ],
+    "blast": [
+        "shoot",
+        "shell",
+        "blare"
+    ],
+    "strickle": [
+        "strike"
+    ],
+    "mint": [
+        "coin",
+        "strike"
+    ],
+    "denude": [
+        "bare",
+        "denudate",
+        "strip"
+    ],
+    "complain": [
+        "kick",
+        "plain",
+        "quetch",
+        "kvetch"
+    ],
+    "knit": [
+        "entwine"
+    ],
+    "dicker": [
+        "bargain"
+    ],
+    "pucker": [
+        "rumple",
+        "cockle",
+        "crumple",
+        "knit",
+        "ruck"
+    ],
+    "traumatize": [
+        "traumatise",
+        "shock"
+    ],
+    "jolt": [
+        "jar"
+    ],
+    "finalize": [
+        "finalise",
+        "settle"
+    ],
+    "ensconce": [
+        "settle"
+    ],
+    "subside": [
+        "settle",
+        "lessen"
+    ],
+    "reconcile": [
+        "conciliate",
+        "settle"
+    ],
+    "testify": [
+        "prove",
+        "evidence",
+        "show",
+        "attest"
+    ],
+    "spread-eagle": [
+        "spreadeagle",
+        "rout"
+    ],
+    "group": [
+        "aggroup"
+    ],
+    "cream": [
+        "bat",
+        "clobber",
+        "drub",
+        "thrash",
+        "lick"
+    ],
+    "bat": [
+        "flutter"
+    ],
+    "skim": [
+        "cream",
+        "skip",
+        "skitter"
+    ],
+    "scan": [
+        "skim",
+        "rake"
+    ],
+    "plane": [
+        "skim",
+        "shave"
+    ],
+    "bombard": [
+        "barrage",
+        "bomb"
+    ],
+    "pelt": [
+        "bombard"
+    ],
+    "battle": [
+        "combat"
+    ],
+    "conflict": [
+        "infringe",
+        "contravene"
+    ],
+    "contend": [
+        "fight",
+        "struggle",
+        "postulate"
+    ],
+    "clamber": [
+        "scramble",
+        "shin",
+        "shinny",
+        "skin",
+        "struggle",
+        "sputter"
+    ],
+    "compete": [
+        "vie",
+        "contend"
+    ],
+    "contest": [
+        "contend",
+        "repugn"
+    ],
+    "quarrel": [
+        "dispute",
+        "scrap",
+        "argufy",
+        "altercate"
+    ],
+    "challenge": [
+        "dispute",
+        "gainsay"
+    ],
+    "bay": [
+        "quest"
+    ],
+    "cost": [
+        "be"
+    ],
+    "be": [
+        "live",
+        "follow"
+    ],
+    "embody": [
+        "be",
+        "personify"
+    ],
+    "constitute": [
+        "represent",
+        "comprise",
+        "be"
+    ],
+    "exist": [
+        "be",
+        "survive",
+        "live",
+        "subsist"
+    ],
+    "incarnate": [
+        "embody",
+        "substantiate"
+    ],
+    "imprint": [
+        "form"
+    ],
+    "glow": [
+        "beam",
+        "radiate",
+        "shine"
+    ],
+    "shine": [
+        "beam"
+    ],
+    "glitter": [
+        "glisten",
+        "glint",
+        "gleam",
+        "shine"
+    ],
+    "reflect": [
+        "shine",
+        "reverberate"
+    ],
+    "gleam": [
+        "glimmer"
+    ],
+    "preserve": [
+        "keep"
+    ],
+    "observe": [
+        "celebrate",
+        "keep",
+        "maintain"
+    ],
+    "sustain": [
+        "keep",
+        "maintain"
+    ],
+    "prevent": [
+        "keep",
+        "forestall",
+        "foreclose",
+        "preclude",
+        "forbid"
+    ],
+    "continue": [
+        "proceed",
+        "keep",
+        "uphold",
+        "preserve"
+    ],
+    "stay": [
+        "detain",
+        "delay",
+        "stick",
+        "remain",
+        "rest",
+        "continue"
+    ],
+    "buckle": [
+        "clasp",
+        "crumple"
+    ],
+    "brooch": [
+        "clasp"
+    ],
+    "treat": [
+        "handle"
+    ],
+    "predominate": [
+        "dominate",
+        "rule",
+        "reign",
+        "prevail"
+    ],
+    "cram": [
+        "drum",
+        "swot",
+        "bone"
+    ],
+    "jam": [
+        "jampack",
+        "ram",
+        "cram",
+        "wad",
+        "crush",
+        "block"
+    ],
+    "level": [
+        "raze",
+        "rase",
+        "dismantle"
+    ],
+    "wrinkle": [
+        "ruckle",
+        "crease",
+        "crinkle",
+        "scrunch",
+        "crisp"
+    ],
+    "flush": [
+        "level",
+        "even",
+        "scour",
+        "purge"
+    ],
+    "rumple": [
+        "crumple",
+        "wrinkle",
+        "crease",
+        "crinkle"
+    ],
+    "furrow": [
+        "wrinkle",
+        "crease",
+        "chamfer",
+        "chase",
+        "rut",
+        "groove"
+    ],
+    "purse": [
+        "wrinkle"
+    ],
+    "gripe": [
+        "bitch",
+        "grouse",
+        "crab",
+        "beef",
+        "squawk",
+        "bellyache",
+        "holler"
+    ],
+    "beg": [
+        "implore",
+        "pray"
+    ],
+    "woo": [
+        "court",
+        "romance",
+        "solicit"
+    ],
+    "addict": [
+        "hook"
+    ],
+    "crochet": [
+        "hook"
+    ],
+    "overcharge": [
+        "soak",
+        "surcharge",
+        "gazump",
+        "fleece",
+        "plume",
+        "pluck",
+        "rob",
+        "hook"
+    ],
+    "emboss": [
+        "boss",
+        "stamp"
+    ],
+    "pigeonhole": [
+        "stereotype",
+        "stamp"
+    ],
+    "stomp": [
+        "stamp",
+        "stump"
+    ],
+    "tender": [
+        "tenderize",
+        "tenderise"
+    ],
+    "believe": [
+        "trust"
+    ],
+    "remember": [
+        "retrieve",
+        "recall",
+        "recollect",
+        "think"
+    ],
+    "mean": [
+        "intend",
+        "signify"
+    ],
+    "belong": [
+        "go"
+    ],
+    "terrace": [
+        "terrasse"
+    ],
+    "deflect": [
+        "bend"
+    ],
+    "parry": [
+        "block",
+        "deflect"
+    ],
+    "distract": [
+        "deflect"
+    ],
+    "perturb": [
+        "unhinge",
+        "disquiet",
+        "trouble",
+        "cark",
+        "distract",
+        "disorder",
+        "derange"
+    ],
+    "hedge": [
+        "fudge",
+        "evade",
+        "circumvent",
+        "parry",
+        "elude",
+        "skirt",
+        "dodge",
+        "duck",
+        "sidestep"
+    ],
+    "cluster": [
+        "constellate",
+        "flock",
+        "clump"
+    ],
+    "surpass": [
+        "outstrip",
+        "outmatch",
+        "outgo",
+        "exceed",
+        "outdo",
+        "surmount",
+        "outperform"
+    ],
+    "excel": [
+        "surpass"
+    ],
+    "bet": [
+        "wager",
+        "play"
+    ],
+    "stake": [
+        "post"
+    ],
+    "impale": [
+        "stake"
+    ],
+    "mail": [
+        "post",
+        "send"
+    ],
+    "bias": [
+        "predetermine"
+    ],
+    "invite": [
+        "bid"
+    ],
+    "offer": [
+        "bid",
+        "tender",
+        "extend",
+        "proffer"
+    ],
+    "dominate": [
+        "command",
+        "overlook",
+        "overtop",
+        "master"
+    ],
+    "gaze": [
+        "stare"
+    ],
+    "tempt": [
+        "invite",
+        "allure"
+    ],
+    "extend": [
+        "offer",
+        "stretch",
+        "expand"
+    ],
+    "volunteer": [
+        "offer"
+    ],
+    "overshadow": [
+        "dominate",
+        "eclipse"
+    ],
+    "entice": [
+        "lure",
+        "tempt"
+    ],
+    "strain": [
+        "extend",
+        "tense"
+    ],
+    "gallop": [
+        "extend"
+    ],
+    "prolong": [
+        "protract",
+        "extend",
+        "sustain"
+    ],
+    "stretch": [
+        "extend"
+    ],
+    "exsert": [
+        "extend"
+    ],
+    "widen": [
+        "broaden",
+        "extend"
+    ],
+    "nag": [
+        "peck",
+        "hen-peck"
+    ],
+    "yoke": [
+        "link"
+    ],
+    "bird": [
+        "birdwatch"
+    ],
+    "boo": [
+        "hiss"
+    ],
+    "snatch": [
+        "snap"
+    ],
+    "piece": [
+        "patch"
+    ],
+    "spot": [
+        "fleck",
+        "blob",
+        "blot",
+        "recognize",
+        "recognise",
+        "distinguish",
+        "discern"
+    ],
+    "kidnap": [
+        "nobble",
+        "abduct",
+        "snatch"
+    ],
+    "nibble": [
+        "pick",
+        "piece"
+    ],
+    "patch": [
+        "piece"
+    ],
+    "blemish": [
+        "spot"
+    ],
+    "descry": [
+        "spot",
+        "espy",
+        "spy"
+    ],
+    "point": [
+        "repoint"
+    ],
+    "share": [
+        "apportion",
+        "deal"
+    ],
+    "slit": [
+        "slice"
+    ],
+    "smear": [
+        "blur",
+        "smudge",
+        "smutch"
+    ],
+    "mend": [
+        "heal"
+    ],
+    "foreground": [
+        "highlight",
+        "spotlight"
+    ],
+    "luff": [
+        "point"
+    ],
+    "bespeak": [
+        "betoken",
+        "indicate",
+        "point",
+        "signal"
+    ],
+    "steer": [
+        "maneuver",
+        "manoeuver",
+        "manoeuvre",
+        "direct",
+        "point",
+        "head",
+        "guide",
+        "channelize",
+        "channelise"
+    ],
+    "orient": [
+        "point",
+        "orientate"
+    ],
+    "indicate": [
+        "point",
+        "designate",
+        "show"
+    ],
+    "backbite": [
+        "bitch"
+    ],
+    "flaw": [
+        "blemish"
+    ],
+    "deface": [
+        "disfigure",
+        "blemish"
+    ],
+    "sting": [
+        "bite",
+        "prick"
+    ],
+    "prick": [
+        "sting",
+        "twinge"
+    ],
+    "stick": [
+        "sting"
+    ],
+    "victimize": [
+        "swindle",
+        "rook",
+        "goldbrick",
+        "nobble",
+        "diddle",
+        "bunco",
+        "defraud",
+        "scam",
+        "mulct",
+        "hornswoggle",
+        "short-change",
+        "con",
+        "victimise"
+    ],
+    "prickle": [
+        "prick"
+    ],
+    "goad": [
+        "prick"
+    ],
+    "plat": [
+        "plot"
+    ],
+    "diagram": [
+        "plot"
+    ],
+    "blackmail": [
+        "blackjack",
+        "pressure"
+    ],
+    "outdistance": [
+        "outstrip",
+        "distance"
+    ],
+    "savage": [
+        "blast",
+        "pillory",
+        "crucify"
+    ],
+    "smash": [
+        "nail",
+        "boom",
+        "blast",
+        "dash"
+    ],
+    "crush": [
+        "smash"
+    ],
+    "doss": [
+        "crash"
+    ],
+    "clang": [
+        "clangor"
+    ],
+    "squash": [
+        "crush",
+        "squelch",
+        "mash",
+        "squeeze"
+    ],
+    "oppress": [
+        "suppress",
+        "crush"
+    ],
+    "consecrate": [
+        "bless",
+        "hallow",
+        "sanctify"
+    ],
+    "bless": [
+        "sign"
+    ],
+    "vow": [
+        "consecrate"
+    ],
+    "ordain": [
+        "consecrate",
+        "ordinate",
+        "order",
+        "enact"
+    ],
+    "flash": [
+        "blink",
+        "wink",
+        "twinkle",
+        "winkle"
+    ],
+    "wink": [
+        "blink"
+    ],
+    "blink": [
+        "wink",
+        "nictitate",
+        "nictate"
+    ],
+    "flaunt": [
+        "flash",
+        "ostentate",
+        "swank"
+    ],
+    "flare": [
+        "flame"
+    ],
+    "flit": [
+        "flutter",
+        "fleet",
+        "dart"
+    ],
+    "erupt": [
+        "irrupt",
+        "flare",
+        "belch",
+        "extravasate",
+        "recrudesce",
+        "ignite",
+        "combust",
+        "conflagrate"
+    ],
+    "obstruct": [
+        "obturate",
+        "impede",
+        "occlude",
+        "jam",
+        "block",
+        "blockade",
+        "hinder",
+        "stymie",
+        "stymy",
+        "embarrass"
+    ],
+    "stuff": [
+        "lug",
+        "block"
+    ],
+    "throng": [
+        "mob",
+        "pack",
+        "pile",
+        "jam"
+    ],
+    "farce": [
+        "stuff"
+    ],
+    "gorge": [
+        "ingurgitate",
+        "overindulge",
+        "glut",
+        "englut",
+        "stuff",
+        "engorge",
+        "overgorge",
+        "overeat",
+        "gormandize",
+        "gormandise",
+        "gourmandize",
+        "binge",
+        "satiate"
+    ],
+    "thrust": [
+        "stuff",
+        "shove",
+        "squeeze"
+    ],
+    "pierce": [
+        "thrust"
+    ],
+    "lunge": [
+        "hurl",
+        "hurtle",
+        "thrust"
+    ],
+    "jab": [
+        "prod",
+        "stab",
+        "poke",
+        "dig"
+    ],
+    "stab": [
+        "jab"
+    ],
+    "graze": [
+        "crease",
+        "rake"
+    ],
+    "browse": [
+        "graze",
+        "surf"
+    ],
+    "read": [
+        "scan",
+        "register",
+        "show",
+        "record",
+        "say"
+    ],
+    "bloom": [
+        "blossom",
+        "flower"
+    ],
+    "boast": [
+        "tout",
+        "swash",
+        "brag",
+        "gas",
+        "blow",
+        "bluster",
+        "vaunt",
+        "gasconade"
+    ],
+    "fellate": [
+        "suck",
+        "blow"
+    ],
+    "waste": [
+        "blow",
+        "squander",
+        "rot",
+        "emaciate",
+        "macerate"
+    ],
+    "botch": [
+        "bodge",
+        "bumble",
+        "fumble",
+        "muff",
+        "blow",
+        "flub",
+        "spoil",
+        "bungle",
+        "fluff",
+        "bollix",
+        "bollocks",
+        "bobble",
+        "mishandle"
+    ],
+    "suck": [
+        "blow"
+    ],
+    "float": [
+        "drift",
+        "blow",
+        "swim"
+    ],
+    "breastfeed": [
+        "suckle",
+        "suck",
+        "nurse",
+        "wet-nurse",
+        "lactate"
+    ],
+    "jerk": [
+        "flick",
+        "twitch"
+    ],
+    "stun": [
+        "bedaze",
+        "daze",
+        "stupefy"
+    ],
+    "dazzle": [
+        "bedazzle",
+        "daze"
+    ],
+    "neutralize": [
+        "neutralise",
+        "liquidate",
+        "waste",
+        "nullify",
+        "negate"
+    ],
+    "invert": [
+        "reverse"
+    ],
+    "overrule": [
+        "overturn",
+        "override",
+        "overthrow",
+        "reverse"
+    ],
+    "fumble": [
+        "blunder"
+    ],
+    "counteract": [
+        "countervail",
+        "neutralize",
+        "counterbalance"
+    ],
+    "board": [
+        "room"
+    ],
+    "curtsy": [
+        "bob",
+        "curtsey"
+    ],
+    "dock": [
+        "tail",
+        "bob"
+    ],
+    "bobsled": [
+        "bob"
+    ],
+    "body": [
+        "personify"
+    ],
+    "churn": [
+        "boil",
+        "moil",
+        "roil"
+    ],
+    "gobble": [
+        "bolt"
+    ],
+    "abscond": [
+        "bolt",
+        "absquatulate",
+        "decamp"
+    ],
+    "hum": [
+        "buzz",
+        "seethe",
+        "thrum"
+    ],
+    "daunt": [
+        "dash",
+        "pall",
+        "scare"
+    ],
+    "bone": [
+        "debone"
+    ],
+    "pour": [
+        "pelt",
+        "stream",
+        "swarm",
+        "teem",
+        "pullulate"
+    ],
+    "pepper": [
+        "pelt"
+    ],
+    "hide": [
+        "conceal"
+    ],
+    "fetter": [
+        "shackle"
+    ],
+    "pinion": [
+        "shackle"
+    ],
+    "record": [
+        "register",
+        "tape",
+        "enter"
+    ],
+    "hyphenate": [
+        "hyphen"
+    ],
+    "summit": [
+        "breast"
+    ],
+    "boom": [
+        "thrive",
+        "flourish",
+        "expand",
+        "din"
+    ],
+    "thunder": [
+        "boom",
+        "roar"
+    ],
+    "boot": [
+        "reboot"
+    ],
+    "border": [
+        "adjoin",
+        "edge",
+        "abut",
+        "march",
+        "butt"
+    ],
+    "bound": [
+        "border"
+    ],
+    "edge": [
+        "inch"
+    ],
+    "sack": [
+        "plunder"
+    ],
+    "bounce": [
+        "resile",
+        "spring",
+        "bound",
+        "rebound",
+        "recoil",
+        "reverberate",
+        "ricochet",
+        "jounce"
+    ],
+    "jump": [
+        "leap",
+        "bound",
+        "spring",
+        "skip"
+    ],
+    "leap": [
+        "jump"
+    ],
+    "limit": [
+        "circumscribe"
+    ],
+    "mold": [
+        "mildew"
+    ],
+    "trap": [
+        "entrap",
+        "snare",
+        "ensnare",
+        "trammel",
+        "pin",
+        "immobilize",
+        "immobilise"
+    ],
+    "backfire": [
+        "backlash",
+        "recoil"
+    ],
+    "flinch": [
+        "squinch",
+        "funk",
+        "cringe",
+        "shrink",
+        "wince",
+        "recoil",
+        "quail"
+    ],
+    "trouble": [
+        "inconvenience",
+        "disoblige",
+        "discommode",
+        "incommode",
+        "bother",
+        "ail",
+        "pain"
+    ],
+    "annoy": [
+        "rag",
+        "bother",
+        "irritate",
+        "rile",
+        "nark",
+        "nettle",
+        "gravel",
+        "vex",
+        "chafe",
+        "devil"
+    ],
+    "fuss": [
+        "niggle",
+        "fret"
+    ],
+    "jumpstart": [
+        "jump-start",
+        "jump"
+    ],
+    "chute": [
+        "parachute",
+        "jump"
+    ],
+    "derail": [
+        "jump"
+    ],
+    "penetrate": [
+        "fathom",
+        "bottom",
+        "perforate"
+    ],
+    "mother": [
+        "fuss",
+        "overprotect"
+    ],
+    "bustle": [
+        "hustle"
+    ],
+    "dither": [
+        "flap",
+        "pother"
+    ],
+    "disturb": [
+        "upset",
+        "trouble"
+    ],
+    "salute": [
+        "present"
+    ],
+    "confront": [
+        "face",
+        "present"
+    ],
+    "portray": [
+        "present",
+        "depict",
+        "limn"
+    ],
+    "introduce": [
+        "present",
+        "acquaint",
+        "innovate"
+    ],
+    "show": [
+        "demo",
+        "exhibit",
+        "present",
+        "demonstrate"
+    ],
+    "box": [
+        "package"
+    ],
+    "corner": [
+        "tree"
+    ],
+    "permeate": [
+        "pervade",
+        "penetrate",
+        "interpenetrate",
+        "diffuse",
+        "imbue",
+        "riddle"
+    ],
+    "infiltrate": [
+        "penetrate"
+    ],
+    "quibble": [
+        "niggle",
+        "pettifog",
+        "bicker",
+        "squabble",
+        "brabble"
+    ],
+    "vomit": [
+        "purge",
+        "cast",
+        "sick",
+        "cat",
+        "disgorge",
+        "regorge",
+        "retch",
+        "puke",
+        "barf",
+        "spew",
+        "spue",
+        "chuck",
+        "upchuck",
+        "honk",
+        "regurgitate"
+    ],
+    "hurl": [
+        "hurtle",
+        "cast",
+        "throw"
+    ],
+    "wreathe": [
+        "wind"
+    ],
+    "scent": [
+        "nose",
+        "wind"
+    ],
+    "weave": [
+        "wind",
+        "thread",
+        "meander",
+        "wander",
+        "tissue",
+        "interweave"
+    ],
+    "handbuild": [
+        "hand-build",
+        "coil"
+    ],
+    "gyrate": [
+        "spiral",
+        "coil"
+    ],
+    "interpenetrate": [
+        "permeate"
+    ],
+    "percolate": [
+        "permeate",
+        "filter"
+    ],
+    "march": [
+        "process"
+    ],
+    "weather": [
+        "endure",
+        "brave"
+    ],
+    "beware": [
+        "mind"
+    ],
+    "heed": [
+        "mind",
+        "listen"
+    ],
+    "muffle": [
+        "mute",
+        "dull",
+        "damp",
+        "dampen"
+    ],
+    "moisten": [
+        "wash",
+        "dampen"
+    ],
+    "stifle": [
+        "dampen"
+    ],
+    "hesitate": [
+        "pause",
+        "waver",
+        "waffle"
+    ],
+    "decay": [
+        "crumble",
+        "dilapidate"
+    ],
+    "discriminate": [
+        "separate"
+    ],
+    "classify": [
+        "class",
+        "sort",
+        "assort",
+        "separate"
+    ],
+    "divide": [
+        "split",
+        "separate",
+        "dissever",
+        "fraction"
+    ],
+    "sin": [
+        "transgress",
+        "trespass"
+    ],
+    "adjourn": [
+        "recess",
+        "withdraw",
+        "retire"
+    ],
+    "desecrate": [
+        "profane",
+        "outrage",
+        "violate",
+        "unhallow",
+        "deconsecrate"
+    ],
+    "emit": [
+        "breathe"
+    ],
+    "rest": [
+        "breathe",
+        "reside",
+        "repose"
+    ],
+    "breathe": [
+        "respire",
+        "suspire"
+    ],
+    "reprieve": [
+        "respite"
+    ],
+    "hint": [
+        "suggest"
+    ],
+    "defect": [
+        "desert"
+    ],
+    "mistake": [
+        "misidentify"
+    ],
+    "embrown": [
+        "brown"
+    ],
+    "suffocate": [
+        "stifle",
+        "asphyxiate",
+        "choke"
+    ],
+    "brush": [
+        "sweep"
+    ],
+    "shop": [
+        "browse"
+    ],
+    "signalize": [
+        "signalise",
+        "distinguish"
+    ],
+    "drizzle": [
+        "moisten",
+        "mizzle"
+    ],
+    "scrape": [
+        "scratch",
+        "kowtow",
+        "genuflect",
+        "grate"
+    ],
+    "rub": [
+        "scratch",
+        "itch",
+        "fray",
+        "fret",
+        "chafe"
+    ],
+    "scribble": [
+        "scrawl",
+        "scrabble"
+    ],
+    "burp": [
+        "bubble",
+        "belch",
+        "eruct"
+    ],
+    "ripple": [
+        "babble",
+        "guggle",
+        "burble",
+        "bubble",
+        "gurgle",
+        "ruffle",
+        "riffle",
+        "cockle",
+        "undulate"
+    ],
+    "chase": [
+        "trail",
+        "tail",
+        "tag",
+        "dog",
+        "track"
+    ],
+    "err": [
+        "mistake",
+        "slip"
+    ],
+    "pillow": [
+        "rest"
+    ],
+    "perch": [
+        "roost",
+        "rest"
+    ],
+    "lie": [
+        "rest"
+    ],
+    "utter": [
+        "emit"
+    ],
+    "cushion": [
+        "buffer",
+        "soften"
+    ],
+    "buff": [
+        "burnish",
+        "furbish"
+    ],
+    "tease": [
+        "badger",
+        "pester",
+        "bug",
+        "beleaguer",
+        "fluff",
+        "card",
+        "loosen",
+        "razz",
+        "rag",
+        "cod",
+        "tantalize",
+        "tantalise",
+        "bait",
+        "taunt",
+        "twit",
+        "rally",
+        "ride"
+    ],
+    "reconstruct": [
+        "construct",
+        "retrace"
+    ],
+    "manufacture": [
+        "fabricate",
+        "construct"
+    ],
+    "bunch": [
+        "bundle",
+        "cluster",
+        "clump"
+    ],
+    "rescue": [
+        "deliver"
+    ],
+    "denounce": [
+        "betray",
+        "rat",
+        "grass",
+        "shit",
+        "shop",
+        "snitch",
+        "stag"
+    ],
+    "pack": [
+        "bundle",
+        "wad",
+        "compact"
+    ],
+    "abound": [
+        "burst",
+        "bristle"
+    ],
+    "explode": [
+        "burst",
+        "irrupt",
+        "detonate"
+    ],
+    "geld": [
+        "cut"
+    ],
+    "ignore": [
+        "disregard",
+        "snub",
+        "cut"
+    ],
+    "hack": [
+        "cut",
+        "whoop"
+    ],
+    "edit": [
+        "cut",
+        "blue-pencil",
+        "delete",
+        "redact"
+    ],
+    "swerve": [
+        "sheer",
+        "curve",
+        "trend",
+        "veer",
+        "slue",
+        "slew",
+        "cut"
+    ],
+    "raid": [
+        "bust"
+    ],
+    "tiptoe": [
+        "tip",
+        "tippytoe"
+    ],
+    "topple": [
+        "tumble",
+        "tip"
+    ],
+    "callous": [
+        "cauterize",
+        "cauterise"
+    ],
+    "decipher": [
+        "trace"
+    ],
+    "hound": [
+        "hunt",
+        "trace"
+    ],
+    "buffet": [
+        "buff",
+        "batter"
+    ],
+    "scrub": [
+        "scour"
+    ],
+    "quell": [
+        "stay",
+        "appease"
+    ],
+    "persist": [
+        "remain",
+        "stay"
+    ],
+    "bide": [
+        "abide",
+        "stay"
+    ],
+    "alight": [
+        "light",
+        "perch"
+    ],
+    "bury": [
+        "sink",
+        "entomb",
+        "inhume",
+        "inter"
+    ],
+    "immerse": [
+        "swallow",
+        "bury",
+        "plunge"
+    ],
+    "disintegrate": [
+        "decay",
+        "decompose"
+    ],
+    "pick": [
+        "pluck",
+        "cull"
+    ],
+    "butt": [
+        "bunt"
+    ],
+    "dwell": [
+        "consist",
+        "lie",
+        "inhabit"
+    ],
+    "busy": [
+        "occupy"
+    ],
+    "steal": [
+        "rip",
+        "slip"
+    ],
+    "rend": [
+        "rip",
+        "rive",
+        "pull"
+    ],
+    "buy": [
+        "purchase"
+    ],
+    "talk": [
+        "speak",
+        "utter",
+        "mouth",
+        "verbalize",
+        "verbalise"
+    ],
+    "express": [
+        "verbalize",
+        "verbalise",
+        "utter",
+        "state",
+        "show",
+        "evince"
+    ],
+    "fabricate": [
+        "manufacture",
+        "invent"
+    ],
+    "herd": [
+        "crowd"
+    ],
+    "buzz": [
+        "bombinate",
+        "bombilate"
+    ],
+    "hoard": [
+        "stash",
+        "cache"
+    ],
+    "taxi": [
+        "cab"
+    ],
+    "cable": [
+        "telegraph",
+        "wire"
+    ],
+    "remodel": [
+        "reconstruct",
+        "redo"
+    ],
+    "restore": [
+        "reconstruct",
+        "reinstate",
+        "reestablish",
+        "restitute"
+    ],
+    "rebuild": [
+        "reconstruct"
+    ],
+    "stack": [
+        "pile",
+        "heap"
+    ],
+    "down": [
+        "land"
+    ],
+    "compact": [
+        "pack"
+    ],
+    "backpack": [
+        "pack"
+    ],
+    "chop": [
+        "hack"
+    ],
+    "repress": [
+        "quash",
+        "subdue",
+        "subjugate",
+        "reduce"
+    ],
+    "deoxidize": [
+        "deoxidise",
+        "reduce"
+    ],
+    "plunge": [
+        "immerse",
+        "dump",
+        "launch"
+    ],
+    "calm": [
+        "quiet",
+        "tranquilize",
+        "tranquillize",
+        "tranquillise",
+        "quieten",
+        "lull",
+        "still"
+    ],
+    "sedate": [
+        "calm",
+        "tranquilize",
+        "tranquillize",
+        "tranquillise"
+    ],
+    "steady": [
+        "calm",
+        "becalm"
+    ],
+    "detonate": [
+        "explode"
+    ],
+    "exclaim": [
+        "cry",
+        "outcry",
+        "shout"
+    ],
+    "diagnose": [
+        "name"
+    ],
+    "winnow": [
+        "fan"
+    ],
+    "print": [
+        "publish",
+        "impress"
+    ],
+    "camp": [
+        "encamp",
+        "bivouac",
+        "tent"
+    ],
+    "press": [
+        "push"
+    ],
+    "can": [
+        "tin"
+    ],
+    "canal": [
+        "canalize",
+        "canalise"
+    ],
+    "erase": [
+        "delete",
+        "efface"
+    ],
+    "cap": [
+        "crest"
+    ],
+    "sugarcoat": [
+        "glaze",
+        "candy"
+    ],
+    "debate": [
+        "deliberate"
+    ],
+    "dunk": [
+        "dip",
+        "souse",
+        "plunge",
+        "douse"
+    ],
+    "dive": [
+        "plunge",
+        "plunk"
+    ],
+    "dip": [
+        "sink",
+        "douse",
+        "duck"
+    ],
+    "wag": [
+        "waggle"
+    ],
+    "fudge": [
+        "manipulate",
+        "fake",
+        "falsify",
+        "cook",
+        "wangle",
+        "misrepresent"
+    ],
+    "proclaim": [
+        "exclaim",
+        "promulgate"
+    ],
+    "motivate": [
+        "actuate",
+        "propel",
+        "move",
+        "prompt",
+        "incite"
+    ],
+    "travel": [
+        "go",
+        "move",
+        "locomote",
+        "journey",
+        "trip",
+        "jaunt"
+    ],
+    "denote": [
+        "refer"
+    ],
+    "consult": [
+        "refer"
+    ],
+    "gull": [
+        "dupe",
+        "slang",
+        "befool",
+        "cod",
+        "fool"
+    ],
+    "voyage": [
+        "sail",
+        "navigate"
+    ],
+    "sweep": [
+        "sail",
+        "broom"
+    ],
+    "sculpt": [
+        "sculpture",
+        "grave"
+    ],
+    "overcome": [
+        "subdue",
+        "surmount",
+        "master"
+    ],
+    "haul": [
+        "hale",
+        "cart",
+        "drag"
+    ],
+    "sprout": [
+        "stock"
+    ],
+    "tauten": [
+        "firm"
+    ],
+    "enchant": [
+        "enrapture",
+        "transport",
+        "enthrall",
+        "ravish",
+        "enthral",
+        "delight"
+    ],
+    "drivel": [
+        "drool",
+        "slabber",
+        "slaver",
+        "slobber",
+        "dribble"
+    ],
+    "trickle": [
+        "dribble",
+        "filter"
+    ],
+    "encase": [
+        "incase",
+        "case"
+    ],
+    "impress": [
+        "imprint",
+        "yarn-dye",
+        "ingrain",
+        "instill"
+    ],
+    "catalogue": [
+        "catalog"
+    ],
+    "pant": [
+        "puff",
+        "gasp",
+        "heave"
+    ],
+    "scout": [
+        "reconnoiter",
+        "reconnoitre"
+    ],
+    "usher": [
+        "show"
+    ],
+    "extract": [
+        "pull"
+    ],
+    "fool": [
+        "gull",
+        "befool"
+    ],
+    "swing": [
+        "sweep",
+        "sway"
+    ],
+    "embroil": [
+        "tangle",
+        "sweep",
+        "drag"
+    ],
+    "retreat": [
+        "crawfish",
+        "withdraw"
+    ],
+    "retire": [
+        "withdraw"
+    ],
+    "seclude": [
+        "sequester",
+        "sequestrate",
+        "withdraw"
+    ],
+    "swallow": [
+        "unsay",
+        "withdraw"
+    ],
+    "recall": [
+        "withdraw"
+    ],
+    "disengage": [
+        "withdraw"
+    ],
+    "cave": [
+        "spelunk",
+        "undermine"
+    ],
+    "convey": [
+        "transmit",
+        "communicate"
+    ],
+    "lionize": [
+        "lionise",
+        "celebrate"
+    ],
+    "celebrate": [
+        "fete"
+    ],
+    "husk": [
+        "shell"
+    ],
+    "subjugate": [
+        "subject"
+    ],
+    "hex": [
+        "bewitch",
+        "glamour",
+        "witch",
+        "enchant",
+        "jinx"
+    ],
+    "salivate": [
+        "drool"
+    ],
+    "center": [
+        "centre"
+    ],
+    "concentrate": [
+        "focus",
+        "center",
+        "centre",
+        "pore",
+        "rivet"
+    ],
+    "overpower": [
+        "overmaster",
+        "overwhelm"
+    ],
+    "submerge": [
+        "drown",
+        "overwhelm",
+        "submerse"
+    ],
+    "design": [
+        "plan"
+    ],
+    "chair": [
+        "chairman"
+    ],
+    "centralize": [
+        "centralise",
+        "concentrate"
+    ],
+    "characterize": [
+        "characterise"
+    ],
+    "qualify": [
+        "characterize",
+        "characterise",
+        "dispose"
+    ],
+    "judder": [
+        "shake"
+    ],
+    "temper": [
+        "season",
+        "mollify",
+        "moderate",
+        "harden"
+    ],
+    "mince": [
+        "soften",
+        "moderate"
+    ],
+    "spell": [
+        "write",
+        "import"
+    ],
+    "bum": [
+        "loaf",
+        "loll"
+    ],
+    "graph": [
+        "chart"
+    ],
+    "recover": [
+        "retrieve",
+        "find",
+        "regain",
+        "recoup",
+        "recuperate"
+    ],
+    "discover": [
+        "find"
+    ],
+    "cheat": [
+        "chisel",
+        "chouse",
+        "shaft",
+        "screw",
+        "chicane",
+        "jockey"
+    ],
+    "engage": [
+        "mesh",
+        "lock",
+        "operate",
+        "enlist",
+        "wage"
+    ],
+    "manoeuver": [
+        "maneuver",
+        "manoeuvre",
+        "operate"
+    ],
+    "cheer": [
+        "inspire",
+        "urge",
+        "barrack",
+        "exhort",
+        "hearten",
+        "recreate",
+        "embolden"
+    ],
+    "chew": [
+        "masticate",
+        "manducate",
+        "jaw"
+    ],
+    "harass": [
+        "hassle",
+        "harry",
+        "chivy",
+        "chivvy",
+        "chevy",
+        "chevvy",
+        "beset",
+        "plague",
+        "molest",
+        "provoke"
+    ],
+    "chasten": [
+        "temper"
+    ],
+    "anneal": [
+        "temper",
+        "normalize"
+    ],
+    "mooch": [
+        "bum",
+        "cadge",
+        "grub",
+        "sponge"
+    ],
+    "chip": [
+        "knap"
+    ],
+    "nick": [
+        "chip",
+        "snick"
+    ],
+    "modify": [
+        "qualify"
+    ],
+    "confuse": [
+        "throw",
+        "fox",
+        "befuddle",
+        "fuddle",
+        "bedevil",
+        "confound",
+        "discombobulate",
+        "blur",
+        "obscure",
+        "obnubilate",
+        "flurry",
+        "disconcert"
+    ],
+    "bewilder": [
+        "bemuse",
+        "discombobulate",
+        "throw"
+    ],
+    "cool": [
+        "chill"
+    ],
+    "govern": [
+        "rule"
+    ],
+    "deal": [
+        "sell",
+        "trade"
+    ],
+    "escalate": [
+        "intensify"
+    ],
+    "graft": [
+        "engraft",
+        "ingraft"
+    ],
+    "reclaim": [
+        "recover",
+        "repossess"
+    ],
+    "recuperate": [
+        "recover",
+        "convalesce"
+    ],
+    "refrain": [
+        "forbear"
+    ],
+    "permute": [
+        "commute",
+        "transpose"
+    ],
+    "muster": [
+        "rally",
+        "summon"
+    ],
+    "chrome": [
+        "chromium-plate"
+    ],
+    "chuck": [
+        "pat",
+        "ditch",
+        "toss"
+    ],
+    "collocate": [
+        "lump",
+        "chunk"
+    ],
+    "lump": [
+        "chunk"
+    ],
+    "slog": [
+        "footslog",
+        "plod",
+        "trudge",
+        "pad",
+        "tramp"
+    ],
+    "plump": [
+        "go"
+    ],
+    "rifle": [
+        "go"
+    ],
+    "survive": [
+        "last",
+        "live",
+        "go",
+        "endure"
+    ],
+    "sound": [
+        "go"
+    ],
+    "proceed": [
+        "go",
+        "continue"
+    ],
+    "question": [
+        "query",
+        "oppugn"
+    ],
+    "abstain": [
+        "refrain",
+        "desist"
+    ],
+    "blush": [
+        "crimson",
+        "flush",
+        "redden"
+    ],
+    "summon": [
+        "summons",
+        "cite"
+    ],
+    "adduce": [
+        "abduce",
+        "cite"
+    ],
+    "quote": [
+        "cite"
+    ],
+    "indent": [
+        "dent"
+    ],
+    "interview": [
+        "question"
+    ],
+    "interrogate": [
+        "question"
+    ],
+    "lave": [
+        "lap",
+        "wash"
+    ],
+    "lick": [
+        "lap"
+    ],
+    "well": [
+        "swell"
+    ],
+    "gird": [
+        "encircle"
+    ],
+    "mobilize": [
+        "mobilise",
+        "marshal",
+        "summon"
+    ],
+    "clean": [
+        "strip",
+        "pick"
+    ],
+    "scavenge": [
+        "clean"
+    ],
+    "cleanse": [
+        "clean"
+    ],
+    "houseclean": [
+        "clean"
+    ],
+    "punch": [
+        "perforate",
+        "plug"
+    ],
+    "net": [
+        "sack",
+        "clear",
+        "nett"
+    ],
+    "unclutter": [
+        "clear"
+    ],
+    "wash": [
+        "lave",
+        "launder",
+        "rinse"
+    ],
+    "style": [
+        "title"
+    ],
+    "entitle": [
+        "title"
+    ],
+    "tinkle": [
+        "tink",
+        "clink",
+        "chink"
+    ],
+    "focus": [
+        "focalize",
+        "focalise",
+        "sharpen"
+    ],
+    "yak": [
+        "gab"
+    ],
+    "girdle": [
+        "gird",
+        "deaden"
+    ],
+    "clock": [
+        "time"
+    ],
+    "salvage": [
+        "scavenge",
+        "salve",
+        "relieve",
+        "save"
+    ],
+    "trot": [
+        "jog",
+        "clip"
+    ],
+    "web": [
+        "net"
+    ],
+    "close": [
+        "shut"
+    ],
+    "conclude": [
+        "close",
+        "resolve"
+    ],
+    "closure": [
+        "cloture"
+    ],
+    "slump": [
+        "sink",
+        "slouch"
+    ],
+    "commune": [
+        "communicate"
+    ],
+    "mottle": [
+        "dapple",
+        "cloud",
+        "streak",
+        "blotch"
+    ],
+    "obscure": [
+        "befog",
+        "becloud",
+        "obnubilate",
+        "fog",
+        "cloud",
+        "mist",
+        "obliterate",
+        "veil",
+        "hide",
+        "bedim",
+        "overcloud"
+    ],
+    "overcast": [
+        "cloud"
+    ],
+    "clue": [
+        "clew"
+    ],
+    "mire": [
+        "muck",
+        "mud"
+    ],
+    "ennoble": [
+        "gentle",
+        "entitle",
+        "dignify"
+    ],
+    "tittup": [
+        "swagger",
+        "ruffle",
+        "prance",
+        "strut",
+        "sashay",
+        "cock"
+    ],
+    "code": [
+        "encipher",
+        "cipher",
+        "cypher",
+        "encrypt",
+        "inscribe"
+    ],
+    "pinch": [
+        "squeeze",
+        "twinge",
+        "tweet",
+        "nip",
+        "twitch",
+        "vellicate"
+    ],
+    "result": [
+        "ensue"
+    ],
+    "gather": [
+        "garner",
+        "collect",
+        "pucker",
+        "tuck"
+    ],
+    "teem": [
+        "pullulate",
+        "swarm"
+    ],
+    "idle": [
+        "laze",
+        "slug",
+        "stagnate"
+    ],
+    "loosen": [
+        "relax",
+        "loose"
+    ],
+    "unleash": [
+        "loose"
+    ],
+    "exclude": [
+        "shut",
+        "except",
+        "omit"
+    ],
+    "blossom": [
+        "unfold"
+    ],
+    "color": [
+        "colour",
+        "gloss",
+        "emblazon",
+        "colorize",
+        "colorise",
+        "colourise",
+        "colourize"
+    ],
+    "discolor": [
+        "discolour",
+        "colour",
+        "color"
+    ],
+    "tinge": [
+        "color",
+        "colour",
+        "distort"
+    ],
+    "foul": [
+        "befoul",
+        "defile",
+        "maculate"
+    ],
+    "tarnish": [
+        "stain",
+        "maculate",
+        "sully",
+        "defile"
+    ],
+    "entangle": [
+        "mire",
+        "tangle",
+        "mat",
+        "snarl"
+    ],
+    "slop": [
+        "swill"
+    ],
+    "slither": [
+        "slide"
+    ],
+    "skid": [
+        "slip",
+        "slue",
+        "slew",
+        "slide"
+    ],
+    "compound": [
+        "combine"
+    ],
+    "unite": [
+        "combine",
+        "unify",
+        "merge"
+    ],
+    "forge": [
+        "hammer",
+        "spurt",
+        "spirt",
+        "fake",
+        "counterfeit"
+    ],
+    "comfort": [
+        "ease",
+        "soothe",
+        "console",
+        "solace"
+    ],
+    "shadow": [
+        "overshadow",
+        "dwarf",
+        "shade"
+    ],
+    "crimp": [
+        "pinch",
+        "crape",
+        "frizzle",
+        "frizz",
+        "kink"
+    ],
+    "enjoy": [
+        "bask",
+        "relish",
+        "savor",
+        "savour"
+    ],
+    "loom": [
+        "tower",
+        "predominate",
+        "hulk"
+    ],
+    "initiate": [
+        "induct",
+        "pioneer"
+    ],
+    "nudge": [
+        "prod"
+    ],
+    "pollute": [
+        "foul",
+        "contaminate"
+    ],
+    "accumulate": [
+        "cumulate",
+        "conglomerate",
+        "gather",
+        "amass"
+    ],
+    "jumble": [
+        "confuse",
+        "mingle"
+    ],
+    "state": [
+        "say",
+        "tell"
+    ],
+    "decant": [
+        "pour"
+    ],
+    "pounce": [
+        "swoop"
+    ],
+    "compare": [
+        "liken",
+        "equate"
+    ],
+    "eject": [
+        "exclude"
+    ],
+    "hope": [
+        "trust",
+        "desire"
+    ],
+    "unify": [
+        "unite",
+        "merge"
+    ],
+    "sock": [
+        "bop",
+        "whop",
+        "whap",
+        "bonk",
+        "bash"
+    ],
+    "still": [
+        "allay",
+        "relieve",
+        "ease"
+    ],
+    "facilitate": [
+        "ease",
+        "alleviate"
+    ],
+    "compose": [
+        "compile",
+        "write"
+    ],
+    "fashion": [
+        "forge"
+    ],
+    "invent": [
+        "contrive",
+        "devise",
+        "excogitate",
+        "formulate",
+        "forge"
+    ],
+    "complete": [
+        "nail",
+        "finish"
+    ],
+    "comply": [
+        "follow"
+    ],
+    "write": [
+        "compose",
+        "pen",
+        "indite",
+        "save"
+    ],
+    "consist": [
+        "comprise"
+    ],
+    "shrivel": [
+        "shrink",
+        "wither"
+    ],
+    "gestate": [
+        "conceive",
+        "conceptualize",
+        "conceptualise"
+    ],
+    "hush": [
+        "quieten",
+        "silence",
+        "still"
+    ],
+    "suppress": [
+        "repress",
+        "subdue",
+        "conquer"
+    ],
+    "confer": [
+        "confabulate",
+        "confab",
+        "consult",
+        "bestow"
+    ],
+    "applaud": [
+        "clap",
+        "spat",
+        "acclaim"
+    ],
+    "sentence": [
+        "condemn",
+        "doom"
+    ],
+    "condemn": [
+        "reprobate",
+        "decry",
+        "objurgate",
+        "excoriate"
+    ],
+    "integrate": [
+        "incorporate"
+    ],
+    "confess": [
+        "squeal",
+        "fink"
+    ],
+    "pay": [
+        "compensate"
+    ],
+    "sidetrack": [
+        "depart",
+        "digress",
+        "straggle"
+    ],
+    "deviate": [
+        "vary",
+        "diverge",
+        "depart",
+        "divert"
+    ],
+    "rope": [
+        "leash"
+    ],
+    "harp": [
+        "dwell"
+    ],
+    "populate": [
+        "dwell",
+        "live",
+        "inhabit"
+    ],
+    "review": [
+        "survey",
+        "refresh",
+        "retrospect",
+        "critique",
+        "reexamine"
+    ],
+    "surveil": [
+        "follow",
+        "survey"
+    ],
+    "feather": [
+        "square"
+    ],
+    "faint": [
+        "conk",
+        "swoon"
+    ],
+    "recast": [
+        "reforge",
+        "remodel",
+        "remold",
+        "remould"
+    ],
+    "regenerate": [
+        "restore",
+        "rejuvenate",
+        "renew",
+        "revitalize"
+    ],
+    "endeavor": [
+        "endeavour",
+        "strive"
+    ],
+    "persevere": [
+        "persist"
+    ],
+    "squelch": [
+        "quell",
+        "quench",
+        "squish",
+        "splash",
+        "splosh",
+        "slosh",
+        "slop"
+    ],
+    "constrict": [
+        "constringe",
+        "narrow"
+    ],
+    "specialize": [
+        "specialise",
+        "narrow"
+    ],
+    "speciate": [
+        "differentiate",
+        "specialize",
+        "specialise"
+    ],
+    "contrast": [
+        "counterpoint"
+    ],
+    "maneuver": [
+        "manoeuver",
+        "manoeuvre"
+    ],
+    "betroth": [
+        "engage",
+        "affiance",
+        "plight"
+    ],
+    "hire": [
+        "engage",
+        "employ"
+    ],
+    "prosecute": [
+        "engage",
+        "pursue"
+    ],
+    "convert": [
+        "convince"
+    ],
+    "collaborate": [
+        "cooperate"
+    ],
+    "organize": [
+        "organise",
+        "coordinate",
+        "prepare",
+        "devise",
+        "machinate"
+    ],
+    "unionize": [
+        "unionise",
+        "organize",
+        "organise"
+    ],
+    "mastermind": [
+        "engineer",
+        "direct",
+        "organize",
+        "organise",
+        "orchestrate"
+    ],
+    "overload": [
+        "surcharge",
+        "overcharge"
+    ],
+    "copy": [
+        "re-create"
+    ],
+    "replicate": [
+        "copy"
+    ],
+    "duplicate": [
+        "reduplicate",
+        "double",
+        "repeat",
+        "replicate"
+    ],
+    "retroflex": [
+        "replicate"
+    ],
+    "twin": [
+        "duplicate",
+        "parallel"
+    ],
+    "refuse": [
+        "decline",
+        "reject"
+    ],
+    "worsen": [
+        "decline",
+        "aggravate",
+        "exacerbate",
+        "exasperate"
+    ],
+    "reject": [
+        "refuse",
+        "spurn",
+        "scorn",
+        "pooh-pooh",
+        "disdain"
+    ],
+    "resist": [
+        "reject",
+        "refuse",
+        "balk",
+        "baulk",
+        "jib",
+        "stand",
+        "fend",
+        "withstand"
+    ],
+    "deny": [
+        "refuse",
+        "abnegate"
+    ],
+    "fade": [
+        "melt",
+        "wither"
+    ],
+    "mellow": [
+        "melt"
+    ],
+    "dissolve": [
+        "thaw",
+        "unfreeze",
+        "unthaw",
+        "dethaw",
+        "melt",
+        "dismiss",
+        "resolve"
+    ],
+    "provide": [
+        "supply",
+        "ply",
+        "cater"
+    ],
+    "rush": [
+        "hotfoot",
+        "hasten",
+        "hie",
+        "speed",
+        "race",
+        "hurry",
+        "festinate"
+    ],
+    "dally": [
+        "toy",
+        "play",
+        "flirt",
+        "trifle",
+        "dawdle"
+    ],
+    "toy": [
+        "fiddle",
+        "diddle",
+        "play"
+    ],
+    "crossbreed": [
+        "cross",
+        "hybridize",
+        "hybridise",
+        "interbreed"
+    ],
+    "thwart": [
+        "queer",
+        "spoil",
+        "scotch",
+        "foil",
+        "cross",
+        "frustrate",
+        "baffle",
+        "bilk"
+    ],
+    "intersect": [
+        "cross"
+    ],
+    "cloy": [
+        "pall"
+    ],
+    "whine": [
+        "grizzle",
+        "yammer",
+        "yawp",
+        "squeak",
+        "screech",
+        "creak",
+        "screak",
+        "skreak"
+    ],
+    "sift": [
+        "sieve",
+        "strain"
+    ],
+    "overawe": [
+        "cow"
+    ],
+    "fawn": [
+        "crawl",
+        "creep",
+        "cringe",
+        "cower",
+        "grovel",
+        "toady",
+        "truckle",
+        "bootlick",
+        "kowtow",
+        "kotow"
+    ],
+    "crawl": [
+        "creep"
+    ],
+    "torment": [
+        "rag",
+        "bedevil",
+        "crucify",
+        "dun",
+        "frustrate",
+        "torture",
+        "excruciate",
+        "rack"
+    ],
+    "accredit": [
+        "credit",
+        "recognize",
+        "recognise"
+    ],
+    "criticize": [
+        "criticise"
+    ],
+    "weight-lift": [
+        "weightlift",
+        "press"
+    ],
+    "iron": [
+        "press"
+    ],
+    "weigh": [
+        "press",
+        "librate"
+    ],
+    "urge": [
+        "press",
+        "exhort"
+    ],
+    "deaden": [
+        "blunt"
+    ],
+    "dull": [
+        "blunt"
+    ],
+    "numb": [
+        "benumb",
+        "blunt",
+        "dull"
+    ],
+    "persecute": [
+        "oppress"
+    ],
+    "cube": [
+        "dice"
+    ],
+    "prompt": [
+        "remind",
+        "cue",
+        "inspire",
+        "instigate"
+    ],
+    "laud": [
+        "extol",
+        "exalt",
+        "glorify",
+        "proclaim"
+    ],
+    "predicate": [
+        "proclaim"
+    ],
+    "cup": [
+        "transfuse"
+    ],
+    "remedy": [
+        "relieve"
+    ],
+    "flow": [
+        "flux"
+    ],
+    "menstruate": [
+        "flow"
+    ],
+    "curl": [
+        "curve",
+        "kink",
+        "wave"
+    ],
+    "crook": [
+        "curve"
+    ],
+    "lock": [
+        "interlock",
+        "interlace"
+    ],
+    "interlock": [
+        "lock",
+        "mesh"
+    ],
+    "gape": [
+        "yawn",
+        "yaw"
+    ],
+    "perfume": [
+        "scent",
+        "aromatize",
+        "aromatise"
+    ],
+    "odorize": [
+        "odourise",
+        "scent"
+    ],
+    "waver": [
+        "weave"
+    ],
+    "customize": [
+        "customise"
+    ],
+    "custom-make": [
+        "customize",
+        "customise",
+        "tailor-make"
+    ],
+    "curse": [
+        "beshrew",
+        "damn",
+        "bedamn",
+        "anathemize",
+        "anathemise",
+        "imprecate",
+        "maledict",
+        "cuss",
+        "blaspheme",
+        "swear"
+    ],
+    "deafen": [
+        "deaf"
+    ],
+    "excommunicate": [
+        "unchurch",
+        "curse"
+    ],
+    "trench": [
+        "ditch"
+    ],
+    "kill": [
+        "defeat",
+        "obliterate"
+    ],
+    "disapprove": [
+        "reject"
+    ],
+    "protest": [
+        "resist",
+        "dissent"
+    ],
+    "uphold": [
+        "maintain"
+    ],
+    "conserve": [
+        "preserve",
+        "maintain",
+        "husband",
+        "economize",
+        "economise"
+    ],
+    "surrender": [
+        "cede",
+        "deliver"
+    ],
+    "extradite": [
+        "deliver",
+        "deport"
+    ],
+    "delight": [
+        "enjoy",
+        "revel"
+    ],
+    "please": [
+        "delight"
+    ],
+    "impinge": [
+        "encroach",
+        "entrench",
+        "trench"
+    ],
+    "demand": [
+        "exact"
+    ],
+    "demonstrate": [
+        "march"
+    ],
+    "attest": [
+        "certify",
+        "manifest",
+        "demonstrate",
+        "evidence"
+    ],
+    "fathom": [
+        "sound"
+    ],
+    "voice": [
+        "sound",
+        "vocalize",
+        "vocalise"
+    ],
+    "nourish": [
+        "nurture",
+        "sustain"
+    ],
+    "fatten": [
+        "fat",
+        "plump"
+    ],
+    "plank": [
+        "flump",
+        "plonk",
+        "plop",
+        "plunk",
+        "plump"
+    ],
+    "plummet": [
+        "plump"
+    ],
+    "outlive": [
+        "outlast",
+        "survive"
+    ],
+    "gladden": [
+        "joy"
+    ],
+    "rejoice": [
+        "joy"
+    ],
+    "encroach": [
+        "infringe",
+        "impinge"
+    ],
+    "provision": [
+        "purvey"
+    ],
+    "want": [
+        "need",
+        "require"
+    ],
+    "deserve": [
+        "merit"
+    ],
+    "desire": [
+        "want"
+    ],
+    "demolish": [
+        "destroy",
+        "pulverize",
+        "pulverise"
+    ],
+    "destroy": [
+        "ruin",
+        "destruct"
+    ],
+    "moo": [
+        "low"
+    ],
+    "impersonate": [
+        "portray"
+    ],
+    "prowl": [
+        "lurch"
+    ],
+    "wallow": [
+        "rejoice",
+        "triumph",
+        "welter"
+    ],
+    "exuberate": [
+        "exult",
+        "rejoice",
+        "triumph",
+        "jubilate"
+    ],
+    "decode": [
+        "decrypt",
+        "decipher"
+    ],
+    "flick": [
+        "flip",
+        "thumb",
+        "riffle",
+        "leaf",
+        "riff",
+        "ruffle"
+    ],
+    "expose": [
+        "exhibit",
+        "display"
+    ],
+    "order": [
+        "prescribe",
+        "dictate",
+        "tell",
+        "enjoin",
+        "say"
+    ],
+    "humiliate": [
+        "mortify",
+        "chagrin",
+        "humble",
+        "abase"
+    ],
+    "pose": [
+        "impersonate",
+        "personate",
+        "posture"
+    ],
+    "disagree": [
+        "differ",
+        "dissent",
+        "disaccord",
+        "discord"
+    ],
+    "excavate": [
+        "dig",
+        "hollow",
+        "unearth"
+    ],
+    "labor": [
+        "labour",
+        "toil",
+        "fag",
+        "travail",
+        "grind",
+        "drudge",
+        "dig",
+        "moil"
+    ],
+    "dig": [
+        "delve"
+    ],
+    "finger": [
+        "thumb"
+    ],
+    "dim": [
+        "dip"
+    ],
+    "blur": [
+        "dim",
+        "slur",
+        "blear"
+    ],
+    "diminish": [
+        "belittle"
+    ],
+    "send": [
+        "direct"
+    ],
+    "regulate": [
+        "regularize",
+        "regularise",
+        "order",
+        "govern",
+        "modulate"
+    ],
+    "concenter": [
+        "concentre",
+        "focalize",
+        "focalise",
+        "focus"
+    ],
+    "drag": [
+        "trail"
+    ],
+    "disable": [
+        "invalid",
+        "incapacitate",
+        "handicap",
+        "disenable"
+    ],
+    "vanish": [
+        "disappear",
+        "fly",
+        "vaporize"
+    ],
+    "disappear": [
+        "vanish"
+    ],
+    "excuse": [
+        "explain",
+        "relieve",
+        "exempt",
+        "condone",
+        "pardon"
+    ],
+    "fly": [
+        "fell",
+        "vanish",
+        "aviate",
+        "pilot",
+        "wing"
+    ],
+    "disclose": [
+        "expose",
+        "uncover"
+    ],
+    "converse": [
+        "discourse"
+    ],
+    "discourse": [
+        "discuss"
+    ],
+    "warn": [
+        "discourage",
+        "admonish",
+        "monish"
+    ],
+    "deter": [
+        "discourage"
+    ],
+    "harrow": [
+        "disk"
+    ],
+    "mutilate": [
+        "mangle",
+        "mar"
+    ],
+    "maul": [
+        "mangle"
+    ],
+    "disband": [
+        "dissolve"
+    ],
+    "disorder": [
+        "disarray"
+    ],
+    "debunk": [
+        "expose"
+    ],
+    "queer": [
+        "expose",
+        "scupper",
+        "endanger",
+        "peril"
+    ],
+    "uncover": [
+        "expose"
+    ],
+    "land": [
+        "shore"
+    ],
+    "disperse": [
+        "dissipate",
+        "scatter",
+        "dispel"
+    ],
+    "feast": [
+        "banquet",
+        "junket"
+    ],
+    "zone": [
+        "district"
+    ],
+    "knife": [
+        "stab"
+    ],
+    "baffle": [
+        "regulate"
+    ],
+    "shift": [
+        "dislodge",
+        "reposition"
+    ],
+    "defame": [
+        "slander",
+        "smirch",
+        "asperse",
+        "denigrate",
+        "calumniate",
+        "smear",
+        "sully",
+        "besmirch"
+    ],
+    "daub": [
+        "smear"
+    ],
+    "disk-jockey": [
+        "disc-jockey",
+        "dj"
+    ],
+    "languish": [
+        "fade"
+    ],
+    "disassociate": [
+        "dissociate",
+        "divorce",
+        "disunite",
+        "disjoint"
+    ],
+    "dissuade": [
+        "deter"
+    ],
+    "sophisticate": [
+        "doctor"
+    ],
+    "palpate": [
+        "feel"
+    ],
+    "partition": [
+        "zone"
+    ],
+    "dot": [
+        "stud",
+        "constellate"
+    ],
+    "destine": [
+        "fate",
+        "doom",
+        "designate"
+    ],
+    "drug": [
+        "dose"
+    ],
+    "flee": [
+        "fly"
+    ],
+    "skin": [
+        "peel",
+        "pare",
+        "scrape"
+    ],
+    "whittle": [
+        "pare"
+    ],
+    "enfeeble": [
+        "debilitate",
+        "drain"
+    ],
+    "animate": [
+        "recreate",
+        "reanimate",
+        "revive",
+        "renovate",
+        "repair",
+        "quicken",
+        "vivify",
+        "revivify"
+    ],
+    "haunt": [
+        "obsess",
+        "ghost",
+        "stalk"
+    ],
+    "postmark": [
+        "frank"
+    ],
+    "dredge": [
+        "drag"
+    ],
+    "scuff": [
+        "drag"
+    ],
+    "freewheel": [
+        "drift"
+    ],
+    "stray": [
+        "err",
+        "drift"
+    ],
+    "drink": [
+        "tope",
+        "imbibe"
+    ],
+    "toast": [
+        "drink",
+        "pledge",
+        "salute",
+        "wassail"
+    ],
+    "dream": [
+        "daydream",
+        "woolgather",
+        "stargaze"
+    ],
+    "swim": [
+        "drown"
+    ],
+    "dump": [
+        "underprice",
+        "ditch"
+    ],
+    "tailor": [
+        "orient"
+    ],
+    "e-mail": [
+        "email",
+        "netmail"
+    ],
+    "earn": [
+        "garner",
+        "win"
+    ],
+    "ground": [
+        "strand"
+    ],
+    "enliven": [
+        "liven",
+        "invigorate",
+        "animate"
+    ],
+    "animize": [
+        "animise",
+        "animate"
+    ],
+    "inspire": [
+        "animate",
+        "invigorate",
+        "enliven",
+        "exalt"
+    ],
+    "wring": [
+        "wrench"
+    ],
+    "echo": [
+        "recall"
+    ],
+    "repeat": [
+        "echo",
+        "reiterate",
+        "ingeminate",
+        "iterate",
+        "restate",
+        "retell"
+    ],
+    "corrode": [
+        "eat",
+        "rust"
+    ],
+    "ramp": [
+        "rage",
+        "storm"
+    ],
+    "propel": [
+        "impel"
+    ],
+    "eclipse": [
+        "occult"
+    ],
+    "excerpt": [
+        "extract"
+    ],
+    "distill": [
+        "extract",
+        "distil"
+    ],
+    "educe": [
+        "evoke",
+        "elicit",
+        "extract"
+    ],
+    "frequent": [
+        "haunt"
+    ],
+    "crispen": [
+        "toast",
+        "crisp"
+    ],
+    "inundate": [
+        "deluge",
+        "submerge"
+    ],
+    "retrograde": [
+        "retreat",
+        "rehash"
+    ],
+    "digress": [
+        "stray",
+        "divagate",
+        "wander"
+    ],
+    "elaborate": [
+        "lucubrate",
+        "expatiate",
+        "exposit",
+        "enlarge",
+        "expand",
+        "expound",
+        "dilate"
+    ],
+    "prime": [
+        "ground",
+        "undercoat"
+    ],
+    "eliminate": [
+        "annihilate",
+        "extinguish",
+        "eradicate",
+        "decimate"
+    ],
+    "obviate": [
+        "eliminate"
+    ],
+    "extinguish": [
+        "eliminate"
+    ],
+    "jacklight": [
+        "jack"
+    ],
+    "deluge": [
+        "flood",
+        "inundate",
+        "swamp"
+    ],
+    "reprise": [
+        "reprize",
+        "repeat",
+        "recapitulate"
+    ],
+    "recur": [
+        "repeat"
+    ],
+    "inseminate": [
+        "fecundate",
+        "fertilize",
+        "fertilise",
+        "sow"
+    ],
+    "howl": [
+        "ululate",
+        "wail",
+        "roar",
+        "yawl",
+        "yaup",
+        "wrawl",
+        "yammer",
+        "yowl"
+    ],
+    "issue": [
+        "emerge",
+        "egress",
+        "supply"
+    ],
+    "quieten": [
+        "hush",
+        "quiet",
+        "quiesce"
+    ],
+    "underscore": [
+        "underline",
+        "emphasize",
+        "emphasise"
+    ],
+    "checkmate": [
+        "mate"
+    ],
+    "enact": [
+        "reenact"
+    ],
+    "endorse": [
+        "indorse"
+    ],
+    "certify": [
+        "endorse",
+        "indorse"
+    ],
+    "last": [
+        "endure"
+    ],
+    "underline": [
+        "underscore"
+    ],
+    "love": [
+        "enjoy"
+    ],
+    "enroll": [
+        "inscribe",
+        "enter",
+        "enrol",
+        "recruit"
+    ],
+    "embark": [
+        "enter",
+        "ship"
+    ],
+    "insert": [
+        "infix",
+        "enter",
+        "introduce",
+        "enclose",
+        "inclose"
+    ],
+    "accede": [
+        "enter"
+    ],
+    "figure": [
+        "enter"
+    ],
+    "enter": [
+        "participate"
+    ],
+    "pain": [
+        "anguish",
+        "hurt"
+    ],
+    "ache": [
+        "smart",
+        "hurt",
+        "yearn",
+        "yen",
+        "pine",
+        "languish"
+    ],
+    "envision": [
+        "foresee"
+    ],
+    "tuck": [
+        "insert"
+    ],
+    "assent": [
+        "accede",
+        "acquiesce"
+    ],
+    "gesticulate": [
+        "gesture",
+        "motion"
+    ],
+    "elude": [
+        "escape",
+        "evade",
+        "bilk"
+    ],
+    "miss": [
+        "escape",
+        "lack",
+        "lose"
+    ],
+    "sluice": [
+        "flush"
+    ],
+    "tell": [
+        "evidence",
+        "narrate",
+        "recount",
+        "recite"
+    ],
+    "demur": [
+        "except"
+    ],
+    "squirt": [
+        "eject"
+    ],
+    "flood": [
+        "oversupply",
+        "glut"
+    ],
+    "jet": [
+        "gush"
+    ],
+    "parade": [
+        "exhibit",
+        "march",
+        "troop",
+        "promenade"
+    ],
+    "inflate": [
+        "expand",
+        "amplify"
+    ],
+    "deform": [
+        "distort",
+        "strain"
+    ],
+    "puree": [
+        "strain"
+    ],
+    "filter": [
+        "filtrate",
+        "strain"
+    ],
+    "tense": [
+        "strain"
+    ],
+    "elongate": [
+        "stretch"
+    ],
+    "faggot": [
+        "fagot"
+    ],
+    "contort": [
+        "deform",
+        "distort",
+        "wring"
+    ],
+    "purify": [
+        "sublimate",
+        "distill",
+        "purge",
+        "sanctify"
+    ],
+    "eye": [
+        "eyeball"
+    ],
+    "fantasy": [
+        "fantasize",
+        "fantasise"
+    ],
+    "privilege": [
+        "favor",
+        "favour"
+    ],
+    "favor": [
+        "favour"
+    ],
+    "prefer": [
+        "favor",
+        "favour"
+    ],
+    "fax": [
+        "telefax",
+        "facsimile"
+    ],
+    "reverence": [
+        "fear",
+        "revere",
+        "venerate"
+    ],
+    "fear": [
+        "dread"
+    ],
+    "fledge": [
+        "feather",
+        "flight"
+    ],
+    "felt": [
+        "matt-up",
+        "matte",
+        "mat"
+    ],
+    "file": [
+        "register"
+    ],
+    "leach": [
+        "percolate",
+        "strip"
+    ],
+    "ticket": [
+        "fine"
+    ],
+    "tumble": [
+        "topple"
+    ],
+    "invade": [
+        "occupy",
+        "overrun",
+        "infest"
+    ],
+    "sag": [
+        "droop",
+        "swag",
+        "flag"
+    ],
+    "season": [
+        "flavor",
+        "flavour",
+        "harden"
+    ],
+    "fleece": [
+        "shear"
+    ],
+    "provoke": [
+        "stimulate",
+        "evoke"
+    ],
+    "liquefy": [
+        "flux",
+        "liquify",
+        "liquidize",
+        "liquidise"
+    ],
+    "pivot": [
+        "swivel"
+    ],
+    "foam": [
+        "froth",
+        "fizz",
+        "effervesce",
+        "sparkle"
+    ],
+    "tighten": [
+        "fasten"
+    ],
+    "flicker": [
+        "flick",
+        "waver",
+        "flitter",
+        "flutter",
+        "quiver"
+    ],
+    "pursue": [
+        "follow"
+    ],
+    "succeed": [
+        "follow",
+        "win"
+    ],
+    "postdate": [
+        "follow"
+    ],
+    "foot": [
+        "hoof",
+        "pick"
+    ],
+    "afforest": [
+        "forest"
+    ],
+    "pitchfork": [
+        "fork"
+    ],
+    "forbid": [
+        "prohibit",
+        "interdict",
+        "proscribe",
+        "veto",
+        "disallow",
+        "nix"
+    ],
+    "fortify": [
+        "fort"
+    ],
+    "stiffen": [
+        "tighten",
+        "constrain"
+    ],
+    "ambush": [
+        "scupper",
+        "bushwhack",
+        "waylay",
+        "lurk",
+        "ambuscade"
+    ],
+    "flim-flam": [
+        "trick",
+        "fob",
+        "fox"
+    ],
+    "twitch": [
+        "jerk"
+    ],
+    "yank": [
+        "jerk"
+    ],
+    "shanghai": [
+        "impress"
+    ],
+    "strengthen": [
+        "fortify"
+    ],
+    "frost": [
+        "ice"
+    ],
+    "frown": [
+        "glower",
+        "lour",
+        "lower"
+    ],
+    "sandbag": [
+        "stun"
+    ],
+    "untie": [
+        "undo",
+        "loosen",
+        "unbrace",
+        "unlace"
+    ],
+    "relax": [
+        "loosen",
+        "unstrain",
+        "unlax",
+        "unwind",
+        "unbend",
+        "decompress"
+    ],
+    "torture": [
+        "excruciate",
+        "torment"
+    ],
+    "tone": [
+        "strengthen",
+        "inflect",
+        "modulate",
+        "chant",
+        "intone"
+    ],
+    "mousse": [
+        "gel"
+    ],
+    "pacify": [
+        "lenify",
+        "conciliate",
+        "assuage",
+        "appease",
+        "mollify",
+        "placate",
+        "gentle",
+        "gruntle"
+    ],
+    "g.i.": [
+        "gi"
+    ],
+    "ghost": [
+        "ghostwrite"
+    ],
+    "glance": [
+        "peek",
+        "glint"
+    ],
+    "glaze": [
+        "glass"
+    ],
+    "glass": [
+        "glaze"
+    ],
+    "bejewel": [
+        "jewel"
+    ],
+    "grab": [
+        "seize"
+    ],
+    "calibrate": [
+        "graduate",
+        "fine-tune"
+    ],
+    "glower": [
+        "glare"
+    ],
+    "grey": [
+        "gray"
+    ],
+    "granulate": [
+        "grain"
+    ],
+    "ingrain": [
+        "grain"
+    ],
+    "greet": [
+        "recognize",
+        "recognise"
+    ],
+    "fascinate": [
+        "transfix",
+        "grip",
+        "spellbind"
+    ],
+    "grapple": [
+        "grip"
+    ],
+    "heave": [
+        "buckle",
+        "warp",
+        "heft"
+    ],
+    "fester": [
+        "maturate",
+        "suppurate"
+    ],
+    "regale": [
+        "treat"
+    ],
+    "overact": [
+        "ham",
+        "overplay"
+    ],
+    "intrigue": [
+        "fascinate"
+    ],
+    "hate": [
+        "detest"
+    ],
+    "harry": [
+        "ravage"
+    ],
+    "scheme": [
+        "intrigue",
+        "connive"
+    ],
+    "inflame": [
+        "wake",
+        "ignite",
+        "heat"
+    ],
+    "heel": [
+        "reheel"
+    ],
+    "kindle": [
+        "enkindle",
+        "conflagrate",
+        "inflame"
+    ],
+    "injure": [
+        "wound"
+    ],
+    "slip": [
+        "sneak"
+    ],
+    "interject": [
+        "interpose",
+        "inject"
+    ],
+    "save": [
+        "preserve",
+        "economize",
+        "economise"
+    ],
+    "vacation": [
+        "holiday"
+    ],
+    "still-hunt": [
+        "ambush"
+    ],
+    "honor": [
+        "honour",
+        "reward"
+    ],
+    "hop": [
+        "skip",
+        "hop-skip"
+    ],
+    "horn": [
+        "tusk"
+    ],
+    "knight": [
+        "dub"
+    ],
+    "house": [
+        "domiciliate"
+    ],
+    "caparison": [
+        "bard",
+        "barde"
+    ],
+    "humor": [
+        "humour"
+    ],
+    "tame": [
+        "chasten",
+        "subdue"
+    ],
+    "starve": [
+        "hunger",
+        "famish"
+    ],
+    "crave": [
+        "hunger",
+        "thirst",
+        "starve",
+        "lust"
+    ],
+    "straiten": [
+        "distress"
+    ],
+    "exemplify": [
+        "illustrate",
+        "instance",
+        "represent"
+    ],
+    "imagine": [
+        "ideate",
+        "envisage"
+    ],
+    "fee-tail": [
+        "entail"
+    ],
+    "levy": [
+        "impose"
+    ],
+    "varnish": [
+        "seal"
+    ],
+    "trespass": [
+        "intrude"
+    ],
+    "broach": [
+        "initiate"
+    ],
+    "investigate": [
+        "inquire",
+        "enquire"
+    ],
+    "inhale": [
+        "inspire"
+    ],
+    "revolutionize": [
+        "revolutionise",
+        "inspire",
+        "overturn"
+    ],
+    "instruct": [
+        "apprise",
+        "apprize"
+    ],
+    "instrument": [
+        "instrumentate"
+    ],
+    "intervene": [
+        "interfere",
+        "interpose"
+    ],
+    "intercede": [
+        "mediate",
+        "intermediate",
+        "liaise",
+        "arbitrate"
+    ],
+    "map": [
+        "represent"
+    ],
+    "typify": [
+        "symbolize",
+        "symbolise",
+        "represent",
+        "epitomize",
+        "epitomise"
+    ],
+    "commiserate": [
+        "sympathize",
+        "sympathise"
+    ],
+    "intimate": [
+        "adumbrate",
+        "insinuate"
+    ],
+    "suggest": [
+        "intimate",
+        "evoke"
+    ],
+    "inaugurate": [
+        "introduce"
+    ],
+    "inventory": [
+        "stock-take"
+    ],
+    "sequester": [
+        "sequestrate",
+        "isolate"
+    ],
+    "isolate": [
+        "insulate"
+    ],
+    "imprison": [
+        "incarcerate",
+        "lag",
+        "immure",
+        "jail",
+        "jug",
+        "gaol",
+        "remand"
+    ],
+    "clash": [
+        "jar",
+        "collide"
+    ],
+    "collide": [
+        "clash"
+    ],
+    "yack": [
+        "jaw"
+    ],
+    "speculate": [
+        "job",
+        "theorize",
+        "theorise",
+        "conjecture",
+        "hypothesize",
+        "hypothesise",
+        "hypothecate",
+        "suppose"
+    ],
+    "subcontract": [
+        "job"
+    ],
+    "join": [
+        "conjoin"
+    ],
+    "joke": [
+        "jest"
+    ],
+    "kid": [
+        "chaff",
+        "jolly",
+        "josh",
+        "banter"
+    ],
+    "billow": [
+        "wallow",
+        "surge",
+        "heave"
+    ],
+    "trash": [
+        "junk",
+        "scrap"
+    ],
+    "justify": [
+        "vindicate"
+    ],
+    "pan": [
+        "trash"
+    ],
+    "lament": [
+        "keen"
+    ],
+    "nutrify": [
+        "aliment",
+        "nourish"
+    ],
+    "deplore": [
+        "lament",
+        "bewail",
+        "bemoan"
+    ],
+    "spy": [
+        "sight",
+        "stag",
+        "snoop",
+        "sleuth"
+    ],
+    "snog": [
+        "kiss",
+        "buss",
+        "osculate"
+    ],
+    "gag": [
+        "choke",
+        "strangle",
+        "suffocate",
+        "heave",
+        "retch",
+        "quip",
+        "muzzle"
+    ],
+    "spit": [
+        "ptyalize",
+        "ptyalise",
+        "spew",
+        "spue"
+    ],
+    "skewer": [
+        "spit"
+    ],
+    "sprinkle": [
+        "spit",
+        "spatter",
+        "patter",
+        "pitter-patter",
+        "sparge",
+        "besprinkle",
+        "splash",
+        "splosh"
+    ],
+    "dab": [
+        "pat",
+        "swab",
+        "swob"
+    ],
+    "intertwine": [
+        "twine",
+        "entwine",
+        "enlace",
+        "interlace",
+        "lace"
+    ],
+    "ladle": [
+        "lade",
+        "laden"
+    ],
+    "loop": [
+        "intertwine"
+    ],
+    "tat": [
+        "intertwine"
+    ],
+    "lecture": [
+        "talk"
+    ],
+    "lay": [
+        "repose"
+    ],
+    "patrol": [
+        "police"
+    ],
+    "lumber": [
+        "pound"
+    ],
+    "ram": [
+        "pound"
+    ],
+    "thump": [
+        "pound",
+        "poke"
+    ],
+    "thud": [
+        "thump"
+    ],
+    "log": [
+        "lumber"
+    ],
+    "legalize": [
+        "legalise",
+        "decriminalize",
+        "decriminalise",
+        "legitimize",
+        "legitimise",
+        "legitimate",
+        "legitimatize",
+        "legitimatise"
+    ],
+    "lasso": [
+        "rope"
+    ],
+    "light": [
+        "illume",
+        "illumine",
+        "illuminate"
+    ],
+    "unhorse": [
+        "dismount",
+        "light"
+    ],
+    "ignite": [
+        "light"
+    ],
+    "sparkle": [
+        "scintillate",
+        "coruscate"
+    ],
+    "spark": [
+        "sparkle"
+    ],
+    "birdlime": [
+        "lime"
+    ],
+    "ruffle": [
+        "rumple",
+        "pleat",
+        "fluff"
+    ],
+    "short-circuit": [
+        "short"
+    ],
+    "short-change": [
+        "short"
+    ],
+    "lobby": [
+        "buttonhole"
+    ],
+    "bypass": [
+        "short-circuit"
+    ],
+    "enmesh": [
+        "mesh",
+        "ensnarl"
+    ],
+    "hanker": [
+        "long",
+        "yearn"
+    ],
+    "slack": [
+        "slacken",
+        "relax",
+        "slake"
+    ],
+    "loiter": [
+        "lounge",
+        "footle",
+        "lollygag",
+        "loaf",
+        "lallygag",
+        "tarry",
+        "linger",
+        "lurk"
+    ],
+    "madden": [
+        "craze"
+    ],
+    "amble": [
+        "mosey"
+    ],
+    "mar": [
+        "impair",
+        "spoil",
+        "deflower",
+        "vitiate"
+    ],
+    "commercialize": [
+        "commercialise",
+        "market"
+    ],
+    "disguise": [
+        "mask"
+    ],
+    "medicate": [
+        "medicine"
+    ],
+    "microwave": [
+        "micro-cook",
+        "zap",
+        "nuke"
+    ],
+    "grind": [
+        "mash",
+        "crunch",
+        "bray",
+        "comminute"
+    ],
+    "mime": [
+        "pantomime"
+    ],
+    "mimic": [
+        "mime"
+    ],
+    "minimize": [
+        "belittle",
+        "denigrate",
+        "derogate",
+        "minimise"
+    ],
+    "understate": [
+        "minimize",
+        "minimise",
+        "downplay"
+    ],
+    "grate": [
+        "grind"
+    ],
+    "crunch": [
+        "cranch",
+        "craunch",
+        "grind",
+        "munch",
+        "scranch",
+        "scraunch",
+        "crackle"
+    ],
+    "putter": [
+        "potter",
+        "tinker",
+        "monkey"
+    ],
+    "tamper": [
+        "fiddle",
+        "monkey"
+    ],
+    "monitor": [
+        "supervise"
+    ],
+    "daydream": [
+        "moon"
+    ],
+    "rocket": [
+        "skyrocket"
+    ],
+    "meddle": [
+        "tamper"
+    ],
+    "confect": [
+        "confection",
+        "comfit"
+    ],
+    "invigilate": [
+        "proctor"
+    ],
+    "potter": [
+        "putter"
+    ],
+    "sneak": [
+        "mouse",
+        "creep",
+        "pussyfoot"
+    ],
+    "fink": [
+        "scab",
+        "rat",
+        "blackleg"
+    ],
+    "speak": [
+        "talk"
+    ],
+    "murmur": [
+        "mutter",
+        "grumble",
+        "croak",
+        "gnarl"
+    ],
+    "mumble": [
+        "mutter",
+        "maunder",
+        "mussitate",
+        "gum"
+    ],
+    "grumble": [
+        "growl",
+        "rumble"
+    ],
+    "dislocate": [
+        "luxate",
+        "splay",
+        "slip"
+    ],
+    "strip": [
+        "undress",
+        "divest",
+        "disinvest",
+        "dismantle"
+    ],
+    "pinpoint": [
+        "nail"
+    ],
+    "rumble": [
+        "grumble"
+    ],
+    "grouch": [
+        "grumble",
+        "scold"
+    ],
+    "navigate": [
+        "pilot"
+    ],
+    "veto": [
+        "blackball",
+        "negative"
+    ],
+    "needle": [
+        "goad"
+    ],
+    "neighbor": [
+        "neighbour"
+    ],
+    "negotiate": [
+        "negociate"
+    ],
+    "negociate": [
+        "negotiate"
+    ],
+    "steel": [
+        "nerve"
+    ],
+    "cuddle": [
+        "snuggle",
+        "nestle",
+        "nest",
+        "nuzzle"
+    ],
+    "dub": [
+        "nickname"
+    ],
+    "indenture": [
+        "indent"
+    ],
+    "nuzzle": [
+        "nose"
+    ],
+    "atom-bomb": [
+        "nuke"
+    ],
+    "nuke": [
+        "atomize",
+        "atomise",
+        "zap"
+    ],
+    "disrespect": [
+        "disesteem"
+    ],
+    "offset": [
+        "countervail"
+    ],
+    "anoint": [
+        "inunct",
+        "oil",
+        "anele",
+        "embrocate"
+    ],
+    "oppose": [
+        "counterbalance",
+        "controvert",
+        "contradict"
+    ],
+    "sabotage": [
+        "undermine",
+        "countermine",
+        "counteract",
+        "subvert",
+        "weaken"
+    ],
+    "countercheck": [
+        "counteract"
+    ],
+    "antagonize": [
+        "antagonise",
+        "counteract"
+    ],
+    "react": [
+        "oppose",
+        "respond"
+    ],
+    "optimize": [
+        "optimise"
+    ],
+    "orb": [
+        "orbit",
+        "revolve"
+    ],
+    "foliate": [
+        "paginate",
+        "page"
+    ],
+    "pad": [
+        "bolster"
+    ],
+    "motley": [
+        "parti-color"
+    ],
+    "pale": [
+        "blanch",
+        "blench"
+    ],
+    "empanel": [
+        "impanel",
+        "panel"
+    ],
+    "wallpaper": [
+        "paper"
+    ],
+    "parallel": [
+        "collimate"
+    ],
+    "slug": [
+        "slog",
+        "swig"
+    ],
+    "vary": [
+        "variegate",
+        "motley"
+    ],
+    "glue": [
+        "paste"
+    ],
+    "undress": [
+        "discase",
+        "uncase",
+        "unclothe",
+        "strip",
+        "disrobe",
+        "peel"
+    ],
+    "perfect": [
+        "hone"
+    ],
+    "perceive": [
+        "comprehend"
+    ],
+    "bark": [
+        "skin"
+    ],
+    "deprive": [
+        "strip",
+        "divest",
+        "impoverish"
+    ],
+    "blight": [
+        "plague"
+    ],
+    "farrow": [
+        "pig"
+    ],
+    "shriek": [
+        "shrill",
+        "pipe"
+    ],
+    "plug": [
+        "secure"
+    ],
+    "sew": [
+        "tailor",
+        "tailor-make",
+        "stitch"
+    ],
+    "poison": [
+        "envenom"
+    ],
+    "punt": [
+        "pole"
+    ],
+    "squawk": [
+        "screak",
+        "skreak",
+        "skreigh",
+        "screech"
+    ],
+    "poll": [
+        "pollard",
+        "canvass"
+    ],
+    "yell": [
+        "scream"
+    ],
+    "powderize": [
+        "powderise",
+        "powder",
+        "pulverize",
+        "pulverise"
+    ],
+    "crump": [
+        "thud",
+        "scrunch"
+    ],
+    "premier": [
+        "premiere"
+    ],
+    "profess": [
+        "pretend"
+    ],
+    "pride": [
+        "plume",
+        "congratulate"
+    ],
+    "program": [
+        "programme"
+    ],
+    "proofread": [
+        "proof"
+    ],
+    "connote": [
+        "predicate"
+    ],
+    "punish": [
+        "penalize",
+        "penalise"
+    ],
+    "purple": [
+        "empurple",
+        "purpurate"
+    ],
+    "quarter": [
+        "billet",
+        "canton"
+    ],
+    "foreswear": [
+        "renounce",
+        "quit",
+        "relinquish"
+    ],
+    "scud": [
+        "rack"
+    ],
+    "extort": [
+        "squeeze",
+        "rack",
+        "gouge",
+        "wring"
+    ],
+    "single-foot": [
+        "rack"
+    ],
+    "dragoon": [
+        "sandbag",
+        "railroad"
+    ],
+    "fulminate": [
+        "rail"
+    ],
+    "vilify": [
+        "revile",
+        "vituperate",
+        "rail"
+    ],
+    "rail": [
+        "inveigh"
+    ],
+    "waive": [
+        "relinquish",
+        "forgo",
+        "forego",
+        "foreswear"
+    ],
+    "rank": [
+        "outrank"
+    ],
+    "recumb": [
+        "repose",
+        "recline"
+    ],
+    "resuscitate": [
+        "revive"
+    ],
+    "irradiate": [
+        "ray"
+    ],
+    "radiate": [
+        "ray"
+    ],
+    "realize": [
+        "realise",
+        "actualize",
+        "actualise",
+        "substantiate"
+    ],
+    "recognize": [
+        "recognise",
+        "realize",
+        "realise",
+        "agnize",
+        "agnise"
+    ],
+    "enlighten": [
+        "irradiate",
+        "edify"
+    ],
+    "diversify": [
+        "radiate",
+        "broaden"
+    ],
+    "ransom": [
+        "redeem"
+    ],
+    "referee": [
+        "umpire"
+    ],
+    "refresh": [
+        "freshen",
+        "refreshen"
+    ],
+    "freshen": [
+        "refresh",
+        "refreshen"
+    ],
+    "cross-file": [
+        "register"
+    ],
+    "repent": [
+        "regret",
+        "rue",
+        "atone"
+    ],
+    "reinforce": [
+        "reward",
+        "reenforce"
+    ],
+    "whirl": [
+        "birl",
+        "spin",
+        "twirl",
+        "tumble"
+    ],
+    "relate": [
+        "interrelate"
+    ],
+    "recharge": [
+        "reload"
+    ],
+    "relieve": [
+        "lighten",
+        "alleviate",
+        "palliate",
+        "assuage"
+    ],
+    "unbosom": [
+        "relieve"
+    ],
+    "grieve": [
+        "sorrow",
+        "aggrieve"
+    ],
+    "reincarnate": [
+        "renew",
+        "transmigrate"
+    ],
+    "supplant": [
+        "replace",
+        "supersede"
+    ],
+    "abate": [
+        "slack"
+    ],
+    "slake": [
+        "abate",
+        "slack"
+    ],
+    "slow": [
+        "slack",
+        "slacken"
+    ],
+    "regurgitate": [
+        "reproduce"
+    ],
+    "reproduce": [
+        "procreate",
+        "multiply"
+    ],
+    "reprint": [
+        "reissue"
+    ],
+    "twirl": [
+        "swirl",
+        "twiddle",
+        "whirl"
+    ],
+    "readjust": [
+        "reset",
+        "readapt"
+    ],
+    "inhibit": [
+        "suppress"
+    ],
+    "decelerate": [
+        "slow",
+        "retard"
+    ],
+    "resume": [
+        "restart",
+        "re-start"
+    ],
+    "quench": [
+        "slake",
+        "allay",
+        "assuage"
+    ],
+    "reward": [
+        "repay"
+    ],
+    "revenge": [
+        "avenge",
+        "retaliate"
+    ],
+    "carouse": [
+        "roister",
+        "riot"
+    ],
+    "rubberize": [
+        "rubberise",
+        "rubber"
+    ],
+    "deflower": [
+        "ruin"
+    ],
+    "rumor": [
+        "rumour",
+        "bruit"
+    ],
+    "wheedle": [
+        "cajole",
+        "palaver",
+        "blarney",
+        "coax",
+        "sweet-talk",
+        "inveigle"
+    ],
+    "regress": [
+        "retrograde",
+        "retrogress"
+    ],
+    "sandpaper": [
+        "sand"
+    ],
+    "satisfy": [
+        "gratify",
+        "fulfill",
+        "fulfil"
+    ],
+    "suppose": [
+        "say"
+    ],
+    "allege": [
+        "aver",
+        "say"
+    ],
+    "frighten": [
+        "fright",
+        "scare",
+        "affright"
+    ],
+    "scale": [
+        "descale",
+        "surmount"
+    ],
+    "scramble": [
+        "jumble"
+    ],
+    "sulphur": [
+        "sulfur"
+    ],
+    "batten": [
+        "secure"
+    ],
+    "procure": [
+        "secure"
+    ],
+    "sow": [
+        "seed"
+    ],
+    "segment": [
+        "section"
+    ],
+    "seize": [
+        "clutch",
+        "prehend"
+    ],
+    "relapse": [
+        "lapse",
+        "recidivate",
+        "regress",
+        "retrogress"
+    ],
+    "betray": [
+        "sell",
+        "bewray"
+    ],
+    "scurry": [
+        "scamper",
+        "skitter",
+        "scuttle"
+    ],
+    "smell": [
+        "sense"
+    ],
+    "presuppose": [
+        "suppose"
+    ],
+    "dishonor": [
+        "disgrace",
+        "dishonour",
+        "attaint",
+        "shame"
+    ],
+    "pander": [
+        "pimp",
+        "procure"
+    ],
+    "spur": [
+        "goad"
+    ],
+    "deceive": [
+        "betray",
+        "delude",
+        "cozen"
+    ],
+    "snivel": [
+        "whine",
+        "sniffle",
+        "blubber",
+        "blub",
+        "snuffle"
+    ],
+    "jostle": [
+        "shove"
+    ],
+    "lavish": [
+        "shower"
+    ],
+    "sigh": [
+        "suspire"
+    ],
+    "whistle": [
+        "sing"
+    ],
+    "warble": [
+        "trill",
+        "quaver"
+    ],
+    "decamp": [
+        "skip",
+        "vamoose"
+    ],
+    "baby-sit": [
+        "sit",
+        "babysit"
+    ],
+    "slight": [
+        "cold-shoulder"
+    ],
+    "sleep": [
+        "kip",
+        "slumber"
+    ],
+    "smooth": [
+        "smoothen"
+    ],
+    "fume": [
+        "smoke"
+    ],
+    "soak": [
+        "imbue"
+    ],
+    "souse": [
+        "soak",
+        "inebriate"
+    ],
+    "intoxicate": [
+        "soak",
+        "inebriate"
+    ],
+    "pawn": [
+        "soak",
+        "hock"
+    ],
+    "drench": [
+        "douse",
+        "dowse",
+        "soak",
+        "sop",
+        "souse"
+    ],
+    "gratify": [
+        "pander",
+        "indulge"
+    ],
+    "bamboozle": [
+        "snow",
+        "hoodwink"
+    ],
+    "sole": [
+        "resole"
+    ],
+    "sailplane": [
+        "soar"
+    ],
+    "soar": [
+        "surge",
+        "zoom"
+    ],
+    "spank": [
+        "paddle",
+        "larrup"
+    ],
+    "cleave": [
+        "split",
+        "rive"
+    ],
+    "smooch": [
+        "spoon"
+    ],
+    "zest": [
+        "spice"
+    ],
+    "yodel": [
+        "warble",
+        "descant"
+    ],
+    "step": [
+        "tread"
+    ],
+    "stall": [
+        "conk"
+    ],
+    "steamer": [
+        "steam"
+    ],
+    "elate": [
+        "uplift",
+        "intoxicate"
+    ],
+    "reek": [
+        "fume",
+        "stink"
+    ],
+    "fumigate": [
+        "fume"
+    ],
+    "fillet": [
+        "filet"
+    ],
+    "tidy": [
+        "neaten",
+        "straighten"
+    ],
+    "straighten": [
+        "unbend"
+    ],
+    "imbrue": [
+        "drench"
+    ],
+    "swamp": [
+        "drench"
+    ],
+    "strew": [
+        "straw"
+    ],
+    "flog": [
+        "welt",
+        "whip",
+        "lather",
+        "lash",
+        "slash",
+        "strap",
+        "trounce"
+    ],
+    "maroon": [
+        "strand"
+    ],
+    "expatriate": [
+        "deport",
+        "exile"
+    ],
+    "sublime": [
+        "sublimate"
+    ],
+    "sun": [
+        "insolate",
+        "solarize",
+        "solarise",
+        "sunbathe"
+    ],
+    "sugar": [
+        "saccharify"
+    ],
+    "subordinate": [
+        "subdue"
+    ],
+    "prod": [
+        "incite"
+    ],
+    "zigzag": [
+        "crank"
+    ],
+    "append": [
+        "supplement",
+        "affix",
+        "tack"
+    ],
+    "scend": [
+        "surge"
+    ],
+    "tide": [
+        "surge"
+    ],
+    "surf": [
+        "channel-surf"
+    ],
+    "surfboard": [
+        "surf"
+    ],
+    "distrust": [
+        "mistrust",
+        "suspect"
+    ],
+    "suspect": [
+        "surmise"
+    ],
+    "swell": [
+        "intumesce",
+        "tumefy",
+        "tumesce"
+    ],
+    "synchronize": [
+        "synchronise",
+        "sync",
+        "contemporize",
+        "contemporise"
+    ],
+    "swear": [
+        "depose",
+        "depone"
+    ],
+    "sweat": [
+        "sudate",
+        "perspire"
+    ],
+    "table": [
+        "tabularize",
+        "tabularise",
+        "tabulate"
+    ],
+    "postpone": [
+        "prorogue",
+        "table",
+        "shelve",
+        "defer",
+        "remit"
+    ],
+    "videotape": [
+        "tape"
+    ],
+    "procrastinate": [
+        "stall",
+        "shillyshally",
+        "dilly-dally",
+        "dillydally"
+    ],
+    "harness": [
+        "tackle",
+        "rein"
+    ],
+    "fiddle": [
+        "shirk",
+        "goldbrick"
+    ],
+    "cane": [
+        "flog",
+        "lambaste",
+        "lambast"
+    ],
+    "endanger": [
+        "jeopardize",
+        "jeopardise",
+        "menace",
+        "threaten",
+        "imperil",
+        "peril"
+    ],
+    "thrive": [
+        "prosper",
+        "flourish"
+    ],
+    "toe": [
+        "toenail"
+    ],
+    "joyride": [
+        "tool"
+    ],
+    "quaver": [
+        "waver"
+    ],
+    "fluctuate": [
+        "vacillate",
+        "waver"
+    ],
+    "falter": [
+        "waver"
+    ],
+    "discard": [
+        "fling",
+        "toss",
+        "dispose"
+    ],
+    "convulse": [
+        "thresh",
+        "thrash",
+        "slash",
+        "toss",
+        "jactitate"
+    ],
+    "transform": [
+        "transmute",
+        "metamorphose",
+        "transubstantiate"
+    ],
+    "erode": [
+        "fret",
+        "gnaw"
+    ],
+    "choke": [
+        "gag",
+        "fret",
+        "throttle",
+        "strangle",
+        "scrag"
+    ],
+    "chafe": [
+        "gall",
+        "fret",
+        "excoriate"
+    ],
+    "triple": [
+        "treble"
+    ],
+    "tree": [
+        "shoetree"
+    ],
+    "whip": [
+        "lash"
+    ],
+    "gloat": [
+        "triumph",
+        "crow"
+    ],
+    "burrow": [
+        "tunnel"
+    ],
+    "capsize": [
+        "turtle"
+    ],
+    "type": [
+        "typecast",
+        "typewrite"
+    ],
+    "browbeat": [
+        "bully",
+        "swagger"
+    ],
+    "strong-arm": [
+        "bully",
+        "browbeat",
+        "bullyrag",
+        "ballyrag",
+        "hector"
+    ],
+    "unmake": [
+        "undo"
+    ],
+    "swage": [
+        "upset"
+    ],
+    "overturn": [
+        "upset"
+    ],
+    "upset": [
+        "discompose",
+        "untune",
+        "disconcert",
+        "discomfit"
+    ],
+    "vacuum": [
+        "vacuum-clean",
+        "hoover"
+    ],
+    "vault": [
+        "overleap"
+    ],
+    "verse": [
+        "versify",
+        "poetize",
+        "poetise"
+    ],
+    "blister": [
+        "scald",
+        "whip",
+        "vesicate"
+    ],
+    "whisk": [
+        "whip"
+    ],
+    "worst": [
+        "pip",
+        "whip"
+    ],
+    "wait": [
+        "waitress"
+    ],
+    "water": [
+        "irrigate"
+    ],
+    "brandish": [
+        "flourish",
+        "wave"
+    ],
+    "beckon": [
+        "wave"
+    ],
+    "de-escalate": [
+        "weaken"
+    ],
+    "overthrow": [
+        "subvert",
+        "overturn"
+    ],
+    "bumble": [
+        "stutter",
+        "stammer",
+        "falter"
+    ],
+    "welsh": [
+        "welch"
+    ],
+    "whiten": [
+        "white"
+    ],
+    "winter": [
+        "overwinter"
+    ],
+    "electrify": [
+        "wire"
+    ],
+    "idolize": [
+        "idolise",
+        "worship",
+        "hero-worship",
+        "revere"
+    ],
+    "envelop": [
+        "enfold",
+        "enwrap",
+        "wrap",
+        "enclose"
+    ],
+    "photocopy": [
+        "xerox"
+    ],
+    "zoom": [
+        "whizz"
+    ],
+    "abdicate": [
+        "renounce"
+    ],
+    "frivol": [
+        "trifle"
+    ],
+    "piddle": [
+        "wanton",
+        "trifle"
+    ],
+    "abjure": [
+        "recant",
+        "forswear",
+        "retract",
+        "resile"
+    ],
+    "disown": [
+        "renounce",
+        "repudiate"
+    ],
+    "degrade": [
+        "cheapen"
+    ],
+    "discredit": [
+        "disgrace"
+    ],
+    "extenuate": [
+        "palliate",
+        "mitigate"
+    ],
+    "disbelieve": [
+        "discredit"
+    ],
+    "necrose": [
+        "gangrene",
+        "mortify",
+        "sphacelate"
+    ],
+    "mortify": [
+        "subdue",
+        "crucify"
+    ],
+    "incite": [
+        "instigate"
+    ],
+    "slacken": [
+        "remit"
+    ],
+    "exhilarate": [
+        "inebriate",
+        "thrill",
+        "exalt",
+        "beatify"
+    ],
+    "withhold": [
+        "deduct",
+        "recoup"
+    ],
+    "subtract": [
+        "deduct"
+    ],
+    "propitiate": [
+        "appease"
+    ],
+    "overstate": [
+        "exaggerate",
+        "overdraw",
+        "hyperbolize",
+        "hyperbolise",
+        "magnify",
+        "amplify"
+    ],
+    "magnify": [
+        "amplify"
+    ],
+    "remit": [
+        "remand"
+    ],
+    "dilate": [
+        "distend"
+    ],
+    "swaddle": [
+        "swathe"
+    ],
+    "bowdlerize": [
+        "bowdlerise",
+        "expurgate",
+        "castrate",
+        "shorten"
+    ],
+    "exacerbate": [
+        "exasperate",
+        "aggravate"
+    ],
+    "impede": [
+        "hinder"
+    ],
+    "handicap": [
+        "hinder",
+        "hamper"
+    ],
+    "tarry": [
+        "linger"
+    ],
+    "negate": [
+        "contradict"
+    ],
+    "contradict": [
+        "negate",
+        "contravene",
+        "belie"
+    ],
+    "abhor": [
+        "loathe",
+        "abominate",
+        "execrate"
+    ],
+    "contemn": [
+        "despise",
+        "scorn",
+        "disdain"
+    ],
+    "disinherit": [
+        "disown"
+    ],
+    "shun": [
+        "eschew"
+    ],
+    "sicken": [
+        "nauseate"
+    ],
+    "migrate": [
+        "transmigrate"
+    ],
+    "reside": [
+        "shack",
+        "domicile",
+        "domiciliate"
+    ],
+    "apostatize": [
+        "apostatise",
+        "tergiversate"
+    ],
+    "avow": [
+        "avouch"
+    ],
+    "sprawl": [
+        "straggle"
+    ],
+    "uproot": [
+        "extirpate",
+        "deracinate",
+        "eradicate",
+        "exterminate"
+    ],
+    "multiply": [
+        "manifold"
+    ],
+    "indulge": [
+        "luxuriate"
+    ],
+    "luxuriate": [
+        "wanton"
+    ],
+    "paraphrase": [
+        "rephrase",
+        "reword"
+    ],
+    "disadvantage": [
+        "disfavor",
+        "disfavour"
+    ],
+    "overflow": [
+        "overrun"
+    ],
+    "reprimand": [
+        "censure",
+        "criminate"
+    ],
+    "revel": [
+        "racket",
+        "jollify",
+        "wassail"
+    ],
+    "assimilate": [
+        "imbibe"
+    ],
+    "emancipate": [
+        "liberate"
+    ],
+    "scour": [
+        "abrade"
+    ],
+    "spatter": [
+        "bespatter",
+        "splatter",
+        "plash",
+        "splash",
+        "splosh",
+        "swash"
+    ],
+    "bedaub": [
+        "besmear"
+    ],
+    "grope": [
+        "fumble"
+    ],
+    "stint": [
+        "skimp",
+        "scant"
+    ],
+    "scant": [
+        "skimp"
+    ],
+    "skimp": [
+        "scant"
+    ],
+    "diss": [
+        "insult",
+        "affront"
+    ],
+    "manumit": [
+        "emancipate"
+    ],
+    "bleed": [
+        "leech",
+        "phlebotomize",
+        "phlebotomise"
+    ],
+    "badmouth": [
+        "malign",
+        "traduce"
+    ],
+    "reproach": [
+        "upbraid"
+    ],
+    "eulogize": [
+        "eulogise"
+    ],
+    "disparage": [
+        "belittle"
+    ],
+    "concur": [
+        "coincide"
+    ],
+    "coincide": [
+        "co-occur",
+        "cooccur"
+    ],
+    "quicken": [
+        "invigorate"
+    ],
+    "whet": [
+        "quicken"
+    ],
+    "expedite": [
+        "hasten"
+    ],
+    "babble": [
+        "blather",
+        "smatter",
+        "blether",
+        "blither"
+    ],
+    "underestimate": [
+        "underrate"
+    ],
+    "lowball": [
+        "underestimate"
+    ],
+    "undervalue": [
+        "underestimate"
+    ],
+    "outshout": [
+        "outcry"
+    ],
+    "scrimp": [
+        "stint",
+        "skimp"
+    ],
+    "dispose": [
+        "incline"
+    ],
+    "itch": [
+        "spoil"
+    ],
+    "hiss": [
+        "siss",
+        "sizz",
+        "sibilate"
+    ],
+    "equate": [
+        "correspond"
+    ],
+    "depute": [
+        "deputize",
+        "deputise"
+    ],
+    "accouter": [
+        "accoutre"
+    ],
+    "miscalculate": [
+        "misestimate"
+    ],
+    "depreciate": [
+        "undervalue",
+        "devaluate",
+        "devalue"
+    ],
+    "habituate": [
+        "accustom"
+    ],
+    "estrange": [
+        "alienate",
+        "disaffect"
+    ],
+    "inure": [
+        "harden",
+        "indurate"
+    ],
+    "harden": [
+        "indurate"
+    ],
+    "familiarize": [
+        "familiarise",
+        "acquaint"
+    ],
+    "wean": [
+        "ablactate"
+    ],
+    "culminate": [
+        "climax"
+    ],
+    "deprecate": [
+        "depreciate",
+        "vilipend"
+    ],
+    "actualize": [
+        "actualise"
+    ],
+    "brisk": [
+        "brisken"
+    ],
+    "disqualify": [
+        "unfit",
+        "indispose"
+    ],
+    "pertain": [
+        "appertain"
+    ],
+    "discerp": [
+        "sever",
+        "lop"
+    ],
+    "mismanage": [
+        "mishandle",
+        "misconduct"
+    ],
+    "dismember": [
+        "discerp"
+    ],
+    "accurse": [
+        "execrate",
+        "anathemize",
+        "comminate",
+        "anathemise",
+        "anathematize",
+        "anathematise"
+    ],
+    "admonish": [
+        "reprove",
+        "reproof"
+    ],
+    "forewarn": [
+        "previse"
+    ],
+    "fancify": [
+        "beautify",
+        "embellish",
+        "prettify"
+    ],
+    "garnishee": [
+        "garnish"
+    ],
+    "gild": [
+        "begild",
+        "engild"
+    ],
+    "symbolize": [
+        "symbolise"
+    ],
+    "misrepresent": [
+        "belie"
+    ],
+    "misinform": [
+        "mislead"
+    ],
+    "mislead": [
+        "misdirect",
+        "misguide"
+    ],
+    "disjoin": [
+        "disjoint"
+    ],
+    "decouple": [
+        "dissociate"
+    ],
+    "uncouple": [
+        "decouple"
+    ],
+    "compliment": [
+        "congratulate"
+    ],
+    "goggle": [
+        "gape",
+        "gawp",
+        "gawk"
+    ],
+    "infuriate": [
+        "exasperate",
+        "incense"
+    ],
+    "embitter": [
+        "envenom",
+        "acerbate"
+    ],
+    "bestir": [
+        "rouse"
+    ],
+    "excite": [
+        "energize",
+        "energise"
+    ],
+    "refute": [
+        "rebut",
+        "controvert"
+    ],
+    "succor": [
+        "succour"
+    ],
+    "slick": [
+        "sleek"
+    ],
+    "flagellate": [
+        "scourge"
+    ],
+    "disprove": [
+        "confute"
+    ],
+    "brighten": [
+        "lighten"
+    ],
+    "allocate": [
+        "apportion"
+    ],
+    "terrify": [
+        "terrorize",
+        "terrorise"
+    ],
+    "brawl": [
+        "wrangle"
+    ],
+    "haggle": [
+        "higgle",
+        "chaffer",
+        "huckster"
+    ],
+    "decompose": [
+        "rot",
+        "molder",
+        "moulder"
+    ],
+    "invigorate": [
+        "reinvigorate"
+    ],
+    "unplug": [
+        "disconnect"
+    ],
+    "caricature": [
+        "ape"
+    ],
+    "personify": [
+        "personate"
+    ],
+    "cense": [
+        "incense",
+        "thurify"
+    ],
+    "amuse": [
+        "divert",
+        "disport"
+    ],
+    "designate": [
+        "denominate"
+    ],
+    "misconstrue": [
+        "misinterpret",
+        "misconceive",
+        "misunderstand",
+        "misapprehend"
+    ],
+    "juggle": [
+        "beguile",
+        "hoodwink"
+    ],
+    "conspire": [
+        "collude",
+        "cabal",
+        "complot",
+        "conjure",
+        "machinate"
+    ],
+    "huddle": [
+        "cower"
+    ],
+    "divest": [
+        "disinvest"
+    ],
+    "disarm": [
+        "unarm",
+        "demilitarize",
+        "demilitarise"
+    ],
+    "unbalance": [
+        "derange"
+    ],
+    "confine": [
+        "detain"
+    ],
+    "enclose": [
+        "confine",
+        "inclose"
+    ],
+    "improvise": [
+        "improvize",
+        "ad-lib",
+        "extemporize",
+        "extemporise"
+    ],
+    "smirch": [
+        "besmirch"
+    ],
+    "convoke": [
+        "convene"
+    ],
+    "postulate": [
+        "posit"
+    ],
+    "amaze": [
+        "astonish",
+        "astound"
+    ],
+    "besot": [
+        "stupefy"
+    ],
+    "shallow": [
+        "shoal"
+    ],
+    "encrust": [
+        "incrust",
+        "beset"
+    ],
+    "rarefy": [
+        "attenuate",
+        "sublimate",
+        "subtilize"
+    ],
+    "prophesy": [
+        "vaticinate"
+    ],
+    "embezzle": [
+        "defalcate",
+        "peculate",
+        "misappropriate",
+        "malversate"
+    ],
+    "clamor": [
+        "clamour"
+    ],
+    "honk": [
+        "blare",
+        "beep",
+        "claxon",
+        "toot",
+        "cronk"
+    ],
+    "equalize": [
+        "equalise"
+    ],
+    "preponderate": [
+        "outweigh",
+        "overbalance",
+        "outbalance"
+    ],
+    "ostracize": [
+        "ostracise"
+    ],
+    "oust": [
+        "expel"
+    ],
+    "jeer": [
+        "scoff",
+        "flout",
+        "barrack",
+        "gibe"
+    ],
+    "spoof": [
+        "burlesque",
+        "parody"
+    ],
+    "suffuse": [
+        "perfuse"
+    ],
+    "begrudge": [
+        "resent"
+    ],
+    "thrash": [
+        "thresh",
+        "lam",
+        "flail"
+    ],
+    "cudgel": [
+        "fustigate"
+    ],
+    "dinge": [
+        "batter"
+    ],
+    "clobber": [
+        "baste",
+        "batter"
+    ],
+    "afflict": [
+        "smite"
+    ],
+    "envy": [
+        "begrudge"
+    ],
+    "pummel": [
+        "pommel",
+        "biff"
+    ],
+    "bruise": [
+        "contuse"
+    ],
+    "belabour": [
+        "belabor"
+    ],
+    "belabor": [
+        "belabour"
+    ],
+    "caress": [
+        "fondle"
+    ],
+    "befall": [
+        "bechance",
+        "betide"
+    ],
+    "beggar": [
+        "pauperize",
+        "pauperise"
+    ],
+    "misbehave": [
+        "misconduct",
+        "misdemean"
+    ],
+    "requite": [
+        "repay"
+    ],
+    "embarrass": [
+        "abash"
+    ],
+    "cripple": [
+        "lame",
+        "stultify"
+    ],
+    "tousle": [
+        "dishevel",
+        "tangle"
+    ],
+    "ravel": [
+        "tangle",
+        "knot",
+        "unravel"
+    ],
+    "magnetize": [
+        "mesmerize",
+        "mesmerise",
+        "magnetise",
+        "bewitch",
+        "spellbind"
+    ],
+    "plaster": [
+        "daub",
+        "beplaster"
+    ],
+    "poultice": [
+        "plaster"
+    ],
+    "blanch": [
+        "parboil"
+    ],
+    "bleach": [
+        "decolor",
+        "decolour",
+        "decolorize",
+        "decolourize",
+        "decolorise",
+        "decolourise",
+        "discolorize",
+        "discolourise",
+        "discolorise"
+    ],
+    "emblazon": [
+        "blazon"
+    ],
+    "depopulate": [
+        "desolate"
+    ],
+    "transfigure": [
+        "glorify",
+        "spiritualize"
+    ],
+    "metamorphose": [
+        "transfigure",
+        "transmogrify"
+    ],
+    "congratulate": [
+        "felicitate"
+    ],
+    "obliterate": [
+        "efface"
+    ],
+    "manacle": [
+        "cuff",
+        "handcuff"
+    ],
+    "cuff": [
+        "whomp"
+    ],
+    "paralyze": [
+        "paralyse"
+    ],
+    "vitalize": [
+        "vitalise"
+    ],
+    "swagger": [
+        "bluster",
+        "swash"
+    ],
+    "roar": [
+        "howl"
+    ],
+    "bellow": [
+        "roar"
+    ],
+    "bawl": [
+        "bellow"
+    ],
+    "wail": [
+        "whimper",
+        "mewl",
+        "pule"
+    ],
+    "yawp": [
+        "bawl"
+    ],
+    "snuffle": [
+        "snivel"
+    ],
+    "snuff": [
+        "snuffle"
+    ],
+    "clown": [
+        "antic"
+    ],
+    "hopple": [
+        "hobble"
+    ],
+    "embower": [
+        "bower"
+    ],
+    "pleat": [
+        "plicate"
+    ],
+    "shiver": [
+        "shudder"
+    ],
+    "shudder": [
+        "shiver",
+        "throb",
+        "thrill"
+    ],
+    "faze": [
+        "unnerve",
+        "enervate",
+        "unsettle"
+    ],
+    "tremor": [
+        "quake"
+    ],
+    "bristle": [
+        "uprise"
+    ],
+    "twinkle": [
+        "winkle",
+        "scintillate"
+    ],
+    "froth": [
+        "spume",
+        "suds"
+    ],
+    "scorch": [
+        "sear",
+        "singe"
+    ],
+    "sear": [
+        "scorch"
+    ],
+    "parch": [
+        "sear"
+    ],
+    "singe": [
+        "swinge"
+    ],
+    "smolder": [
+        "smoulder"
+    ],
+    "benight": [
+        "bedim"
+    ],
+    "abrade": [
+        "corrade",
+        "abrase"
+    ],
+    "disinter": [
+        "exhume"
+    ],
+    "subsidize": [
+        "subsidise"
+    ],
+    "flatter": [
+        "blandish"
+    ],
+    "enumerate": [
+        "recite",
+        "itemize",
+        "itemise"
+    ],
+    "hark": [
+        "harken",
+        "hearken"
+    ],
+    "disenchant": [
+        "disillusion"
+    ],
+    "massacre": [
+        "slaughter"
+    ],
+    "butcher": [
+        "slaughter"
+    ],
+    "tweedle": [
+        "chirp"
+    ],
+    "peep": [
+        "cheep",
+        "chirp",
+        "chirrup"
+    ],
+    "chitter": [
+        "twitter"
+    ],
+    "chant": [
+        "intone",
+        "intonate",
+        "cantillate"
+    ],
+    "croak": [
+        "cronk"
+    ],
+    "groan": [
+        "moan"
+    ],
+    "cavil": [
+        "carp",
+        "chicane"
+    ],
+    "generalize": [
+        "generalise",
+        "extrapolate",
+        "infer"
+    ],
+    "popularize": [
+        "popularise",
+        "vulgarize",
+        "vulgarise",
+        "generalize",
+        "generalise"
+    ],
+    "splurge": [
+        "fling"
+    ],
+    "sling": [
+        "catapult"
+    ],
+    "falsify": [
+        "distort",
+        "garble",
+        "warp"
+    ],
+    "localize": [
+        "localise",
+        "focalize",
+        "focalise"
+    ],
+    "goofproof": [
+        "goof-proof",
+        "foolproof"
+    ],
+    "gall": [
+        "irk"
+    ],
+    "nettle": [
+        "urticate"
+    ],
+    "monopolize": [
+        "monopolise"
+    ],
+    "gargle": [
+        "rinse"
+    ],
+    "imbue": [
+        "hue"
+    ],
+    "hamper": [
+        "halter",
+        "cramp",
+        "strangle"
+    ],
+    "extricate": [
+        "untangle",
+        "disentangle",
+        "disencumber"
+    ],
+    "expiate": [
+        "aby",
+        "abye",
+        "atone"
+    ],
+    "secede": [
+        "splinter"
+    ],
+    "thicken": [
+        "inspissate"
+    ],
+    "evaporate": [
+        "vaporize",
+        "vaporise"
+    ],
+    "gasify": [
+        "vaporize",
+        "vaporise",
+        "aerify"
+    ],
+    "zap": [
+        "vaporize"
+    ],
+    "replenish": [
+        "refill"
+    ],
+    "immunize": [
+        "immunise",
+        "inoculate",
+        "vaccinate"
+    ],
+    "corkscrew": [
+        "spiral"
+    ],
+    "infect": [
+        "taint"
+    ],
+    "clothe": [
+        "cloak",
+        "drape",
+        "robe"
+    ],
+    "refurbish": [
+        "renovate"
+    ],
+    "renovate": [
+        "restitute"
+    ],
+    "anatomize": [
+        "anatomise"
+    ],
+    "opine": [
+        "animadvert"
+    ],
+    "hover": [
+        "vibrate",
+        "vacillate",
+        "oscillate",
+        "linger"
+    ],
+    "unravel": [
+        "unknot",
+        "unscramble",
+        "untangle",
+        "unpick"
+    ],
+    "moor": [
+        "berth",
+        "wharf"
+    ],
+    "levitate": [
+        "hover"
+    ],
+    "declaim": [
+        "inveigh",
+        "recite"
+    ],
+    "recite": [
+        "retell"
+    ],
+    "autograph": [
+        "inscribe"
+    ],
+    "lapse": [
+        "backslide"
+    ],
+    "overuse": [
+        "overdrive"
+    ],
+    "overdo": [
+        "exaggerate"
+    ],
+    "enthrone": [
+        "throne"
+    ],
+    "overvalue": [
+        "overestimate"
+    ],
+    "overestimate": [
+        "overrate"
+    ],
+    "desacralize": [
+        "secularize"
+    ],
+    "secularize": [
+        "secularise"
+    ],
+    "misread": [
+        "misinterpret"
+    ],
+    "baptize": [
+        "baptise",
+        "christen"
+    ],
+    "misname": [
+        "miscall"
+    ],
+    "prejudice": [
+        "prepossess"
+    ],
+    "exhale": [
+        "expire",
+        "emanate"
+    ],
+    "personalize": [
+        "personalise",
+        "individualize",
+        "individualise"
+    ],
+    "individualize": [
+        "individualise"
+    ],
+    "systematize": [
+        "systematise",
+        "systemize",
+        "systemise"
+    ],
+    "unburden": [
+        "disburden"
+    ],
+    "unload": [
+        "unlade",
+        "offload"
+    ],
+    "dogmatize": [
+        "dogmatise"
+    ],
+    "disassemble": [
+        "dismantle"
+    ],
+    "tyrannize": [
+        "tyrannise",
+        "domineer"
+    ],
+    "exude": [
+        "exudate",
+        "transude",
+        "ooze"
+    ],
+    "wilt": [
+        "droop"
+    ],
+    "droop": [
+        "loll"
+    ],
+    "misadvise": [
+        "misguide"
+    ],
+    "retool": [
+        "revise"
+    ],
+    "annotate": [
+        "footnote"
+    ],
+    "thrill": [
+        "tickle",
+        "vibrate"
+    ],
+    "hypnotize": [
+        "hypnotise",
+        "mesmerize",
+        "mesmerise"
+    ],
+    "impregnate": [
+        "infuse",
+        "instill",
+        "tincture",
+        "saturate"
+    ],
+    "inculcate": [
+        "instill",
+        "infuse"
+    ],
+    "instill": [
+        "instil",
+        "transfuse"
+    ],
+    "clarify": [
+        "elucidate"
+    ],
+    "mock": [
+        "bemock"
+    ],
+    "affranchise": [
+        "enfranchise"
+    ],
+    "vulgarize": [
+        "vulgarise"
+    ],
+    "vulgarise": [
+        "vulgarize"
+    ],
+    "disembark": [
+        "debark"
+    ],
+    "comb": [
+        "disentangle",
+        "ransack"
+    ],
+    "unwind": [
+        "disentangle",
+        "unroll"
+    ],
+    "disinvolve": [
+        "disembroil",
+        "disentangle"
+    ],
+    "disentangle": [
+        "unsnarl"
+    ],
+    "sweeten": [
+        "dulcify",
+        "edulcorate",
+        "dulcorate"
+    ],
+    "disenfranchise": [
+        "disfranchise"
+    ],
+    "engrave": [
+        "etch"
+    ],
+    "misplace": [
+        "mislay"
+    ],
+    "recapitulate": [
+        "recap"
+    ],
+    "crystallize": [
+        "crystalize",
+        "crystalise",
+        "effloresce",
+        "crystallise"
+    ],
+    "agonize": [
+        "agonise"
+    ],
+    "colonize": [
+        "colonise"
+    ],
+    "seep": [
+        "ooze"
+    ],
+    "lag": [
+        "dawdle"
+    ],
+    "linger": [
+        "dawdle"
+    ],
+    "quiver": [
+        "quake",
+        "palpitate"
+    ],
+    "teeter": [
+        "seesaw",
+        "totter"
+    ],
+    "toddle": [
+        "coggle",
+        "totter",
+        "dodder",
+        "paddle",
+        "waddle"
+    ],
+    "teeter-totter": [
+        "teetertotter",
+        "seesaw"
+    ],
+    "congee": [
+        "conge"
+    ],
+    "satirize": [
+        "satirise",
+        "lampoon"
+    ],
+    "fray": [
+        "frazzle"
+    ],
+    "addle": [
+        "muddle",
+        "puddle"
+    ],
+    "muddle": [
+        "puddle"
+    ],
+    "scoff": [
+        "flout"
+    ],
+    "palpitate": [
+        "flutter"
+    ],
+    "malinger": [
+        "skulk"
+    ],
+    "lurk": [
+        "skulk"
+    ],
+    "savor": [
+        "savour"
+    ],
+    "oscillate": [
+        "vibrate"
+    ],
+    "nestle": [
+        "snuggle"
+    ],
+    "scrounge": [
+        "forage"
+    ],
+    "schnorr": [
+        "shnorr",
+        "scrounge",
+        "cadge"
+    ],
+    "fine-tune": [
+        "tweak"
+    ],
+    "disorganize": [
+        "disorganise"
+    ],
+    "entrench": [
+        "intrench"
+    ],
+    "fraternize": [
+        "fraternise"
+    ],
+    "rave": [
+        "gush"
+    ],
+    "rant": [
+        "jabber",
+        "spout",
+        "rave"
+    ],
+    "overhang": [
+        "beetle"
+    ],
+    "misdirect": [
+        "misaddress"
+    ],
+    "clench": [
+        "clinch"
+    ],
+    "clump": [
+        "clomp"
+    ],
+    "clop": [
+        "clump",
+        "clunk",
+        "plunk"
+    ],
+    "spurt": [
+        "spirt",
+        "gush",
+        "spout"
+    ],
+    "sentimentalise": [
+        "sentimentalize",
+        "sentimentize",
+        "sentimentise"
+    ],
+    "sentimentalize": [
+        "sentimentalise"
+    ],
+    "squall": [
+        "waul",
+        "wawl"
+    ],
+    "unmask": [
+        "uncloak"
+    ],
+    "rotate": [
+        "circumvolve"
+    ],
+    "revolve": [
+        "rotate"
+    ],
+    "solemnize": [
+        "solemnise"
+    ],
+    "humanize": [
+        "humanise"
+    ],
+    "civilize": [
+        "civilise"
+    ],
+    "christianize": [
+        "christianise"
+    ],
+    "barbarize": [
+        "barbarise"
+    ],
+    "stroll": [
+        "saunter"
+    ],
+    "douse": [
+        "dowse"
+    ],
+    "tingle": [
+        "prickle"
+    ],
+    "indispose": [
+        "disincline"
+    ],
+    "recoup": [
+        "reimburse"
+    ],
+    "transliterate": [
+        "transcribe"
+    ],
+    "infest": [
+        "overrun"
+    ],
+    "underwrite": [
+        "subvention",
+        "subvent"
+    ],
+    "intersperse": [
+        "interlard"
+    ],
+    "dike": [
+        "dyke"
+    ],
+    "exsiccate": [
+        "dehydrate",
+        "desiccate"
+    ],
+    "dehydrate": [
+        "desiccate"
+    ],
+    "jingle": [
+        "jingle-jangle",
+        "jangle"
+    ],
+    "jibe": [
+        "gybe",
+        "jib"
+    ],
+    "sermonize": [
+        "sermonise",
+        "preachify",
+        "moralize",
+        "moralise"
+    ],
+    "jiggle": [
+        "joggle",
+        "wiggle"
+    ],
+    "splinter": [
+        "sliver"
+    ],
+    "sliver": [
+        "splinter"
+    ],
+    "clot": [
+        "coagulate"
+    ],
+    "outlaw": [
+        "criminalize",
+        "criminalise",
+        "illegalize",
+        "illegalise"
+    ],
+    "clatter": [
+        "clack",
+        "brattle"
+    ],
+    "rhyme": [
+        "rime"
+    ],
+    "mispronounce": [
+        "misspeak"
+    ],
+    "strangle": [
+        "strangulate",
+        "throttle"
+    ],
+    "catechize": [
+        "catechise"
+    ],
+    "reunify": [
+        "reunite"
+    ],
+    "reappear": [
+        "re-emerge"
+    ],
+    "commandeer": [
+        "hijack",
+        "highjack",
+        "pirate"
+    ],
+    "resonate": [
+        "vibrate"
+    ],
+    "unfurl": [
+        "unroll"
+    ],
+    "convolve": [
+        "convolute"
+    ],
+    "emasculate": [
+        "castrate",
+        "demasculinize",
+        "demasculinise"
+    ],
+    "tread": [
+        "trample"
+    ],
+    "snooze": [
+        "drowse",
+        "doze"
+    ],
+    "nap": [
+        "catnap"
+    ],
+    "tipple": [
+        "bib"
+    ],
+    "demarcate": [
+        "delimit",
+        "delimitate"
+    ],
+    "subtend": [
+        "delimit"
+    ],
+    "pleach": [
+        "plash"
+    ],
+    "sough": [
+        "purl"
+    ],
+    "checker": [
+        "chequer"
+    ],
+    "clap": [
+        "spat"
+    ],
+    "whizz": [
+        "whiz",
+        "whirr",
+        "whir",
+        "birr",
+        "purr"
+    ],
+    "memorialize": [
+        "memorialise"
+    ],
+    "immortalize": [
+        "immortalise",
+        "eternize",
+        "eternise",
+        "eternalize",
+        "eternalise"
+    ],
+    "severalize": [
+        "severalise"
+    ],
+    "deplume": [
+        "displume"
+    ],
+    "whack": [
+        "wham",
+        "whop",
+        "wallop"
+    ],
+    "splash": [
+        "splosh",
+        "slosh",
+        "slush"
+    ],
+    "vest": [
+        "robe"
+    ],
+    "acidify": [
+        "acetify"
+    ],
+    "groom": [
+        "neaten"
+    ],
+    "resect": [
+        "eviscerate"
+    ],
+    "huff": [
+        "snort"
+    ],
+    "sniff": [
+        "whiff",
+        "sniffle"
+    ],
+    "scuffle": [
+        "tussle"
+    ],
+    "naturalize": [
+        "naturalise"
+    ],
+    "over-correct": [
+        "overcompensate"
+    ],
+    "baste": [
+        "tack"
+    ],
+    "pout": [
+        "mop",
+        "mow"
+    ],
+    "circularize": [
+        "circularise"
+    ],
+    "supercharge": [
+        "pressurize",
+        "pressurise"
+    ],
+    "exteriorize": [
+        "exteriorise",
+        "externalize",
+        "externalise",
+        "objectify"
+    ],
+    "melanize": [
+        "melanise"
+    ],
+    "reduplicate": [
+        "geminate"
+    ],
+    "unloose": [
+        "unloosen"
+    ],
+    "channelize": [
+        "channelise"
+    ],
+    "shimmy": [
+        "wobble"
+    ],
+    "wobble": [
+        "coggle"
+    ],
+    "slenderize": [
+        "slenderise"
+    ],
+    "rationalize": [
+        "rationalise"
+    ],
+    "sharpshoot": [
+        "snipe"
+    ],
+    "initialize": [
+        "initialise"
+    ],
+    "outmaneuver": [
+        "outmanoeuvre",
+        "outsmart"
+    ],
+    "strum": [
+        "thrum"
+    ],
+    "trump": [
+        "ruff"
+    ],
+    "immobilize": [
+        "immobilise"
+    ],
+    "snarl": [
+        "embrangle"
+    ],
+    "vocalize": [
+        "vocalise",
+        "phonate",
+        "vowelize",
+        "vowelise"
+    ],
+    "subsume": [
+        "colligate"
+    ],
+    "slash": [
+        "gash"
+    ],
+    "undersell": [
+        "undercut"
+    ],
+    "chomp": [
+        "champ"
+    ],
+    "nosh": [
+        "snack"
+    ],
+    "electrocute": [
+        "fry"
+    ],
+    "formalize": [
+        "formalise"
+    ],
+    "hunch": [
+        "hump"
+    ],
+    "galvanize": [
+        "galvanise"
+    ],
+    "stabilize": [
+        "stabilise"
+    ],
+    "desexualize": [
+        "desexualise"
+    ],
+    "activate": [
+        "aerate"
+    ],
+    "splutter": [
+        "sputter"
+    ],
+    "sputter": [
+        "splutter"
+    ],
+    "speckle": [
+        "bespeckle"
+    ],
+    "stipple": [
+        "speckle"
+    ],
+    "pillory": [
+        "gibbet"
+    ],
+    "clangor": [
+        "clangour"
+    ],
+    "roil": [
+        "rile"
+    ],
+    "befuddle": [
+        "fuddle"
+    ],
+    "yelp": [
+        "yip",
+        "yap"
+    ],
+    "squint": [
+        "squinch"
+    ],
+    "spew": [
+        "eruct"
+    ],
+    "guggle": [
+        "gurgle"
+    ],
+    "vamp": [
+        "revamp"
+    ],
+    "verbalize": [
+        "verbalise"
+    ],
+    "remake": [
+        "refashion",
+        "redo"
+    ],
+    "wamble": [
+        "waggle"
+    ],
+    "shmooze": [
+        "shmoose",
+        "schmooze",
+        "schmoose",
+        "jawbone"
+    ],
+    "normalize": [
+        "normalise",
+        "renormalize",
+        "renormalise"
+    ],
+    "ding": [
+        "dong",
+        "dingdong"
+    ],
+    "manure": [
+        "muck"
+    ],
+    "chasse": [
+        "sashay"
+    ],
+    "sidle": [
+        "sashay"
+    ],
+    "tweet": [
+        "twirp"
+    ],
+    "tickle": [
+        "titillate",
+        "vellicate"
+    ],
+    "crape": [
+        "crepe"
+    ],
+    "bop": [
+        "bebop"
+    ],
+    "squeal": [
+        "oink"
+    ],
+    "retread": [
+        "remold",
+        "remould"
+    ],
+    "reshape": [
+        "remold"
+    ],
+    "revitalize": [
+        "revitalise"
+    ],
+    "slosh": [
+        "slush"
+    ],
+    "regularize": [
+        "regularise"
+    ],
+    "sledgehammer": [
+        "sledge"
+    ],
+    "junketeer": [
+        "junket"
+    ],
+    "disjoint": [
+        "disarticulate"
+    ],
+    "fictionalize": [
+        "fictionalise",
+        "retell"
+    ],
+    "yowl": [
+        "caterwaul"
+    ],
+    "fantasize": [
+        "fantasise"
+    ],
+    "dogsled": [
+        "mush"
+    ],
+    "depressurize": [
+        "depressurise",
+        "decompress"
+    ],
+    "decompress": [
+        "uncompress"
+    ],
+    "intonate": [
+        "intone"
+    ],
+    "jellify": [
+        "jelly"
+    ],
+    "bewhisker": [
+        "whisker"
+    ],
+    "tusk": [
+        "detusk"
+    ],
+    "patter": [
+        "pitter-patter"
+    ],
+    "swab": [
+        "swob"
+    ],
+    "muss": [
+        "tussle"
+    ],
+    "hee-haw": [
+        "bray"
+    ],
+    "crepitate": [
+        "crackle"
+    ],
+    "tinker": [
+        "fiddle"
+    ],
+    "atomize": [
+        "atomise"
+    ],
+    "stopper": [
+        "stopple"
+    ],
+    "whelp": [
+        "pup"
+    ],
+    "birl": [
+        "birle"
+    ],
+    "restart": [
+        "re-start"
+    ],
+    "dabble": [
+        "paddle",
+        "smatter"
+    ],
+    "solarize": [
+        "solarise"
+    ],
+    "flail": [
+        "thresh"
+    ],
+    "garrote": [
+        "garrotte",
+        "garotte",
+        "scrag"
+    ],
+    "hydroplane": [
+        "seaplane"
+    ],
+    "encapsulate": [
+        "capsule",
+        "capsulize",
+        "capsulise"
+    ],
+    "capsule": [
+        "capsulate",
+        "capsulize",
+        "capsulise"
+    ],
+    "devalue": [
+        "devaluate"
+    ],
+    "terrorize": [
+        "terrorise"
+    ],
+    "demilitarize": [
+        "demilitarise"
+    ],
+    "bleat": [
+        "blate",
+        "blat",
+        "baa"
+    ],
+    "subtilize": [
+        "subtilise"
+    ],
+    "spiritualize": [
+        "spiritualise"
+    ],
+    "itemize": [
+        "itemise"
+    ],
+    "sodomize": [
+        "sodomise",
+        "bugger"
+    ],
+    "moralize": [
+        "moralise"
+    ]
+}

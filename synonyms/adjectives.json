@@ -4714,7 +4714,7 @@
     "artifactual": [
         "artefactual"
     ],
-    "artificial": [
+    "#artificial": [
         "stilted",
         "contrived",
         "hokey",
@@ -15301,7 +15301,7 @@
         "monoploid"
     ],
     "happy": [
-        "well-chosen"
+        "well_chosen"
     ],
     "haptic": [
         "tactile",

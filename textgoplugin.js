@@ -4,49 +4,99 @@ const fs = require('fs');
 
 let nounSynonyms;
 let adjSynonyms;
+let verbSynonyms;
+let adverbSynonyms;
 
 function init() {
     nounSynonyms = load_synonyms('./synonyms/nouns.json')
     adjSynonyms = load_synonyms('./synonyms/adjectives.json')
+    // verbSynonyms = load_synonyms('./synonyms/verbs.json')
+    adverbSynonyms = load_synonyms('./synonyms/adverbs.json')
 }
 
 // Plugin to replace words with synonyms
 const synonymPlugin = {
     api: function (View) {
-        View.prototype.replaceWithSynonyms = function (nounsDict, adjsDict) {
-            // swap nouns
-            let m1 = this.match('#Noun+');
-            m1.compute('root');
-            
-            nouns = m1.text('root').split(' ');
-            console.log(nouns);
-            nouns.forEach(term => {
-                // const word = term.text();
-                if (nounsDict[term]) {
-                    const synonyms = nounsDict[term];
-                    console.log(synonyms);
-                    const synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
-                    this.swap(term, synonym);
-                }
-            });
+        View.prototype.replaceWithSynonyms = function (nounsDict, adjsDict, verbsDict, adverbsDict) {
+            if (nounsDict) {
+                // swap nouns
+                let m1 = this.match('#Noun+');
+                m1.compute('root');
+                let nouns = m1.text('root').split(' ');
+                nouns.forEach(term => {
+                    const clean = term.replace(/\p{P}/gu, "")
+                    if (nounsDict[clean]) {
+                        const synonyms = nounsDict[clean];
+                        const synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
+                        console.log('#Swap nouns: ' + clean + ' -> '+ synonyms);
+                        this.swap(clean, synonym);
+                    }
+                });
+            }
+
+
+            // swap verbs
+            if (verbsDict) {
+                let m2 = this.match('#Verb');
+                m2.compute('root');
+                let verbs = m2.text('root').split(' ');
+                // console.log(verbs);
+                verbs.forEach(term => {
+                    const clean = term.replace(/\p{P}/gu, "")
+
+                    if (verbsDict[clean]) {
+                        const synonyms = verbsDict[clean];
+                        console.log(clean + ': ' + synonyms);
+                        const synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
+                        console.log('#Swap verbs: ' + clean + ' -> '+ synonyms);
+                        this.swap(clean, synonym);
+                    }
+                });
+            }
+
 
             // swap adjectives
-            let m2 = this.match('#Adjective');
-            m2.compute('root');
+            if (adjsDict) {
+                let m3 = this.match('#Adjective');
+                m3.compute('root');
+                let adjs = m3.text('root').split(' ');
+                // console.log(adjs);
+                adjs.forEach(term => {
+                    const clean = term.replace(/\p{P}/gu, "")
 
-            adjs = m2.text('root').split(' ');
-            console.log(adjs);
+                    if (adjsDict[clean]) {
+                        const synonyms = adjsDict[clean];
+                        // console.log(clean + ': ' + synonyms);
+                        const synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
+                        console.log('#Swap adjectives: ' + clean + ' -> '+ synonyms);
+                        this.swap(clean, synonym);
+                    }
+                });
+            }
 
-            adjs.forEach(term => {
-                // const word = term.text();
-                if (adjsDict[term]) {
-                    const synonyms = adjsDict[term];
-                    console.log(synonyms);
-                    const synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
-                    this.swap(term, synonym);
-                }
-            });
-            return this;
+
+            // swap advs
+            if (adverbsDict) {
+                let m4 = this.match('#Adverb');
+                m4.compute('root');
+                let adverbs = m4.text('root').split(' ');
+                // console.log(adverbs);
+
+                adverbs.forEach(term => {
+                    const clean = term.replace(/\p{P}/gu, "")
+
+                    if (adverbsDict[clean]) {
+                        const synonyms = adverbsDict[clean];
+                        // console.log(clean + ': ' + synonyms);
+                        const synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
+                        console.log('#Swap adverbs: ' + clean + ' -> '+ synonyms);
+                        this.swap(clean, synonym);
+                    }
+                });
+            }
+
+
+            return this.text();
         };
     }
 };
@@ -56,14 +106,49 @@ init();
 nlp.extend(synonymPlugin);
 
 // Example text
-const text = "The better monitor's cat jumps over the red cars.";
+const text = `Navigating the Complex Landscape of Artificial Intelligence: AI Detectors
+
+In the realm of technological advancements, Artificial Intelligence (AI) emerges as a transformative and game-changing force across various sectors, from healthcare and finance to security and entertainment. However, as AI systems become increasingly prevalent, the need for monitoring, understanding, and regulation of these systems becomes crucial.
+
+This is where AI detectors come into play, serving as essential tools designed to meticulously analyze and identify the inner workings of AI models. Their purpose is to ensure that these models operate according to their intended purpose and detect any deviations or unethical uses. In this article, we will delve into the intricacies of AI detectors, exploring the technology behind them, their diverse applications, and the challenges they face.
+
+Understanding AI Detectors
+
+In essence, AI detectors refer to the utilization of advanced technologies or systems that specialize in recognizing and evaluating the output or behavior of AI models. These detectors excel in distinguishing between content generated by AI and that originated from humans. Moreover, they are employed to monitor AI systems for anomalies or behaviors that deviate from anticipated norms. This aspect is crucial in preserving the integrity, fairness, and safety of AI applications.
+
+The foundation of AI detectors predominantly lies within the field of machine learning itself. Through extensive training, these detectors become proficient in differentiating between content generated by humans and AI-powered models. For instance, when it comes to deepfakes - digitally altered videos and images utilizing deep learning - AI detectors thoroughly examine various attributes such as facial expressions, lighting, and movements that might not align with natural human behaviors.
+
+Applications of AI Detectors
+
+Let's explore some of the diverse applications of these exceptional AI detection tools:
+
+1. Content Authentication
+As AI continues to advance with the capability to produce incredibly realistic texts, images, and videos, the ability to discern between what is real and what is synthetic becomes paramount. In fields such as journalism and media, AI detectors play a critical role in the authentication and verification of information, creating a foundation of trust and accuracy.
+
+2. Security Assurance
+In the realm of cybersecurity, AI detectors play an integral part in identifying and thwarting threats driven by AI technologies, ranging from automated hacking attempts to the deployment of malicious bots. These detectors excel in recognizing patterns that may indicate AI involvement, distinguishing them from typical human-centric attack vectors.
+
+3. Compliance and Ethical Monitoring
+Industries bound by rigorous compliance standards, like finance and healthcare, heavily rely on AI detectors to ensure that AI tools remain aligned with ethical norms and legal requirements. This becomes particularly vital in preventing biases in AI-driven decisions, such as credit scoring or medical diagnoses.
+
+4. Research and Development Advancements
+In the academic and research sectors, AI detectors serve as valuable assets for researchers seeking to delve deeper into the decision-making processes of AI models. The transparency provided by these detectors is crucial for improving the reliability of these models and fostering the development of explainable and ethical innovations.
+
+Technological Foundations of AI Detectors
+
+The intricate technological underpinnings of AI detectors are deeply rooted in advanced machine learning (ML) algorithms that possess the ability to discern patterns and anomalies that may remain imperceptible to human observers. These technologies serve as the backbone of AI detection systems, employing a myriad of advanced methodologies to ensure accuracy and reliability in identifying AI-generated content or behaviors. Let's take a closer look at some of these methodologies and how they are implemented:
+
+1. Supervised Learning
+Supervised learning is a prevalent approach in training AI detectors. These detectors are trained using extensive datasets that contain labeled examples of both AI-generated and human-generated content. By exposing the machine learning model to such examples, it becomes adept at identifying the distinct features that differentiate AI-generated content from human-generated content.`;
+
 let doc = nlp(text);
 
 // Replace words with synonyms
-doc.replaceWithSynonyms(nounSynonyms, adjSynonyms);
+let output = doc.replaceWithSynonyms(nounSynonyms, adjSynonyms, verbSynonyms, adverbSynonyms);
 
 // Output the modified text
-console.log(doc.text());
+console.log('**:' + addTricks(capitalizeFirstLetterOfEachSentence(output)));
+// console.log("**:" + addTricks(doc.text()));
 
 function load_synonyms(file) {
     try {
@@ -73,4 +158,29 @@ function load_synonyms(file) {
     catch (err) {
         console.error('File read failed:', err);
     }
+}
+
+function addTricks(doc) {
+    const trick1 = '\u2019';
+    const trick2 = '\u205f';
+    // let output = replaceSpaces(doc.text(), spacechar, 6);
+    let output = doc.replaceAll('\'', trick1);
+    
+    // output = output.replaceAll(". ", spacechar2);
+    // console.log(output);
+
+    return output;
+    // return output.replaceAll(' ', trick2);
+}
+
+function capitalizeFirstLetterOfEachSentence(text) {
+    const sentences = text.split(/([.!?]\s*)/);
+
+    for (let i = 0; i < sentences.length; i++) {
+        if (sentences[i].length > 0) {
+            sentences[i] = sentences[i].charAt(0).toUpperCase() + sentences[i].slice(1);
+        }
+    }
+
+    return sentences.join('');
 }
