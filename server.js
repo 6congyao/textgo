@@ -16,7 +16,7 @@ const apiProxy = createProxyMiddleware({
     selfHandleResponse: true,
     on: {
         proxyReq: (proxyReq, req, res) => {
-            proxyReq.setHeader('Authorization', 'Bearer pat_OdzJPcpsZ3J0Z4eApfpmrbmCqAUaleNcqcfww1SQKmtuPadwVRhAc8iUH4L4vKLA');
+            proxyReq.setHeader('Authorization', 'Bearer ');
             proxyReq.setHeader('Content-Type', 'application/json');
             proxyReq.setHeader('Host', 'api.coze.com');
             proxyReq.setHeader('Accept', '*/*');
@@ -141,7 +141,7 @@ const synonymPlugin = {
 };
 
 function init() {
-    nounSynonyms = load_synonyms('./synonyms/nouns.json')
+    // nounSynonyms = load_synonyms('./synonyms/nouns.json')
     adjSynonyms = load_synonyms('./synonyms/adjectives.json')
     // verbSynonyms = load_synonyms('./synonyms/verbs.json')
     adverbSynonyms = load_synonyms('./synonyms/adverbs.json')
@@ -178,12 +178,10 @@ function capitalizeFirstLetterOfEachSentence(text) {
 }
 
 function addTricks(doc) {
-    const trick1 = '\u2019';
-    const trick2 = '\u2008';
-    // let output = replaceSpaces(doc.text(), spacechar, 6);
-    let output = doc.replaceAll('\'', trick1);
-
-    // output = output.replaceAll(". ", spacechar2);
+    const trick_space = '\u2008';
+    const trick_sq = '\u2019';
+    let output = doc.replaceAll(' ', trick_space);
+    // output = output.replaceAll(' ', trick_space);
 
     return output;
 }
@@ -194,7 +192,7 @@ nlp.extend(synonymPlugin);
 app.use('/api', apiProxy);
 
 // Setting port and serve
-const PORT = process.env.PORT || 8088;
+const PORT = process.env.PORT || 8089;
 const server = app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
