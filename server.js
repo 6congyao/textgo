@@ -98,9 +98,9 @@ const synonymPlugin = {
 
             // swap adjectives
             if (adjsDict) {
-                let m3 = this.match('#Adjective');
-                m3.compute('root');
-                let adjs = m3.text('root').split(' ');
+                let adjs = this.match('#Adjective').out('array');
+                // m3.compute('root');
+                // let adjs = m3.text('root').split(' ');
                 // console.log(adjs);
                 adjs.forEach(term => {
                     const clean = term.replace(/\p{P}/gu, "")
@@ -110,16 +110,16 @@ const synonymPlugin = {
                         // console.log(clean + ': ' + synonyms);
                         const synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
                         console.log('#Swap adjectives: ' + clean + ' -> ' + synonyms);
-                        this.swap(clean, synonym);
+                        this.replace(clean, synonym);
                     }
                 });
             }
 
             // swap advs
             if (adverbsDict) {
-                let m4 = this.match('#Adverb');
-                m4.compute('root');
-                let adverbs = m4.text('root').split(' ');
+                let adverbs = this.match('#Adverb').out('array');
+                // m4.compute('root');
+                // let adverbs = m4.text('root').split(' ');
                 // console.log(adverbs);
 
                 adverbs.forEach(term => {
@@ -130,7 +130,7 @@ const synonymPlugin = {
                         // console.log(clean + ': ' + synonyms);
                         const synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
                         console.log('#Swap adverbs: ' + clean + ' -> ' + synonyms);
-                        this.swap(clean, synonym);
+                        this.replace(clean, synonym);
                     }
                 });
             }
@@ -142,9 +142,9 @@ const synonymPlugin = {
 
 function init() {
     // nounSynonyms = load_synonyms('./synonyms/nouns.json')
-    adjSynonyms = load_synonyms('./synonyms/adjectives.json')
-    // verbSynonyms = load_synonyms('./synonyms/verbs.json')
-    adverbSynonyms = load_synonyms('./synonyms/adverbs.json')
+    // adjSynonyms = load_synonyms('./synonyms/adjectives.json')
+    verbSynonyms = load_synonyms('./synonyms/verbs.json')
+    // adverbSynonyms = load_synonyms('./synonyms/adverbs.json')
 }
 
 function rewrite(content) {
@@ -178,10 +178,11 @@ function capitalizeFirstLetterOfEachSentence(text) {
 }
 
 function addTricks(doc) {
-    const trick_space = '\u2008';
-    const trick_sq = '\u2019';
-    let output = doc.replaceAll(' ', trick_space);
-    // output = output.replaceAll(' ', trick_space);
+    const trick1 = ',\u2007';
+    const trick2 = '.\u2008';
+
+    let output = doc.replaceAll(', ', trick1);
+    // output = output.replaceAll('. ', trick2);
 
     return output;
 }
