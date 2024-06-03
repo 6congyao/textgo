@@ -14345,11 +14345,8 @@
         "grime",
         "dirty"
     ],
-    "colonise": [
-        "colonize"
-    ],
     "colonize": [
-        "colonise"
+        "conquer"
     ],
     "color": [
         "colourize",
@@ -17029,12 +17026,6 @@
     "decollate": [
         "decapitate",
         "behead"
-    ],
-    "decolonise": [
-        "decolonize"
-    ],
-    "decolonize": [
-        "decolonise"
     ],
     "decolor": [
         "decolourize",
@@ -30787,11 +30778,16 @@
         "besprinkle"
     ],
     "spark": [
-        "sparkle"
+        "kindle",
+        "precipitate",
+        "provoke",
+        "set off",
+        "stimulate",
+        "stir",
+        "trigger"
     ],
     "spark off": [
         "trip",
-        "spark",
         "trigger",
         "activate",
         "touch of",

@@ -106,30 +106,29 @@ init();
 nlp.extend(synonymPlugin);
 
 // Example text
-const text = `Elon Musk is a big name in innovation today. He's known for his game-changing companies that have started conversations around the world about where humanity is headed. You can see his influence in many fields, from electric cars with Tesla to the ambitious goal of having people live on Mars with SpaceX. But Musk's journey hasn't been easy, and his bold ideas often face doubt and criticism. Let's take a closer look at Musk's life, what he's achieved, and the controversies surrounding him.
+const text = `Elon Musk is like the Tony Stark of our time, famous for shaking things up with his futuristic companies.  He's involved in everything from electric cars with Tesla to trying to get people on Mars with SpaceX. But Musk isn't all sunshine and rainbows; he's a bit controversial too, because his big ideas sometimes get met with raised eyebrows. Let's dive into the life of this fascinating guy, his achievements, and yes, even the controversies. 
 
-Musk was born in Pretoria, South Africa, on June 28, 1971. Even his early years gave clues to his future as a tech star. He loved computers and technology, which led him to learn programming when he was young, setting the stage for his future as an entrepreneur. Musk's first company was Zip2, an online city guide software company he started with someone else in 1996. Zip2's success paved the way for Musk's later ventures and established him as a major player in the tech world.
+Musk was born in South Africa in 1971, and it seems like he was destined to be a tech whiz.  He loved computers and taught himself to code when he was just a kid. This paved the way for his first company, Zip2, which was like an early online city guide. Zip2's success proved Musk was a big deal in the tech world and gave him the cash to chase even bigger dreams.
 
-In 1999, Musk co-founded X.com, an online payment company that eventually turned into PayPal after merging with other companies. PayPal changed how online transactions worked, making it simpler and safer for people and businesses to handle financial transactions online. Musk's part in PayPal's success made him very wealthy, giving him the resources to chase even bigger dreams.
+In 1999, he co-founded X.com, which later morphed into PayPal, you know, the online payment system we all use now. PayPal made it super easy and safe to send money online, and Musk made a fortune from it.  This gave him the freedom to go after some seriously ambitious goals.
 
-Musk founded SpaceX in 2002 with the goal of making space exploration more accessible and less expensive. He wanted to challenge the traditional control of space exploration by government agencies and bring in a new era of private space travel. Even though people in the industry were skeptical and there were many setbacks, Musk's determination and resilience pushed SpaceX to amazing heights.
+SpaceX was born in 2002 because Musk wanted to make space travel more accessible and less crazy expensive. He wasn't afraid to challenge the big government space agencies and kickstart a new era of space exploration. Even though people doubted him and things went wrong along the way, Musk's stubbornness and resilience helped SpaceX reach incredible heights.
 
-One of SpaceX's biggest achievements happened in 2008 when the Falcon 1 rocket became the first privately funded rocket using liquid fuel to reach orbit. Since then, SpaceX has achieved a lot, like developing the Falcon 9 rocket and the Dragon spacecraft, which are used to send cargo to the International Space Station. In 2020, SpaceX made history again by launching the first crewed mission to the ISS on the Crew Dragon spacecraft, a huge step for commercial spaceflight.
+One of their biggest wins? In 2008, SpaceX's Falcon 1 rocket became the first privately funded liquid-fueled rocket to actually make it to orbit. Talk about a game-changer! Since then, they've hit milestone after milestone, like developing the Falcon 9 rocket and the Dragon spacecraft, which sends cargo to the International Space Station. And get this, in 2020, SpaceX made history again by sending the first crewed mission to the ISS on their Crew Dragon spacecraft. That's a giant leap for commercial spaceflight!
 
-Musk wants to go beyond Earth's orbit. He imagines a self-sustaining colony on Mars. His goal is to make humanity a multi-planetary species, ensuring our survival if something catastrophic were to happen to Earth. While there's debate about whether Musk's Mars colonization plans are realistic, his unwavering dedication to pushing the boundaries of space exploration has inspired people all over the world.
+But Musk isn't stopping at Earth's orbit.  He wants to build a whole colony on Mars!  He's talking about making humans a multi-planetary species so that if something catastrophic happens on Earth, we've got a backup plan.  Now, whether or not we can actually live on Mars is debatable, but you have to admire Musk's dedication to pushing the boundaries of what's possible in space. 
 
-In addition to space, Musk has made significant contributions to sustainable energy and transportation through Tesla. As CEO of Tesla, he has been a leader in developing electric vehicles that combine performance, efficiency, and environmental sustainability. Tesla's cars have changed the automotive industry, challenging the dominance of traditional gasoline-powered cars and speeding up the move to clean energy.
+Of course, Musk is also famous for his work with Tesla, where he's leading the charge in sustainable energy and transportation. As Tesla's CEO, he's been the driving force behind those sleek electric cars that are both powerful and good for the environment. Tesla has really shaken up the car industry, challenging the gas-guzzling cars we're used to and speeding up the move towards clean energy.
 
-Musk's vision goes beyond electric vehicles to include renewable energy solutions and energy storage. Through Tesla Energy, the company makes solar panels and energy storage systems, making it possible for people and businesses to use solar power and rely less on fossil fuels. Products like the Tesla Powerwall have become popular ways to store solar energy to use when demand is high or during power outages.
+But Tesla isn't just about cars.  Musk also wants to change how we use energy.  Through Tesla Energy, they're making solar panels and those big Powerwall batteries that let people store solar energy to use whenever they need it, like when the power goes out. 
 
-Even with all his accomplishments, Musk has been criticized for being outspoken and for provocative statements on social media. His tweets have often caused controversy, affecting stock prices, and starting public debate on a variety of topics. Some people admire his willingness to challenge the status quo, while others think his behavior is reckless and irresponsible.
+Now, even though Musk has accomplished amazing things, he's also known for being a bit of a loose cannon, especially on social media.  His tweets have started arguments, messed with stock prices, and gotten people talking about all sorts of things. Some people love that he's not afraid to speak his mind, while others think he needs to chill out a bit.
 
-One of the most controversial things about Musk is his views on artificial intelligence (AI) and how it might impact society. He acknowledges how much AI can change things, but he's also worried about the potential risks. He's even said that AI is a bigger threat to humanity than nuclear weapons. Because of these concerns, Musk co-founded OpenAI, a research organization dedicated to promoting and developing AI in a safe and beneficial way.
+One of the most controversial things about Musk is his take on artificial intelligence (AI).  He knows AI has the power to change the world, but he's also worried about what could happen if it gets out of control. He's even said that AI is potentially more dangerous than nuclear weapons!  That's why he co-founded OpenAI, an organization dedicated to making sure AI is developed safely and ethically.
 
-Besides space exploration, sustainable energy, and AI, Musk is interested in many other things, including high-speed transportation, brain-computer interfaces, and underground tunnels to reduce traffic jams. His company, The Boring Company, wants to change transportation by building tunnels for electric vehicles and hyperloop systems.
+Besides space travel, sustainable energy, and AI, Musk is interested in all sorts of other cool stuff, like super-fast transportation, connecting our brains to computers, and even digging underground tunnels to avoid traffic.  His company, The Boring Company, is trying to revolutionize transportation with tunnels for electric vehicles and those futuristic Hyperloop systems.
 
-In conclusion, there's no denying Elon Musk's impact on technology, business, and society. Through his visionary leadership and pursuit of ambitious goals, Musk has transformed industries, inspired innovation, and sparked debate about the future of humanity. Even though there have been controversies and challenges along the way, Musk's contributions to space exploration, sustainable energy, and AI have made him one of the most influential people of the 21st century. Whether he's trying to colonize Mars, revolutionize transportation, or advocate for responsible AI development, Elon Musk continues to shape history and inspire future generations of entrepreneurs and innovators.
-`;
+So, there you have it.  Elon Musk is a total game-changer.  He's a visionary leader who's not afraid to chase crazy dreams and has already changed the world in countless ways.  He's faced his share of controversy, but there's no denying that Elon Musk is one of the most influential people of the 21st century.  Whether he's sending people to Mars, building better cars, or trying to save us from a robot apocalypse, one thing's for sure: Elon Musk keeps us on the edge of our seats, wondering what he'll do next.`;
 
 let doc = nlp(text);
 
@@ -153,9 +152,9 @@ function load_synonyms(file) {
 function addTricks(doc) {
     const trick1 = 'g\u2007';
     const trick2 = 's\u2007';
-    const trick3 = 'd\u2007';
-    const trick4 = ',\u2007';
-    const trick5 = '.\u2008';
+    const trick3 = 'y\u2007';
+    const trick4 = ',\u2008';
+    const trick5 = '.\u2007';
     const trick_a = '\u10E7';
     const trick_i = '\u{1D5C4}';
     // const trick_o = '\u03BF';
@@ -169,9 +168,9 @@ function addTricks(doc) {
     const trick_x = '\u{10C45}';
     // let output = replaceSpaces(doc.text(), spacechar, 6);
     let output = doc.replaceAll(', ', trick4);
-    // output = output.replaceAll('. ', trick5);
+    output = output.replaceAll('. ', trick5);
     // output = output.replaceAll('s ', trick2);
-    // output = output.replaceAll('d ', trick3);
+    // output = output.replaceAll('y ', trick3);
     // output = output.replaceAll(', ', trick4);
     // output = output.replaceAll('. ', trick5);
     // output = output.replaceAll('i', trick_i);
