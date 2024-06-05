@@ -22,17 +22,45 @@ const apiProxy = createProxyMiddleware({
             proxyReq.setHeader('Connection', 'keep-alive');
         },
         proxyRes: responseInterceptor(async (responseBuffer, proxyRes, req, res) => {
-            let result = {
-                messages: [{
-                    "role": "assistant",
-                    "type": "answer",
-                    "content": "",
-                    "content_type": "text"
-                }],
-                "code": 0,
-                "conversation_id": "",
-                "msg": "",
-            };
+            if (proxyRes.headers['content-type'] === 'application/json') {
+                let result = {
+                    messages: [{
+                        "role": "assistant",
+                        "type": "answer",
+                        "content": "",
+                        "content_type": "text"
+                    }],
+                    "code": 0,
+                    "conversation_id": "",
+                    "msg": "",
+                };
+
+                let oriResult = JSON.parse(responseBuffer.toString('utf8'));
+
+                if (res.statusCode >= 400) {
+                    result['code'] = oriResult['code'];
+                    result['msg'] = oriResult['message'];
+    
+                } else {
+                    // manipulate JSON data here
+                    if ('answer' in data) {
+                        let output = rewrite(data['answer']);
+
+                        result['messages'][0]['content'] = output;
+                        result['conversation_id'] = data['task_id'];
+                        result['msg'] = "success";
+                    }
+                }
+                // return manipulated JSON
+                return JSON.stringify(result);
+            }
+            return responseBuffer;
+            
+
+            // return other content-types as-is
+
+
+            
 
             if (res.statusCode >= 400) {
                 result['code'] = data['code'];
@@ -43,24 +71,12 @@ const apiProxy = createProxyMiddleware({
             } else {
                 if (proxyRes.headers['content-type'] === 'application/json') {
                     let data = JSON.parse(responseBuffer.toString('utf8'));
-    
-    
-                    // manipulate JSON data here
-                    if ('answer' in data) {
-                        let output = rewrite(data['answer']);
-    
-                        result['messages'][0]['content'] = output;
-                        result['conversation_id'] = data['task_id'];
-                        result['msg'] = "success";
-                    }
-    
-                    // return manipulated JSON
-                    return JSON.stringify(result);
+
+
+                    
                 }
             }
 
-            // return other content-types as-is
-            return responseBuffer;
         }),
         error: (err, req, res) => {
             console.log(err);
