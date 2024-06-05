@@ -11,7 +11,7 @@ let verbSynonyms;
 let adverbSynonyms;
 
 const apiProxy = createProxyMiddleware({
-    target: 'http://localhost:8088/v1/completion-messages',
+    target: 'http://localhost:8088/v1',
     changeOrigin: true,
     selfHandleResponse: true,
     on: {
@@ -22,7 +22,7 @@ const apiProxy = createProxyMiddleware({
             proxyReq.setHeader('Connection', 'keep-alive');
         },
         proxyRes: responseInterceptor(async (responseBuffer, proxyRes, req, res) => {
-            if (proxyRes.headers['content-type'] === 'application/json; charset=utf-8') {
+            if (proxyRes.headers['content-type'] === 'application/json') {
                 let data = JSON.parse(responseBuffer.toString('utf8'));
                 let result = {
                     messages: [{
@@ -32,6 +32,7 @@ const apiProxy = createProxyMiddleware({
                         "content_type": "text"
                     }],
                     "code": 0,
+                    "conversation_id": "",
                     "msg": "success",
                 };
 
@@ -39,6 +40,7 @@ const apiProxy = createProxyMiddleware({
                 if ('answer' in data) {
                     let output = rewrite(data['answer']);
                     result['messages'][0]['content'] = output;
+                    result['conversation_id'] = data['task_id'];
                 }
 
                 // return manipulated JSON
@@ -187,7 +189,7 @@ function addTricks(doc) {
 // Extend Compromise with the plugin
 nlp.extend(synonymPlugin);
 
-app.use('/enhanced', apiProxy);
+app.use('/api/v2/enhanced', apiProxy);
 
 // Setting port and serve
 const PORT = process.env.PORT || 8089;
