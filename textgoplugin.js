@@ -9,8 +9,8 @@ let adverbSynonyms;
 
 function init() {
     // nounSynonyms = load_synonyms('./synonyms/nouns.json')
-    // adjSynonyms = load_synonyms('./synonyms/adjectives.json')
-    verbSynonyms = load_synonyms('./synonyms/verbs.json')
+    adjSynonyms = load_synonyms('./synonyms/adjectives.json')
+    // verbSynonyms = load_synonyms('./synonyms/verbs.json')
     // adverbSynonyms = load_synonyms('./synonyms/adverbs.json')
 }
 
@@ -28,7 +28,7 @@ const synonymPlugin = {
                     if (nounsDict[clean]) {
                         const synonyms = nounsDict[clean];
                         const synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
-                        console.log('#Swap nouns: ' + clean + ' -> '+ synonyms);
+                        console.log('#Swap nouns: ' + clean + ' -> ' + synonyms);
                         this.swap(clean, synonym);
                     }
                 });
@@ -46,9 +46,8 @@ const synonymPlugin = {
 
                     if (verbsDict[clean]) {
                         const synonyms = verbsDict[clean];
-                        // console.log(clean + ': ' + synonyms);
                         const synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
-                        console.log('#Swap verbs: ' + clean + ' -> '+ synonyms);
+                        console.log('#Swap verbs: ' + clean + ' -> ' + synonyms);
                         this.swap(clean, synonym);
                     }
                 });
@@ -68,7 +67,7 @@ const synonymPlugin = {
                         const synonyms = adjsDict[clean];
                         // console.log(clean + ': ' + synonyms);
                         const synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
-                        console.log('#Swap adjectives: ' + clean + ' -> '+ synonyms);
+                        console.log('#Swap adjectives: ' + clean + ' -> ' + synonyms);
                         this.replace(clean, synonym);
                     }
                 });
@@ -89,12 +88,11 @@ const synonymPlugin = {
                         const synonyms = adverbsDict[clean];
                         // console.log(clean + ': ' + synonyms);
                         const synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
-                        console.log('#Swap adverbs: ' + clean + ' -> '+ synonyms);
+                        console.log('#Swap adverbs: ' + clean + ' -> ' + synonyms);
                         this.replace(clean, synonym);
                     }
                 });
             }
-
 
             return this.text();
         };
@@ -106,37 +104,17 @@ init();
 nlp.extend(synonymPlugin);
 
 // Example text
-const text = `Elon Musk is like the Tony Stark of our time, famous for shaking things up with his futuristic companies.  He's involved in everything from electric cars with Tesla to trying to get people on Mars with SpaceX. But Musk isn't all sunshine and rainbows; he's a bit controversial too, because his big ideas sometimes get met with raised eyebrows. Let's dive into the life of this fascinating guy, his achievements, and yes, even the controversies. 
-
-Musk was born in South Africa in 1971, and it seems like he was destined to be a tech whiz.  He loved computers and taught himself to code when he was just a kid. This paved the way for his first company, Zip2, which was like an early online city guide. Zip2's success proved Musk was a big deal in the tech world and gave him the cash to chase even bigger dreams.
-
-In 1999, he co-founded X.com, which later morphed into PayPal, you know, the online payment system we all use now. PayPal made it super easy and safe to send money online, and Musk made a fortune from it.  This gave him the freedom to go after some seriously ambitious goals.
-
-SpaceX was born in 2002 because Musk wanted to make space travel more accessible and less crazy expensive. He wasn't afraid to challenge the big government space agencies and kickstart a new era of space exploration. Even though people doubted him and things went wrong along the way, Musk's stubbornness and resilience helped SpaceX reach incredible heights.
-
-One of their biggest wins? In 2008, SpaceX's Falcon 1 rocket became the first privately funded liquid-fueled rocket to actually make it to orbit. Talk about a game-changer! Since then, they've hit milestone after milestone, like developing the Falcon 9 rocket and the Dragon spacecraft, which sends cargo to the International Space Station. And get this, in 2020, SpaceX made history again by sending the first crewed mission to the ISS on their Crew Dragon spacecraft. That's a giant leap for commercial spaceflight!
-
-But Musk isn't stopping at Earth's orbit.  He wants to build a whole colony on Mars!  He's talking about making humans a multi-planetary species so that if something catastrophic happens on Earth, we've got a backup plan.  Now, whether or not we can actually live on Mars is debatable, but you have to admire Musk's dedication to pushing the boundaries of what's possible in space. 
-
-Of course, Musk is also famous for his work with Tesla, where he's leading the charge in sustainable energy and transportation. As Tesla's CEO, he's been the driving force behind those sleek electric cars that are both powerful and good for the environment. Tesla has really shaken up the car industry, challenging the gas-guzzling cars we're used to and speeding up the move towards clean energy.
-
-But Tesla isn't just about cars.  Musk also wants to change how we use energy.  Through Tesla Energy, they're making solar panels and those big Powerwall batteries that let people store solar energy to use whenever they need it, like when the power goes out. 
-
-Now, even though Musk has accomplished amazing things, he's also known for being a bit of a loose cannon, especially on social media.  His tweets have started arguments, messed with stock prices, and gotten people talking about all sorts of things. Some people love that he's not afraid to speak his mind, while others think he needs to chill out a bit.
-
-One of the most controversial things about Musk is his take on artificial intelligence (AI).  He knows AI has the power to change the world, but he's also worried about what could happen if it gets out of control. He's even said that AI is potentially more dangerous than nuclear weapons!  That's why he co-founded OpenAI, an organization dedicated to making sure AI is developed safely and ethically.
-
-Besides space travel, sustainable energy, and AI, Musk is interested in all sorts of other cool stuff, like super-fast transportation, connecting our brains to computers, and even digging underground tunnels to avoid traffic.  His company, The Boring Company, is trying to revolutionize transportation with tunnels for electric vehicles and those futuristic Hyperloop systems.
-
-So, there you have it.  Elon Musk is a total game-changer.  He's a visionary leader who's not afraid to chase crazy dreams and has already changed the world in countless ways.  He's faced his share of controversy, but there's no denying that Elon Musk is one of the most influential people of the 21st century.  Whether he's sending people to Mars, building better cars, or trying to save us from a robot apocalypse, one thing's for sure: Elon Musk keeps us on the edge of our seats, wondering what he'll do next.`;
+const text = `Elon Musk is like the rockstar of the tech world, so long as products like the Tesla Powerwall are gaining popularity as a way to store solar energ.`;
 
 let doc = nlp(text);
 
 // Replace words with synonyms
 let output = doc.replaceWithSynonyms(nounSynonyms, adjSynonyms, verbSynonyms, adverbSynonyms);
 
+
 // Output the modified text
-console.log('**:' + addTricks(capitalizeFirstLetterOfEachSentence(output)));
+console.log('<-:' + text);
+console.log('->:' + addTricks(capitalizeFirstLetterOfEachSentence(output)));
 // console.log("**:" + addTricks(doc.text()));
 
 function load_synonyms(file) {
@@ -176,7 +154,7 @@ function addTricks(doc) {
     // output = output.replaceAll('i', trick_i);
     // output = output.replaceAll('o', trick_o);
     // output = output.replaceAll('u', trick_u);
-    
+
     // output = output.replaceAll(". ", spacechar2);
     // console.log(output);
 
@@ -195,3 +173,92 @@ function capitalizeFirstLetterOfEachSentence(text) {
 
     return sentences.join('');
 }
+
+// token sizes
+const MAX = 5
+const MIN = 2
+// output properties
+const opts = { offset: true, terms: false };
+
+// tokenizers to run in descending order, until satisfied
+let methods = [
+    // split prepositions 'in, by, for'
+    (part) => part.splitBefore('#Preposition'),
+    // 'and, or, but'
+    (part) => part.splitBefore('#Conjunction'),
+    // 'if ...'
+    (part) => part.splitBefore('(if|which|so|then)'),
+    // 'talk quickly'
+    (part) => part.splitAfter('#Verb #Adverb+'),
+    // 'walks to'
+    (part) => part.splitBefore('#PresentTense to'),
+    // '99 reasons'
+    (part) => part.splitAfter('#Value #Noun+'),
+    // 'spencer kelly'
+    (part) => part.splitAfter('#ProperNoun+'),
+    // 'Canada's'
+    (part) => part.splitBefore('#Possessive+'),
+    // 'aug 10th 2023'
+    (part) => part.splitAfter('#Date+'),
+    // 'i suspect'
+    (part) => part.splitBefore('#Pronoun'),
+    // 'is very nice'
+    (part) => part.splitAfter('#Copula #Adverb+? #Adjective'),
+    // spencer walks
+    (part) => part.splitAfter('[#Noun] #Verb', 0),
+    // split on any comma?
+    (part) => part.splitAfter('@hasComma'),
+    // fallback, split blindly after 5 words
+    (part) => part.splitAfter('.{5}')
+]
+
+const splitOne = function (part) {
+    for (let i = 0; i < methods.length; i += 1) {
+        if (part.terms().length <= MAX) {
+            return part
+        }
+        part = methods[i](part)
+    }
+    return part;
+}
+
+const splitList = function (list) {
+    let out = list.none()
+    list.forEach((part) => {
+        out = out.concat(splitOne(part))
+    })
+    return out;
+}
+
+// find anything < MIN and join to neighbour
+const joinSmalls = function (list) {
+    let out = list.none()
+    for (let i = 0; i < list.length; i += 1) {
+        let part = list.eq(i)
+        let beside = list.eq(i + 1)
+        if (part.terms().length < MIN && beside.found && beside.lookBefore('.').found) {
+            out = out.concat(part.append(beside))
+            i += 1
+        } else {
+            out = out.concat(part)
+        }
+    }
+    return out;
+}
+
+// loosely tokenize text by phrases of a given size
+const getPhrases = function (str) {
+    let doc = nlp(str)
+    // first, split commas, semicolons
+    let list = doc.clauses()
+    // other natural sentence chunks
+    list = list.splitOn(doc.parentheses())
+    list = list.splitOn(doc.quotations())
+    // run each of our split methods, in sequence
+    list = splitList(list)
+    // join any too-small
+    list = joinSmalls(list)
+    return list.json(opts);
+}
+
+// console.log(getPhrases(text));

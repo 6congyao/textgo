@@ -11,40 +11,38 @@ let verbSynonyms;
 let adverbSynonyms;
 
 const apiProxy = createProxyMiddleware({
-    target: 'https://api.coze.com/open_api',
+    target: 'http://localhost:8088/v1',
     changeOrigin: true,
     selfHandleResponse: true,
     on: {
         proxyReq: (proxyReq, req, res) => {
             proxyReq.setHeader('Authorization', 'Bearer ');
             proxyReq.setHeader('Content-Type', 'application/json');
-            proxyReq.setHeader('Host', 'api.coze.com');
             proxyReq.setHeader('Accept', '*/*');
             proxyReq.setHeader('Connection', 'keep-alive');
         },
         proxyRes: responseInterceptor(async (responseBuffer, proxyRes, req, res) => {
             if (proxyRes.headers['content-type'] === 'application/json; charset=utf-8') {
                 let data = JSON.parse(responseBuffer.toString('utf8'));
+                let result = {
+                    messages: [{
+                        "role": "assistant",
+                        "type": "answer",
+                        "content": "",
+                        "content_type": "text"
+                    }],
+                    "code": 0,
+                    "msg": "success",
+                };
 
                 // manipulate JSON data here
-                if (data['msg'] !== 'success') {
-                    res.statusCode = 403;
-                } else {
-                    if ('messages' in data) {
-                        for (let msg of data['messages']) {
-                            if ('type' in msg) {
-                                if (msg['type'] === 'answer') {
-                                    let output = rewrite(msg['content']);
-                                    // let target = msg['content'].replaceAll(' ', spacechar);
-                                    msg['content'] = output;
-                                    break;
-                                }
-                            }
-                        }
-                    }
+                if ('answer' in data) {
+                    let output = rewrite(data['answer']);
+                    result['messages'][0]['content'] = output;
                 }
+
                 // return manipulated JSON
-                return JSON.stringify(data);
+                return JSON.stringify(result);
             }
 
             // return other content-types as-is
@@ -189,7 +187,7 @@ function addTricks(doc) {
 // Extend Compromise with the plugin
 nlp.extend(synonymPlugin);
 
-app.use('/api', apiProxy);
+app.use('/completion-messages', apiProxy);
 
 // Setting port and serve
 const PORT = process.env.PORT || 8089;
