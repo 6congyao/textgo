@@ -43,40 +43,19 @@ const apiProxy = createProxyMiddleware({
     
                 } else {
                     // manipulate JSON data here
-                    if ('answer' in data) {
-                        let output = rewrite(data['answer']);
+                    if ('answer' in oriResult) {
+                        let output = rewrite(oriResult['answer']);
 
                         result['messages'][0]['content'] = output;
-                        result['conversation_id'] = data['task_id'];
+                        result['conversation_id'] = oriResult['task_id'];
                         result['msg'] = "success";
                     }
                 }
                 // return manipulated JSON
                 return JSON.stringify(result);
             }
-            return responseBuffer;
-            
-
             // return other content-types as-is
-
-
-            
-
-            if (res.statusCode >= 400) {
-                result['code'] = data['code'];
-                result['msg'] = data['message'];
-
-                // return manipulated JSON
-                return JSON.stringify(result);
-            } else {
-                if (proxyRes.headers['content-type'] === 'application/json') {
-                    let data = JSON.parse(responseBuffer.toString('utf8'));
-
-
-                    
-                }
-            }
-
+            return responseBuffer;
         }),
         error: (err, req, res) => {
             console.log(err);
