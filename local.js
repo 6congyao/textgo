@@ -11,7 +11,7 @@ let verbSynonyms;
 let adverbSynonyms;
 
 const apiProxy = createProxyMiddleware({
-    target: 'http://localhost:8088/v1',
+    target: 'http://localhost:8088/v1/completion-messages',
     changeOrigin: true,
     selfHandleResponse: true,
     on: {
@@ -187,7 +187,7 @@ function addTricks(doc) {
 // Extend Compromise with the plugin
 nlp.extend(synonymPlugin);
 
-app.use('/completion-messages', apiProxy);
+app.use('/enhanced', apiProxy);
 
 // Setting port and serve
 const PORT = process.env.PORT || 8089;
