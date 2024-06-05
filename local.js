@@ -22,29 +22,41 @@ const apiProxy = createProxyMiddleware({
             proxyReq.setHeader('Connection', 'keep-alive');
         },
         proxyRes: responseInterceptor(async (responseBuffer, proxyRes, req, res) => {
-            if (proxyRes.headers['content-type'] === 'application/json') {
-                let data = JSON.parse(responseBuffer.toString('utf8'));
-                let result = {
-                    messages: [{
-                        "role": "assistant",
-                        "type": "answer",
-                        "content": "",
-                        "content_type": "text"
-                    }],
-                    "code": 0,
-                    "conversation_id": "",
-                    "msg": "success",
-                };
+            let result = {
+                messages: [{
+                    "role": "assistant",
+                    "type": "answer",
+                    "content": "",
+                    "content_type": "text"
+                }],
+                "code": 0,
+                "conversation_id": "",
+                "msg": "",
+            };
 
-                // manipulate JSON data here
-                if ('answer' in data) {
-                    let output = rewrite(data['answer']);
-                    result['messages'][0]['content'] = output;
-                    result['conversation_id'] = data['task_id'];
-                }
+            if (res.statusCode >= 400) {
+                result['code'] = data['code'];
+                result['msg'] = data['message'];
 
                 // return manipulated JSON
                 return JSON.stringify(result);
+            } else {
+                if (proxyRes.headers['content-type'] === 'application/json') {
+                    let data = JSON.parse(responseBuffer.toString('utf8'));
+    
+    
+                    // manipulate JSON data here
+                    if ('answer' in data) {
+                        let output = rewrite(data['answer']);
+    
+                        result['messages'][0]['content'] = output;
+                        result['conversation_id'] = data['task_id'];
+                        result['msg'] = "success";
+                    }
+    
+                    // return manipulated JSON
+                    return JSON.stringify(result);
+                }
             }
 
             // return other content-types as-is
