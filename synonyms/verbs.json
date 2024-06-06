@@ -183,13 +183,11 @@
     "accent": [
         "emphasize",
         "accentuat",
-        "emphasise",
         "stress",
         "punctuate"
     ],
     "accentuate": [
         "emphasize",
-        "emphasise",
         "accen",
         "stress",
         "punctuate"
@@ -208,16 +206,11 @@
         "applaud"
     ],
     "acclimate": [
-        "acclimatise",
         "acclimatize"
     ],
-    "acclimatise": [
-        "acclimate",
-        "acclimatize"
-    ],
+
     "acclimatize": [
-        "acclimate",
-        "acclimatise"
+        "acclimate"
     ],
     "accommodate": [
         "adapt"
@@ -265,8 +258,6 @@
     "accurse": [
         "anathemize",
         "comminate",
-        "anathematise",
-        "anathemise",
         "execrate",
         "anathematize"
     ],
@@ -291,16 +282,10 @@
         "acidify"
     ],
     "acetylate": [
-        "acetylise",
-        "acetylize"
-    ],
-    "acetylise": [
-        "acetylate",
         "acetylize"
     ],
     "acetylize": [
-        "acetylate",
-        "acetylise"
+        "acetylate"
     ],
     "ache": [
         "hurt",
@@ -310,12 +295,6 @@
         "attain",
         "reach",
         "accomplish"
-    ],
-    "achromatise": [
-        "achromatize"
-    ],
-    "achromatize": [
-        "achromatise"
     ],
     "acidify": [
         "acetify"
@@ -329,8 +308,7 @@
         "admit"
     ],
     "acquaint": [
-        "familiarize",
-        "familiarise"
+        "familiarize"
     ],
     "acquiesce": [
         "assent",
@@ -394,12 +372,6 @@
     ],
     "activate": [
         "aerate"
-    ],
-    "actualise": [
-        "actualize"
-    ],
-    "actualize": [
-        "actualise"
     ],
     "actuate": [
         "propel",
@@ -485,8 +457,6 @@
     ],
     "ad-lib": [
         "extemporize",
-        "improvise",
-        "extemporise",
         "improvize"
     ],
     "administer": [
@@ -545,16 +515,6 @@
         "touch",
         "allude"
     ],
-    "advertise": [
-        "promote",
-        "advertize",
-        "push"
-    ],
-    "advertize": [
-        "promote",
-        "advertise",
-        "push"
-    ],
     "advise": [
         "give notice",
         "notify",
@@ -570,14 +530,7 @@
     ],
     "aerify": [
         "vaporize",
-        "gasify",
-        "vaporise"
-    ],
-    "aerosolise": [
-        "aerosolize"
-    ],
-    "aerosolize": [
-        "aerosolise"
+        "gasify"
     ],
     "aestivate": [
         "estivate"
@@ -621,7 +574,8 @@
         "forest"
     ],
     "affranchise": [
-        "enfranchise"
+        "liberate",
+        "loosen"
     ],
     "affright": [
         "frighten away",
@@ -640,27 +594,8 @@
         "senesce",
         "maturat"
     ],
-    "agenise": [
-        "Agenize",
-        "Agenise"
-    ],
-    "agenize": [
-        "Agenize",
-        "Agenise"
-    ],
-    "aggrandise": [
-        "aggrandize",
-        "lard",
-        "pad",
-        "blow up",
-        "embellish",
-        "dramatis",
-        "embroider",
-        "dramatize"
-    ],
     "aggrandize": [
         "lard",
-        "aggrandise",
         "pad",
         "blow up",
         "embellish",
@@ -691,27 +626,13 @@
         "crusade",
         "push"
     ],
-    "agnise": [
-        "realize",
-        "recognize",
-        "realise",
-        "agniz"
-    ],
     "agnize": [
         "agnis",
         "realize",
-        "recognize",
-        "realise"
-    ],
-    "agonise": [
-        "agonize"
-    ],
-    "agonize": [
-        "agonise"
+        "recognize"
     ],
     "agree": [
         "harmonize",
-        "harmonise",
         "concord",
         "fit in",
         "consort",
@@ -765,18 +686,6 @@
     "alarm": [
         "alert"
     ],
-    "alchemise": [
-        "alchemize"
-    ],
-    "alchemize": [
-        "alchemise"
-    ],
-    "alcoholise": [
-        "alcoholize"
-    ],
-    "alcoholize": [
-        "alcoholise"
-    ],
     "alert": [
         "alarm"
     ],
@@ -804,23 +713,10 @@
         "line up"
     ],
     "alkalify": [
-        "alkalise",
         "basify",
         "alkalize"
     ],
-    "alkalinise": [
-        "alkalinize"
-    ],
-    "alkalinize": [
-        "alkalinise"
-    ],
-    "alkalise": [
-        "alkalify",
-        "alkalize",
-        "basify"
-    ],
     "alkalize": [
-        "alkalise",
         "alkalify",
         "basify"
     ],
@@ -832,12 +728,6 @@
     "allege": [
         "aver",
         "say"
-    ],
-    "allegorise": [
-        "allegorize"
-    ],
-    "allegorize": [
-        "allegorise"
     ],
     "alleviate": [
         "ease",
@@ -873,12 +763,6 @@
     "allure": [
         "tempt"
     ],
-    "alphabetise": [
-        "alphabetize"
-    ],
-    "alphabetize": [
-        "alphabetise"
-    ],
     "alter": [
         "modify",
         "change"
@@ -895,12 +779,6 @@
         "switch",
         "interchange",
         "tack"
-    ],
-    "aluminise": [
-        "aluminize"
-    ],
-    "aluminize": [
-        "aluminise"
     ],
     "amalgamate": [
         "mix",
@@ -950,20 +828,6 @@
         "ameliorate",
         "improve"
     ],
-    "americanise": [
-        "Americanize",
-        "Americanise"
-    ],
-    "americanize": [
-        "Americanize",
-        "Americanise"
-    ],
-    "amortise": [
-        "amortize"
-    ],
-    "amortize": [
-        "amortise"
-    ],
     "amount": [
         "come",
         "add up"
@@ -980,39 +844,17 @@
         "disport",
         "divert"
     ],
-    "anaesthetise": [
-        "anaesthetize",
-        "anesthetise",
-        "put to sleep",
-        "anesthetize",
-        "put under",
-        "put out"
-    ],
     "anaesthetize": [
-        "anesthetise",
         "put to sleep",
-        "anaesthetise",
         "anesthetize",
         "put under",
         "put out"
     ],
     "anagram": [
-        "anagrammatise",
-        "anagrammatize"
-    ],
-    "anagrammatise": [
-        "anagram",
         "anagrammatize"
     ],
     "anagrammatize": [
-        "anagram",
-        "anagrammatise"
-    ],
-    "analogise": [
-        "analogize"
-    ],
-    "analogize": [
-        "analogise"
+        "anagram"
     ],
     "analyse": [
         "study",
@@ -1031,43 +873,19 @@
     "anastomose": [
         "inosculate"
     ],
-    "anathematise": [
-        "anathematiz",
-        "anathemize",
-        "comminate",
-        "anathemise",
-        "execrate",
-        "accurse"
-    ],
     "anathematize": [
         "anathemize",
         "comminate",
         "anathematis",
-        "anathemise",
         "execrate",
         "accurse"
-    ],
-    "anathemise": [
-        "anathemize",
-        "comminate",
-        "anathematis",
-        "execrate",
-        "accurse",
-        "anathematize"
     ],
     "anathemize": [
         "comminate",
         "anathematis",
-        "anathemise",
         "execrate",
         "accurse",
         "anathematize"
-    ],
-    "anatomise": [
-        "anatomize"
-    ],
-    "anatomize": [
-        "anatomise"
     ],
     "anchor": [
         "cast anchor",
@@ -1082,19 +900,9 @@
         "anoint",
         "embrocat"
     ],
-    "anesthetise": [
-        "anaesthetize",
-        "put to sleep",
-        "anaesthetise",
-        "anesthetize",
-        "put under",
-        "put ou"
-    ],
     "anesthetize": [
         "anaesthetize",
-        "anesthetise",
         "put to sleep",
-        "anaesthetise",
         "put under",
         "put ou"
     ],
@@ -1103,12 +911,6 @@
     ],
     "angle": [
         "fish"
-    ],
-    "anglicise": [
-        "anglicize"
-    ],
-    "anglicize": [
-        "anglicise"
     ],
     "anguish": [
         "hurt",
@@ -1119,22 +921,10 @@
         "opine",
         "speak up"
     ],
-    "animalise": [
-        "animalize"
-    ],
-    "animalize": [
-        "animalise"
-    ],
     "animate": [
-        "animize",
-        "animise"
-    ],
-    "animise": [
-        "animize",
-        "animate"
+        "animize"
     ],
     "animize": [
-        "animise",
         "animate"
     ],
     "ankylose": [
@@ -1188,12 +978,6 @@
         "announce",
         "herald"
     ],
-    "anodise": [
-        "anodize"
-    ],
-    "anodize": [
-        "anodise"
-    ],
     "anoint": [
         "anele",
         "inunct",
@@ -1206,13 +990,6 @@
     ],
     "answer for": [
         "account"
-    ],
-    "antagonise": [
-        "antagonize",
-        "counteract"
-    ],
-    "antagonize": [
-        "antagonise"
     ],
     "ante up": [
         "pay",
@@ -1232,18 +1009,6 @@
         "predate",
         "forego"
     ],
-    "anthologise": [
-        "anthologize"
-    ],
-    "anthologize": [
-        "anthologise"
-    ],
-    "anthropomorphise": [
-        "anthropomorphize"
-    ],
-    "anthropomorphize": [
-        "anthropomorphise"
-    ],
     "antic": [
         "clown",
         "clown around"
@@ -1260,46 +1025,19 @@
     "ape": [
         "caricature"
     ],
-    "aphorise": [
-        "aphorize"
-    ],
-    "aphorize": [
-        "aphorise"
-    ],
-    "apologise": [
-        "excuse",
-        "justify",
-        "rationalise",
-        "rationalize",
-        "apologize"
-    ],
     "apologize": [
-        "apologise"
-    ],
-    "apostatise": [
-        "tergiversate",
-        "apostatize"
+        "atone",
+        "confess",
+        "retract",
+        "withdraw"
     ],
     "apostatize": [
-        "tergiversate",
-        "apostatise"
-    ],
-    "apostrophise": [
-        "apostrophize"
-    ],
-    "apostrophize": [
-        "apostrophise"
+        "tergiversate"
     ],
     "apotheose": [
-        "apotheosize",
-        "apotheosise"
-    ],
-    "apotheosise": [
-        "apotheosize",
-        "apotheose"
+        "apotheosize"
     ],
     "apotheosize": [
-        "apotheosise",
         "apotheose"
     ],
     "appal": [
@@ -1363,15 +1101,7 @@
     "apportion": [
         "allocate"
     ],
-    "appraise": [
-        "value",
-        "evaluate",
-        "assess",
-        "measure",
-        "valuate"
-    ],
     "appreciate": [
-        "apprise",
         "apprize",
         "revalue"
     ],
@@ -1384,18 +1114,17 @@
         "arrest"
     ],
     "apprise": [
-        "give notice",
-        "notify",
         "advise",
-        "send word",
-        "appriz"
+        "notify",
+        "apprize",
+        "brief",
+        "inform"
     ],
     "apprize": [
-        "give notice",
-        "notify",
         "advise",
-        "send word",
-        "appris"
+        "notify",
+        "brief",
+        "inform"
     ],
     "approach": [
         "border on"
@@ -1420,12 +1149,6 @@
         "intercede",
         "intermediate"
     ],
-    "arborise": [
-        "arborize"
-    ],
-    "arborize": [
-        "arborise"
-    ],
     "arc": [
         "arch",
         "curve"
@@ -1436,12 +1159,6 @@
     ],
     "arch over": [
         "overarch"
-    ],
-    "archaise": [
-        "archaize"
-    ],
-    "archaize": [
-        "archaise"
     ],
     "archive": [
         "file away"
@@ -1472,13 +1189,8 @@
     "armour": [
         "armor"
     ],
-    "aromatise": [
-        "aromatize",
-        "perfume"
-    ],
     "aromatize": [
-        "perfume",
-        "aromatise"
+        "perfume"
     ],
     "arouse": [
         "waken",
@@ -1542,14 +1254,7 @@
         "loll",
         "lounge about"
     ],
-    "arterialise": [
-        "arterialize"
-    ],
-    "arterialize": [
-        "arterialise"
-    ],
     "articulate": [
-        "vocalise",
         "vocalize",
         "enunciate"
     ],
@@ -1727,12 +1432,6 @@
     "atom-bomb": [
         "nuke"
     ],
-    "atomise": [
-        "atomize"
-    ],
-    "atomize": [
-        "atomise"
-    ],
     "atone": [
         "aby",
         "expiate"
@@ -1804,12 +1503,6 @@
         "fig up",
         "rig out"
     ],
-    "attitudinise": [
-        "attitudinize"
-    ],
-    "attitudinize": [
-        "attitudinise"
-    ],
     "attract": [
         "appeal"
     ],
@@ -1830,8 +1523,7 @@
     ],
     "audit": [
         "scrutinize",
-        "inspect",
-        "scrutinise"
+        "inspect"
     ],
     "audition": [
         "try out"
@@ -1864,13 +1556,7 @@
         "portend",
         "foreshadow"
     ],
-    "authorise": [
-        "authorize",
-        "pass",
-        "clear"
-    ],
     "authorize": [
-        "authorise",
         "pass",
         "clear"
     ],
@@ -1878,20 +1564,7 @@
         "inscribe"
     ],
     "automate": [
-        "automatise",
         "automatize"
-    ],
-    "automatise": [
-        "automatize"
-    ],
-    "automatize": [
-        "automatise"
-    ],
-    "autotomise": [
-        "autotomize"
-    ],
-    "autotomize": [
-        "autotomise"
     ],
     "avail": [
         "help"
@@ -1926,12 +1599,6 @@
         "avoid",
         "stave off",
         "debar"
-    ],
-    "avianise": [
-        "avianize"
-    ],
-    "avianize": [
-        "avianise"
     ],
     "aviate": [
         "pilot",
@@ -2082,12 +1749,6 @@
         "double back",
         "turn back"
     ],
-    "bacterise": [
-        "bacterize"
-    ],
-    "bacterize": [
-        "bacterise"
-    ],
     "badger": [
         "bug",
         "beleague",
@@ -2127,7 +1788,6 @@
     "bait": [
         "rally",
         "rid",
-        "tantalise",
         "cod",
         "taunt",
         "razz",
@@ -2141,7 +1801,6 @@
     ],
     "balance": [
         "equilibrize",
-        "equilibrise",
         "equilibrate"
     ],
     "bale out": [
@@ -2151,14 +1810,6 @@
         "jib",
         "baulk",
         "resist"
-    ],
-    "balkanise": [
-        "Balkanise",
-        "Balkanize"
-    ],
-    "balkanize": [
-        "Balkanise",
-        "Balkanize"
     ],
     "ball over": [
         "stun",
@@ -2260,7 +1911,6 @@
     ],
     "banish": [
         "blackball",
-        "ostracise",
         "ban",
         "ostracize",
         "cast out",
@@ -2284,13 +1934,8 @@
         "chaff",
         "jos"
     ],
-    "baptise": [
-        "christen",
-        "baptize"
-    ],
     "baptize": [
-        "christen",
-        "baptise"
+        "christen"
     ],
     "bar": [
         "relegate",
@@ -2298,12 +1943,6 @@
     ],
     "bar hop": [
         "pub-crawl"
-    ],
-    "barbarise": [
-        "barbarize"
-    ],
-    "barbarize": [
-        "barbarise"
     ],
     "barbecue": [
         "barbeque",
@@ -2370,12 +2009,6 @@
     "bark": [
         "skin"
     ],
-    "baronetise": [
-        "baronetize"
-    ],
-    "baronetize": [
-        "baronetise"
-    ],
     "barrack": [
         "urge",
         "pep u",
@@ -2406,7 +2039,6 @@
         "bonk"
     ],
     "basify": [
-        "alkalise",
         "alkalify",
         "alkalize"
     ],
@@ -2419,12 +2051,7 @@
     "basset": [
         "crop out"
     ],
-    "bastardise": [
-        "bastardize"
-    ],
-    "bastardize": [
-        "bastardise"
-    ],
+
     "baste": [
         "clobber",
         "batter"
@@ -2790,8 +2417,7 @@
         "curse",
         "anathemize",
         "imprecate",
-        "maledict",
-        "anathemise"
+        "maledict"
     ],
     "bedaub": [
         "besmear"
@@ -2917,7 +2543,6 @@
         "get"
     ],
     "beggar": [
-        "pauperise",
         "pauperize"
     ],
     "begild": [
@@ -3169,8 +2794,7 @@
         "curse",
         "anathemize",
         "imprecate",
-        "maledict",
-        "anathemise"
+        "maledict"
     ],
     "besiege": [
         "hem in",
@@ -3218,12 +2842,6 @@
         "scoop",
         "outdo",
         "trump"
-    ],
-    "bestialise": [
-        "bestialize"
-    ],
-    "bestialize": [
-        "bestialise"
     ],
     "bestir": [
         "rouse"
@@ -3387,7 +3005,6 @@
         "tie up"
     ],
     "binge": [
-        "gormandise",
         "overeat",
         "scarf ou",
         "gormandize",
@@ -3443,12 +3060,6 @@
     ],
     "bite off": [
         "snap at"
-    ],
-    "bituminise": [
-        "bituminize"
-    ],
-    "bituminize": [
-        "bituminise"
     ],
     "bivouac": [
         "encamp",
@@ -3510,7 +3121,6 @@
         "blacken out"
     ],
     "blackball": [
-        "ostracise",
         "cast ou",
         "ban",
         "ostracize",
@@ -3625,11 +3235,8 @@
         "decolour",
         "bleach out",
         "decolor",
-        "decolourise",
         "decolorize",
-        "discolourise",
         "discolorize",
-        "decolorise",
         "discoloris"
     ],
     "bleach out": [
@@ -3637,11 +3244,8 @@
         "decolour",
         "bleach",
         "decolor",
-        "decolourise",
         "decolorize",
-        "discolourise",
         "discolorize",
-        "decolorise",
         "discoloris"
     ],
     "blear": [
@@ -3654,8 +3258,7 @@
     ],
     "bleed": [
         "phlebotomize",
-        "leech",
-        "phlebotomise"
+        "leech"
     ],
     "blemish": [
         "deface",
@@ -4134,15 +3737,8 @@
         "flub",
         "bollix"
     ],
-    "bolshevise": [
-        "bolshevize",
-        "communize",
-        "communise"
-    ],
     "bolshevize": [
-        "bolshevise",
-        "communize",
-        "communise"
+        "communize"
     ],
     "bolster": [
         "bolster up"
@@ -4189,12 +3785,6 @@
         "hold fast",
         "stick",
         "stick t"
-    ],
-    "bonderise": [
-        "bonderize"
-    ],
-    "bonderize": [
-        "bonderise"
     ],
     "bone": [
         "swot",
@@ -4328,12 +3918,6 @@
         "browbeat",
         "hector"
     ],
-    "botanise": [
-        "botanize"
-    ],
-    "botanize": [
-        "botanise"
-    ],
     "botch": [
         "bollix up",
         "ball up",
@@ -4449,15 +4033,8 @@
         "chicken out",
         "back dow"
     ],
-    "bowdlerise": [
-        "expurgate",
-        "castrate",
-        "bowdlerize",
-        "shorten"
-    ],
     "bowdlerize": [
         "expurgate",
-        "bowdlerise",
         "castrate",
         "shorten"
     ],
@@ -6391,7 +5968,6 @@
         "deprave",
         "misdirec",
         "corrupt",
-        "demoralise",
         "debase",
         "debauch"
     ],
@@ -6427,24 +6003,11 @@
         "coquet",
         "coquette"
     ],
-    "philosophise": [
-        "philosophize"
-    ],
-    "philosophize": [
-        "philosophise"
-    ],
-    "phlebotomise": [
-        "phlebotomize",
+    "phlebotomize": [
         "leech",
         "bleed"
     ],
-    "phlebotomize": [
-        "leech",
-        "bleed",
-        "phlebotomise"
-    ],
     "phonate": [
-        "vocalise",
         "vocalize"
     ],
     "phone": [
@@ -6461,12 +6024,6 @@
         "snap",
         "shoot"
     ],
-    "photosensitise": [
-        "photosensitize"
-    ],
-    "photosensitize": [
-        "photosensitise"
-    ],
     "phrase": [
         "articulate",
         "word",
@@ -6479,8 +6036,7 @@
     ],
     "pick apart": [
         "criticize",
-        "knock",
-        "criticise"
+        "knock"
     ],
     "pick at": [
         "belittle",
@@ -6566,7 +6122,6 @@
         "pig"
     ],
     "pig out": [
-        "gormandise",
         "overeat",
         "scarf ou",
         "gormandize",
@@ -6639,8 +6194,7 @@
     ],
     "pin": [
         "trap",
-        "immobilize",
-        "immobilise"
+        "immobilize"
     ],
     "pin down": [
         "nail down",
@@ -6787,12 +6341,7 @@
         "stand",
         "stand up"
     ],
-    "plagiarise": [
-        "plagiarize",
-        "lift"
-    ],
     "plagiarize": [
-        "plagiarise",
         "lift"
     ],
     "plague": [
@@ -6846,12 +6395,6 @@
     "plaster over": [
         "stick on",
         "plaster"
-    ],
-    "plasticise": [
-        "plasticize"
-    ],
-    "plasticize": [
-        "plasticise"
     ],
     "plat": [
         "plot"
@@ -7094,12 +6637,6 @@
         "back",
         "suppor"
     ],
-    "pluralise": [
-        "pluralize"
-    ],
-    "pluralize": [
-        "pluralise"
-    ],
     "ply": [
         "cater",
         "provide",
@@ -7113,13 +6650,7 @@
     "pocket": [
         "bag"
     ],
-    "poetise": [
-        "versify",
-        "poetize",
-        "verse"
-    ],
     "poetize": [
-        "poetise",
         "versify",
         "verse"
     ],
@@ -7169,12 +6700,6 @@
         "reach out",
         "extend"
     ],
-    "polarise": [
-        "polarize"
-    ],
-    "polarize": [
-        "polarise"
-    ],
     "pole": [
         "punt"
     ],
@@ -7184,25 +6709,13 @@
     "poleaxe": [
         "poleax"
     ],
-    "polemicise": [
-        "polemiciz",
-        "polemize",
-        "polemise"
-    ],
     "polemicize": [
         "polemize",
-        "polemicis",
-        "polemise"
-    ],
-    "polemise": [
-        "polemize",
-        "polemicis",
-        "polemicize"
+        "polemicis"
     ],
     "polemize": [
         "polemicize",
-        "polemicis",
-        "polemise"
+        "polemicis"
     ],
     "police": [
         "patrol"
@@ -7221,12 +6734,6 @@
         "brush up",
         "polish",
         "round"
-    ],
-    "politicise": [
-        "politicize"
-    ],
-    "politicize": [
-        "politicise"
     ],
     "poll": [
         "canvass",
@@ -7248,22 +6755,10 @@
         "contaminate"
     ],
     "polychrome": [
-        "polychromise",
-        "polychromize"
-    ],
-    "polychromise": [
-        "polychrome",
         "polychromize"
     ],
     "polychromize": [
-        "polychromise",
         "polychrome"
-    ],
-    "polymerise": [
-        "polymerize"
-    ],
-    "polymerize": [
-        "polymerise"
     ],
     "pommel": [
         "pummel",
@@ -7344,19 +6839,10 @@
         "crop up",
         "pop"
     ],
-    "popularise": [
-        "popularize",
-        "vulgarise",
+    "popularize": [
         "vulgarize",
         "generalis",
         "generalize"
-    ],
-    "popularize": [
-        "vulgarise",
-        "vulgarize",
-        "generalis",
-        "generalize",
-        "popularise"
     ],
     "populate": [
         "people"
@@ -7525,20 +7011,12 @@
     ],
     "powder": [
         "powderize",
-        "powderise",
-        "pulverize",
-        "pulverise"
+        "pulverize"
     ],
-    "powderise": [
-        "powderize",
-        "pulverize",
-        "pulverise"
-    ],
+
     "powderize": [
-        "powderise",
         "powder",
-        "pulverize",
-        "pulverise"
+        "pulverize"
     ],
     "powerwash": [
         "pressure-wash"
@@ -7608,7 +7086,6 @@
     "preachify": [
         "moralis",
         "sermonize",
-        "sermonise",
         "moralize"
     ],
     "preassemble": [
@@ -7802,12 +7279,6 @@
     "pressure-wash": [
         "powerwash"
     ],
-    "pressurise": [
-        "pressurize"
-    ],
-    "pressurize": [
-        "pressurise"
-    ],
     "presume": [
         "take for granted",
         "assume"
@@ -7924,23 +7395,16 @@
     "print over": [
         "overprint"
     ],
-    "prioritise": [
-        "prioritize"
-    ],
     "prioritize": [
-        "prioritise"
+        "compute",
+        "register",
+        "set up"
     ],
     "prise": [
         "pry",
         "lever",
         "jimmy",
         "prize"
-    ],
-    "privatise": [
-        "privatize"
-    ],
-    "privatize": [
-        "privatise"
     ],
     "privilege": [
         "favour",
@@ -8005,19 +7469,12 @@
         "pervert",
         "misdirec",
         "corrupt",
-        "demoralise",
         "debase",
         "debauch"
     ],
     "profess": [
         "concede",
         "confess"
-    ],
-    "professionalise": [
-        "professionalize"
-    ],
-    "professionalize": [
-        "professionalise"
     ],
     "proffer": [
         "offer"
@@ -8070,17 +7527,11 @@
         "throw",
         "cast"
     ],
-    "prologise": [
-        "prologize",
-        "prologuize"
-    ],
     "prologize": [
-        "prologise",
         "prologuize"
     ],
     "prologuize": [
-        "prologize",
-        "prologise"
+        "prologize"
     ],
     "prolong": [
         "draw out",
@@ -8131,16 +7582,9 @@
         "prop",
         "shor"
     ],
-    "propagandise": [
-        "propagandize"
-    ],
-    "propagandize": [
-        "propagandise"
-    ],
     "propagate": [
         "diffuse",
         "spread",
-        "circularise",
         "distribute",
         "circulate",
         "broadcast",
@@ -8185,12 +7629,6 @@
         "engage",
         "pursue"
     ],
-    "proselytise": [
-        "proselytize"
-    ],
-    "proselytize": [
-        "proselytise"
-    ],
     "prosper": [
         "expand",
         "get ahead",
@@ -8220,9 +7658,6 @@
         "demonstrate",
         "show"
     ],
-    "provide": [
-        "bring home the bacon"
-    ],
     "provision": [
         "purvey"
     ],
@@ -8241,7 +7676,6 @@
     "prune": [
         "cut back",
         "cut",
-        "rationalise",
         "cut out",
         "rationalize"
     ],
@@ -8265,32 +7699,17 @@
         "psychoanalyse",
         "analyze"
     ],
-    "ptyalise": [
-        "spue",
-        "spit up",
-        "ptyalize",
-        "spit",
-        "spew"
-    ],
     "ptyalize": [
         "spue",
         "spit up",
         "spit",
-        "spew",
-        "ptyalise"
+        "spew"
     ],
     "pub-crawl": [
         "bar hop"
     ],
-    "publicise": [
-        "advertize",
-        "publicize",
-        "advertise"
-    ],
     "publicize": [
-        "publicise",
-        "advertize",
-        "advertise"
+        "advertize"
     ],
     "publish": [
         "bring out",
@@ -8486,13 +7905,8 @@
         "throb",
         "pulsate"
     ],
-    "pulverise": [
-        "pulverize",
-        "demolish"
-    ],
     "pulverize": [
-        "demolish",
-        "pulverise"
+        "demolish"
     ],
     "pummel": [
         "pommel",
@@ -8516,8 +7930,7 @@
         "deflate"
     ],
     "punish": [
-        "penalize",
-        "penalise"
+        "penalize"
     ],
     "punt": [
         "stake",
@@ -8589,16 +8002,12 @@
     "purse": [
         "wrinkle"
     ],
-    "pursue": [
-        "follow"
-    ],
     "purvey": [
         "provision"
     ],
     "push": [
         "promote",
-        "advertize",
-        "advertise"
+        "advertize"
     ],
     "push around": [
         "hecto",
@@ -8762,9 +8171,7 @@
     ],
     "put out": [
         "anaesthetize",
-        "anesthetise",
         "put to sleep",
-        "anaesthetise",
         "anesthetize",
         "put under"
     ],
@@ -8788,8 +8195,6 @@
     ],
     "put to sleep": [
         "anaesthetize",
-        "anesthetise",
-        "anaesthetise",
         "anesthetize",
         "put under",
         "put out"
@@ -8806,9 +8211,7 @@
     ],
     "put under": [
         "anaesthetize",
-        "anesthetise",
         "put to sleep",
-        "anaesthetise",
         "anesthetize",
         "put out"
     ],
@@ -8877,17 +8280,10 @@
         "quiver"
     ],
     "qualify": [
-        "characterize",
-        "characterise"
+        "characterize"
     ],
     "quantify": [
         "measure"
-    ],
-    "quantise": [
-        "quantize"
-    ],
-    "quantize": [
-        "quantise"
     ],
     "quarrel": [
         "argufy",
@@ -8988,7 +8384,6 @@
     ],
     "quiet": [
         "still",
-        "tranquillise",
         "calm",
         "quieten",
         "tranquillize",
@@ -9004,7 +8399,6 @@
         "quiesce"
     ],
     "quieten": [
-        "tranquillise",
         "calm",
         "quiet",
         "tranquillize",
@@ -9208,12 +8602,6 @@
         "build up",
         "build"
     ],
-    "randomise": [
-        "randomize"
-    ],
-    "randomize": [
-        "randomise"
-    ],
     "range": [
         "array",
         "lay out",
@@ -9309,22 +8697,13 @@
     "ration out": [
         "ration"
     ],
-    "rationalise": [
-        "excuse",
-        "justify",
-        "rationalize",
-        "apologize",
-        "apologise"
-    ],
     "rationalise away": [
         "rationalize away"
     ],
     "rationalize": [
         "excuse",
         "justify",
-        "rationalise",
-        "apologize",
-        "apologise"
+        "apologize"
     ],
     "rationalize away": [
         "rationalise away"
@@ -9393,7 +8772,6 @@
     "razz": [
         "rally",
         "rid",
-        "tantalise",
         "cod",
         "taunt",
         "tantalize",
@@ -9439,26 +8817,6 @@
     ],
     "realine": [
         "realign"
-    ],
-    "realise": [
-        "earn",
-        "take in",
-        "realize",
-        "pull in",
-        "bring in",
-        "gain",
-        "clear",
-        "make"
-    ],
-    "realize": [
-        "earn",
-        "take in",
-        "pull in",
-        "gain",
-        "realise",
-        "clear",
-        "make",
-        "bring i"
     ],
     "reallocate": [
         "reapportion"
@@ -9638,8 +8996,7 @@
     "reclaim": [
         "tame",
         "domesticize",
-        "domesticate",
-        "domesticise"
+        "domesticate"
     ],
     "recline": [
         "lean back"
@@ -9689,7 +9046,6 @@
     ],
     "record": [
         "memorialize",
-        "memorialise",
         "commemorate",
         "immortalize",
         "immortalis"
@@ -9819,12 +9175,6 @@
     "re-emerge": [
         "reappear"
     ],
-    "re-emphasise": [
-        "re-emphasize"
-    ],
-    "re-emphasize": [
-        "re-emphasise"
-    ],
     "reenact": [
         "act out",
         "enact"
@@ -9884,12 +9234,6 @@
         "contemplate",
         "ruminate",
         "ponder"
-    ],
-    "reflectorise": [
-        "reflectorize"
-    ],
-    "reflectorize": [
-        "reflectorise"
     ],
     "reforge": [
         "remodel",
@@ -9987,26 +9331,13 @@
         "repent"
     ],
     "regroup": [
-        "reorganize",
-        "reorganise"
-    ],
-    "regularise": [
-        "regularize"
-    ],
-    "regularize": [
-        "regularise"
+        "reorganize"
     ],
     "regulate": [
         "baffle"
     ],
     "regurgitate": [
         "reproduce"
-    ],
-    "reharmonise": [
-        "reharmonize"
-    ],
-    "reharmonize": [
-        "reharmonise"
     ],
     "rehash": [
         "retrograde",
@@ -10106,12 +9437,6 @@
         "link",
         "tie in",
         "link up"
-    ],
-    "relativise": [
-        "relativize"
-    ],
-    "relativize": [
-        "relativise"
     ],
     "relax": [
         "loose",
@@ -10222,12 +9547,6 @@
     "remember": [
         "commemorate"
     ],
-    "remilitarise": [
-        "remilitarize"
-    ],
-    "remilitarize": [
-        "remilitarise"
-    ],
     "remind": [
         "prompt",
         "cue"
@@ -10320,15 +9639,8 @@
     "renew": [
         "regenerate"
     ],
-    "renormalise": [
-        "normalize",
-        "renormalize",
-        "normalise"
-    ],
     "renormalize": [
-        "normalize",
-        "renormalise",
-        "normalise"
+        "normalize"
     ],
     "renounce": [
         "abdicate"
@@ -10352,12 +9664,7 @@
         "hire out",
         "farm out"
     ],
-    "reorganise": [
-        "reorganize",
-        "regroup"
-    ],
     "reorganize": [
-        "reorganise",
         "shake up"
     ],
     "reorient": [
@@ -10496,16 +9803,6 @@
     ],
     "reprint": [
         "reissue"
-    ],
-    "reprise": [
-        "reprize",
-        "repeat",
-        "recapitulate"
-    ],
-    "reprize": [
-        "recapitulate",
-        "repeat",
-        "reprise"
     ],
     "reproach": [
         "upbraid"
@@ -10762,7 +10059,6 @@
         "heave"
     ],
     "retell": [
-        "fictionalise",
         "fictionalize"
     ],
     "retick": [
@@ -10887,7 +10183,6 @@
         "resile"
     ],
     "revere": [
-        "idolise",
         "worship",
         "idolize",
         "hero-worship"
@@ -10920,12 +10215,6 @@
     ],
     "revise": [
         "retool"
-    ],
-    "revitalise": [
-        "revitalize"
-    ],
-    "revitalize": [
-        "regenerate"
     ],
     "revive": [
         "vivify",
@@ -10992,12 +10281,6 @@
     "rework": [
         "make over",
         "retread"
-    ],
-    "rhapsodise": [
-        "rhapsodize"
-    ],
-    "rhapsodize": [
-        "rhapsodise"
     ],
     "rhumba": [
         "rumba"
@@ -11210,12 +10493,6 @@
         "gamble",
         "take a chanc"
     ],
-    "ritualise": [
-        "ritualize"
-    ],
-    "ritualize": [
-        "ritualise"
-    ],
     "rival": [
         "touch",
         "equal",
@@ -11365,27 +10642,12 @@
         "coquet",
         "coquette"
     ],
-    "romanise": [
-        "Latinize",
-        "Romanize",
-        "Latinise",
-        "Romanise"
-    ],
     "romanize": [
         "Latinize",
-        "Romanize",
-        "Latinise",
-        "Romanise"
-    ],
-    "romanticise": [
-        "glamorize",
-        "glamourise",
-        "romanticize"
+        "Romanize"
     ],
     "romanticize": [
-        "romanticise",
-        "glamorize",
-        "glamourise"
+        "glamorize"
     ],
     "romp": [
         "lark",
@@ -11562,16 +10824,10 @@
         "wipe off"
     ],
     "rubber": [
-        "rubberize",
-        "rubberise"
-    ],
-    "rubberise": [
-        "rubberize",
-        "rubber"
+        "rubberize"
     ],
     "rubberize": [
-        "rubber",
-        "rubberise"
+        "rubber"
     ],
     "rubberstamp": [
         "handstamp"
@@ -11613,12 +10869,6 @@
         "mess up",
         "rumple",
         "ruffle"
-    ],
-    "ruggedise": [
-        "ruggedize"
-    ],
-    "ruggedize": [
-        "ruggedise"
     ],
     "ruin": [
         "bankrupt",
@@ -11919,7 +11169,6 @@
         "out in"
     ],
     "call attention": [
-        "signalise",
         "signalize",
         "point out"
     ],
@@ -12023,12 +11272,10 @@
         "caliper"
     ],
     "callous": [
-        "cauterise",
         "cauterize"
     ],
     "calm": [
         "still",
-        "tranquillise",
         "quiet",
         "tranquillize",
         "quieten",
@@ -12088,15 +11335,9 @@
         "send away"
     ],
     "canal": [
-        "canalise",
         "canalize"
     ],
-    "canalise": [
-        "canalize",
-        "canal"
-    ],
     "canalize": [
-        "canalise",
         "canal"
     ],
     "cancel": [
@@ -12116,12 +11357,6 @@
         "flog",
         "lambast"
     ],
-    "cannibalise": [
-        "cannibalize"
-    ],
-    "cannibalize": [
-        "cannibalise"
-    ],
     "cannonball along": [
         "rush",
         "belt along",
@@ -12136,29 +11371,19 @@
         "rush along"
     ],
     "cannulate": [
-        "cannulise",
         "intubate",
         "cannulize",
         "canulate"
     ],
-    "cannulise": [
-        "intubate",
-        "cannulate",
-        "cannulize",
-        "canulate"
-    ],
+
     "cannulize": [
         "intubate",
-        "cannulise",
         "cannulate",
         "canulate"
     ],
-    "canonise": [
-        "canonize"
-    ],
     "canonize": [
-        "saint",
-        "canonise"
+        "beatify",
+        "consecrate"
     ],
     "cant": [
         "cant over",
@@ -12209,41 +11434,23 @@
         "dress up",
         "barde"
     ],
-    "capitalise": [
-        "capitalize"
-    ],
     "capitalize": [
-        "take advantage",
-        "capitalise"
-    ],
-    "caponise": [
-        "caponize"
-    ],
-    "caponize": [
-        "caponise"
+        "take advantage"
     ],
     "capsize": [
         "turn turtle",
         "turtle"
     ],
     "capsulate": [
-        "capsulise",
         "capsulize",
         "capsule"
     ],
     "capsule": [
-        "capsulise",
         "capsulate",
         "capsulize"
     ],
-    "capsulise": [
-        "capsulate",
-        "capsulize",
-        "capsule"
-    ],
     "capsulize": [
         "capsulate",
-        "capsulise",
         "capsule"
     ],
     "captivate": [
@@ -12265,31 +11472,11 @@
         "appropriate",
         "conquer"
     ],
-    "caramelise": [
-        "caramelize"
-    ],
-    "caramelize": [
-        "caramelise"
-    ],
-    "carbonise": [
-        "carburise",
-        "carburize",
-        "carbonize"
-    ],
     "carbonize": [
-        "carburise",
-        "carburize",
-        "carbonise"
-    ],
-    "carburise": [
-        "carburize",
-        "carbonize",
-        "carbonise"
+        "carburize"
     ],
     "carburize": [
-        "carburise",
-        "carbonize",
-        "carbonise"
+        "carbonize"
     ],
     "card": [
         "tease"
@@ -12324,11 +11511,6 @@
         "unhinge",
         "distract",
         "trouble"
-    ],
-    "carnalise": [
-        "sensualise",
-        "sensualize",
-        "carnalize"
     ],
     "carnalize": [
         "sensualize"
@@ -12509,7 +11691,6 @@
         "deject",
         "demoralize",
         "get down",
-        "demoralise",
         "dispirit"
     ],
     "cast off": [
@@ -12523,7 +11704,6 @@
     ],
     "cast out": [
         "blackball",
-        "ostracise",
         "ban",
         "ostracize",
         "banish",
@@ -12559,12 +11739,6 @@
         "vomit up",
         "upchuck",
         "throw up"
-    ],
-    "catabolise": [
-        "catabolize"
-    ],
-    "catabolize": [
-        "catabolise"
     ],
     "catalog": [
         "catalogue"
@@ -12629,18 +11803,6 @@
     "catch up with": [
         "make up"
     ],
-    "catechise": [
-        "catechize"
-    ],
-    "catechize": [
-        "catechise"
-    ],
-    "categorise": [
-        "categorize"
-    ],
-    "categorize": [
-        "categorise"
-    ],
     "catenate": [
         "catenulate"
     ],
@@ -12655,21 +11817,8 @@
     "caterwaul": [
         "yowl"
     ],
-    "catheterise": [
-        "catheterize"
-    ],
-    "catheterize": [
-        "catheterise"
-    ],
-    "catholicise": [
-        "catholicize",
-        "latinize",
-        "latinise"
-    ],
     "catholicize": [
-        "latinize",
-        "catholicise",
-        "latinise"
+        "latinize"
     ],
     "catnap": [
         "nap",
@@ -12682,12 +11831,8 @@
         "make",
         "do"
     ],
-    "cauterise": [
-        "cauterize",
-        "callous"
-    ],
+
     "cauterize": [
-        "cauterise",
         "callous"
     ],
     "caution": [
@@ -12765,13 +11910,8 @@
         "concentrate on",
         "revolve around"
     ],
-    "centralise": [
-        "centralize",
-        "concentrate"
-    ],
     "centralize": [
-        "concentrate",
-        "centralise"
+        "concentrate"
     ],
     "centre": [
         "center on",
@@ -12927,14 +12067,7 @@
         "turn around"
     ],
     "channel": [
-        "canalise",
         "canalize"
-    ],
-    "channelise": [
-        "channelize"
-    ],
-    "channelize": [
-        "channelise"
     ],
     "channel-surf": [
         "surf"
@@ -12954,12 +12087,6 @@
         "blacken",
         "scorch",
         "sear"
-    ],
-    "characterise": [
-        "characterize"
-    ],
-    "characterize": [
-        "characterise"
     ],
     "charge": [
         "accuse"
@@ -13494,8 +12621,7 @@
         "chop"
     ],
     "chord": [
-        "harmonize",
-        "harmonise"
+        "harmonize"
     ],
     "chortle": [
         "laugh softly",
@@ -13512,12 +12638,7 @@
         "cheat"
     ],
     "christen": [
-        "baptize",
-        "baptise"
-    ],
-    "christianise": [
-        "Christianise",
-        "Christianize"
+        "baptize"
     ],
     "christianize": [
         "Christianize"
@@ -13527,12 +12648,6 @@
     ],
     "chromium-plate": [
         "chrome"
-    ],
-    "chronologise": [
-        "chronologize"
-    ],
-    "chronologize": [
-        "chronologise"
     ],
     "chuck": [
         "ditch"
@@ -13594,20 +12709,8 @@
         "parachute",
         "jump"
     ],
-    "cicatrise": [
-        "cicatrize"
-    ],
-    "cicatrize": [
-        "cicatrise"
-    ],
     "cinch": [
         "girth"
-    ],
-    "cinematise": [
-        "cinematize"
-    ],
-    "cinematize": [
-        "cinematise"
     ],
     "cipher": [
         "figure out",
@@ -13628,12 +12731,6 @@
     "circle round": [
         "revolve around",
         "circle around"
-    ],
-    "circularise": [
-        "circularize"
-    ],
-    "circularize": [
-        "circularise"
     ],
     "circulate": [
         "circle"
@@ -13660,12 +12757,6 @@
     "cite": [
         "abduce",
         "adduce"
-    ],
-    "civilise": [
-        "civilize"
-    ],
-    "civilize": [
-        "civilise"
     ],
     "clabber": [
         "curdle",
@@ -13763,12 +12854,6 @@
         "sort out",
         "separate",
         "classify"
-    ],
-    "classicise": [
-        "classicize"
-    ],
-    "classicize": [
-        "classicise"
     ],
     "classify": [
         "class",
@@ -14124,12 +13209,6 @@
     "cobble up": [
         "cobble together"
     ],
-    "cocainise": [
-        "cocainize"
-    ],
-    "cocainize": [
-        "cocainise"
-    ],
     "cock": [
         "sashay",
         "strut",
@@ -14209,14 +13288,6 @@
         "think out",
         "think up",
         "cerebrate"
-    ],
-    "cognise": [
-        "know",
-        "cognize"
-    ],
-    "cognize": [
-        "know",
-        "cognise"
     ],
     "cohabit": [
         "shack up"
@@ -14299,12 +13370,6 @@
         "gather",
         "pull together"
     ],
-    "collectivise": [
-        "collectivize"
-    ],
-    "collectivize": [
-        "collectivise"
-    ],
     "collide": [
         "clash"
     ],
@@ -14353,35 +13418,20 @@
         "colorize",
         "colour",
         "color in",
-        "colorise",
-        "colour in",
-        "colourise"
+        "colour in"
     ],
     "color in": [
         "colourize",
         "colorize",
         "colour",
-        "colorise",
         "colour in",
-        "colourise",
-        "color"
-    ],
-    "colorise": [
-        "colourize",
-        "colorize",
-        "colour",
-        "color in",
-        "colour in",
-        "colourise",
         "color"
     ],
     "colorize": [
         "colourize",
         "colour",
         "color in",
-        "colorise",
         "colour in",
-        "colourise",
         "color"
     ],
     "colour": [
@@ -14392,26 +13442,13 @@
         "colorize",
         "colour",
         "color in",
-        "colorise",
-        "colourise",
-        "color"
-    ],
-    "colourise": [
-        "colourize",
-        "colorize",
-        "colour",
-        "color in",
-        "colorise",
-        "colour in",
         "color"
     ],
     "colourize": [
         "colorize",
         "colour",
         "color in",
-        "colorise",
         "colour in",
-        "colourise",
         "color"
     ],
     "comb": [
@@ -14643,18 +13680,11 @@
         "annotate",
         "gloss"
     ],
-    "commercialise": [
-        "commercialize",
-        "market"
-    ],
     "commercialize": [
-        "commercialise",
         "market"
     ],
     "comminate": [
         "anathemize",
-        "anathematise",
-        "anathemise",
         "execrate",
         "accurse",
         "anathematize"
@@ -14679,7 +13709,6 @@
         "bray"
     ],
     "commiserate": [
-        "sympathise",
         "sympathize"
     ],
     "commit": [
@@ -14702,27 +13731,14 @@
         "charge up",
         "excite"
     ],
-    "communalise": [
-        "communalize"
-    ],
-    "communalize": [
-        "communalise"
-    ],
     "commune": [
         "communicate"
     ],
     "communicate": [
         "commune"
     ],
-    "communise": [
-        "bolshevise",
-        "bolshevize",
-        "communize"
-    ],
     "communize": [
-        "bolshevize",
-        "bolshevise",
-        "communise"
+        "bolshevize"
     ],
     "commute": [
         "exchange",
@@ -14747,13 +13763,8 @@
         "liken",
         "equate"
     ],
-    "compartmentalise": [
-        "compartmentalize",
-        "cut up"
-    ],
     "compartmentalize": [
-        "cut up",
-        "compartmentalise"
+        "cut up"
     ],
     "compass": [
         "circumnavigate"
@@ -14850,14 +13861,7 @@
         "reckon",
         "cypher"
     ],
-    "computerise": [
-        "computerize"
-    ],
-    "computerize": [
-        "computerise"
-    ],
     "con": [
-        "memorise",
         "memorize",
         "learn"
     ],
@@ -14870,8 +13874,7 @@
     ],
     "conceive": [
         "conceptualize",
-        "gestate",
-        "conceptualise"
+        "gestate"
     ],
     "conceive of": [
         "ideate",
@@ -14881,8 +13884,7 @@
     "concenter": [
         "concentre",
         "focus",
-        "focalize",
-        "focalise"
+        "focalize"
     ],
     "concentrate": [
         "boil down",
@@ -14899,29 +13901,16 @@
     "concentre": [
         "concenter",
         "focus",
-        "focalize",
-        "focalise"
-    ],
-    "conceptualise": [
-        "conceptualize",
-        "gestate",
-        "conceive"
+        "focalize"
     ],
     "conceptualize": [
         "gestate",
-        "conceptualise",
         "conceive"
     ],
     "concern": [
         "occupy",
         "worry",
         "interest"
-    ],
-    "concertise": [
-        "concertize"
-    ],
-    "concertize": [
-        "concertise"
     ],
     "conciliate": [
         "reconcile",
@@ -14937,12 +13926,6 @@
         "hold",
         "concur",
         "agree"
-    ],
-    "concretise": [
-        "concretize"
-    ],
-    "concretize": [
-        "concretise"
     ],
     "concur": [
         "hold",
@@ -15154,9 +14137,7 @@
         "suppose",
         "speculate",
         "hypothesize",
-        "theorise",
         "hypothecate",
-        "hypothesise",
         "theorize"
     ],
     "conjoin": [
@@ -15246,7 +14227,6 @@
         "accept"
     ],
     "conserve": [
-        "economise",
         "husband",
         "economize"
     ],
@@ -15291,12 +14271,6 @@
         "nominate",
         "appoint",
         "name"
-    ],
-    "constitutionalise": [
-        "constitutionalize"
-    ],
-    "constitutionalize": [
-        "constitutionalise"
     ],
     "constrain": [
         "cumber",
@@ -15351,12 +14325,6 @@
         "hold back",
         "turn back"
     ],
-    "containerise": [
-        "containerize"
-    ],
-    "containerize": [
-        "containerise"
-    ],
     "contaminate": [
         "pollute",
         "foul"
@@ -15379,15 +14347,9 @@
         "ruminate",
         "ponder"
     ],
-    "contemporise": [
-        "synchronize",
-        "synchronise",
-        "contemporize"
-    ],
+
     "contemporize": [
-        "contemporise",
-        "synchronize",
-        "synchronise"
+        "synchronize"
     ],
     "contend": [
         "fence",
@@ -15470,12 +14432,6 @@
     ],
     "convene": [
         "convoke"
-    ],
-    "conventionalise": [
-        "conventionalize"
-    ],
-    "conventionalize": [
-        "conventionalise"
     ],
     "converge": [
         "meet"
@@ -15619,12 +14575,6 @@
     "cope with": [
         "match",
         "meet"
-    ],
-    "copolymerise": [
-        "copolymerize"
-    ],
-    "copolymerize": [
-        "copolymerise"
     ],
     "copulate": [
         "pair",
@@ -15808,8 +14758,7 @@
         "forestall"
     ],
     "counteract": [
-        "antagonize",
-        "antagonise"
+        "antagonize"
     ],
     "counterattack": [
         "counterstrike"
@@ -15853,13 +14802,14 @@
     "counterpoint": [
         "contrast"
     ],
-    "counterpoise": [
-        "counterweight",
-        "counterpose"
-    ],
     "counterpose": [
-        "counterweight",
-        "counterpoise"
+        "balance",
+        "cancel out",
+        "counteract",
+        "equal",
+        "negate",
+        "neutralize",
+        "outweigh"
     ],
     "countersink": [
         "set"
@@ -16128,17 +15078,9 @@
         "subdue",
         "mortify"
     ],
-    "criminalise": [
-        "criminalize",
-        "illegalise",
+    "criminalize": [
         "illegalize",
         "outlaw"
-    ],
-    "criminalize": [
-        "illegalise",
-        "illegalize",
-        "outlaw",
-        "criminalise"
     ],
     "criminate": [
         "accuse",
@@ -16181,12 +15123,6 @@
         "crisp",
         "toast"
     ],
-    "criticise": [
-        "criticize"
-    ],
-    "criticize": [
-        "criticise"
-    ],
     "critique": [
         "review"
     ],
@@ -16224,8 +15160,7 @@
     "cross": [
         "interbreed",
         "hybridize",
-        "crossbreed",
-        "hybridise"
+        "crossbreed"
     ],
     "cross examine": [
         "cross question"
@@ -16248,17 +15183,10 @@
     "crossbreed": [
         "interbreed",
         "hybridize",
-        "cross",
-        "hybridise"
+        "cross"
     ],
     "crosscut": [
         "cut across"
-    ],
-    "cross-fertilise": [
-        "cross-fertilize"
-    ],
-    "cross-fertilize": [
-        "cross-fertilise"
     ],
     "cross-file": [
         "register"
@@ -16345,38 +15273,10 @@
     "cry out for": [
         "cry for"
     ],
-    "crystalise": [
-        "crystallise",
-        "clear up",
-        "crystallize",
-        "shed light on",
-        "crystalize",
-        "sort out",
-        "straighten out",
-        "elucidate",
-        "clear",
-        "illuminate",
-        "enlighten"
-    ],
     "crystalize": [
-        "crystalise",
-        "crystallise",
         "clear up",
         "crystallize",
         "shed light on",
-        "sort out",
-        "straighten out",
-        "elucidate",
-        "clear",
-        "illuminate",
-        "enlighten"
-    ],
-    "crystallise": [
-        "crystalise",
-        "clear up",
-        "crystallize",
-        "shed light on",
-        "crystalize",
         "sort out",
         "straighten out",
         "elucidate",
@@ -16385,8 +15285,6 @@
         "enlighten"
     ],
     "crystallize": [
-        "crystalise",
-        "crystallise",
         "clear up",
         "shed light on",
         "crystalize",
@@ -16500,8 +15398,7 @@
         "bedamn",
         "anathemize",
         "imprecate",
-        "maledict",
-        "anathemise"
+        "maledict"
     ],
     "curtail": [
         "clip",
@@ -16527,15 +15424,8 @@
         "imprecate",
         "blaspheme"
     ],
-    "customise": [
-        "customize"
-    ],
-    "customize": [
-        "customise"
-    ],
     "custom-make": [
         "customize",
-        "customise",
         "tailor-make"
     ],
     "cut": [
@@ -16596,8 +15486,7 @@
         "carve up"
     ],
     "cybernate": [
-        "computerize",
-        "computerise"
+        "computerize"
     ],
     "cycle": [
         "bicycle",
@@ -16643,8 +15532,7 @@
         "curse",
         "anathemize",
         "imprecate",
-        "maledict",
-        "anathemise"
+        "maledict"
     ],
     "damp": [
         "deaden",
@@ -16823,7 +15711,6 @@
         "pervert",
         "misdirect",
         "corrupt",
-        "demoralise",
         "debase"
     ],
     "debilitate": [
@@ -16855,27 +15742,11 @@
         "decollate",
         "behead"
     ],
-    "decarbonise": [
-        "decarburise",
-        "decarbonize",
-        "decarburize",
-        "decoke"
-    ],
     "decarbonize": [
-        "decarburise",
-        "decarbonise",
-        "decarburize",
-        "decoke"
-    ],
-    "decarburise": [
-        "decarbonise",
-        "decarbonize",
         "decarburize",
         "decoke"
     ],
     "decarburize": [
-        "decarburise",
-        "decarbonise",
         "decarbonize",
         "decoke"
     ],
@@ -16915,27 +15786,15 @@
         "slow down",
         "slow up"
     ],
-    "decentralise": [
-        "decentralize",
-        "deconcentrate"
-    ],
     "decentralize": [
-        "decentralise",
         "deconcentrate"
     ],
     "decertify": [
-        "derecognise",
         "derecognize"
     ],
     "decide": [
         "determine",
         "make up one's mind"
-    ],
-    "decimalise": [
-        "decimalize"
-    ],
-    "decimalize": [
-        "decimalise"
     ],
     "decimate": [
         "extinguish",
@@ -17018,8 +15877,6 @@
         "decipher"
     ],
     "decoke": [
-        "decarburise",
-        "decarbonise",
         "decarbonize",
         "decarburize"
     ],
@@ -17032,23 +15889,7 @@
         "decolour",
         "bleach",
         "bleach out",
-        "decolourise",
-        "discolorise",
         "decolorize",
-        "discolourise",
-        "discolorize",
-        "decolorise"
-    ],
-    "decolorise": [
-        "decolourize",
-        "decolour",
-        "bleach",
-        "decolor",
-        "bleach out",
-        "decolourise",
-        "discolorise",
-        "decolorize",
-        "discolourise",
         "discolorize"
     ],
     "decolorize": [
@@ -17057,59 +15898,33 @@
         "bleach",
         "decolor",
         "bleach out",
-        "decolourise",
-        "discolorise",
-        "discolourise",
-        "discolorize",
-        "decolorise"
+        "discolorize"
     ],
     "decolour": [
         "decolourize",
         "bleach",
         "decolor",
         "bleach out",
-        "decolourise",
-        "discolorise",
         "decolorize",
-        "discolourise",
-        "discolorize",
-        "decolorise"
-    ],
-    "decolourise": [
-        "decolourize",
-        "decolour",
-        "bleach",
-        "decolor",
-        "bleach out",
-        "discolorise",
-        "decolorize",
-        "discolourise",
-        "discolorize",
-        "decolorise"
+        "discolorize"
     ],
     "decolourize": [
         "decolour",
         "bleach",
         "decolor",
         "bleach out",
-        "decolourise",
-        "discolorise",
         "decolorize",
-        "discolourise",
-        "discolorize",
-        "decolorise"
+        "discolorize"
     ],
     "decompose": [
         "break up",
         "break down"
     ],
     "decompress": [
-        "depressurize",
-        "depressurise"
+        "depressurize"
     ],
     "deconcentrate": [
-        "decentralize",
-        "decentralise"
+        "decentralize"
     ],
     "deconsecrate": [
         "unhallow",
@@ -17134,25 +15949,11 @@
         "rule",
         "rule out"
     ],
-    "decriminalise": [
-        "legalise",
-        "decriminalize",
-        "legitimate",
-        "legitimize",
-        "legitimatize",
-        "legitimatise",
-        "legalize",
-        "legitimise"
-    ],
     "decriminalize": [
-        "legalise",
         "legitimate",
         "legitimize",
         "legitimatize",
-        "legitimatise",
-        "legalize",
-        "legitimise",
-        "decriminalise"
+        "legalize"
     ],
     "decry": [
         "condemn",
@@ -17188,19 +15989,8 @@
         "view as",
         "take for"
     ],
-    "de-emphasise": [
-        "destress",
-        "de-emphasize"
-    ],
     "de-emphasize": [
-        "de-emphasise",
         "destress"
-    ],
-    "de-energise": [
-        "de-energize"
-    ],
-    "de-energize": [
-        "de-energise"
     ],
     "deepen": [
         "change"
@@ -17247,12 +16037,6 @@
     ],
     "defect": [
         "desert"
-    ],
-    "defeminise": [
-        "defeminize"
-    ],
-    "defeminize": [
-        "defeminise"
     ],
     "defend": [
         "champion"
@@ -17327,7 +16111,6 @@
         "dare"
     ],
     "degauss": [
-        "demagnetise",
         "demagnetize"
     ],
     "degenerate": [
@@ -17335,20 +16118,8 @@
         "drop",
         "deteriorate"
     ],
-    "deglycerolise": [
-        "deglycerolize"
-    ],
-    "deglycerolize": [
-        "deglycerolise"
-    ],
     "degrade": [
         "cheapen"
-    ],
-    "dehumanise": [
-        "dehumanize"
-    ],
-    "dehumanize": [
-        "dehumanise"
     ],
     "dehydrate": [
         "desiccate"
@@ -17371,7 +16142,6 @@
         "demoralize",
         "get down",
         "cast down",
-        "demoralise",
         "dispirit"
     ],
     "delapidate": [
@@ -17441,12 +16211,6 @@
         "cut into",
         "turn over"
     ],
-    "demagnetise": [
-        "demagnetize"
-    ],
-    "demagnetize": [
-        "demagnetise"
-    ],
     "demand": [
         "exact"
     ],
@@ -17454,39 +16218,15 @@
         "delimit",
         "delimitate"
     ],
-    "demasculinise": [
-        "emasculate",
-        "castrate",
-        "demasculinize"
-    ],
     "demasculinize": [
         "emasculate",
-        "castrate",
-        "demasculinise"
-    ],
-    "dematerialise": [
-        "dematerialize"
-    ],
-    "dematerialize": [
-        "dematerialise"
+        "castrate"
     ],
     "demean": [
         "degrade",
         "put down",
         "take down",
         "disgrace"
-    ],
-    "demilitarise": [
-        "demilitarize"
-    ],
-    "demilitarize": [
-        "demilitarise"
-    ],
-    "demineralise": [
-        "demineralize"
-    ],
-    "demineralize": [
-        "demineralise"
     ],
     "demist": [
         "defog"
@@ -17498,56 +16238,24 @@
         "show"
     ],
     "demob": [
-        "demobilize",
-        "demobilise"
-    ],
-    "demobilise": [
-        "demobilize",
-        "inactivate"
+        "demobilize"
     ],
     "demobilize": [
-        "demob",
-        "demobilise"
-    ],
-    "democratise": [
-        "democratize"
+        "demob"
     ],
     "democratize": [
-        "democratise"
+        "adjust",
+        "even up"
     ],
     "demolish": [
         "crush",
         "smash"
-    ],
-    "demonetise": [
-        "demonetize"
-    ],
-    "demonetize": [
-        "demonetise"
-    ],
-    "demonise": [
-        "demonize"
-    ],
-    "demonize": [
-        "demonise"
     ],
     "demonstrate": [
         "manifest",
         "evidence",
         "attest",
         "certify"
-    ],
-    "demoralise": [
-        "vitiate",
-        "subvert",
-        "demoralize",
-        "deprave",
-        "pervert",
-        "misdirect",
-        "corrupt",
-        "profane",
-        "debase",
-        "debauch"
     ],
     "demoralize": [
         "vitiate",
@@ -17557,7 +16265,6 @@
         "pervert",
         "misdirect",
         "corrupt",
-        "demoralise",
         "debase",
         "debauch"
     ],
@@ -17570,24 +16277,6 @@
     ],
     "demur": [
         "except"
-    ],
-    "demythologise": [
-        "demythologize"
-    ],
-    "demythologize": [
-        "demythologise"
-    ],
-    "denationalise": [
-        "denationalize"
-    ],
-    "denationalize": [
-        "denationalise"
-    ],
-    "denaturalise": [
-        "denaturalize"
-    ],
-    "denaturalize": [
-        "denaturalise"
     ],
     "denigrate": [
         "defame",
@@ -17606,7 +16295,6 @@
         "announce"
     ],
     "denounce": [
-        "stigmatise",
         "stigmatize",
         "brand",
         "mark"
@@ -17627,25 +16315,8 @@
     "deny": [
         "abnegate"
     ],
-    "deodorise": [
-        "deodourise",
-        "deodorize"
-    ],
-    "deodorize": [
-        "deodorise",
-        "deodourise"
-    ],
-    "deodourise": [
-        "deodorise",
-        "deodorize"
-    ],
-    "deoxidise": [
-        "reduce",
-        "deoxidize"
-    ],
     "deoxidize": [
-        "reduce",
-        "deoxidise"
+        "reduce"
     ],
     "depart": [
         "deviate",
@@ -17675,13 +16346,8 @@
         "hinge on",
         "ride"
     ],
-    "depersonalise": [
-        "objectify",
-        "depersonalize"
-    ],
     "depersonalize": [
-        "objectify",
-        "depersonalise"
+        "objectify"
     ],
     "depict": [
         "draw",
@@ -17714,12 +16380,6 @@
     "deplume": [
         "displume"
     ],
-    "depolarise": [
-        "depolarize"
-    ],
-    "depolarize": [
-        "depolarise"
-    ],
     "depone": [
         "depose",
         "swear"
@@ -17749,7 +16409,6 @@
         "misdirect",
         "pervert",
         "corrupt",
-        "demoralise",
         "debase",
         "debauch"
     ],
@@ -17767,15 +16426,9 @@
         "demoralize",
         "get down",
         "cast down",
-        "demoralise",
         "dispirit"
     ],
-    "depressurise": [
-        "depressurize",
-        "decompress"
-    ],
     "depressurize": [
-        "depressurise",
         "decompress"
     ],
     "deprive": [
@@ -17784,12 +16437,7 @@
     "depute": [
         "delegate"
     ],
-    "deputise": [
-        "deputize",
-        "depute"
-    ],
     "deputize": [
-        "deputise",
         "depute"
     ],
     "deracinate": [
@@ -17803,12 +16451,7 @@
         "perturb",
         "throw out of kilter"
     ],
-    "derecognise": [
-        "derecognize",
-        "decertify"
-    ],
     "derecognize": [
-        "derecognise",
         "decertify"
     ],
     "derive": [
@@ -17824,23 +16467,15 @@
         "secularize"
     ],
     "desalinate": [
-        "desalinise",
         "desalt",
         "desalinize"
     ],
-    "desalinise": [
-        "desalinize",
-        "desalt",
-        "desalinate"
-    ],
     "desalinize": [
-        "desalinise",
         "desalt",
         "desalinate"
     ],
     "desalt": [
         "desalinize",
-        "desalinise",
         "desalinate"
     ],
     "descale": [
@@ -17872,12 +16507,6 @@
         "integrate",
         "mix"
     ],
-    "desensitise": [
-        "desensitize"
-    ],
-    "desensitize": [
-        "desensitise"
-    ],
     "desert": [
         "forsake",
         "desolate",
@@ -17890,15 +16519,7 @@
         "desexualize",
         "unsex",
         "sterilize",
-        "sterilise",
-        "desexualise",
         "fix"
-    ],
-    "desexualise": [
-        "desexualize"
-    ],
-    "desexualize": [
-        "desexualise"
     ],
     "desiccate": [
         "dehydrate"
@@ -17948,25 +16569,12 @@
     "desquamate": [
         "peel off"
     ],
-    "destabilise": [
-        "destabilize"
-    ],
-    "destabilize": [
-        "destabilise"
-    ],
-    "destalinise": [
-        "destalinize"
-    ],
-    "destalinize": [
-        "destalinise"
-    ],
     "destine": [
         "fate",
         "doom",
         "designate"
     ],
     "destress": [
-        "de-emphasise",
         "de-emphasize"
     ],
     "destroy": [
@@ -17980,12 +16588,6 @@
     ],
     "desulphurize": [
         "desulfurize"
-    ],
-    "desynchronise": [
-        "desynchronize"
-    ],
-    "desynchronize": [
-        "desynchronise"
     ],
     "detach": [
         "come away",
@@ -18043,21 +16645,8 @@
     "detract": [
         "take away"
     ],
-    "detransitivise": [
-        "detransitivize",
-        "intransitivise",
-        "intransitivize"
-    ],
     "detransitivize": [
-        "intransitivise",
-        "intransitivize",
-        "detransitivise"
-    ],
-    "detribalise": [
-        "detribalize"
-    ],
-    "detribalize": [
-        "detribalise"
+        "intransitivize"
     ],
     "detusk": [
         "tusk"
@@ -18100,15 +16689,9 @@
         "bother",
         "chafe"
     ],
-    "devilise": [
-        "diabolize",
-        "devilize",
-        "diabolise"
-    ],
+
     "devilize": [
-        "diabolize",
-        "devilise",
-        "diabolise"
+        "diabolize"
     ],
     "devise": [
         "forge",
@@ -18116,12 +16699,6 @@
         "invent",
         "excogitate",
         "contrive"
-    ],
-    "devitalise": [
-        "devitalize"
-    ],
-    "devitalize": [
-        "devitalise"
     ],
     "devolve": [
         "degenerate",
@@ -18147,24 +16724,11 @@
         "consume",
         "go through"
     ],
-    "diabolise": [
-        "diabolize",
-        "devilize",
-        "devilise"
-    ],
     "diabolize": [
-        "devilize",
-        "devilise",
-        "diabolise"
+        "devilize"
     ],
     "diagnose": [
         "name"
-    ],
-    "diagonalise": [
-        "diagonalize"
-    ],
-    "diagonalize": [
-        "diagonalise"
     ],
     "diagram": [
         "plot"
@@ -18177,12 +16741,6 @@
     ],
     "dice": [
         "cube"
-    ],
-    "dichotomise": [
-        "dichotomize"
-    ],
-    "dichotomize": [
-        "dichotomise"
     ],
     "dicker": [
         "bargain"
@@ -18257,13 +16815,11 @@
         "secern",
         "distinguish",
         "severalize",
-        "severalise",
         "separate",
         "tell apart"
     ],
     "diffuse": [
         "spread",
-        "circularise",
         "distribute",
         "circulate",
         "propagate",
@@ -18299,24 +16855,10 @@
         "concentrate",
         "condense"
     ],
-    "digitalise": [
-        "digitise",
-        "digitize",
-        "digitalize"
-    ],
     "digitalize": [
-        "digitise",
-        "digitize",
-        "digitalise"
-    ],
-    "digitise": [
-        "digitalize",
-        "digitize",
-        "digitalise"
+        "digitize"
     ],
     "digitize": [
-        "digitise",
-        "digitalise",
         "digitalize"
     ],
     "dignify": [
@@ -18387,12 +16929,6 @@
     "dip": [
         "dim"
     ],
-    "diphthongise": [
-        "diphthongize"
-    ],
-    "diphthongize": [
-        "diphthongise"
-    ],
     "direct": [
         "address"
     ],
@@ -18446,7 +16982,6 @@
         "reject"
     ],
     "disarm": [
-        "demilitarise",
         "demilitarize"
     ],
     "disarray": [
@@ -18536,46 +17071,18 @@
         "discolour",
         "color"
     ],
-    "discolorise": [
-        "decolourize",
-        "decolour",
-        "bleach",
-        "decolor",
-        "bleach out",
-        "decolourise",
-        "decolorize",
-        "discolourise",
-        "discolorize",
-        "decolorise"
-    ],
     "discolorize": [
         "decolourize",
         "decolour",
         "bleach",
         "decolor",
         "bleach out",
-        "decolourise",
-        "discolorise",
-        "decolorize",
-        "discolourise",
-        "decolorise"
+        "decolorize"
     ],
     "discolour": [
         "discolor",
         "color",
         "colour"
-    ],
-    "discolourise": [
-        "decolourize",
-        "decolour",
-        "bleach",
-        "decolor",
-        "bleach out",
-        "decolourise",
-        "discolorise",
-        "decolorize",
-        "discolorize",
-        "decolorise"
     ],
     "discombobulate": [
         "throw",
@@ -18861,12 +17368,6 @@
     "disorder": [
         "disarray"
     ],
-    "disorganise": [
-        "disorganize"
-    ],
-    "disorganize": [
-        "disorganise"
-    ],
     "disorient": [
         "disorientate"
     ],
@@ -18910,8 +17411,7 @@
         "deject",
         "demoralize",
         "get down",
-        "cast down",
-        "demoralise"
+        "cast down"
     ],
     "displace": [
         "dislocate"
@@ -19002,7 +17502,6 @@
     "disseminate": [
         "diffuse",
         "spread",
-        "circularise",
         "distribute",
         "circulate",
         "pass around",
@@ -19204,7 +17703,6 @@
     "do in": [
         "liquidate",
         "waste",
-        "neutralise",
         "knock off",
         "neutralize"
     ],
@@ -19302,12 +17800,6 @@
         "go after",
         "tag"
     ],
-    "dogmatise": [
-        "dogmatize"
-    ],
-    "dogmatize": [
-        "dogmatise"
-    ],
     "dogsled": [
         "mush"
     ],
@@ -19332,20 +17824,12 @@
     "domesticate": [
         "naturalize",
         "tame",
-        "cultivate",
-        "naturalise"
-    ],
-    "domesticise": [
-        "tame",
-        "domesticize",
-        "domesticate",
-        "reclaim"
+        "cultivate"
     ],
     "domesticize": [
         "tame",
         "domesticate",
-        "reclaim",
-        "domesticise"
+        "reclaim"
     ],
     "domicile": [
         "shack",
@@ -19362,7 +17846,6 @@
         "overtop"
     ],
     "domineer": [
-        "tyrannise",
         "tyrannize"
     ],
     "don": [
@@ -19543,13 +18026,8 @@
     "drain the cup": [
         "drink up"
     ],
-    "dramatise": [
-        "adopt",
-        "dramatize"
-    ],
     "dramatize": [
-        "adopt",
-        "dramatise"
+        "adopt"
     ],
     "draught": [
         "draft",
@@ -20112,12 +18590,6 @@
     "dyke": [
         "dike"
     ],
-    "dynamise": [
-        "dynamize"
-    ],
-    "dynamize": [
-        "dynamise"
-    ],
     "earmark": [
         "reserve",
         "allow",
@@ -20125,13 +18597,11 @@
         "appropriate"
     ],
     "earn": [
-        "realize",
-        "take in",
-        "pull in",
+        "acquire",
         "bring in",
         "gain",
         "realise",
-        "clear",
+        "win",
         "make"
     ],
     "earth up": [
@@ -20225,25 +18695,13 @@
         "ebb down",
         "ebb away"
     ],
-    "ebonise": [
-        "ebonize"
-    ],
-    "ebonize": [
-        "ebonise"
-    ],
     "echo": [
         "recall"
     ],
     "eclipse": [
         "occult"
     ],
-    "economise": [
-        "conserve",
-        "husband",
-        "economize"
-    ],
     "economize": [
-        "economise",
         "conserve",
         "husband"
     ],
@@ -20273,18 +18731,11 @@
         "edit",
         "cut"
     ],
-    "editorialise": [
-        "editorialize"
-    ],
-    "editorialize": [
-        "editorialise"
-    ],
     "educate": [
         "school",
         "train",
         "civilize",
-        "cultivate",
-        "civilise"
+        "cultivate"
     ],
     "educe": [
         "derive"
@@ -20335,8 +18786,7 @@
     "effeminize": [
         "erreminise",
         "womanize",
-        "feminize",
-        "feminise"
+        "feminize"
     ],
     "effervesce": [
         "froth",
@@ -20406,12 +18856,6 @@
     ],
     "electrocute": [
         "fry"
-    ],
-    "elegise": [
-        "elegize"
-    ],
-    "elegize": [
-        "elegise"
     ],
     "elevate": [
         "raise",
@@ -20565,29 +19009,13 @@
     "empanel": [
         "impanel"
     ],
-    "empathise": [
-        "sympathise",
-        "empathize",
-        "understand",
-        "sympathize"
-    ],
     "empathize": [
-        "sympathise",
         "understand",
-        "empathise",
         "sympathize"
-    ],
-    "emphasise": [
-        "accent",
-        "emphasize",
-        "accentuate",
-        "stress",
-        "punctuate"
     ],
     "emphasize": [
         "accent",
         "accentuate",
-        "emphasise",
         "stress",
         "punctuate"
     ],
@@ -20599,8 +19027,7 @@
         "hire"
     ],
     "empower": [
-        "authorize",
-        "authorise"
+        "authorize"
     ],
     "empty": [
         "discharge"
@@ -20647,7 +19074,6 @@
         "tent"
     ],
     "encapsulate": [
-        "capsulise",
         "capsulize",
         "capsule"
     ],
@@ -20765,7 +19191,6 @@
     ],
     "endanger": [
         "threaten",
-        "jeopardise",
         "imperil",
         "jeopardize",
         "menace",
@@ -20809,12 +19234,7 @@
         "abide",
         "bear"
     ],
-    "energise": [
-        "energize",
-        "excite"
-    ],
     "energize": [
-        "energise",
         "excite"
     ],
     "enervate": [
@@ -20860,12 +19280,10 @@
     "engineer": [
         "organize",
         "direct",
-        "organise",
         "orchestrate",
         "mastermind"
     ],
     "englut": [
-        "gormandise",
         "overeat",
         "gormandize",
         "pig out",
@@ -20882,7 +19300,6 @@
         "satiate"
     ],
     "engorge": [
-        "gormandise",
         "overeat",
         "gormandize",
         "englut",
@@ -20956,8 +19373,6 @@
         "blow up"
     ],
     "enlighten": [
-        "crystalise",
-        "crystallise",
         "clear up",
         "crystallize",
         "shed light on",
@@ -21021,9 +19436,6 @@
     ],
     "ensconce": [
         "settle"
-    ],
-    "enshrine": [
-        "saint"
     ],
     "enshroud": [
         "shroud",
@@ -21150,7 +19562,6 @@
     ],
     "enunciate": [
         "articulate",
-        "vocalise",
         "vocalize"
     ],
     "envelop": [
@@ -21190,25 +19601,13 @@
     "epilate": [
         "depilate"
     ],
-    "epitomise": [
-        "epitomize",
-        "typify"
-    ],
     "epitomize": [
-        "epitomise",
         "typify"
     ],
     "equal": [
         "be"
     ],
-    "equalise": [
-        "equalize",
-        "equal",
-        "match",
-        "equate"
-    ],
     "equalize": [
-        "equalise",
         "equal",
         "match",
         "equate"
@@ -21219,16 +19618,9 @@
     ],
     "equilibrate": [
         "equilibrize",
-        "equilibrise",
         "balance"
     ],
-    "equilibrise": [
-        "equilibrize",
-        "balance",
-        "equilibrate"
-    ],
     "equilibrize": [
-        "equilibrise",
         "balance",
         "equilibrate"
     ],
@@ -21271,12 +19663,6 @@
         "slip up",
         "slip",
         "mistake"
-    ],
-    "erreminise": [
-        "womanize",
-        "effeminize",
-        "feminize",
-        "feminise"
     ],
     "eruct": [
         "belch",
@@ -21350,71 +19736,13 @@
         "alienate",
         "alien"
     ],
-    "eternalise": [
-        "eternise",
-        "immortalise",
-        "eternize",
-        "eternalize",
-        "immortalize"
-    ],
     "eternalize": [
-        "eternalise",
-        "eternise",
-        "immortalise",
         "eternize",
-        "immortalize"
-    ],
-    "eternise": [
-        "eternalise",
-        "immortalise",
-        "eternize",
-        "eternalize",
         "immortalize"
     ],
     "eternize": [
-        "eternalise",
-        "eternise",
-        "immortalise",
         "eternalize",
         "immortalize"
-    ],
-    "etherealize": [
-        "etherialise"
-    ],
-    "etherialise": [
-        "etherealize"
-    ],
-    "etherise": [
-        "etherize"
-    ],
-    "etherize": [
-        "etherise"
-    ],
-    "etymologise": [
-        "etymologize"
-    ],
-    "etymologize": [
-        "etymologise"
-    ],
-    "eulogise": [
-        "eulogize"
-    ],
-    "eulogize": [
-        "eulogise"
-    ],
-    "euphemise": [
-        "euphemize"
-    ],
-    "euphemize": [
-        "euphemise"
-    ],
-    "europeanise": [
-        "Europeanise",
-        "Europeanize"
-    ],
-    "europeanize": [
-        "Europeanise",
-        "Europeanize"
     ],
     "evacuate": [
         "exhaust"
@@ -21436,12 +19764,6 @@
         "fade",
         "fleet",
         "pass off"
-    ],
-    "evangelise": [
-        "evangelize"
-    ],
-    "evangelize": [
-        "evangelise"
     ],
     "evaporate": [
         "vaporise"
@@ -21563,9 +19885,13 @@
         "change"
     ],
     "excise": [
-        "strike",
+        "black out",
+        "cross out",
+        "cut out",
+        "eradicate",
         "expunge",
-        "scratch"
+        "exterminate",
+        "stamp out"
     ],
     "excite": [
         "agitate",
@@ -21625,10 +19951,8 @@
     ],
     "excuse": [
         "justify",
-        "rationalise",
         "rationalize",
-        "apologize",
-        "apologise"
+        "apologize"
     ],
     "execrate": [
         "abominate",
@@ -21713,12 +20037,6 @@
         "clear",
         "assoil",
         "exculpate"
-    ],
-    "exorcise": [
-        "exorcize"
-    ],
-    "exorcize": [
-        "exorcise"
     ],
     "expand": [
         "prosper",
@@ -21856,7 +20174,6 @@
     ],
     "expurgate": [
         "castrate",
-        "bowdlerise",
         "bowdlerize",
         "shorten"
     ],
@@ -21890,28 +20207,15 @@
         "mitigate",
         "palliate"
     ],
-    "exteriorise": [
-        "externalise",
-        "externalize",
-        "objectify",
-        "exteriorize"
-    ],
     "exteriorize": [
+        "exemplify",
         "bring outside"
     ],
     "exterminate": [
         "kill off"
     ],
-    "externalise": [
-        "objectify",
-        "externalize",
-        "exteriorise",
-        "exteriorize"
-    ],
     "externalize": [
-        "externalise",
         "objectify",
-        "exteriorise",
         "exteriorize"
     ],
     "extinguish": [
@@ -21950,8 +20254,7 @@
     ],
     "extrapolate": [
         "generalize",
-        "infer",
-        "generalise"
+        "infer"
     ],
     "extravasate": [
         "belch",
@@ -22054,7 +20357,6 @@
     "keep going": [
         "patronize",
         "patronage",
-        "patronise",
         "support"
     ],
     "keep guard": [
@@ -22154,12 +20456,6 @@
         "maintain",
         "preserve",
         "conserve"
-    ],
-    "keratinise": [
-        "keratinize"
-    ],
-    "keratinize": [
-        "keratinise"
     ],
     "key": [
         "identify",
@@ -22486,12 +20782,7 @@
         "judge",
         "pronounce"
     ],
-    "labialise": [
-        "round",
-        "labialize"
-    ],
     "labialize": [
-        "labialise",
         "round"
     ],
     "labor": [
@@ -22558,12 +20849,6 @@
         "dawdle",
         "fall behind",
         "fall back"
-    ],
-    "laicise": [
-        "laicize"
-    ],
-    "laicize": [
-        "laicise"
     ],
     "lallygag": [
         "linger",
@@ -22652,7 +20937,6 @@
         "bemoan"
     ],
     "lampoon": [
-        "satirise",
         "satirize"
     ],
     "land": [
@@ -22688,8 +20972,6 @@
     ],
     "lard": [
         "aggrandize",
-        "dramatise",
-        "aggrandise",
         "pad",
         "blow up",
         "embellish",
@@ -22775,15 +21057,8 @@
         "welt",
         "strap"
     ],
-    "latinise": [
-        "latinize",
-        "catholicize",
-        "catholicise"
-    ],
     "latinize": [
-        "catholicize",
-        "catholicise",
-        "latinise"
+        "catholicize"
     ],
     "laud": [
         "extol",
@@ -23082,86 +21357,43 @@
     ],
     "leech": [
         "phlebotomize",
-        "bleed",
-        "phlebotomise"
+        "bleed"
     ],
     "leg it": [
         "hoof it",
         "foot",
         "hoof"
     ],
-    "legalise": [
-        "decriminalize",
-        "legitimate",
-        "legitimize",
-        "legitimatize",
-        "legalize",
-        "legitimise",
-        "legitimatis",
-        "decriminalise"
-    ],
     "legalize": [
-        "legalise",
         "decriminalize",
         "legitimate",
         "legitimize",
         "legitimatize",
-        "legitimise",
-        "legitimatis",
-        "decriminalise"
+        "legitimatis"
     ],
     "legislate": [
         "pass"
     ],
     "legitimate": [
-        "legalise",
         "decriminalize",
         "legitimize",
         "legitimatize",
         "legalize",
-        "legitimise",
-        "legitimatis",
-        "decriminalise"
-    ],
-    "legitimatise": [
-        "legalise",
-        "decriminalize",
-        "legitimate",
-        "legitimize",
-        "legalize",
-        "legitimise",
-        "legitimatiz",
-        "decriminalise"
+        "legitimatis"
     ],
     "legitimatize": [
-        "legalise",
         "decriminalize",
         "legitimate",
         "legitimize",
         "legalize",
-        "legitimise",
-        "legitimatis",
-        "decriminalise"
-    ],
-    "legitimise": [
-        "legalise",
-        "decriminalize",
-        "legitimize",
-        "legitimatize",
-        "legalize",
-        "legitimate",
-        "legitimatis",
-        "decriminalise"
+        "legitimatis"
     ],
     "legitimize": [
-        "legalise",
         "decriminalize",
         "legitimate",
         "legitimatize",
         "legalize",
-        "legitimise",
-        "legitimatis",
-        "decriminalise"
+        "legitimatis"
     ],
     "lend": [
         "impart",
@@ -23278,23 +21510,11 @@
     "levy": [
         "impose"
     ],
-    "lexicalise": [
-        "lexicalize"
-    ],
-    "lexicalize": [
-        "lexicalise"
-    ],
     "liaise": [
-        "arbitrate",
-        "mediate",
-        "intercede",
-        "intermediate"
-    ],
-    "liberalise": [
-        "liberalize"
-    ],
-    "liberalize": [
-        "liberalise"
+        "communicate",
+        "connect",
+        "contact",
+        "network"
     ],
     "liberate": [
         "emancipate"
@@ -23455,12 +21675,6 @@
         "adjust",
         "aline"
     ],
-    "linearise": [
-        "linearize"
-    ],
-    "linearize": [
-        "linearise"
-    ],
     "linger": [
         "linger over",
         "dawdle"
@@ -23484,12 +21698,7 @@
         "tie in",
         "relate"
     ],
-    "lionise": [
-        "lionize",
-        "celebrate"
-    ],
     "lionize": [
-        "lionise",
         "celebrate"
     ],
     "lip off": [
@@ -23516,22 +21725,14 @@
     "liquidate": [
         "do in",
         "waste",
-        "neutralise",
         "knock off",
         "neutralize"
     ],
-    "liquidise": [
-        "liquefy",
-        "liquidize",
-        "liquify"
-    ],
     "liquidize": [
-        "liquidise",
         "liquefy",
         "liquify"
     ],
     "liquify": [
-        "liquidise",
         "liquefy",
         "liquidize"
     ],
@@ -23544,12 +21745,6 @@
     ],
     "listen in": [
         "eavesdrop"
-    ],
-    "literalise": [
-        "literalize"
-    ],
-    "literalize": [
-        "literalise"
     ],
     "litigate": [
         "action",
@@ -23636,15 +21831,8 @@
     "lobby": [
         "buttonhole"
     ],
-    "localise": [
-        "localize",
-        "focalize",
-        "focalise"
-    ],
     "localize": [
-        "localise",
-        "focalize",
-        "focalise"
+        "focalize"
     ],
     "locate": [
         "site",
@@ -24089,7 +22277,6 @@
         "toboggan"
     ],
     "lull": [
-        "tranquillise",
         "calm",
         "quiet",
         "tranquillize",
@@ -24142,19 +22329,8 @@
     "luxuriate": [
         "indulge"
     ],
-    "lyophilise": [
-        "lyophilize"
-    ],
-    "lyophilize": [
-        "lyophilise"
-    ],
-    "macadamise": [
-        "tarmac",
-        "macadamize"
-    ],
     "macadamize": [
-        "tarmac",
-        "macadamise"
+        "tarmac"
     ],
     "macerate": [
         "emaciate",
@@ -24179,16 +22355,6 @@
     ],
     "madden": [
         "craze"
-    ],
-    "magnetise": [
-        "mesmerize",
-        "bewitch",
-        "magnetize",
-        "spellbin",
-        "mesmerise"
-    ],
-    "magnetize": [
-        "magnetise"
     ],
     "magnify": [
         "amplify"
@@ -24408,8 +22574,7 @@
         "bedamn",
         "curse",
         "anathemize",
-        "imprecate",
-        "anathemise"
+        "imprecate"
     ],
     "malfunction": [
         "misfunction"
@@ -24511,12 +22676,6 @@
         "vitiat",
         "impair"
     ],
-    "marbleise": [
-        "marbleize"
-    ],
-    "marbleize": [
-        "marbleise"
-    ],
     "march": [
         "border",
         "abut",
@@ -24535,12 +22694,6 @@
     ],
     "march out": [
         "debouch"
-    ],
-    "marginalise": [
-        "marginalize"
-    ],
-    "marginalize": [
-        "marginalise"
     ],
     "marinade": [
         "marinate"
@@ -24563,7 +22716,6 @@
         "mark off"
     ],
     "market": [
-        "commercialise",
         "commercialize"
     ],
     "maroon": [
@@ -24579,33 +22731,19 @@
     ],
     "marshal": [
         "mobilize",
-        "summon",
-        "mobilise"
+        "summon"
     ],
     "martyr": [
-        "martyrise",
-        "martyrize"
-    ],
-    "martyrise": [
-        "martyr",
         "martyrize"
     ],
     "martyrize": [
-        "martyr",
-        "martyrise"
+        "martyr"
     ],
     "marvel": [
         "wonder"
     ],
-    "masculinise": [
-        "virilize",
-        "virilise",
-        "masculinize"
-    ],
     "masculinize": [
-        "masculinise",
-        "virilize",
-        "virilise"
+        "virilize"
     ],
     "mash": [
         "butterfly",
@@ -24635,8 +22773,7 @@
         "orchestrat",
         "organize",
         "direct",
-        "engineer",
-        "organise"
+        "engineer"
     ],
     "masticate": [
         "manducate",
@@ -24670,13 +22807,15 @@
     "mate": [
         "checkmate"
     ],
-    "materialise": [
-        "materialize",
-        "happen"
-    ],
     "materialize": [
-        "materialise",
-        "happen"
+        "appear",
+        "emerge",
+        "happen",
+        "occur",
+        "realize",
+        "take place",
+        "turn up",
+        "unfold"
     ],
     "matte": [
         "mat up",
@@ -24736,12 +22875,6 @@
         "blab",
         "prattle"
     ],
-    "maximise": [
-        "maximize"
-    ],
-    "maximize": [
-        "maximise"
-    ],
     "mean": [
         "entail",
         "imply"
@@ -24762,15 +22895,9 @@
     "measure up": [
         "qualify"
     ],
-    "mechanise": [
-        "motorise",
-        "motorize",
-        "mechanize"
-    ],
     "mechanize": [
         "motorize",
-        "motoris",
-        "mechanise"
+        "motoris"
     ],
     "meddle": [
         "tamper"
@@ -24803,15 +22930,8 @@
     "meet": [
         "converge"
     ],
-    "melanise": [
-        "blacken",
-        "black",
-        "nigrify",
-        "melanize"
-    ],
     "melanize": [
         "blacken",
-        "melanise",
         "nigrify",
         "blac"
     ],
@@ -24842,12 +22962,6 @@
         "melt",
         "mellow"
     ],
-    "melodise": [
-        "melodize"
-    ],
-    "melodize": [
-        "melodise"
-    ],
     "melt": [
         "disappear"
     ],
@@ -24863,34 +22977,18 @@
         "slenderize",
         "lose weight"
     ],
-    "memorialise": [
-        "memorialize",
-        "record",
-        "immortalise",
-        "commemorate",
-        "immortalize"
-    ],
     "memorialize": [
         "record",
-        "memorialise",
-        "immortalise",
         "commemorate",
         "immortalize"
     ],
-    "memorise": [
-        "con",
-        "memorize",
-        "learn"
-    ],
     "memorize": [
-        "memorise",
         "learn",
         "con"
     ],
     "menace": [
         "threaten",
         "imperil",
-        "jeopardise",
         "jeopardize",
         "peri",
         "endanger"
@@ -24915,14 +23013,8 @@
     "meow": [
         "mew"
     ],
-    "mercerise": [
-        "mercerize"
-    ],
-    "mercerize": [
-        "mercerise"
-    ],
     "merchandise": [
-        "trade"
+        "vend"
     ],
     "merge": [
         "combine",
@@ -24945,15 +23037,8 @@
         "engage",
         "lock"
     ],
-    "mesmerise": [
-        "mesmerize",
-        "hypnotize",
-        "hypnotise"
-    ],
     "mesmerize": [
-        "mesmerise",
-        "hypnotize",
-        "hypnotise"
+        "hypnotize"
     ],
     "mess": [
         "mess up"
@@ -25005,12 +23090,6 @@
         "flub",
         "bollix"
     ],
-    "metabolise": [
-        "metabolize"
-    ],
-    "metabolize": [
-        "metabolise"
-    ],
     "metalize": [
         "metallize"
     ],
@@ -25020,12 +23099,6 @@
     "metamorphose": [
         "transfigure",
         "transmogrify"
-    ],
-    "metastasise": [
-        "metastasize"
-    ],
-    "metastasize": [
-        "metastasise"
     ],
     "mete out": [
         "lot",
@@ -25042,18 +23115,10 @@
     ],
     "metricate": [
         "metrify",
-        "metricize",
-        "metricise"
-    ],
-    "metricise": [
         "metricize"
-    ],
-    "metricize": [
-        "metricise"
     ],
     "metrify": [
         "metricize",
-        "metricise",
         "metricate"
     ],
     "mew": [
@@ -25101,12 +23166,6 @@
     ],
     "mildew": [
         "mold"
-    ],
-    "militarise": [
-        "militarize"
-    ],
-    "militarize": [
-        "militarise"
     ],
     "mill": [
         "mill about",
@@ -25165,18 +23224,9 @@
     "miniate": [
         "rubricate"
     ],
-    "miniaturise": [
-        "miniaturize"
-    ],
-    "miniaturize": [
-        "miniaturise"
-    ],
     "minify": [
         "lessen",
         "decrease"
-    ],
-    "minimise": [
-        "minimize"
     ],
     "minimize": [
         "belittle",
@@ -25256,7 +23306,6 @@
         "demoralize",
         "pervert",
         "corrupt",
-        "demoralise",
         "debase",
         "debauch"
     ],
@@ -25410,14 +23459,8 @@
         "jam",
         "throng"
     ],
-    "mobilise": [
-        "mobilize",
-        "rally",
-        "call up"
-    ],
     "mobilize": [
         "rall",
-        "mobilise",
         "call up"
     ],
     "mock": [
@@ -25433,12 +23476,7 @@
         "chair",
         "lead"
     ],
-    "modernise": [
-        "develop",
-        "modernize"
-    ],
     "modernize": [
-        "modernise",
         "develop"
     ],
     "modify": [
@@ -25456,13 +23494,8 @@
     "moisten": [
         "drizzle"
     ],
-    "moisturise": [
-        "moisturize",
-        "humidify"
-    ],
     "moisturize": [
-        "humidify",
-        "moisturise"
+        "humidify"
     ],
     "mold": [
         "mould",
@@ -25511,24 +23544,12 @@
         "shed",
         "slough"
     ],
-    "monetise": [
-        "monetize"
-    ],
-    "monetize": [
-        "monetise"
-    ],
     "monger": [
         "peddle",
         "hawk",
         "pitch",
         "vend",
         "huckster"
-    ],
-    "mongrelise": [
-        "mongrelize"
-    ],
-    "mongrelize": [
-        "mongrelise"
     ],
     "monish": [
         "caution",
@@ -25556,36 +23577,14 @@
         "putter",
         "muck aroun"
     ],
-    "monologuise": [
-        "soliloquize",
-        "soliloquise",
-        "monologuize"
-    ],
     "monologuize": [
-        "soliloquise",
-        "soliloquize",
-        "monologuise"
-    ],
-    "monopolise": [
-        "monopolize"
-    ],
-    "monopolize": [
-        "monopolise"
-    ],
-    "monumentalise": [
-        "monumentalize"
-    ],
-    "monumentalize": [
-        "monumentalise"
-    ],
-    "moo": [
-        "low"
+        "soliloquize"
     ],
     "mooch": [
-        "grub",
+        "beg",
         "bum",
-        "cadge",
-        "spong"
+        "borrow",
+        "freeload"
     ],
     "moon": [
         "daydream"
@@ -25631,15 +23630,6 @@
     "mope around": [
         "mope"
     ],
-    "moralise": [
-        "moralize"
-    ],
-    "moralize": [
-        "moralise"
-    ],
-    "mortice": [
-        "mortise"
-    ],
     "mortify": [
         "humble",
         "humiliate",
@@ -25647,7 +23637,10 @@
         "chagrin"
     ],
     "mortise": [
-        "mortice"
+        "coincide",
+        "conform",
+        "correspond",
+        "harmonize"
     ],
     "mosey": [
         "amble"
@@ -25691,15 +23684,8 @@
         "cycle",
         "motorbike"
     ],
-    "motorise": [
-        "motorize",
-        "mechanize",
-        "mechanise"
-    ],
     "motorize": [
-        "motorise",
-        "mechanize",
-        "mechanise"
+        "mechanize"
     ],
     "mottle": [
         "dapple",
@@ -25746,7 +23732,6 @@
         "gel"
     ],
     "mouth": [
-        "verbalise",
         "mouth off",
         "talk",
         "utter",
@@ -26091,18 +24076,6 @@
         "puzzle out",
         "baffle"
     ],
-    "mythicise": [
-        "mythicize"
-    ],
-    "mythicize": [
-        "mythicise"
-    ],
-    "mythologise": [
-        "mythologize"
-    ],
-    "mythologize": [
-        "mythologise"
-    ],
     "nab": [
         "co",
         "collar",
@@ -26119,7 +24092,6 @@
         "nail down"
     ],
     "nail down": [
-        "finalise",
         "settle on",
         "settle",
         "finalize"
@@ -26132,12 +24104,6 @@
     "nap": [
         "catnap",
         "catch a wink"
-    ],
-    "narcotise": [
-        "narcotize"
-    ],
-    "narcotize": [
-        "narcotise"
     ],
     "nark": [
         "nettle",
@@ -26169,18 +24135,6 @@
         "pin down",
         "narrow"
     ],
-    "nasalise": [
-        "nasalize"
-    ],
-    "nasalize": [
-        "nasalise"
-    ],
-    "nationalise": [
-        "nationalize"
-    ],
-    "nationalize": [
-        "nationalise"
-    ],
     "natter": [
         "confab",
         "chat",
@@ -26195,17 +24149,10 @@
         "chitchat",
         "chaffer"
     ],
-    "naturalise": [
-        "naturalize",
-        "cultivate",
-        "tam",
-        "domesticate"
-    ],
     "naturalize": [
         "cultivate",
         "tam",
-        "domesticate",
-        "naturalise"
+        "domesticate"
     ],
     "nauseate": [
         "revolt",
@@ -26334,13 +24281,6 @@
         "castrate",
         "alter"
     ],
-    "neutralise": [
-        "liquidate",
-        "waste",
-        "knock off",
-        "do i",
-        "neutralize"
-    ],
     "neutralize": [
         "counterbalance",
         "countervail",
@@ -26381,7 +24321,6 @@
     "nigrify": [
         "blacken",
         "black",
-        "melanise",
         "melanize"
     ],
     "nip": [
@@ -26397,16 +24336,10 @@
         "snip"
     ],
     "nitrify": [
-        "nitrogenize",
-        "nitrogenise"
-    ],
-    "nitrogenise": [
-        "nitrogenize",
-        "nitrify"
+        "nitrogenize"
     ],
     "nitrogenize": [
-        "nitrify",
-        "nitrogenise"
+        "nitrify"
     ],
     "nobble": [
         "snatch",
@@ -26466,9 +24399,6 @@
         "puzzle out",
         "mystify"
     ],
-    "normalise": [
-        "normalize"
-    ],
     "normalize": [
         "anneal",
         "temper"
@@ -26488,12 +24418,6 @@
     "nosh": [
         "snack"
     ],
-    "notarise": [
-        "notarize"
-    ],
-    "notarize": [
-        "notarise"
-    ],
     "note": [
         "notice",
         "mark"
@@ -26512,15 +24436,8 @@
         "sustain",
         "nurture"
     ],
-    "novelise": [
-        "fictionalise",
-        "novelize",
-        "fictionalize"
-    ],
     "novelize": [
-        "fictionalise",
-        "fictionalize",
-        "novelise"
+        "fictionalize"
     ],
     "nudge": [
         "poke at",
@@ -26582,8 +24499,7 @@
         "approve"
     ],
     "objectify": [
-        "depersonalize",
-        "depersonalise"
+        "depersonalize"
     ],
     "objurgate": [
         "correc",
@@ -26651,15 +24567,8 @@
         "stave off",
         "debar"
     ],
-    "occidentalise": [
-        "westernise",
-        "westernize",
-        "occidentalize"
-    ],
     "occidentalize": [
-        "westernise",
-        "westernize",
-        "occidentalise"
+        "westernize"
     ],
     "occlude": [
         "block",
@@ -26681,12 +24590,7 @@
         "come"
     ],
     "odorize": [
-        "scent",
-        "odourise"
-    ],
-    "odourise": [
-        "scent",
-        "odorize"
+        "scent"
     ],
     "off": [
         "polish off",
@@ -26710,12 +24614,6 @@
     ],
     "offer up": [
         "offer"
-    ],
-    "officialise": [
-        "officialize"
-    ],
-    "officialize": [
-        "officialise"
     ],
     "officiate": [
         "function"
@@ -26781,12 +24679,6 @@
         "ooze",
         "transude"
     ],
-    "opalise": [
-        "opalize"
-    ],
-    "opalize": [
-        "opalise"
-    ],
     "open": [
         "afford",
         "give"
@@ -26826,12 +24718,6 @@
     "opt out": [
         "cop out"
     ],
-    "optimise": [
-        "optimize"
-    ],
-    "optimize": [
-        "optimise"
-    ],
     "orb": [
         "orbit",
         "revolve"
@@ -26861,22 +24747,15 @@
         "align",
         "coordinate"
     ],
-    "organise": [
-        "organize",
-        "form"
-    ],
     "organize": [
-        "organise",
-        "form"
+        "form",
+        "construct",
+        "coordinate",
+        "create",
+        "establish"
     ],
     "orient": [
         "orientate"
-    ],
-    "orientalise": [
-        "orientalize"
-    ],
-    "orientalize": [
-        "orientalise"
     ],
     "orientate": [
         "orient"
@@ -26915,20 +24794,12 @@
         "swan",
         "flash"
     ],
-    "ostracise": [
-        "ban",
-        "ostracize",
-        "cast out",
-        "blackbal",
-        "banish",
-        "shun"
-    ],
     "ostracize": [
-        "ostracise",
-        "ban",
-        "cast out",
-        "blackbal",
-        "banish",
+        "blacklist",
+        "blackball",
+        "snub",
+        "expel",
+        "exclude",
         "shun"
     ],
     "oust": [
@@ -27002,10 +24873,12 @@
         "survive"
     ],
     "outlaw": [
-        "criminalize",
-        "illegalise",
-        "illegalize",
-        "criminalise"
+        "ban",
+        "condemn",
+        "disallow",
+        "forbid",
+        "prevent",
+        "proscribe"
     ],
     "outline": [
         "limn",
@@ -27134,12 +25007,6 @@
     "overboil": [
         "boil over"
     ],
-    "overcapitalise": [
-        "overcapitalize"
-    ],
-    "overcapitalize": [
-        "overcapitalise"
-    ],
     "overcast": [
         "cloud up",
         "cloud",
@@ -27181,19 +25048,12 @@
     "overdose": [
         "o.d."
     ],
-    "overdramatise": [
-        "overdramatize"
-    ],
-    "overdramatize": [
-        "overdramatise"
-    ],
     "overdraw": [
         "exaggerate",
         "magnify",
         "overstate",
         "amplify",
-        "hyperbolize",
-        "hyerbolise"
+        "hyperbolize"
     ],
     "overdress": [
         "prink",
@@ -27217,7 +25077,6 @@
         "overuse"
     ],
     "overeat": [
-        "gormandise",
         "gormandize",
         "englut",
         "pig out",
@@ -27232,14 +25091,6 @@
         "overindulge",
         "gorge",
         "satiate"
-    ],
-    "overemphasise": [
-        "overemphasize",
-        "overstress"
-    ],
-    "overemphasize": [
-        "overemphasise",
-        "overstress"
     ],
     "overestimate": [
         "overrate"
@@ -27261,14 +25112,7 @@
     "overfly": [
         "pass over"
     ],
-    "overgeneralise": [
-        "overgeneralize"
-    ],
-    "overgeneralize": [
-        "overgeneralise"
-    ],
     "overgorge": [
-        "gormandise",
         "overeat",
         "scarf ou",
         "gormandize",
@@ -27291,7 +25135,6 @@
         "beetle"
     ],
     "overhaul": [
-        "modernise",
         "modernize"
     ],
     "overhear": [
@@ -27299,7 +25142,6 @@
         "catch"
     ],
     "overindulge": [
-        "gormandise",
         "overeat",
         "scarf ou",
         "gormandize",
@@ -27397,12 +25239,6 @@
     "overshadow": [
         "eclipse"
     ],
-    "overspecialise": [
-        "overspecialize"
-    ],
-    "overspecialize": [
-        "overspecialise"
-    ],
     "overspread": [
         "spread"
     ],
@@ -27411,8 +25247,7 @@
         "overdraw",
         "magnify",
         "amplify",
-        "hyperbolize",
-        "hyerbolise"
+        "hyperbolize"
     ],
     "overstay": [
         "outstay"
@@ -27428,8 +25263,7 @@
         "overextend"
     ],
     "overstress": [
-        "overemphasize",
-        "overemphasise"
+        "overemphasize"
     ],
     "overstretch": [
         "pull"
@@ -27491,30 +25325,17 @@
         "fess up"
     ],
     "oxidate": [
-        "oxidise",
-        "oxidize"
-    ],
-    "oxidise": [
-        "oxidate",
         "oxidize"
     ],
     "oxidize": [
-        "oxidate",
-        "oxidise"
+        "oxidate"
     ],
     "oxygenate": [
         "oxygenize",
-        "aerate",
-        "oxygenise"
-    ],
-    "oxygenise": [
-        "oxygenize",
-        "aerate",
-        "oxygenate"
+        "aerate"
     ],
     "oxygenize": [
         "aerate",
-        "oxygenise",
         "oxygenate"
     ],
     "saber": [
@@ -27582,10 +25403,6 @@
     "sailplane": [
         "soar"
     ],
-    "saint": [
-        "canonize",
-        "canonise"
-    ],
     "salivate": [
         "drool"
     ],
@@ -27643,15 +25460,9 @@
     "sandpaper": [
         "sand"
     ],
-    "sanitise": [
-        "sanitize",
-        "hygienize",
-        "hygienise"
-    ],
     "sanitize": [
-        "hygienise",
-        "hygienize",
-        "sanitise"
+        "decontaminate",
+        "disinfect"
     ],
     "sap": [
         "exhaust",
@@ -27668,7 +25479,6 @@
         "fill"
     ],
     "satiate": [
-        "gormandise",
         "overeat",
         "scarf ou",
         "gormandize",
@@ -27684,12 +25494,7 @@
         "overindulge",
         "gorge"
     ],
-    "satirise": [
-        "lampoon",
-        "satirize"
-    ],
     "satirize": [
-        "satirise",
         "lampoon"
     ],
     "satisfice": [
@@ -27794,16 +25599,7 @@
     "scan": [
         "read"
     ],
-    "scandalise": [
-        "scandalize",
-        "appall",
-        "offend",
-        "outrag",
-        "shock",
-        "appal"
-    ],
     "scandalize": [
-        "scandalise",
         "appall",
         "offend",
         "outrag",
@@ -27847,7 +25643,6 @@
         "pall"
     ],
     "scarf out": [
-        "gormandise",
         "overeat",
         "gormandize",
         "englut",
@@ -27910,12 +25705,6 @@
         "nose out",
         "sniff out",
         "smell out"
-    ],
-    "schematise": [
-        "schematize"
-    ],
-    "schematize": [
-        "schematise"
     ],
     "scheme": [
         "intrigue",
@@ -28227,14 +26016,8 @@
         "scrunch",
         "squat"
     ],
-    "scrutinise": [
-        "scrutinize",
-        "inspect",
-        "audit"
-    ],
     "scrutinize": [
         "inspect",
-        "scrutinise",
         "audit"
     ],
     "scud": [
@@ -28317,7 +26100,6 @@
         "tell apar",
         "distinguish",
         "severalize",
-        "severalise",
         "differentiate",
         "separate"
     ],
@@ -28327,7 +26109,6 @@
         "tell apar",
         "distinguish",
         "severalize",
-        "severalise",
         "differentiate",
         "separate"
     ],
@@ -28349,18 +26130,6 @@
     ],
     "section": [
         "segment"
-    ],
-    "sectionalise": [
-        "sectionalize"
-    ],
-    "sectionalize": [
-        "sectionalise"
-    ],
-    "secularise": [
-        "secularize"
-    ],
-    "secularize": [
-        "desacralize"
     ],
     "secure": [
         "batten down",
@@ -28461,12 +26230,6 @@
     "sellotape": [
         "scotch tape"
     ],
-    "semi-automatise": [
-        "semi-automatize"
-    ],
-    "semi-automatize": [
-        "semi-automatise"
-    ],
     "send": [
         "air",
         "transmi",
@@ -28522,37 +26285,18 @@
     "sense": [
         "feel"
     ],
-    "sensibilise": [
-        "sensify",
-        "sensitise",
-        "sensibiliz",
-        "sensitize"
-    ],
     "sensibilize": [
         "sensify",
-        "sensitise",
         "sensibilis",
         "sensitize"
     ],
     "sensify": [
         "sensibilize",
-        "sensitise",
-        "sensibilise",
-        "sensitize"
-    ],
-    "sensitise": [
         "sensitize"
     ],
     "sensitize": [
         "sensify",
-        "sensibilize",
-        "sensitise",
-        "sensibilise"
-    ],
-    "sensualise": [
-        "carnalise",
-        "sensualize",
-        "carnalize"
+        "sensibilize"
     ],
     "sensualize": [
         "carnalize"
@@ -28561,20 +26305,7 @@
         "condemn",
         "doom"
     ],
-    "sentimentalise": [
-        "sentimentalize"
-    ],
-    "sentimentalize": [
-        "sentimentalise"
-    ],
-    "sentimentise": [
-        "sentimentalise",
-        "sentimentize",
-        "sentimentalize"
-    ],
     "sentimentize": [
-        "sentimentalise",
-        "sentimentise",
         "sentimentalize"
     ],
     "separate": [
@@ -28604,29 +26335,20 @@
         "withdraw",
         "seclude"
     ],
-    "serialise": [
-        "serialize"
-    ],
-    "serialize": [
-        "serialise"
-    ],
-    "sermonise": [
-        "moralise",
-        "moralize",
-        "sermonize",
-        "preachify"
-    ],
     "sermonize": [
-        "moralise",
-        "moralize",
-        "sermonise",
-        "preachify"
+        "admonish",
+        "edify",
+        "evangelize",
+        "lecture",
+        "pontificate",
+        "preach",
+        "preachify",
+        "teach"
     ],
     "serve": [
-        "wait on",
-        "assis",
-        "attend",
-        "attend to"
+        "handle",
+        "present",
+        "attend"
     ],
     "serve up": [
         "serve",
@@ -28760,26 +26482,6 @@
     "sever": [
         "break up"
     ],
-    "severalise": [
-        "secernate",
-        "tell",
-        "secern",
-        "tell apar",
-        "distinguish",
-        "severalize",
-        "differentiate",
-        "separate"
-    ],
-    "severalize": [
-        "secernate",
-        "tell",
-        "secern",
-        "tell apar",
-        "distinguish",
-        "severalise",
-        "differentiate",
-        "separate"
-    ],
     "sew": [
         "run up",
         "sew together",
@@ -28798,12 +26500,6 @@
     ],
     "sex up": [
         "eroticize"
-    ],
-    "sexualise": [
-        "sexualize"
-    ],
-    "sexualize": [
-        "sexualise"
     ],
     "shack": [
         "domiciliate",
@@ -28859,12 +26555,6 @@
         "feign",
         "affect"
     ],
-    "shamanise": [
-        "shamanize"
-    ],
-    "shamanize": [
-        "shamanise"
-    ],
     "shamble": [
         "shuffle",
         "scuffle"
@@ -28899,7 +26589,6 @@
         "dea"
     ],
     "sharpen": [
-        "focalise",
         "focus",
         "focus on",
         "focalize"
@@ -28933,9 +26622,7 @@
         "hemorrhage"
     ],
     "shed light on": [
-        "crystalise",
         "elucidat",
-        "crystallise",
         "clear up",
         "crystallize",
         "crystalize",
@@ -29084,7 +26771,6 @@
         "shallow"
     ],
     "shock": [
-        "scandalise",
         "scandalize",
         "appall",
         "offend",
@@ -29160,7 +26846,6 @@
     "shop at": [
         "frequent",
         "patronize",
-        "patronise",
         "sponsor",
         "shop",
         "buy at"
@@ -29311,7 +26996,6 @@
     ],
     "shun": [
         "blackball",
-        "ostracise",
         "ban",
         "ostracize",
         "cast out",
@@ -29480,13 +27164,7 @@
         "indicate",
         "point"
     ],
-    "signalise": [
-        "signalize",
-        "sign",
-        "signal"
-    ],
     "signalize": [
-        "signalise",
         "sign",
         "signal"
     ],
@@ -29521,14 +27199,6 @@
         "calm down",
         "settle down",
         "chill out"
-    ],
-    "simonise": [
-        "Simonize",
-        "Simonise"
-    ],
-    "simonize": [
-        "Simonize",
-        "Simonise"
     ],
     "simper": [
         "smirk"
@@ -29570,12 +27240,6 @@
     ],
     "single-foot": [
         "rack"
-    ],
-    "singularise": [
-        "singularize"
-    ],
-    "singularize": [
-        "singularise"
     ],
     "sink": [
         "bury"
@@ -29641,8 +27305,7 @@
     ],
     "size up": [
         "take stock",
-        "scrutinize",
-        "scrutinise"
+        "scrutinize"
     ],
     "sizz": [
         "hiss",
@@ -29952,9 +27615,6 @@
     ],
     "sleigh": [
         "sled"
-    ],
-    "slenderise": [
-        "slenderize"
     ],
     "slenderize": [
         "slim",
@@ -30576,24 +28236,12 @@
     "sober up": [
         "sober"
     ],
-    "socialise": [
-        "socialize"
-    ],
-    "socialize": [
-        "socialise"
-    ],
     "sock": [
         "bop",
         "whop",
         "whap",
         "bonk",
         "bash"
-    ],
-    "sodomise": [
-        "sodomize"
-    ],
-    "sodomize": [
-        "sodomise"
     ],
     "soften": [
         "cushion",
@@ -30611,33 +28259,14 @@
         "console",
         "comfort"
     ],
-    "solarise": [
-        "solarize"
-    ],
-    "solarize": [
-        "solarise"
-    ],
     "sole": [
         "resole"
-    ],
-    "solemnise": [
-        "solemnize"
-    ],
-    "solemnize": [
-        "solemnise"
     ],
     "solicit": [
         "beg",
         "tap"
     ],
-    "soliloquise": [
-        "soliloquize",
-        "monologuise",
-        "monologuize"
-    ],
     "soliloquize": [
-        "soliloquise",
-        "monologuise",
         "monologuize"
     ],
     "solve": [
@@ -30676,12 +28305,6 @@
     ],
     "sorb": [
         "take up"
-    ],
-    "sorcerise": [
-        "sorcerize"
-    ],
-    "sorcerize": [
-        "sorcerise"
     ],
     "sorrow": [
         "grieve"
@@ -30733,12 +28356,6 @@
         "drench",
         "douse",
         "sop"
-    ],
-    "sovietise": [
-        "sovietize"
-    ],
-    "sovietize": [
-        "sovietise"
     ],
     "sow": [
         "sow in",
@@ -30833,17 +28450,12 @@
     "spear up": [
         "spear"
     ],
-    "specialise": [
-        "specialize"
-    ],
     "specialize": [
-        "specialise",
         "narrow down",
         "narrow"
     ],
     "speciate": [
         "specialize",
-        "specialise",
         "differentiate"
     ],
     "specify": [
@@ -31009,18 +28621,6 @@
         "spirit",
         "inspirit"
     ],
-    "spiritise": [
-        "spiritize"
-    ],
-    "spiritize": [
-        "spiritise"
-    ],
-    "spiritualise": [
-        "spiritualize"
-    ],
-    "spiritualize": [
-        "spiritualise"
-    ],
     "spirt": [
         "spurt",
         "forge"
@@ -31029,8 +28629,7 @@
         "spue",
         "spit up",
         "ptyalize",
-        "spew",
-        "ptyalise"
+        "spew"
     ],
     "spit out": [
         "spit up",
@@ -31129,12 +28728,6 @@
         "flub",
         "bollix"
     ],
-    "spondaise": [
-        "spondaize"
-    ],
-    "spondaize": [
-        "spondaise"
-    ],
     "sponge": [
         "mooch",
         "bum",
@@ -31148,8 +28741,7 @@
         "sponge down"
     ],
     "sponsor": [
-        "patronize",
-        "patronise"
+        "patronize"
     ],
     "spoof": [
         "burlesque",
@@ -31196,7 +28788,6 @@
     ],
     "spread": [
         "diffuse",
-        "circularise",
         "distribute",
         "circulate",
         "propagate",
@@ -31285,8 +28876,7 @@
         "spit up",
         "ptyalize",
         "spit",
-        "spew",
-        "ptyalise"
+        "spew"
     ],
     "spume": [
         "froth",
@@ -31467,15 +29057,14 @@
     "stab": [
         "jab"
     ],
-    "stabilise": [
-        "brace",
-        "stabiliz",
-        "steady"
-    ],
     "stabilize": [
-        "brace",
-        "stabilis",
-        "steady"
+        "balance",
+        "fix",
+        "maintain",
+        "preserve",
+        "secure",
+        "steady",
+        "sustain"
     ],
     "stack": [
         "stack away"
@@ -31519,21 +29108,12 @@
         "maculate",
         "tarnish"
     ],
-    "staisfise": [
-        "satisfice"
-    ],
     "stake": [
         "gage",
         "bet on",
         "back",
         "game",
         "punt"
-    ],
-    "stalinise": [
-        "stalinize"
-    ],
-    "stalinize": [
-        "stalinise"
     ],
     "stalk": [
         "haunt"
@@ -31629,11 +29209,8 @@
         "stand sentinel",
         "stand guard"
     ],
-    "standardise": [
-        "standardize"
-    ],
     "standardize": [
-        "standardise"
+        "institutionalize"
     ],
     "star": [
         "asterisk"
@@ -31670,7 +29247,6 @@
         "start"
     ],
     "startle": [
-        "galvanise",
         "galvanize"
     ],
     "starve": [
@@ -31758,11 +29334,6 @@
     ],
     "stay up": [
         "sit up"
-    ],
-    "steady": [
-        "brace",
-        "stabilize",
-        "stabilise"
     ],
     "steady down": [
         "root",
@@ -31869,12 +29440,6 @@
         "stamp",
         "pigeonhole"
     ],
-    "sterilise": [
-        "sterilize"
-    ],
-    "sterilize": [
-        "sterilise"
-    ],
     "stew": [
         "brood",
         "grizzle"
@@ -31947,14 +29512,7 @@
     "stifle": [
         "dampen"
     ],
-    "stigmatise": [
-        "brand",
-        "denounce",
-        "stigmatize",
-        "mark"
-    ],
     "stigmatize": [
-        "stigmatise",
         "denounce",
         "brand",
         "mark"
@@ -31968,7 +29526,6 @@
         "ambush"
     ],
     "stimulate": [
-        "energise",
         "brace",
         "perk u",
         "arouse",
@@ -32114,9 +29671,7 @@
         "straighten out"
     ],
     "straighten out": [
-        "crystalise",
         "elucidat",
-        "crystallise",
         "clear up",
         "crystallize",
         "shed light on",
@@ -32369,13 +29924,11 @@
     "style": [
         "title"
     ],
-    "stylise": [
-        "stylize",
-        "conventionalize"
-    ],
+
     "stylize": [
-        "stylise",
-        "conventionalize"
+        "accord",
+        "conform",
+        "formalize"
     ],
     "stymie": [
         "hinder",
@@ -32461,12 +30014,6 @@
     "subside": [
         "lessen"
     ],
-    "subsidise": [
-        "subsidize"
-    ],
-    "subsidize": [
-        "subsidise"
-    ],
     "subsist": [
         "exist",
         "survive",
@@ -32481,7 +30028,6 @@
     ],
     "substitute": [
         "step in",
-        "deputise",
         "deputize"
     ],
     "subsume": [
@@ -32490,9 +30036,6 @@
     "subtend": [
         "delimit"
     ],
-    "subtilise": [
-        "subtilize"
-    ],
     "subtilize": [
         "rarefy",
         "sublimate"
@@ -32500,12 +30043,6 @@
     "subtract": [
         "deduct",
         "take off"
-    ],
-    "suburbanise": [
-        "suburbanize"
-    ],
-    "suburbanize": [
-        "suburbanise"
     ],
     "subvent": [
         "subvention",
@@ -32523,15 +30060,8 @@
         "pervert",
         "misdirec",
         "corrupt",
-        "demoralise",
         "debase",
         "debauch"
-    ],
-    "subvocalise": [
-        "subvocalize"
-    ],
-    "subvocalize": [
-        "subvocalise"
     ],
     "succeed": [
         "follow",
@@ -32673,23 +30203,20 @@
     ],
     "sum": [
         "sum up",
-        "summarize",
-        "summarise"
+        "summarize"
     ],
     "sum up": [
-        "summarize",
-        "summarise",
-        "resume"
-    ],
-    "summarise": [
-        "sum up",
         "summarize",
         "resume"
     ],
     "summarize": [
         "sum up",
-        "summarise",
-        "resume"
+        "compile",
+        "encapsulate",
+        "epitomize",
+        "outline",
+        "recap",
+        "rehash"
     ],
     "summate": [
         "sum",
@@ -32703,16 +30230,9 @@
         "tot",
         "tot up"
     ],
-    "summerise": [
-        "summerize"
-    ],
-    "summerize": [
-        "summerise"
-    ],
     "summon": [
         "mobilize",
-        "marshal",
-        "mobilise"
+        "marshal"
     ],
     "summons": [
         "summon",
@@ -32720,7 +30240,6 @@
     ],
     "sun": [
         "insolate",
-        "solarise",
         "solarize"
     ],
     "sunbathe": [
@@ -32745,8 +30264,7 @@
     ],
     "superintend": [
         "manage",
-        "oversee",
-        "supervise"
+        "oversee"
     ],
     "superpose": [
         "superimpose",
@@ -33195,49 +30713,18 @@
     ],
     "syllabicate": [
         "syllabify",
-        "syllabize",
-        "syllabise"
+        "syllabize"
     ],
     "syllabify": [
         "syllabicate",
-        "syllabize",
-        "syllabise"
-    ],
-    "syllabise": [
-        "syllabify",
-        "syllabize",
-        "syllabicate"
+        "syllabize"
     ],
     "syllabize": [
         "syllabify",
-        "syllabise",
         "syllabicate"
     ],
-    "syllogise": [
-        "syllogize"
-    ],
-    "syllogize": [
-        "syllogise"
-    ],
-    "symbolise": [
-        "symbolize"
-    ],
-    "symbolize": [
-        "symbolise"
-    ],
-    "symmetrise": [
-        "symmetrize"
-    ],
-    "symmetrize": [
-        "symmetrise"
-    ],
-    "sympathise": [
-        "commiserate",
-        "sympathize"
-    ],
     "sympathize": [
-        "commiserate",
-        "sympathise"
+        "commiserate"
     ],
     "sympathize with": [
         "feel for",
@@ -33245,60 +30732,21 @@
         "compassionate",
         "condole with"
     ],
-    "symphonise": [
-        "symphonize"
-    ],
-    "symphonize": [
-        "symphonise"
-    ],
     "sync": [
-        "synchronize",
-        "synchronise"
-    ],
-    "synchronise": [
-        "synchronize",
-        "contemporise",
-        "contemporize"
+        "synchronize"
     ],
     "synchronize": [
-        "sync",
-        "synchronise"
-    ],
-    "syncretise": [
-        "syncretize"
-    ],
-    "syncretize": [
-        "syncretise"
-    ],
-    "synthesise": [
-        "synthesize"
-    ],
-    "synthesize": [
-        "synthesise"
+        "sync"
     ],
     "syphon": [
         "siphon off",
         "siphon"
     ],
-    "systematise": [
-        "systematize",
-        "systemise",
+    "systematize": [
         "systemize"
     ],
-    "systematize": [
-        "systemise",
-        "systemize",
-        "systematise"
-    ],
-    "systemise": [
-        "systematize",
-        "systemize",
-        "systematise"
-    ],
     "systemize": [
-        "systematize",
-        "systemise",
-        "systematise"
+        "systematize"
     ],
     "table": [
         "shelve",
@@ -33311,16 +30759,10 @@
         "put of",
         "hold over"
     ],
-    "tabularise": [
-        "tabulate",
-        "tabularize"
-    ],
     "tabularize": [
-        "tabularise",
         "tabulate"
     ],
     "tabulate": [
-        "tabularise",
         "tabularize"
     ],
     "tack": [
@@ -33380,7 +30822,6 @@
     ],
     "tailor-make": [
         "customize",
-        "customise",
         "custom-make"
     ],
     "taint": [
@@ -33470,7 +30911,6 @@
         "appreciate"
     ],
     "take advantage": [
-        "capitalise",
         "capitalize"
     ],
     "take after": [
@@ -33813,22 +31253,9 @@
     "tangle with": [
         "get into"
     ],
-    "tantalise": [
-        "rally",
-        "rid",
-        "cod",
-        "taunt",
-        "razz",
-        "tantalize",
-        "bait",
-        "rag",
-        "twit",
-        "tease"
-    ],
     "tantalize": [
         "rally",
         "rid",
-        "tantalise",
         "cod",
         "taunt",
         "razz",
@@ -33867,8 +31294,7 @@
         "poin"
     ],
     "tarmac": [
-        "macadamize",
-        "macadamise"
+        "macadamize"
     ],
     "tarnish": [
         "defile",
@@ -33908,7 +31334,6 @@
     "taunt": [
         "rally",
         "rid",
-        "tantalise",
         "cod",
         "razz",
         "tantalize",
@@ -34020,12 +31445,6 @@
         "cable",
         "wire"
     ],
-    "telepathise": [
-        "telepathize"
-    ],
-    "telepathize": [
-        "telepathise"
-    ],
     "telephone": [
         "call",
         "rin",
@@ -34044,7 +31463,6 @@
         "distinguish",
         "tel",
         "severalize",
-        "severalise",
         "differentiate",
         "separate"
     ],
@@ -34065,12 +31483,6 @@
         "anneal",
         "normalize"
     ],
-    "temporise": [
-        "temporize"
-    ],
-    "temporize": [
-        "temporise"
-    ],
     "tempt": [
         "allure"
     ],
@@ -34084,12 +31496,7 @@
         "offer",
         "bid"
     ],
-    "tenderise": [
-        "tenderize",
-        "tender"
-    ],
     "tenderize": [
-        "tenderise",
         "tender"
     ],
     "tense": [
@@ -34105,8 +31512,7 @@
         "bivouac"
     ],
     "tergiversate": [
-        "apostatize",
-        "apostatise"
+        "apostatize"
     ],
     "terminate": [
         "end"
@@ -34118,21 +31524,9 @@
         "terrace"
     ],
     "terrify": [
-        "terrorise",
         "terrorize"
     ],
-    "territorialise": [
-        "territorialize"
-    ],
-    "territorialize": [
-        "territorialise"
-    ],
-    "terrorise": [
-        "terrorize",
-        "terrify"
-    ],
     "terrorize": [
-        "terrorise",
         "terrify"
     ],
     "test": [
@@ -34157,29 +31551,13 @@
         "unthaw",
         "dissolve"
     ],
-    "theologise": [
-        "theologize"
-    ],
-    "theologize": [
-        "theologise"
-    ],
-    "theorise": [
-        "suppose",
-        "speculate",
-        "conjecture",
-        "hypothesize",
-        "hypothecate",
-        "hypothesise",
-        "theorize"
-    ],
+
     "theorize": [
         "suppose",
         "speculate",
         "conjecture",
         "hypothesize",
-        "theorise",
-        "hypothecate",
-        "hypothesise"
+        "hypothecate"
     ],
     "thicken": [
         "inspissate"
@@ -34275,7 +31653,6 @@
     ],
     "threaten": [
         "imperil",
-        "jeopardise",
         "jeopardize",
         "endanger",
         "menace",
@@ -34915,12 +32292,6 @@
         "amount",
         "add up"
     ],
-    "totalise": [
-        "totalize"
-    ],
-    "totalize": [
-        "totalise"
-    ],
     "tote": [
         "lug",
         "tug"
@@ -35103,27 +32474,15 @@
         "beguile"
     ],
     "tranquilize": [
-        "tranquillise",
         "calm",
         "quiet",
         "tranquillize",
         "quieten",
         "calm down",
-        "stil",
-        "lull"
-    ],
-    "tranquillise": [
-        "calm",
-        "quiet",
-        "tranquillize",
-        "quieten",
-        "calm down",
-        "tranquilize",
         "stil",
         "lull"
     ],
     "tranquillize": [
-        "tranquillise",
         "calm",
         "quiet",
         "quieten",
@@ -35165,23 +32524,11 @@
         "offend",
         "violate"
     ],
-    "transistorise": [
-        "transistorize"
-    ],
-    "transistorize": [
-        "transistorise"
-    ],
     "transit": [
         "pass over",
         "pass across",
         "pass through",
         "move through"
-    ],
-    "transitivise": [
-        "transitivize"
-    ],
-    "transitivize": [
-        "transitivise"
     ],
     "translate": [
         "render",
@@ -35242,13 +32589,15 @@
         "junk",
         "scrap"
     ],
-    "traumatise": [
-        "shock",
-        "traumatize"
-    ],
     "traumatize": [
+        "disturb",
+        "grieve",
+        "hurt",
+        "mortify",
+        "offend",
+        "outrage",
         "shock",
-        "traumatise"
+        "upset"
     ],
     "travail": [
         "toil",
@@ -35491,11 +32840,19 @@
         "exult",
         "exuberate"
     ],
-    "trivialise": [
-        "trivialize"
-    ],
     "trivialize": [
-        "trivialise"
+        "depreciate",
+        "dismiss",
+        "laugh off",
+        "make light of",
+        "minimize",
+        "misprize",
+        "play down",
+        "pooh-pooh",
+        "underestimate",
+        "underplay",
+        "underrate",
+        "undervalue"
     ],
     "troop": [
         "parade",
@@ -35879,7 +33236,6 @@
     "twit": [
         "rally",
         "rid",
-        "tantalise",
         "cod",
         "taunt",
         "razz",
@@ -35907,15 +33263,9 @@
         "type"
     ],
     "typify": [
-        "epitomize",
-        "epitomise"
-    ],
-    "tyrannise": [
-        "grind down",
-        "tyrannize"
+        "epitomize"
     ],
     "tyrannize": [
-        "tyrannise",
         "grind down"
     ],
     "TRUE": [
@@ -35967,12 +33317,6 @@
     "factor out": [
         "factor in",
         "factor"
-    ],
-    "factorise": [
-        "factorize"
-    ],
-    "factorize": [
-        "factorise"
     ],
     "fade": [
         "blow over",
@@ -36156,13 +33500,8 @@
         "stutter",
         "bumble"
     ],
-    "familiarise": [
-        "acquaint",
-        "familiarize"
-    ],
     "familiarize": [
-        "acquaint",
-        "familiarise"
+        "acquaint"
     ],
     "famish": [
         "hunger",
@@ -36203,15 +33542,9 @@
         "fig up",
         "rig out"
     ],
-    "fantasise": [
-        "fantasize"
-    ],
     "fantasize": [
-        "fantasise"
-    ],
-    "fantasy": [
-        "fantasise",
-        "fantasize"
+        "daydream",
+        "hallucinate"
     ],
     "farce": [
         "stuff"
@@ -36371,18 +33704,10 @@
         "have"
     ],
     "fecundate": [
-        "fertilise",
         "fertilize"
     ],
-    "federalise": [
-        "federalize"
-    ],
-    "federalize": [
-        "federalise"
-    ],
     "federate": [
-        "federalize",
-        "federalise"
+        "federalize"
     ],
     "fee": [
         "tip",
@@ -36460,12 +33785,6 @@
         "matte up",
         "matt-up"
     ],
-    "feminise": [
-        "feminize"
-    ],
-    "feminize": [
-        "feminise"
-    ],
     "fence": [
         "argue",
         "debate",
@@ -36503,12 +33822,7 @@
     "ferret out": [
         "ferret"
     ],
-    "fertilise": [
-        "fecundate",
-        "fertilize"
-    ],
     "fertilize": [
-        "fertilise",
         "fecundate"
     ],
     "fess up": [
@@ -36542,12 +33856,7 @@
     "fetter": [
         "shackle"
     ],
-    "fictionalise": [
-        "retell",
-        "fictionalize"
-    ],
     "fictionalize": [
-        "fictionalise",
         "retell"
     ],
     "fiddle": [
@@ -36716,14 +34025,7 @@
         "wangle",
         "manage"
     ],
-    "finalise": [
-        "settle",
-        "nail down",
-        "settle on",
-        "finalize"
-    ],
     "finalize": [
-        "finalise",
         "nail down",
         "settle on",
         "settle"
@@ -36816,7 +34118,6 @@
     ],
     "fit in": [
         "harmonize",
-        "harmonise",
         "concord",
         "agree",
         "consort",
@@ -37296,10 +34597,6 @@
         "fluoridis",
         "fluoridize"
     ],
-    "fluoridise": [
-        "fluoridiz",
-        "fluoridate"
-    ],
     "fluoridize": [
         "fluoridis",
         "fluoridate"
@@ -37412,23 +34709,15 @@
         "foist off",
         "palm off"
     ],
-    "focalise": [
-        "concenter",
-        "concentre",
-        "focus",
-        "focalize"
-    ],
     "focalize": [
         "concenter",
         "concentre",
-        "focus",
-        "focalise"
+        "focus"
     ],
     "focus": [
         "concenter",
         "concentre",
-        "focalize",
-        "focalise"
+        "focalize"
     ],
     "focus on": [
         "center on",
@@ -37781,20 +35070,8 @@
         "make",
         "constitute"
     ],
-    "formalise": [
-        "formalize"
-    ],
-    "formalize": [
-        "formalise"
-    ],
     "format": [
         "arrange"
-    ],
-    "formularise": [
-        "formularize"
-    ],
-    "formularize": [
-        "formularise"
     ],
     "formulate": [
         "develop",
@@ -37824,12 +35101,6 @@
     ],
     "forward": [
         "send on"
-    ],
-    "fossilise": [
-        "fossilize"
-    ],
-    "fossilize": [
-        "fossilise"
     ],
     "foster": [
         "further"
@@ -37896,14 +35167,8 @@
         "break up",
         "fragmentis"
     ],
-    "fragmentise": [
-        "fragmentize",
-        "break up",
-        "fragment"
-    ],
     "fragmentize": [
         "break up",
-        "fragmentise",
         "fragment"
     ],
     "frame": [
@@ -37919,12 +35184,6 @@
     ],
     "frank": [
         "postmark"
-    ],
-    "fraternise": [
-        "fraternize"
-    ],
-    "fraternize": [
-        "fraternise"
     ],
     "fray": [
         "frazzle"
@@ -37952,8 +35211,7 @@
     ],
     "freeze": [
         "immobilize",
-        "block",
-        "immobilise"
+        "block"
     ],
     "freeze down": [
         "freeze",
@@ -37992,7 +35250,6 @@
         "refreshen"
     ],
     "fress": [
-        "gluttonise",
         "gluttonize"
     ],
     "fret": [
@@ -38363,12 +35620,6 @@
     "gallop": [
         "extend"
     ],
-    "galvanise": [
-        "galvanize"
-    ],
-    "galvanize": [
-        "galvanise"
-    ],
     "gamble": [
         "adventure",
         "hazard",
@@ -38514,8 +35765,7 @@
     ],
     "gasify": [
         "vaporize",
-        "aerify",
-        "vaporise"
+        "aerify"
     ],
     "gasp": [
         "pant",
@@ -38588,25 +35838,15 @@
     "gel": [
         "mousse"
     ],
-    "gelatinise": [
-        "gelatinize"
-    ],
-    "gelatinize": [
-        "gelatinise"
-    ],
     "geld": [
         "cut"
     ],
     "geminate": [
         "pair"
     ],
-    "generalise": [
-        "generalize"
-    ],
     "generalize": [
         "infer",
-        "extrapolate",
-        "generalise"
+        "extrapolate"
     ],
     "generate": [
         "bring fort",
@@ -38631,7 +35871,6 @@
     ],
     "gestate": [
         "conceptualize",
-        "conceptualise",
         "conceive"
     ],
     "gesticulate": [
@@ -38747,8 +35986,7 @@
         "dress"
     ],
     "get even": [
-        "equalize",
-        "equalise"
+        "equalize"
     ],
     "get going": [
         "get moving",
@@ -39032,12 +36270,6 @@
     "get worse": [
         "relapse"
     ],
-    "ghettoise": [
-        "ghettoize"
-    ],
-    "ghettoize": [
-        "ghettoise"
-    ],
     "ghost": [
         "ghostwrite"
     ],
@@ -39290,8 +36522,7 @@
     "give tongue to": [
         "verbalize",
         "utter",
-        "express",
-        "verbalise"
+        "express"
     ],
     "give up": [
         "abandon"
@@ -39344,32 +36575,12 @@
         "do up",
         "doll up"
     ],
-    "glamorise": [
-        "glamorize",
-        "glamourize",
-        "glamourise"
-    ],
-    "glamorize": [
-        "glamourize",
-        "glamorise",
-        "glamourise"
-    ],
     "glamour": [
         "hex",
         "witch",
         "bewitch",
         "jin",
         "enchant"
-    ],
-    "glamourise": [
-        "glamorize",
-        "glamourize",
-        "glamorise"
-    ],
-    "glamourize": [
-        "glamorize",
-        "glamorise",
-        "glamourise"
     ],
     "glance": [
         "carom"
@@ -39444,12 +36655,6 @@
         "crow",
         "triumph"
     ],
-    "globalise": [
-        "globalize"
-    ],
-    "globalize": [
-        "globalise"
-    ],
     "glom": [
         "thieve",
         "snitch",
@@ -39489,20 +36694,6 @@
     "glut": [
         "oversupply",
         "flood"
-    ],
-    "gluttonise": [
-        "fress",
-        "gluttonize"
-    ],
-    "gluttonize": [
-        "fress",
-        "gluttonise"
-    ],
-    "glycerolise": [
-        "glycerolize"
-    ],
-    "glycerolize": [
-        "glycerolise"
     ],
     "gnarl": [
         "grumble",
@@ -39835,7 +37026,6 @@
         "foolproof"
     ],
     "gorge": [
-        "gormandise",
         "overeat",
         "scarf ou",
         "gormandize",
@@ -39849,27 +37039,9 @@
         "glut",
         "binge",
         "overindulge",
-        "satiate"
-    ],
-    "gormandise": [
-        "overeat",
-        "scarf ou",
-        "gormandize",
-        "englut",
-        "pig out",
-        "ingurgitate",
-        "engorge",
-        "stuff",
-        "overgorge",
-        "gourmandize",
-        "glut",
-        "binge",
-        "overindulge",
-        "gorge",
         "satiate"
     ],
     "gormandize": [
-        "gormandise",
         "overeat",
         "scarf ou",
         "pig out",
@@ -39906,7 +37078,6 @@
         "rack"
     ],
     "gourmandize": [
-        "gormandise",
         "overeat",
         "scarf ou",
         "gormandize",
@@ -39925,8 +37096,7 @@
     "govern": [
         "regularize",
         "order",
-        "regulate",
-        "regularise"
+        "regulate"
     ],
     "grab": [
         "take hold of",
@@ -40075,7 +37245,6 @@
         "bone"
     ],
     "grind down": [
-        "tyrannise",
         "tyrannize"
     ],
     "grind out": [
@@ -40596,21 +37765,15 @@
         "hearken",
         "hark"
     ],
-    "harmonise": [
-        "harmonize",
-        "concord",
-        "agree",
-        "fit in",
-        "consort",
-        "accord"
-    ],
     "harmonize": [
-        "agre",
-        "harmonise",
-        "concord",
-        "fit in",
-        "consort",
-        "accord"
+        "adjust",
+        "cooperate",
+        "coordinate",
+        "correspond",
+        "integrate",
+        "match",
+        "reconcile",
+        "unify"
     ],
     "harness": [
         "rein in",
@@ -40695,13 +37858,6 @@
     ],
     "haunt": [
         "frequent"
-    ],
-    "have": [
-        "keep",
-        "accept",
-        "obtain",
-        "take",
-        "own"
     ],
     "have a ball": [
         "have a good time"
@@ -41072,7 +38228,6 @@
         "raise"
     ],
     "heist": [
-        "burglarise",
         "burgle",
         "burglarize"
     ],
@@ -41107,7 +38262,6 @@
         "crowd"
     ],
     "hero-worship": [
-        "idolise",
         "worship",
         "idolize",
         "revere"
@@ -41502,18 +38656,6 @@
         "range in",
         "zero in"
     ],
-    "homogenise": [
-        "homogenize"
-    ],
-    "homogenize": [
-        "homogenise"
-    ],
-    "homologise": [
-        "homologize"
-    ],
-    "homologize": [
-        "homologise"
-    ],
     "hone": [
         "perfect"
     ],
@@ -41645,12 +38787,6 @@
     "hose down": [
         "hose"
     ],
-    "hospitalise": [
-        "hospitalize"
-    ],
-    "hospitalize": [
-        "hospitalise"
-    ],
     "hot up": [
         "heat up",
         "heat"
@@ -41726,11 +38862,9 @@
         "seethe",
         "buzz"
     ],
-    "humanise": [
-        "humanize"
-    ],
     "humanize": [
-        "humanise"
+        "civilize",
+        "tame"
     ],
     "humble": [
         "humiliate",
@@ -41739,8 +38873,7 @@
         "chagrin"
     ],
     "humidify": [
-        "moisturize",
-        "moisturise"
+        "moisturize"
     ],
     "humiliate": [
         "humble",
@@ -41824,7 +38957,6 @@
         "cast"
     ],
     "husband": [
-        "economise",
         "conserve",
         "economize"
     ],
@@ -41850,23 +38982,10 @@
         "bustle about",
         "bustle"
     ],
-    "hybridise": [
-        "hybridize",
-        "cross",
-        "crossbreed",
-        "interbreed"
-    ],
     "hybridize": [
         "interbreed",
         "cross",
-        "crossbreed",
-        "hybridise"
-    ],
-    "hydrolise": [
-        "hydrolize"
-    ],
-    "hydrolize": [
-        "hydrolise"
+        "crossbreed"
     ],
     "hydrolyse": [
         "hydrolyze"
@@ -41877,23 +38996,9 @@
     "hydroplane": [
         "seaplane"
     ],
-    "hyerbolise": [
-        "exaggerate",
-        "overdraw",
-        "magnify",
-        "overstate",
-        "amplif",
-        "hyperbolize"
-    ],
-    "hygienise": [
-        "sanitize",
-        "hygieniz",
-        "sanitise"
-    ],
     "hygienize": [
         "hygienis",
-        "sanitize",
-        "sanitise"
+        "sanitize"
     ],
     "hype up": [
         "psych up"
@@ -41903,8 +39008,7 @@
         "overdraw",
         "magnify",
         "overstate",
-        "amplif",
-        "hyerbolise"
+        "amplif"
     ],
     "hyphen": [
         "hyphenate"
@@ -41912,53 +39016,21 @@
     "hyphenate": [
         "hyphen"
     ],
-    "hypnotise": [
-        "mesmerise",
-        "mesmerize",
-        "hypnotize"
-    ],
     "hypnotize": [
-        "mesmerise",
-        "mesmerize",
-        "hypnotise"
-    ],
-    "hypophysectomise": [
-        "hypophysectomize"
-    ],
-    "hypophysectomize": [
-        "hypophysectomise"
-    ],
-    "hypostatise": [
-        "hypostatize"
-    ],
-    "hypostatize": [
-        "hypostatise"
+        "mesmerize"
     ],
     "hypothecate": [
         "suppose",
         "speculate",
         "conjecture",
         "hypothesize",
-        "theorise",
-        "hypothesise",
-        "theorize"
-    ],
-    "hypothesise": [
-        "suppose",
-        "speculate",
-        "conjecture",
-        "hypothesize",
-        "theorise",
-        "hypothecate",
         "theorize"
     ],
     "hypothesize": [
         "suppose",
         "speculate",
         "conjecture",
-        "theorise",
         "hypothecate",
-        "hypothesise",
         "theorize"
     ],
     "ice": [
@@ -41971,12 +39043,6 @@
     "ice up": [
         "frost over",
         "ice over"
-    ],
-    "idealise": [
-        "idealize"
-    ],
-    "idealize": [
-        "idealise"
     ],
     "ideate": [
         "conceive of",
@@ -41996,14 +39062,7 @@
         "slug",
         "stagnate"
     ],
-    "idolise": [
-        "worship",
-        "rever",
-        "idolize",
-        "hero-worship"
-    ],
     "idolize": [
-        "idolise",
         "worship",
         "rever",
         "hero-worship"
@@ -42023,17 +39082,9 @@
         "push asid",
         "discount"
     ],
-    "illegalise": [
-        "criminalize",
-        "illegalize",
-        "outlaw",
-        "criminalise"
-    ],
     "illegalize": [
         "criminalize",
-        "illegalise",
-        "outlaw",
-        "criminalise"
+        "outlaw"
     ],
     "ill-treat": [
         "abuse",
@@ -42049,9 +39100,7 @@
         "light up"
     ],
     "illuminate": [
-        "crystalise",
         "elucidat",
-        "crystallise",
         "clear up",
         "crystallize",
         "shed light on",
@@ -42081,7 +39130,6 @@
     "image": [
         "pictur",
         "figure",
-        "visualise",
         "project",
         "fancy",
         "see",
@@ -42121,16 +39169,6 @@
         "copy",
         "simulate"
     ],
-    "immaterialise": [
-        "unsubstantialise",
-        "unsubstantialize",
-        "immaterialize"
-    ],
-    "immaterialize": [
-        "unsubstantialise",
-        "immaterialise",
-        "unsubstantialize"
-    ],
     "immerse": [
         "plunge"
     ],
@@ -42152,35 +39190,14 @@
         "mix",
         "mix up"
     ],
-    "immobilise": [
-        "freeze",
-        "immobilize",
-        "block"
-    ],
     "immobilize": [
         "freeze",
-        "block",
-        "immobilise"
-    ],
-    "immortalise": [
-        "memorialize",
-        "record",
-        "memorialise",
-        "commemorate",
-        "immortalize"
+        "block"
     ],
     "immortalize": [
         "memorialize",
         "record",
-        "memorialise",
-        "immortalise",
         "commemorate"
-    ],
-    "immunise": [
-        "immunize"
-    ],
-    "immunize": [
-        "immunise"
     ],
     "immure": [
         "put behind bars",
@@ -42228,7 +39245,6 @@
     ],
     "imperil": [
         "threaten",
-        "jeopardise",
         "jeopardize",
         "peri",
         "endanger",
@@ -42295,8 +39311,7 @@
         "bedamn",
         "curse",
         "anathemize",
-        "maledict",
-        "anathemise"
+        "maledict"
     ],
     "impregnate": [
         "tincture",
@@ -42329,13 +39344,14 @@
         "ameliorate"
     ],
     "improvise": [
-        "extemporize"
-    ],
-    "improvize": [
         "ad-lib",
-        "extemporize",
-        "improvise",
-        "extemporise"
+        "brainstorm",
+        "concoct",
+        "contrive",
+        "devise",
+        "dream up",
+        "invent",
+        "throw together"
     ],
     "impute": [
         "ascribe",
@@ -42476,11 +39492,11 @@
         "write",
         "pen"
     ],
-    "individualise": [
-        "individualize"
-    ],
     "individualize": [
-        "individualise"
+        "extricate",
+        "individuate",
+        "recognize",
+        "singularize"
     ],
     "indorse": [
         "endorse",
@@ -42508,12 +39524,6 @@
     ],
     "indurate": [
         "harden"
-    ],
-    "industrialise": [
-        "industrialize"
-    ],
-    "industrialize": [
-        "industrialise"
     ],
     "inebriate": [
         "exhilarate",
@@ -42603,7 +39613,6 @@
         "grain"
     ],
     "ingurgitate": [
-        "gormandise",
         "overeat",
         "scarf ou",
         "gormandize",
@@ -42648,12 +39657,8 @@
         "entomb",
         "lay to rest"
     ],
-    "initialise": [
-        "initialize",
-        "format"
-    ],
     "initialize": [
-        "initialise",
+        "load",
         "format"
     ],
     "initiate": [
@@ -42678,8 +39683,7 @@
     ],
     "inoculate": [
         "vaccinate",
-        "immunize",
-        "immunise"
+        "immunize"
     ],
     "inosculate": [
         "anastomose"
@@ -42693,7 +39697,6 @@
     ],
     "inseminate": [
         "fertilize",
-        "fertilise",
         "fecundate"
     ],
     "insert": [
@@ -42712,12 +39715,10 @@
     ],
     "insolate": [
         "sun",
-        "solarise",
         "solarize"
     ],
     "inspect": [
         "scrutinize",
-        "scrutinise",
         "audit"
     ],
     "inspire": [
@@ -42763,20 +39764,12 @@
     "institute": [
         "bring"
     ],
-    "institutionalise": [
-        "commit",
-        "charge",
-        "send",
-        "institutionalize"
-    ],
     "institutionalize": [
         "commit",
         "charge",
-        "send",
-        "institutionalise"
+        "send"
     ],
     "instruct": [
-        "apprise",
         "apprize"
     ],
     "instrument": [
@@ -42819,8 +39812,7 @@
     "interbreed": [
         "hybridize",
         "cross",
-        "crossbreed",
-        "hybridise"
+        "crossbreed"
     ],
     "intercede": [
         "liaise",
@@ -42862,15 +39854,8 @@
         "step in",
         "intervene"
     ],
-    "interiorise": [
-        "interiorize",
-        "internalize",
-        "internalise"
-    ],
     "interiorize": [
-        "internalize",
-        "internalise",
-        "interiorise"
+        "internalize"
     ],
     "interject": [
         "injec",
@@ -42917,21 +39902,8 @@
         "immingle",
         "blend"
     ],
-    "internalise": [
-        "interiorize",
-        "internalize",
-        "interiorise"
-    ],
     "internalize": [
-        "interiorize",
-        "interiorise",
-        "internalise"
-    ],
-    "internationalise": [
-        "internationalize"
-    ],
-    "internationalize": [
-        "internationalise"
+        "interiorize"
     ],
     "interpenetrate": [
         "permeate"
@@ -43004,15 +39976,8 @@
         "uplift",
         "lift up"
     ],
-    "intransitivise": [
-        "detransitivize",
-        "intransitivize",
-        "detransitivise"
-    ],
     "intransitivize": [
-        "detransitivize",
-        "intransitivise",
-        "detransitivise"
+        "detransitivize"
     ],
     "intrench": [
         "entrench"
@@ -43050,7 +40015,6 @@
         "entrust"
     ],
     "intubate": [
-        "cannulise",
         "cannulate",
         "cannulize",
         "canulate"
@@ -43151,18 +40115,6 @@
         "regard",
         "affect"
     ],
-    "iodise": [
-        "iodize"
-    ],
-    "iodize": [
-        "iodise"
-    ],
-    "ionise": [
-        "ionize"
-    ],
-    "ionize": [
-        "ionise"
-    ],
     "irk": [
         "gall"
     ],
@@ -43201,22 +40153,8 @@
         "break open",
         "burst out"
     ],
-    "islamise": [
-        "Islamise",
-        "Islamize"
-    ],
-    "islamize": [
-        "Islamise",
-        "Islamize"
-    ],
     "isolate": [
         "insulate"
-    ],
-    "isomerise": [
-        "isomerize"
-    ],
-    "isomerize": [
-        "isomerise"
     ],
     "issue": [
         "emerge",
@@ -43228,24 +40166,12 @@
     "issue forth": [
         "come"
     ],
-    "italicise": [
-        "italicize"
-    ],
-    "italicize": [
-        "italicise"
-    ],
     "itch": [
         "rub",
         "scratch"
     ],
-    "itemise": [
-        "recite",
-        "itemize",
-        "enumerate"
-    ],
     "itemize": [
         "recite",
-        "itemise",
         "enumerate"
     ],
     "iterate": [
@@ -43414,18 +40340,9 @@
     "jelly": [
         "jellify"
     ],
-    "jeopardise": [
-        "threaten",
-        "imperil",
-        "jeopardize",
-        "peri",
-        "endanger",
-        "menace"
-    ],
     "jeopardize": [
         "threaten",
         "imperil",
-        "jeopardise",
         "peri",
         "endanger",
         "menace"
@@ -43477,16 +40394,12 @@
     "jimmy": [
         "pry",
         "lever",
-        "prise",
         "prize"
     ],
     "jingle": [
-        "jangle",
-        "jingle-jangle"
-    ],
-    "jingle-jangle": [
-        "jangle",
-        "jingle"
+        "clang",
+        "clatter",
+        "clink"
     ],
     "jinx": [
         "hex",
@@ -43786,7 +40699,6 @@
         "have"
     ],
     "underline": [
-        "emphasise",
         "emphasize",
         "underscore"
     ],
@@ -43814,7 +40726,6 @@
         "underestimate"
     ],
     "underscore": [
-        "emphasise",
         "emphasize",
         "underline"
     ],
@@ -43826,7 +40737,6 @@
     ],
     "understate": [
         "minimize",
-        "minimise",
         "downplay"
     ],
     "understudy": [
@@ -43905,38 +40815,14 @@
         "dismount",
         "get off"
     ],
-    "uniformise": [
-        "uniformize"
-    ],
-    "uniformize": [
-        "uniformise"
-    ],
     "unify": [
         "mix",
         "mingle",
         "commix",
         "amalgamat"
     ],
-    "unionise": [
-        "unionize"
-    ],
-    "unionize": [
-        "unionise"
-    ],
     "unite": [
         "combine"
-    ],
-    "unitise": [
-        "unitize"
-    ],
-    "unitize": [
-        "unitise"
-    ],
-    "universalise": [
-        "universalize"
-    ],
-    "universalize": [
-        "universalise"
     ],
     "unknot": [
         "unravel",
@@ -44042,9 +40928,7 @@
     "unsex": [
         "desexualize",
         "sterilize",
-        "desexualise",
         "desex",
-        "sterilise",
         "fix"
     ],
     "unsnarl": [
@@ -44061,14 +40945,7 @@
     "unstuff": [
         "loosen up"
     ],
-    "unsubstantialise": [
-        "immaterialise",
-        "unsubstantialize",
-        "immaterialize"
-    ],
     "unsubstantialize": [
-        "unsubstantialise",
-        "immaterialise",
         "immaterialize"
     ],
     "untangle": [
@@ -44176,12 +41053,6 @@
         "discomfit",
         "disconcert"
     ],
-    "urbanise": [
-        "urbanize"
-    ],
-    "urbanize": [
-        "urbanise"
-    ],
     "urge": [
         "barrack",
         "pep u",
@@ -44246,17 +41117,13 @@
         "seize",
         "assume"
     ],
-    "utilise": [
-        "use",
-        "apply",
-        "utilize",
-        "employ"
-    ],
     "utilize": [
-        "use",
         "apply",
+        "appropriate",
         "employ",
-        "utilise"
+        "exploit",
+        "handle",
+        "promote"
     ],
     "utter": [
         "let out",
@@ -44272,8 +41139,7 @@
     ],
     "vaccinate": [
         "immunize",
-        "inoculate",
-        "immunise"
+        "inoculate"
     ],
     "vacillate": [
         "waver",
@@ -44327,12 +41193,6 @@
     "vamp up": [
         "vamp"
     ],
-    "vandalise": [
-        "vandalize"
-    ],
-    "vandalize": [
-        "vandalise"
-    ],
     "vanish": [
         "disappear",
         "go away"
@@ -44344,12 +41204,8 @@
         "shell",
         "beat"
     ],
-    "vaporise": [
-        "evaporate"
-    ],
     "vaporize": [
-        "evaporate",
-        "vaporise"
+        "evaporate"
     ],
     "variegate": [
         "vary",
@@ -44361,18 +41217,6 @@
     "vary": [
         "change",
         "alter"
-    ],
-    "vascularise": [
-        "vascularize"
-    ],
-    "vascularize": [
-        "vascularise"
-    ],
-    "vasectomise": [
-        "vasectomize"
-    ],
-    "vasectomize": [
-        "vasectomise"
     ],
     "vaticinate": [
         "prophesy"
@@ -44439,17 +41283,10 @@
     "venture": [
         "embark"
     ],
-    "verbalise": [
-        "verbalize",
-        "give tongue to",
-        "express",
-        "utter"
-    ],
     "verbalize": [
         "utter",
         "give tongue to",
-        "express",
-        "verbalise"
+        "express"
     ],
     "verify": [
         "aver",
@@ -44460,12 +41297,10 @@
         "swan"
     ],
     "verse": [
-        "poetise",
         "versify",
         "poetize"
     ],
     "versify": [
-        "poetise",
         "poetize",
         "verse"
     ],
@@ -44492,9 +41327,6 @@
         "vacillate",
         "hover",
         "oscillate"
-    ],
-    "victimise": [
-        "victimize"
     ],
     "victimize": [
         "bunco",
@@ -44545,44 +41377,21 @@
         "desecrate",
         "outrage"
     ],
-    "virilise": [
-        "masculinise",
-        "virilize",
-        "masculinize"
-    ],
     "virilize": [
-        "masculinise",
-        "virilise",
         "masculinize"
     ],
     "visit": [
         "call",
         "call in"
     ],
-    "visualise": [
-        "visualize"
-    ],
     "visualize": [
         "figure",
-        "visualise",
         "project",
         "imag",
         "fancy",
         "picture",
         "see",
         "envision"
-    ],
-    "vitalise": [
-        "vitalize"
-    ],
-    "vitalize": [
-        "vitalise"
-    ],
-    "vitaminise": [
-        "vitaminize"
-    ],
-    "vitaminize": [
-        "vitaminise"
     ],
     "vitiate": [
         "profane",
@@ -44592,7 +41401,6 @@
         "pervert",
         "misdirec",
         "corrupt",
-        "demoralise",
         "debase",
         "debauch"
     ],
@@ -44611,33 +41419,20 @@
         "animate",
         "revive"
     ],
-    "vocalise": [
-        "articulate",
-        "vocalize",
-        "enunciate"
-    ],
     "vocalize": [
         "articulate",
-        "vocalise",
         "enunciate"
     ],
     "vociferate": [
         "shout out"
     ],
     "voice": [
-        "vocalise",
         "vocalize",
         "sound"
     ],
     "void": [
         "evacuate",
         "empty"
-    ],
-    "volatilise": [
-        "volatilize"
-    ],
-    "volatilize": [
-        "volatilise"
     ],
     "volunteer": [
         "offer"
@@ -44704,39 +41499,14 @@
     "vow": [
         "consecrate"
     ],
-    "vowelise": [
-        "vowelize",
-        "vocalise",
-        "vocalize"
-    ],
-    "vowelize": [
-        "vowelise",
-        "vocalise",
-        "vocalize"
-    ],
     "voyage": [
         "navigate",
         "sail"
     ],
-    "vulcanise": [
-        "vulcanize"
-    ],
-    "vulcanize": [
-        "vulcanise"
-    ],
-    "vulgarise": [
-        "popularize",
-        "vulgarize",
-        "generalis",
-        "generalize",
-        "popularise"
-    ],
     "vulgarize": [
         "popularize",
-        "vulgarise",
         "generalis",
-        "generalize",
-        "popularise"
+        "generalize"
     ],
     "wad": [
         "jampack",
@@ -44783,12 +41553,8 @@
     ],
     "wait on": [
         "serve",
-        "assis",
         "attend",
-        "attend to"
-    ],
-    "waitress": [
-        "wait"
+        "care for"
     ],
     "waive": [
         "forg",
@@ -45270,13 +42036,7 @@
     "welter": [
         "wallow"
     ],
-    "westernise": [
-        "occidentalise",
-        "westerniz",
-        "occidentalize"
-    ],
     "westernize": [
-        "occidentalise",
         "westernis",
         "occidentalize"
     ],
@@ -45583,12 +42343,6 @@
     "winter": [
         "overwinter"
     ],
-    "winterise": [
-        "winterize"
-    ],
-    "winterize": [
-        "winterise"
-    ],
     "wipe": [
         "wipe out",
         "pass",
@@ -45665,15 +42419,10 @@
     "wolf down": [
         "wolf"
     ],
-    "womanise": [
-        "womanize",
-        "philander"
-    ],
+
     "womanize": [
-        "erreminise",
         "effeminize",
-        "feminize",
-        "feminise"
+        "feminize"
     ],
     "wonder": [
         "enquire",
@@ -45745,7 +42494,6 @@
         "exacerbate"
     ],
     "worship": [
-        "idolise",
         "revere",
         "idolize",
         "hero-worship"

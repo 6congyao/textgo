@@ -9,8 +9,8 @@ let adverbSynonyms;
 
 function init() {
     // nounSynonyms = load_synonyms('./synonyms/nouns.json')
-    adjSynonyms = load_synonyms('./synonyms/adjectives.json')
-    // verbSynonyms = load_synonyms('./synonyms/verbs.json')
+    // adjSynonyms = load_synonyms('./synonyms/adjectives.json')
+    verbSynonyms = load_synonyms('./synonyms/verbs.json')
     // adverbSynonyms = load_synonyms('./synonyms/adverbs.json')
 }
 
@@ -38,19 +38,17 @@ const synonymPlugin = {
             // swap verbs
             if (verbsDict) {
                 let m2 = this.match('#Verb');
-                m2.compute('root');
-                let verbs = m2.text('root').split(' ');
-                console.log(verbs);
-                verbs.forEach(term => {
-                    const clean = term.replace(/\p{P}/gu, "")
-
+                m2.map(v => {
+                    v.compute('root');
+                    const clean = v.text('root').replace(/\p{P}/gu, "")
                     if (verbsDict[clean]) {
                         const synonyms = verbsDict[clean];
                         const synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
-                        console.log('#Swap verbs: ' + clean + ' -> ' + synonyms);
-                        this.swap(clean, synonym);
+                        console.log('#Swap verbs: ' + clean + ' -> ' + synonym);
+                        return this.swap(clean, synonym).text();
                     }
-                });
+                    return v;
+                })
             }
 
 
@@ -104,18 +102,33 @@ init();
 nlp.extend(synonymPlugin);
 
 // Example text
-const text = `Elon Musk is like the rockstar of the tech world, so long as products like the Tesla Powerwall are gaining popularity as a way to store solar energ.`;
+// const text = `Let's face it, our phones are basically extensions of ourselves. `;
+// const text = `He is like a boy. He liked that girl, anyway he likes. Elon Musk stands as a titan of modern innovation.`;
+const text = `Elon Musk stands as a titan of modern innovation, a visionary whose ventures have not only transformed industries but also sparked global conversations about the future of humanity. From his pioneering efforts in electric vehicles with Tesla to his ambitious goals of colonizing Mars with SpaceX, Musk's impact resonates across multiple spheres. However, his journey is not without its controversies and challenges, as his bold vision often intersects with skepticism and critique. In this comprehensive exploration, we delve deeper into the life, achievements, and controversies surrounding Elon Musk.\n\nBorn on June 28, 1971, in Pretoria, South Africa, Elon Musk's early years foreshadowed his future as a tech luminary. His fascination with computers and technology led him to develop programming skills at a young age, setting the stage for his entrepreneurial journey. Musk's first foray into business came with Zip2, an online city guide software company he co-founded in 1996. The success of Zip2 laid the groundwork for Musk's subsequent ventures and established him as a force to be reckoned with in the tech world.\n\nIn 1999, Musk co-founded X.com, an online payment company that later became PayPal after a series of mergers. PayPal revolutionized online transactions, making it easier and more secure for individuals and businesses to conduct financial transactions over the internet. Musk's role in PayPal's success earned him a substantial fortune, providing him with the resources to pursue his grander ambitions.`;
 
-let doc = nlp(text);
+// const sentences = text.match(/([^\。.?!？！]+[.?!。？！])/g);
+const sentences = nlp(text).sentences();
+// const sentences = nlp(text)
+// console.log(sentences.text());
+sentences.map(s => {
+    s.replaceWithSynonyms(nounSynonyms, adjSynonyms, verbSynonyms, adverbSynonyms);
+    return s;//return strings instead
+})
+// sentences.forEach((sentence, index) => {
+//     // let output = sentenceHandler(sentence)
+//     console.log(`Sentence ${index + 1} in : ${sentence}`);
+//     // console.log(`Sentence ${index + 1} out: ${output}`);
+// });
 
 // Replace words with synonyms
-let output = doc.replaceWithSynonyms(nounSynonyms, adjSynonyms, verbSynonyms, adverbSynonyms);
+// let output = doc.replaceWithSynonyms(nounSynonyms, adjSynonyms, verbSynonyms, adverbSynonyms);
 
 
 // Output the modified text
 console.log('<-:' + text);
-console.log('->:' + addTricks(capitalizeFirstLetterOfEachSentence(output)));
+console.log('->:' + addTricks(capitalizeFirstLetterOfEachSentence(sentences.text())));
 // console.log("**:" + addTricks(doc.text()));
+
 
 function load_synonyms(file) {
     try {
@@ -135,7 +148,6 @@ function addTricks(doc) {
     const trick5 = '.\u2007';
     const trick_a = '\u10E7';
     const trick_i = '\u{1D5C4}';
-    // const trick_o = '\u03BF';
     const trick_o = '\u10FF';
     const trick_s = '\u1949';
     const trick_e = '\u1971';

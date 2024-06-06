@@ -31,7 +31,6 @@ const apiProxy = createProxyMiddleware({
                         "content_type": "text"
                     }],
                     "code": 0,
-                    "conversation_id": "",
                     "msg": "",
                 };
 
@@ -47,7 +46,6 @@ const apiProxy = createProxyMiddleware({
                         let output = rewrite(oriResult['answer']);
 
                         result['messages'][0]['content'] = output;
-                        result['conversation_id'] = oriResult['task_id'];
                         result['msg'] = "success";
                     }
                 }
@@ -86,20 +84,17 @@ const synonymPlugin = {
             // swap verbs
             if (verbsDict) {
                 let m2 = this.match('#Verb');
-                m2.compute('root');
-                let verbs = m2.text('root').split(' ');
-                // console.log(verbs);
-                verbs.forEach(term => {
-                    const clean = term.replace(/\p{P}/gu, "")
-
+                m2.map(v => {
+                    v.compute('root');
+                    const clean = v.text('root').replace(/\p{P}/gu, "")
                     if (verbsDict[clean]) {
                         const synonyms = verbsDict[clean];
-                        // console.log(clean + ': ' + synonyms);
                         const synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
-                        console.log('#Swap verbs: ' + clean + ' -> ' + synonyms);
-                        this.swap(clean, synonym);
+                        console.log('#Swap verbs: ' + clean + ' -> ' + synonym);
+                        return this.swap(clean, synonym).text();
                     }
-                });
+                    return v;
+                })
             }
 
             // swap adjectives
@@ -154,9 +149,15 @@ function init() {
 }
 
 function rewrite(content) {
-    let doc = nlp(content);
-    let output = doc.replaceWithSynonyms(nounSynonyms, adjSynonyms, verbSynonyms, adverbSynonyms);
-    return addTricks(capitalizeFirstLetterOfEachSentence(output));
+    // let doc = nlp(content);
+    const sentences = nlp(content).sentences();
+    console.log("<-:" + content);
+    sentences.map(s => {
+        s.replaceWithSynonyms(nounSynonyms, adjSynonyms, verbSynonyms, adverbSynonyms);
+        return s;
+    })
+    console.log("->:" + sentences.text());
+    return addTricks(capitalizeFirstLetterOfEachSentence(sentences.text()));
 }
 
 init();
