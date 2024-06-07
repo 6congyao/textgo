@@ -54,8 +54,7 @@
         "at first"
     ],
     "abaft": [
-        "astern",
-        "aft"
+        "astern"
     ],
     "abjectly": [
         "resignedly"
@@ -257,10 +256,6 @@
     "afresh": [
         "anew"
     ],
-    "aft": [
-        "astern",
-        "abaft"
-    ],
     "after": [
         "later",
         "later on",
@@ -459,12 +454,6 @@
     ],
     "alright": [
         "all right"
-    ],
-    "also": [
-        "besides",
-        "likewise",
-        "too",
-        "as wel"
     ],
     "also known as": [
         "a.k.a.",
@@ -814,8 +803,7 @@
         "obliquely"
     ],
     "astern": [
-        "abaft",
-        "aft"
+        "abaft"
     ],
     "astonishingly": [
         "amazingly",
@@ -5231,7 +5219,6 @@
         "to a higher degree"
     ],
     "moreover": [
-        "what is more",
         "furthermore"
     ],
     "most": [
@@ -5501,9 +5488,6 @@
     "noiselessly": [
         "soundlessly"
     ],
-    "non": [
-        "not"
-    ],
     "nonchalantly": [
         "casually"
     ],
@@ -5604,9 +5588,6 @@
     "nor'-west": [
         "north-west",
         "northwest"
-    ],
-    "not": [
-        "non"
     ],
     "not absolutely": [
         "conditionally"
@@ -6113,12 +6094,6 @@
     ],
     "one-on-one": [
         "person-to-person"
-    ],
-    "only": [
-        "exclusively",
-        "alone",
-        "solely",
-        "entirely"
     ],
     "only if": [
         "only",
@@ -8638,7 +8613,6 @@
         "farther"
     ],
     "furthermore": [
-        "what is more",
         "moreover"
     ],
     "furthest": [

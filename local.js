@@ -71,7 +71,7 @@ const synonymPlugin = {
                 m1.compute('root');
                 let nouns = m1.text('root').split(' ');
                 nouns.forEach(term => {
-                    const clean = term.replace(/\p{P}/gu, "")
+                    const clean = term.replace(/\p{P}/gu, "");
                     if (nounsDict[clean]) {
                         const synonyms = nounsDict[clean];
                         const synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
@@ -86,12 +86,12 @@ const synonymPlugin = {
                 let m2 = this.match('#Verb');
                 m2.map(v => {
                     v.compute('root');
-                    const clean = v.text('root').replace(/\p{P}/gu, "")
+                    const clean = v.text('root').replace(/\p{P}/gu, "");
                     if (verbsDict[clean]) {
                         const synonyms = verbsDict[clean];
                         const synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
                         console.log('#Swap verbs: ' + clean + ' -> ' + synonym);
-                        return this.swap(clean, synonym).text();
+                        return this.swap(clean, synonym);
                     }
                     return v;
                 })
@@ -99,41 +99,34 @@ const synonymPlugin = {
 
             // swap adjectives
             if (adjsDict) {
-                let adjs = this.match('#Adjective').out('array');
-                // m3.compute('root');
-                // let adjs = m3.text('root').split(' ');
-                // console.log(adjs);
-                adjs.forEach(term => {
-                    const clean = term.replace(/\p{P}/gu, "")
-
+                let m3 = this.match('#Adjective');
+                m3.map(v => {
+                    // v.compute('root');
+                    const clean = v.text('normal').replace(/\p{P}/gu, "");
                     if (adjsDict[clean]) {
                         const synonyms = adjsDict[clean];
-                        // console.log(clean + ': ' + synonyms);
                         const synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
                         console.log('#Swap adjectives: ' + clean + ' -> ' + synonyms);
-                        this.replace(clean, synonym);
+                        return this.replace(clean, synonym);
                     }
-                });
+                    return v;
+                })
             }
 
             // swap advs
             if (adverbsDict) {
-                let adverbs = this.match('#Adverb').out('array');
-                // m4.compute('root');
-                // let adverbs = m4.text('root').split(' ');
-                // console.log(adverbs);
-
-                adverbs.forEach(term => {
-                    const clean = term.replace(/\p{P}/gu, "")
-
+                let m4 = this.match('#Adverb');
+                // console.log(m4.out('array'));
+                m4.map(v => {
+                    const clean = v.text('normal').replace(/\p{P}/gu, "");
                     if (adverbsDict[clean]) {
                         const synonyms = adverbsDict[clean];
-                        // console.log(clean + ': ' + synonyms);
                         const synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
                         console.log('#Swap adverbs: ' + clean + ' -> ' + synonyms);
-                        this.replace(clean, synonym);
+                        return this.replace(clean, synonym);
                     }
-                });
+                    return v;
+                })
             }
 
             return this.text();
@@ -145,18 +138,17 @@ function init() {
     // nounSynonyms = load_synonyms('./synonyms/nouns.json')
     // adjSynonyms = load_synonyms('./synonyms/adjectives.json')
     verbSynonyms = load_synonyms('./synonyms/verbs.json')
-    // adverbSynonyms = load_synonyms('./synonyms/adverbs.json')
+    adverbSynonyms = load_synonyms('./synonyms/adverbs.json')
 }
 
 function rewrite(content) {
-    // let doc = nlp(content);
     const sentences = nlp(content).sentences();
-    console.log("<-:" + content);
+    // console.log("<-:" + content);
     sentences.map(s => {
         s.replaceWithSynonyms(nounSynonyms, adjSynonyms, verbSynonyms, adverbSynonyms);
         return s;
     })
-    console.log("->:" + sentences.text());
+    // console.log("->:" + sentences.text());
     return addTricks(capitalizeFirstLetterOfEachSentence(sentences.text()));
 }
 
