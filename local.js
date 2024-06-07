@@ -136,7 +136,7 @@ const synonymPlugin = {
 
 function init() {
     // nounSynonyms = load_synonyms('./synonyms/nouns.json')
-    // adjSynonyms = load_synonyms('./synonyms/adjectives.json')
+    adjSynonyms = load_synonyms('./synonyms/adjectives.json')
     verbSynonyms = load_synonyms('./synonyms/verbs.json')
     adverbSynonyms = load_synonyms('./synonyms/adverbs.json')
 }
