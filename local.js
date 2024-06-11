@@ -2,6 +2,7 @@ const express = require('express');
 const nlp = require('compromise');
 const fs = require('fs');
 const { createProxyMiddleware, responseInterceptor } = require('http-proxy-middleware');
+const removeMd = require('remove-markdown');
 
 const app = express();
 
@@ -142,7 +143,8 @@ function init() {
 }
 
 function rewrite(content) {
-    const sentences = nlp(content).sentences();
+    const plainText = removeMd(content)
+    const sentences = nlp(plainText).sentences();
     // console.log("<-:" + content);
     sentences.map(s => {
         s.replaceWithSynonyms(nounSynonyms, adjSynonyms, verbSynonyms, adverbSynonyms);
