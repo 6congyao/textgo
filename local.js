@@ -151,7 +151,7 @@ function init() {
 }
 
 function rewrite(content) {
-    const plainText = removeMd(content)
+    let plainText = removeMd(content)
     plainText = hotPatch(plainText);
     const sentences = nlp(plainText).sentences();
     // console.log("<-:" + content);
@@ -178,9 +178,11 @@ function load_synonyms(file) {
 function addTricks(doc) {
     const trick1 = ',\u2008';
     const trick2 = '.\u2007';
+    const trick3 = '\u2007)';
 
     let output = doc.replaceAll(', ', trick1);
     output = output.replaceAll('. ', trick2);
+    output = output.replaceAll(')', trick3);
 
     return output;
 }
