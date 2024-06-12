@@ -70260,19 +70260,6 @@
         "unlisted",
         "over-the-counter"
     ],
-    "other": [
-        "another",
-        "else",
-        "otherwise",
-        "different",
-        "new",
-        "some other",
-        "separate",
-        "opposite"
-    ],
-    "otherwise": [
-        "other"
-    ],
     "otherworldly": [
         "supernatural",
         "nonnatural",
@@ -73084,24 +73071,8 @@
         "profane"
     ],
     "secure": [
-        "guaranteed",
-        "assured",
-        "firm",
-        "invulnerable",
-        "bonded",
-        "certified",
-        "established",
-        "in safe custody",
-        "safe",
-        "promised",
-        "warranted",
-        "secured",
-        "fail-safe",
-        "safe-deposit",
-        "sure",
-        "safety-deposit",
-        "protected",
-        "secure"
+        "solid",
+        "strong"
     ],
     "secured": [
         "fast",
@@ -112669,8 +112640,7 @@
         "undelineated"
     ],
     "under": [
-        "low",
-        "nether"
+        "below"
     ],
     "under attack": [
         "vulnerable",
