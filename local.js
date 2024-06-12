@@ -152,7 +152,7 @@ function init() {
 
 function rewrite(content) {
     const plainText = removeMd(content)
-    plainText = plainText(hotPatch);
+    plainText = hotPatch(plainText);
     const sentences = nlp(plainText).sentences();
     // console.log("<-:" + content);
     sentences.map(s => {
