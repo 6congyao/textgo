@@ -2080,14 +2080,13 @@
         "sunbaked"
     ],
     "advance": [
-        "front",
-        "in advance",
-        "advanced"
+        "first",
+        "forward",
+        "leading"
     ],
     "advanced": [
-        "front",
-        "in advance",
-        "advance"
+        "leading",
+        "progressive"
     ],
     "advancing": [
         "forward",
@@ -22252,12 +22251,7 @@
         "powered"
     ],
     "powered": [
-        "hopped-up",
-        "high-powered",
-        "steam-powered",
-        "power-driven",
-        "battery-powered",
-        "supercharged"
+        "mechanized"
     ],
     "powerful": [
         "strong",
@@ -39097,19 +39091,6 @@
     "contending": [
         "competitory",
         "competitive"
-    ],
-    "content": [
-        "satisfied",
-        "complacent",
-        "self-complacent",
-        "calm",
-        "easygoing",
-        "happy",
-        "pleased",
-        "self-satisfied",
-        "placid",
-        "contented",
-        "smug"
     ],
     "contented": [
         "satisfied",

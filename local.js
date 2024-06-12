@@ -148,10 +148,10 @@ function rewrite(content) {
     // console.log("<-:" + content);
     sentences.map(s => {
         s.replaceWithSynonyms(nounSynonyms, adjSynonyms, verbSynonyms, adverbSynonyms);
-        return s;
+        return s.firstTerms().toTitleCase();;
     })
     // console.log("->:" + sentences.text());
-    return addTricks(capitalizeFirstLetterOfEachSentence(sentences.text()));
+    return addTricks(sentences.text());
 }
 
 init();
@@ -164,18 +164,6 @@ function load_synonyms(file) {
     catch (err) {
         console.error('File read failed:', err);
     }
-}
-
-function capitalizeFirstLetterOfEachSentence(text) {
-    const sentences = text.split(/([.!?]\s*)/);
-
-    for (let i = 0; i < sentences.length; i++) {
-        if (sentences[i].length > 0) {
-            sentences[i] = sentences[i].charAt(0).toUpperCase() + sentences[i].slice(1);
-        }
-    }
-
-    return sentences.join('');
 }
 
 function addTricks(doc) {

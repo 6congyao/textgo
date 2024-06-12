@@ -7454,12 +7454,10 @@
         "pimp"
     ],
     "prod": [
-        "egg on",
-        "incite"
-    ],
-    "produce": [
-        "bring about",
-        "give rise"
+        "nudge",
+        "press",
+        "motivate",
+        "remind"
     ],
     "profane": [
         "vitiate",
@@ -12943,7 +12941,7 @@
         "clue"
     ],
     "click": [
-        "chatter"
+        "tap"
     ],
     "climax": [
         "culminate"
@@ -16253,9 +16251,8 @@
     ],
     "demonstrate": [
         "manifest",
-        "evidence",
-        "attest",
-        "certify"
+        "confirm",
+        "protest"
     ],
     "demoralize": [
         "vitiate",
