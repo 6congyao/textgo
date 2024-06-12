@@ -189,7 +189,7 @@ function addTricks(doc) {
 
 function hotPatch(text) {
     let result = text.replaceAll("(", "(\u2007");
-    result = result.replaceAll(")", "\u2007)");
+    // result = result.replaceAll(")", "\u2007)");
 
     return result;
 }
