@@ -91,7 +91,10 @@ const synonymPlugin = {
                     if (verbsDict[clean]) {
                         const synonyms = verbsDict[clean];
                         const synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
-                        console.log('#Swap verbs: ' + clean + ' -> ' + synonym);
+                        if (v.match('@isTitleCase').text() === v.text()) {
+                            synonym = synonym.charAt(0).toUpperCase() + synonym.slice(1);
+                        }
+                        console.log('#Swap verbs: ' + v.text() + ' -> ' + synonym);
                         return this.swap(clean, synonym);
                     }
                     return v;
@@ -102,12 +105,14 @@ const synonymPlugin = {
             if (adjsDict) {
                 let m3 = this.match('#Adjective');
                 m3.map(v => {
-                    // v.compute('root');
                     const clean = v.text('normal').replace(/\p{P}/gu, "");
                     if (adjsDict[clean]) {
                         const synonyms = adjsDict[clean];
-                        const synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
-                        console.log('#Swap adjectives: ' + clean + ' -> ' + synonyms);
+                        let synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
+                        if (v.match('@isTitleCase').text() === v.text()) {
+                            synonym = synonym.charAt(0).toUpperCase() + synonym.slice(1);
+                        }
+                        console.log('#Swap adjectives: ' + v.text() + ' -> ' + synonym);
                         return this.replace(clean, synonym);
                     }
                     return v;
@@ -122,8 +127,11 @@ const synonymPlugin = {
                     const clean = v.text('normal').replace(/\p{P}/gu, "");
                     if (adverbsDict[clean]) {
                         const synonyms = adverbsDict[clean];
-                        const synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
-                        console.log('#Swap adverbs: ' + clean + ' -> ' + synonyms);
+                        let synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
+                        if (v.match('@isTitleCase').text() === v.text()) {
+                            synonym = synonym.charAt(0).toUpperCase() + synonym.slice(1);
+                        }
+                        console.log('#Swap adverbs: ' + v.text() + ' -> ' + synonym);
                         return this.replace(clean, synonym);
                     }
                     return v;

@@ -177,8 +177,8 @@
         "acquiesce"
     ],
     "accelerate": [
-        "speed",
-        "speed up"
+        "hasten",
+        "quicken"
     ],
     "accent": [
         "emphasize",
@@ -11321,17 +11321,6 @@
         "crusade",
         "push"
     ],
-    "can": [
-        "force out",
-        "terminate",
-        "give notice",
-        "dismiss",
-        "sack",
-        "fire",
-        "give the sack",
-        "give the axe",
-        "send away"
-    ],
     "canal": [
         "canalize"
     ],
@@ -16522,9 +16511,7 @@
         "dehydrate"
     ],
     "design": [
-        "contrive",
-        "plan",
-        "project"
+        "devise"
     ],
     "designate": [
         "delegate",
@@ -19463,9 +19450,6 @@
     "entangle": [
         "mire"
     ],
-    "enter": [
-        "accede"
-    ],
     "enter upon": [
         "luck into",
         "come upon"
@@ -21094,8 +21078,10 @@
         "chuckle"
     ],
     "launch": [
-        "establish",
-        "found",
+        "initiate",
+        "start",
+        "start up",
+        "begin",
         "set up"
     ],
     "launder": [
@@ -34025,10 +34011,7 @@
         "settle"
     ],
     "find": [
-        "observe",
-        "notic",
-        "discover",
-        "detect"
+        "meet"
     ],
     "find fault": [
         "blame",
@@ -34038,7 +34021,10 @@
         "find"
     ],
     "find out": [
-        "catch out"
+        "catch",
+        "identify",
+        "observe"
+
     ],
     "fine": [
         "ticket"
@@ -34709,9 +34695,9 @@
         "focus"
     ],
     "focus": [
-        "concenter",
-        "concentre",
-        "focalize"
+        "concentrate",
+        "engage",
+        "pay attention to"
     ],
     "focus on": [
         "center on",

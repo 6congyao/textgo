@@ -10899,8 +10899,11 @@
         "blate"
     ],
     "basic": [
-        "alkalic",
-        "alkaline"
+        "elemental",
+        "essential",
+        "main",
+        "primary"
+        
     ],
     "basidial": [
         "reproductive structure"
@@ -75847,36 +75850,11 @@
         "autographed"
     ],
     "significant": [
-        "fundamental",
-        "meaningful",
-        "noteworthy",
-        "profound",
-        "key",
-        "portentous",
-        "epochal",
-        "evidentiary",
         "momentous",
-        "world-shattering",
-        "of import",
-        "evidential",
-        "probatory",
-        "operative",
-        "monumental",
-        "probative",
-        "world-shaking",
-        "prodigious",
-        "epoch-making",
-        "large",
-        "earthshaking",
-        "important",
-        "remarkable"
+        "serious"
     ],
     "significative": [
-        "indicatory",
-        "revelatory",
-        "suggestive",
-        "indicative",
-        "revealing"
+        "evocative"
     ],
     "sign-language": [
         "communicatory",

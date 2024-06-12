@@ -48,11 +48,6 @@
         "ante meridiem",
         "A.M."
     ],
-    "ab initio": [
-        "at the start",
-        "initially",
-        "at first"
-    ],
     "abaft": [
         "astern"
     ],
@@ -881,7 +876,6 @@
         "close up"
     ],
     "at first": [
-        "ab initio",
         "initially",
         "at the start"
     ],
@@ -964,7 +958,6 @@
         "concurrently"
     ],
     "at the start": [
-        "ab initio",
         "initially",
         "at first"
     ],
@@ -10079,7 +10072,6 @@
     ],
     "initially": [
         "at the start",
-        "ab initio",
         "at first"
     ],
     "inopportunely": [
