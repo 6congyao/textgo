@@ -90,7 +90,7 @@ const synonymPlugin = {
                     const clean = v.text('root').replace(/\p{P}/gu, "");
                     if (verbsDict[clean]) {
                         const synonyms = verbsDict[clean];
-                        const synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
+                        let synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
                         if (v.match('@isTitleCase').text() === v.text()) {
                             synonym = synonym.charAt(0).toUpperCase() + synonym.slice(1);
                         }
@@ -103,7 +103,7 @@ const synonymPlugin = {
 
             // swap adjectives
             if (adjsDict) {
-                let m3 = this.match('#Adjective');
+                let m3 = this.match('#Adjective+');
                 m3.map(v => {
                     const clean = v.text('normal').replace(/\p{P}/gu, "");
                     if (adjsDict[clean]) {
@@ -121,7 +121,7 @@ const synonymPlugin = {
 
             // swap advs
             if (adverbsDict) {
-                let m4 = this.match('#Adverb');
+                let m4 = this.match('#Adverb+');
                 // console.log(m4.out('array'));
                 m4.map(v => {
                     const clean = v.text('normal').replace(/\p{P}/gu, "");
@@ -152,6 +152,7 @@ function init() {
 
 function rewrite(content) {
     const plainText = removeMd(content)
+    plainText = plainText(hotPatch);
     const sentences = nlp(plainText).sentences();
     // console.log("<-:" + content);
     sentences.map(s => {
@@ -182,6 +183,13 @@ function addTricks(doc) {
     output = output.replaceAll('. ', trick2);
 
     return output;
+}
+
+function hotPatch(text) {
+    let result = text.replaceAll("(", "(\u2007");
+    result = result.replaceAll(")", "\u2007)");
+
+    return result;
 }
 
 // Extend Compromise with the plugin
