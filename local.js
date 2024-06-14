@@ -2,7 +2,6 @@ const express = require('express');
 const nlp = require('compromise');
 const fs = require('fs');
 const { createProxyMiddleware, responseInterceptor } = require('http-proxy-middleware');
-const removeMd = require('remove-markdown');
 
 const app = express();
 
@@ -151,8 +150,7 @@ function init() {
 }
 
 function rewrite(content) {
-    let plainText = removeMd(content)
-    plainText = hotPatch(plainText);
+    let plainText = hotPatch(content);
     const sentences = nlp(plainText).sentences();
     // console.log("<-:" + content);
     sentences.map(s => {
