@@ -86,7 +86,7 @@ const synonymPlugin = {
                 let m2 = this.match('#Verb');
                 m2.map(v => {
                     v.compute('root');
-                    const clean = v.text('root').replace(/\p{P}/gu, "");
+                    const clean = v.text('root');
                     if (verbsDict[clean]) {
                         const synonyms = verbsDict[clean];
                         let synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
@@ -143,9 +143,9 @@ const synonymPlugin = {
 
 function init() {
     // nounSynonyms = load_synonyms('./synonyms/nouns.json')
-    adjSynonyms = load_synonyms('./synonyms/adjectives.json')
+    // adjSynonyms = load_synonyms('./synonyms/adjectives.json')
     verbSynonyms = load_synonyms('./synonyms/verbs.json')
-    adverbSynonyms = load_synonyms('./synonyms/adverbs.json')
+    // adverbSynonyms = load_synonyms('./synonyms/adverbs.json')
 }
 
 function rewrite(content) {
@@ -176,16 +176,21 @@ function addTricks(doc) {
     const trick1 = ',\u2008';
     const patch1 = '(';
     const patch2 = ' ';
+    const patch3 = ':';
 
     let output = doc.replaceAll(', ', trick1);
     output = output.replaceAll('(\u2007', patch1);
     output = output.replaceAll('  ', patch2);
+    output = output.replaceAll(': \u200d', patch3);
+    output = output.replaceAll('\u200d', '')
 
     return output;
 }
 
 function hotPatch(text) {
     let result = text.replaceAll("(", "(\u2007");
+    result = result.replaceAll(":", ": \u200d");
+    result = result.replaceAll("**", "\u200d**\u200d");
 
     return result;
 }
