@@ -121,7 +121,6 @@ const synonymPlugin = {
             // swap advs
             if (adverbsDict) {
                 let m4 = this.match('#Adverb+');
-                // console.log(m4.out('array'));
                 m4.map(v => {
                     const clean = v.text('normal').replace(/\p{P}/gu, "");
                     if (adverbsDict[clean]) {
