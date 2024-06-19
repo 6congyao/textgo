@@ -175,19 +175,17 @@ function load_synonyms(file) {
 
 function addTricks(doc) {
     const trick1 = ',\u2008';
-    const trick2 = '.\u2007';
-    const trick3 = '\u2007)';
+    // const trick2 = '.\u2007';
 
     let output = doc.replaceAll(', ', trick1);
-    output = output.replaceAll('. ', trick2);
-    output = output.replaceAll(')', trick3);
+    // output = output.replaceAll('. ', trick2);
+    output = output.replaceAll('(\u2007', "(");
 
     return output;
 }
 
 function hotPatch(text) {
     let result = text.replaceAll("(", "(\u2007");
-    // result = result.replaceAll(")", "\u2007)");
 
     return result;
 }
