@@ -83,10 +83,19 @@ const synonymPlugin = {
 
             // swap verbs
             if (verbsDict) {
-                let m2 = this.match('#Verb');
+                let m2 = this.match('#Verb+');
                 m2.map(v => {
+                    if (v.match('@hasQuote').found) {
+                        return v;
+                    }
+                    if (v.has('(#Modal+|#Copula+|#Auxiliary+)')) {
+                        let arr = v.splitAfter('(#Modal+|#Copula+|#Auxiliary+)').out('array');
+                        const len = arr.length;
+                        v = nlp(arr[len-1]);
+                    }
                     v.compute('root');
                     const clean = v.text('root');
+                    console.log(clean);
                     if (verbsDict[clean]) {
                         const synonyms = verbsDict[clean];
                         let synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
@@ -175,21 +184,27 @@ function load_synonyms(file) {
 function addTricks(doc) {
     const trick1 = ',\u2008';
     const patch1 = '(';
-    const patch2 = ' ';
-    const patch3 = ':';
+    const patch2 = ')';
+    const patch3 = ' ';
 
     let output = doc.replaceAll(', ', trick1);
-    output = output.replaceAll('(\u2007', patch1);
-    output = output.replaceAll('  ', patch2);
-    output = output.replaceAll(': \u200d', patch3);
+    output = output.replaceAll('\u301D', patch1);
+    output = output.replaceAll('\u301E', patch2);
+    output = output.replaceAll('  ', patch3);
+    output = output.replaceAll(' \u200d', '');
     output = output.replaceAll('\u200d', '')
 
     return output;
 }
 
 function hotPatch(text) {
-    let result = text.replaceAll("(", "(\u2007");
+    let result = text.replaceAll("\n\n\n", "\n");
+    result = result.replaceAll("\n\n", "\n");
+    result = result.replaceAll("  ", " ");
+    result = result.replaceAll("(", "\u301D");
+    result = result.replaceAll(")", "\u301E");
     result = result.replaceAll(":", ": \u200d");
+    result = result.replaceAll(".", ". \u200d");
     result = result.replaceAll("**", "\u200d**\u200d");
 
     return result;

@@ -1692,12 +1692,8 @@
     "bachelor": [
         "bach"
     ],
-    "back": [
-        "back up"
-    ],
     "back away": [
         "crawfish",
-        "pull in one's horns",
         "pull back",
         "back out",
         "retreat",
@@ -1722,7 +1718,7 @@
         "crawfish out"
     ],
     "back up": [
-        "back"
+        "fall back"
     ],
     "backfire": [
         "recoil",
@@ -1775,9 +1771,6 @@
         "stick",
         "puzzle out",
         "mystify"
-    ],
-    "bag": [
-        "bulge"
     ],
     "bail out": [
         "bale out"
@@ -5411,11 +5404,6 @@
         "couple",
         "pair off"
     ],
-    "pass": [
-        "authorize",
-        "authorise",
-        "clear"
-    ],
     "pass across": [
         "pass over",
         "pass through",
@@ -6028,8 +6016,7 @@
         "formulate"
     ],
     "pick": [
-        "blame",
-        "find fault"
+        "choose"
     ],
     "pick apart": [
         "criticize",
@@ -6053,15 +6040,10 @@
         "sieve out"
     ],
     "pick up": [
-        "catch"
-    ],
-    "pick up the gauntlet": [
-        "take a dare"
+        "take up"
     ],
     "picture": [
-        "render",
-        "show",
-        "depict"
+        "portray"
     ],
     "piddle": [
         "spend a penny",
@@ -7242,11 +7224,7 @@
         "conserve"
     ],
     "press": [
-        "bid",
-        "conjur",
-        "entreat",
-        "adjure",
-        "beseech"
+        "push"
     ],
     "press down": [
         "depress"
@@ -12706,7 +12684,8 @@
         "cypher"
     ],
     "circle": [
-        "circulate"
+        "circulate",
+        "redistribute"
     ],
     "circle around": [
         "revolve around",
@@ -12717,7 +12696,7 @@
         "circle around"
     ],
     "circulate": [
-        "circle"
+        "redistribute"
     ],
     "circumambulate": [
         "walk around"
@@ -15009,9 +14988,11 @@
         "furrow"
     ],
     "create": [
-        "make over",
+        "construct",
         "make",
-        "make up"
+        "initiate",
+        "generate",
+        "set up"
     ],
     "create by mental act": [
         "create mentally"
@@ -18013,18 +17994,6 @@
     "draught": [
         "draft",
         "blueprint"
-    ],
-    "draw": [
-        "sop up",
-        "suck",
-        "take in",
-        "imbibe",
-        "suck in",
-        "absorb",
-        "soak up",
-        "draw in",
-        "take up",
-        "suck up"
     ],
     "draw a bead on": [
         "aspire",
@@ -22021,8 +21990,8 @@
         "anticipate"
     ],
     "look up": [
-        "refer",
-        "consult"
+        "search for",
+        "seek"
     ],
     "look up to": [
         "admire"
@@ -23437,12 +23406,6 @@
     ],
     "mock": [
         "bemock"
-    ],
-    "mock up": [
-        "model"
-    ],
-    "model": [
-        "mock up"
     ],
     "moderate": [
         "chair",
@@ -26049,7 +26012,7 @@
         "scorch"
     ],
     "search": [
-        "look",
+        "look up",
         "seek",
         "explore",
         "check"
@@ -27105,9 +27068,6 @@
     ],
     "sight-sing": [
         "sightsing"
-    ],
-    "sign": [
-        "bless"
     ],
     "sign away": [
         "sign over"
@@ -30271,15 +30231,10 @@
         "add",
         "append"
     ],
-    "support": [
-        "indorse",
-        "plunk fo",
-        "endorse",
-        "plump for",
-        "back"
-    ],
     "suppose": [
-        "presuppose"
+        "expect",
+        "think",
+        "understand"
     ],
     "suppress": [
         "bottle up"
@@ -30800,13 +30755,6 @@
         "sully",
         "corrupt"
     ],
-    "take": [
-        "take in",
-        "accept",
-        "take over",
-        "take up",
-        "have"
-    ],
     "take a breath": [
         "respire",
         "breathe",
@@ -31274,9 +31222,6 @@
     ],
     "tarry": [
         "linger"
-    ],
-    "task": [
-        "tax"
     ],
     "taste": [
         "try out",
@@ -32551,9 +32496,7 @@
     ],
     "trap": [
         "snare",
-        "entrap",
-        "trammel",
-        "ensnare"
+        "catch"
     ],
     "trash": [
         "junk",
@@ -33971,22 +33914,18 @@
         "blur"
     ],
     "filter": [
-        "separate out",
-        "strain",
+        "separate",
         "filtrate",
-        "filter out"
+        "leak"
     ],
     "filter out": [
         "separate out",
-        "filtrate",
-        "strain",
-        "filter"
+        "filtrate out"
     ],
     "filtrate": [
-        "separate out",
-        "strain",
-        "filter",
-        "filter out"
+        "separate",
+        "leak",
+        "filter"
     ],
     "fin": [
         "break water"
@@ -41061,8 +41000,8 @@
         "nettle"
     ],
     "use": [
-        "use up",
-        "expend"
+        "apply",
+        "utilize"
     ],
     "use up": [
         "run through",
@@ -41261,12 +41200,10 @@
         "express"
     ],
     "verify": [
-        "aver",
-        "swear",
-        "avow",
-        "assert",
-        "affirm",
-        "swan"
+        "check",
+        "validate",
+        "demonstrate",
+        "find out"
     ],
     "verse": [
         "versify",
@@ -42239,10 +42176,6 @@
     "wiggle": [
         "joggle",
         "jiggle"
-    ],
-    "will": [
-        "leave",
-        "bequeath"
     ],
     "wilt": [
         "droop"
