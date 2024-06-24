@@ -213,7 +213,8 @@
         "acclimate"
     ],
     "accommodate": [
-        "adapt"
+        "adapt",
+        "adjust"
     ],
     "accompany": [
         "go with",
@@ -738,17 +739,7 @@
         "accord"
     ],
     "allow": [
-        "admit"
-    ],
-    "allow for": [
-        "allow",
-        "leave",
-        "provid"
-    ],
-    "allow in": [
-        "admit",
-        "intromi",
-        "let in"
+        "support"
     ],
     "alloy": [
         "debase"
@@ -7370,11 +7361,6 @@
     "print over": [
         "overprint"
     ],
-    "prioritize": [
-        "compute",
-        "register",
-        "set up"
-    ],
     "prise": [
         "pry",
         "lever",
@@ -8757,9 +8743,7 @@
         "resorb"
     ],
     "reach": [
-        "attain",
-        "accomplish",
-        "achieve"
+        "attain"
     ],
     "reach out": [
         "poke out",
@@ -8769,8 +8753,7 @@
         "oppose"
     ],
     "read": [
-        "study",
-        "take",
+        "go through",
         "learn"
     ],
     "readapt": [
@@ -12570,7 +12553,8 @@
     ],
     "choose": [
         "prefer",
-        "opt"
+        "opt for",
+        "pick"
     ],
     "chop": [
         "chop up"
@@ -12850,25 +12834,17 @@
         "beep"
     ],
     "clean": [
-        "cleanse"
-    ],
-    "clean house": [
-        "clean",
-        "houseclean"
+        "cleanse",
+        "clear up",
+        "wash"
     ],
     "clean out": [
         "clear out"
     ],
-    "clean up": [
-        "straighten",
-        "tidy",
-        "square away",
-        "straighten out",
-        "neaten",
-        "tidy up"
-    ],
     "cleanse": [
-        "clean"
+        "clean",
+        "clear up",
+        "wash"
     ],
     "clear": [
         "exonerate",
@@ -13432,10 +13408,7 @@
         "burn"
     ],
     "come": [
-        "get",
-        "appear",
-        "take place",
-        "reach"
+        "occur"
     ],
     "come about": [
         "pass",
@@ -13723,8 +13696,7 @@
         "companion"
     ],
     "compare": [
-        "liken",
-        "equate"
+        "equal"
     ],
     "compartmentalize": [
         "cut up"
@@ -14158,12 +14130,9 @@
         "go bad"
     ],
     "connect": [
-        "associate",
-        "colligate",
-        "link",
-        "tie in",
-        "link up",
-        "relate"
+        "attach",
+        "combine",
+        "link"
     ],
     "connive": [
         "intrigue",
@@ -14194,8 +14163,8 @@
         "economize"
     ],
     "consider": [
-        "weigh",
-        "count"
+        "think about",
+        "think over"
     ],
     "consign": [
         "charge"
@@ -19406,9 +19375,7 @@
     ],
     "ensure": [
         "assure",
-        "guarantee",
-        "insure",
-        "secure"
+        "guarantee"
     ],
     "entail": [
         "fee-tail"
@@ -22307,12 +22274,6 @@
         "asseverate",
         "assert"
     ],
-    "make": [
-        "cause",
-        "generate",
-        "produce",
-        "set"
-    ],
     "make a face": [
         "grimace",
         "pull a face"
@@ -24096,7 +24057,7 @@
         "sicken"
     ],
     "navigate": [
-        "pilot"
+        "operate"
     ],
     "near": [
         "come on",
@@ -24544,8 +24505,7 @@
         "hurt"
     ],
     "offer": [
-        "bid",
-        "tender"
+        "provide"
     ],
     "offer up": [
         "offer"
@@ -26143,7 +26103,7 @@
     "select": [
         "choose",
         "take",
-        "pick out"
+        "pick"
     ],
     "self-destroy": [
         "self-destruct"
@@ -31457,7 +31417,7 @@
         "attest"
     ],
     "thank": [
-        "give thanks"
+        "appreciate"
     ],
     "thaw": [
         "dethaw",
@@ -31466,7 +31426,6 @@
         "unthaw",
         "dissolve"
     ],
-
     "theorize": [
         "suppose",
         "speculate",
@@ -32447,7 +32406,7 @@
     ],
     "translate": [
         "render",
-        "interpret"
+        "transform"
     ],
     "transliterate": [
         "transcribe"
@@ -33614,7 +33573,8 @@
         "cosset"
     ],
     "feature": [
-        "have"
+        "give prominence to",
+        "present"
     ],
     "fecundate": [
         "fertilize"
@@ -33642,24 +33602,10 @@
         "feed on"
     ],
     "feel": [
-        "feel for",
-        "experience"
-    ],
-    "feel for": [
-        "sympathize with",
-        "pity",
-        "compassionate",
-        "condole with"
-    ],
-    "feel like a million": [
-        "feel like a million dollars"
-    ],
-    "feel like a million dollars": [
-        "feel like a million"
+        "sense"
     ],
     "feel out": [
-        "check out",
-        "sound out"
+        "examine"
     ],
     "fee-tail": [
         "entail"
@@ -34371,10 +34317,10 @@
         "overwhelm"
     ],
     "floor": [
-        "dump",
-        "knock down",
-        "coldcock",
-        "deck"
+        "beat",
+        "fell",
+        "ground",
+        "drop"
     ],
     "flop": [
         "founder",
@@ -38718,10 +38664,6 @@
     "hound": [
         "hunt",
         "trace"
-    ],
-    "house": [
-        "put up",
-        "domiciliate"
     ],
     "housebreak": [
         "house-train"
