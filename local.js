@@ -85,7 +85,7 @@ const synonymPlugin = {
             if (verbsDict) {
                 let m2 = this.match('#Verb+');
                 m2.map(v => {
-                    if (v.match('@hasQuote').found) {
+                    if (v.match('(@hasQuote|@hasPeriod|@hasExclamation|@hasQuestionMark|@hasEllipses|@hasSemicolon|@hasColon)').found) {
                         return v;
                     }
                     if (v.has('(#Modal+|#Copula+|#Auxiliary+)')) {
@@ -203,8 +203,6 @@ function hotPatch(text) {
     result = result.replaceAll("  ", " ");
     result = result.replaceAll("(", "\u301D");
     result = result.replaceAll(")", "\u301E");
-    result = result.replaceAll(":", ": \u200d");
-    result = result.replaceAll(".", ". \u200d");
     result = result.replaceAll("**", "\u200d**\u200d");
 
     return result;
