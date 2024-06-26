@@ -1203,8 +1203,9 @@
         "catch"
     ],
     "arrive": [
-        "come",
-        "get"
+        "appear",
+        "enter",
+        "reach"
     ],
     "arrive at": [
         "attain",
@@ -4277,10 +4278,6 @@
         "run ove",
         "overflow"
     ],
-    "bring": [
-        "bring out",
-        "bring together"
-    ],
     "bring about": [
         "produce",
         "give rise"
@@ -7171,14 +7168,8 @@
     ],
     "prepare": [
         "ready",
-        "cook",
-        "make",
-        "fix"
-    ],
-    "prepare for": [
-        "steel oneself against",
-        "brace oneself for",
-        "steel onself for"
+        "arrange",
+        "plan"
     ],
     "preponderate": [
         "outweigh",
@@ -7725,9 +7716,7 @@
     ],
     "pull": [
         "draw",
-        "pull in",
-        "draw in",
-        "attract"
+        "drag"
     ],
     "pull a face": [
         "grimace",
@@ -8302,7 +8291,7 @@
         "quest after"
     ],
     "question": [
-        "interrogate"
+        "doubt"
     ],
     "quetch": [
         "plain",
@@ -9877,8 +9866,10 @@
         "remold"
     ],
     "reside": [
-        "lodge in",
-        "occupy"
+        "dwell",
+        "live",
+        "settle",
+        "inhabit"
     ],
     "resign": [
         "quit",
@@ -9903,7 +9894,8 @@
         "answer"
     ],
     "resonate": [
-        "come across"
+        "resound",
+        "reverberate"
     ],
     "resorb": [
         "reabsorb"
@@ -9938,10 +9930,9 @@
         "answer"
     ],
     "rest": [
-        "rest on"
+        "lean"
     ],
     "rest on": [
-        "lean against",
         "lean on"
     ],
     "restart": [
@@ -10061,9 +10052,10 @@
         "crawfish out"
     ],
     "retrieve": [
+        "bring back",
         "regain",
         "recover",
-        "find"
+        "reclaim"
     ],
     "retroflex": [
         "replicate"
@@ -11118,9 +11110,6 @@
     "calk": [
         "caulk"
     ],
-    "call": [
-        "address"
-    ],
     "call at": [
         "out in"
     ],
@@ -11934,7 +11923,6 @@
         "run up"
     ],
     "challenge": [
-        "gainsay",
         "dispute"
     ],
     "chamfer": [
@@ -14021,7 +14009,7 @@
     ],
     "confront": [
         "face",
-        "face off"
+        "meet"
     ],
     "confuse": [
         "obnubilate",
@@ -16501,7 +16489,7 @@
         "peel off"
     ],
     "destine": [
-        "fate",
+        "intend",
         "doom",
         "designate"
     ],
@@ -17413,8 +17401,7 @@
     ],
     "disrupt": [
         "interrupt",
-        "break up",
-        "cut off"
+        "break into"
     ],
     "diss": [
         "insult",
@@ -19992,10 +19979,6 @@
         "spend",
         "drop"
     ],
-    "experience": [
-        "feel for",
-        "feel"
-    ],
     "experiment": [
         "try out"
     ],
@@ -20626,8 +20609,9 @@
         "tangle"
     ],
     "know": [
-        "acknowledge",
-        "recognize"
+        "experience",
+        "see",
+        "understand"
     ],
     "know apart": [
         "discriminate"
@@ -21203,36 +21187,8 @@
         "rope",
         "rope in"
     ],
-    "leave": [
-        "provide",
-        "allow",
-        "allow for"
-    ],
-    "leave alone": [
-        "leave behind",
-        "leave"
-    ],
-    "leave behind": [
-        "leave"
-    ],
     "leave off": [
-        "except",
-        "leave out",
-        "omit",
-        "take out",
-        "exclude"
-    ],
-    "leave office": [
-        "quit",
-        "resign",
-        "step down"
-    ],
-    "leave out": [
-        "except",
-        "omit",
-        "leave off",
-        "take out",
-        "exclude"
+        "stop"
     ],
     "leaven": [
         "prove",
@@ -21659,9 +21615,6 @@
         "sue",
         "process"
     ],
-    "live": [
-        "be"
-    ],
     "live down": [
         "unlive"
     ],
@@ -21672,8 +21625,6 @@
         "endure",
         "hold up",
         "hold ou",
-        "live",
-        "go",
         "survive",
         "last"
     ],
@@ -24057,15 +24008,7 @@
         "sicken"
     ],
     "navigate": [
-        "operate"
-    ],
-    "near": [
-        "come on",
-        "draw close",
-        "come near",
-        "draw near",
-        "approach",
-        "go up"
+        "work through"
     ],
     "neaten": [
         "groom"
@@ -25449,8 +25392,8 @@
         "saw logs"
     ],
     "say": [
-        "aver",
-        "allege"
+        "speak",
+        "tell"
     ],
     "scab": [
         "rat",
@@ -29508,12 +29451,7 @@
         "condescend"
     ],
     "stop": [
-        "block off",
-        "block",
-        "blockade",
-        "block up",
-        "barricade",
-        "ba"
+        "leave off"
     ],
     "stop dead": [
         "freeze"
@@ -31142,9 +31080,6 @@
         "twit",
         "tease"
     ],
-    "tap": [
-        "exploit"
-    ],
     "tap out": [
         "thump out",
         "beat out"
@@ -31360,12 +31295,6 @@
     ],
     "tempt": [
         "allure"
-    ],
-    "tend": [
-        "lean",
-        "incline",
-        "be given",
-        "run"
     ],
     "tender": [
         "offer",
@@ -32385,7 +32314,7 @@
         "grip"
     ],
     "transform": [
-        "translate"
+        "transmute"
     ],
     "transfuse": [
         "cup"
@@ -32833,11 +32762,8 @@
         "wash up"
     ],
     "tug": [
-        "labor",
-        "drive",
-        "labour",
-        "push on",
-        "push"
+        "haul",
+        "tow"
     ],
     "tumble": [
         "catch on",
@@ -33148,7 +33074,7 @@
         "manufacture"
     ],
     "face": [
-        "face up",
+        "meet",
         "confront"
     ],
     "face off": [
@@ -33823,10 +33749,7 @@
         "fillet"
     ],
     "fill": [
-        "make full",
-        "fill up",
-        "fill out",
-        "fill in"
+        "occupy"
     ],
     "fill again": [
         "replenish",
@@ -33959,9 +33882,6 @@
         "inflame",
         "ignite",
         "hea"
-    ],
-    "firm": [
-        "tauten"
     ],
     "fish": [
         "angle"
@@ -36996,13 +36916,8 @@
         "chart"
     ],
     "grapple": [
-        "get by",
         "cope",
-        "make out",
-        "contend",
-        "make do",
-        "deal",
-        "manag"
+        "contend"
     ],
     "grasp": [
         "grok",
@@ -37254,7 +37169,9 @@
         "gurgle"
     ],
     "guide": [
-        "guide on"
+        "lead",
+        "direct",
+        "instruct"
     ],
     "guide on": [
         "guide"
@@ -38178,9 +38095,9 @@
         "pirate"
     ],
     "highlight": [
-        "foreground",
+        "emphasize",
         "play up",
-        "spotlight"
+        "stress"
     ],
     "hightail it": [
         "head for the hills",
@@ -39610,9 +39527,9 @@
         "instill"
     ],
     "instill": [
-        "impregnate",
-        "tincture",
-        "infuse"
+        "implant",
+        "impress",
+        "imbue"
     ],
     "institute": [
         "bring"
@@ -39652,8 +39569,6 @@
         "destine"
     ],
     "intensify": [
-        "heighten",
-        "compound",
         "deepen"
     ],
     "inter": [
@@ -40519,9 +40434,9 @@
         "decouple"
     ],
     "uncover": [
-        "bring out",
-        "reveal",
-        "unveil"
+        "disclose",
+        "expose",
+        "bring to light"
     ],
     "underachieve": [
         "underperform"
@@ -42550,9 +42465,11 @@
         "bawl"
     ],
     "yearn": [
+        "desire",
+        "covet",
+        "crave",
+        "itch",
         "pine",
-        "yen",
-        "languis",
         "ache"
     ],
     "yell": [
