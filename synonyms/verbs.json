@@ -405,10 +405,6 @@
         "muddle",
         "puddle"
     ],
-    "address": [
-        "come up to",
-        "accost"
-    ],
     "adduce": [
         "abduce",
         "cite"
@@ -852,11 +848,8 @@
         "analyze"
     ],
     "analyze": [
-        "study",
-        "examine",
-        "canva",
-        "analyse",
-        "canvass"
+        "inspect",
+        "figure out"
     ],
     "anastomose": [
         "inosculate"
@@ -1078,10 +1071,6 @@
         "clap",
         "spat",
         "acclaim"
-    ],
-    "apply": [
-        "implement",
-        "enforce"
     ],
     "appoint": [
         "charge"
@@ -3831,7 +3820,7 @@
         "boom"
     ],
     "boost": [
-        "supercharge",
+        "raise",
         "advance"
     ],
     "boot": [
@@ -6198,7 +6187,10 @@
         "knock"
     ],
     "pinpoint": [
-        "nail"
+        "define",
+        "locate",
+        "identify",
+        "recognize"
     ],
     "pioneer": [
         "initiate"
@@ -6877,13 +6869,6 @@
         "put together",
         "set up",
         "pose"
-    ],
-    "possess": [
-        "own",
-        "have"
-    ],
-    "post": [
-        "brand"
     ],
     "postdate": [
         "follow"
@@ -9166,19 +9151,6 @@
         "complicate",
         "rarify",
         "elaborate"
-    ],
-    "reflect": [
-        "chew over",
-        "think over",
-        "muse",
-        "mull",
-        "mull over",
-        "speculat",
-        "excogitate",
-        "meditate",
-        "contemplate",
-        "ruminate",
-        "ponder"
     ],
     "reforge": [
         "remodel",
@@ -13732,8 +13704,7 @@
         "interconnect"
     ],
     "complete": [
-        "discharge",
-        "dispatch"
+        "finish"
     ],
     "complexify": [
         "ramify"
@@ -14325,9 +14296,7 @@
         "country-dance"
     ],
     "contribute": [
-        "chip in",
-        "kick in",
-        "give"
+        "assist"
     ],
     "contrive": [
         "devise",
@@ -14785,9 +14754,6 @@
         "curry favour",
         "curry favor",
         "court favor"
-    ],
-    "cover": [
-        "breed"
     ],
     "cover up": [
         "cover"
@@ -16105,9 +16071,6 @@
     "delineate": [
         "define"
     ],
-    "deliver": [
-        "drive home"
-    ],
     "deliver the goods": [
         "succeed",
         "come through",
@@ -16172,11 +16135,6 @@
     "demolish": [
         "crush",
         "smash"
-    ],
-    "demonstrate": [
-        "manifest",
-        "confirm",
-        "protest"
     ],
     "demoralize": [
         "vitiate",
@@ -18142,12 +18100,6 @@
         "dribble",
         "drop"
     ],
-    "drive": [
-        "ram down",
-        "ram",
-        "force",
-        "drive in"
-    ],
     "drive around": [
         "chauffeur"
     ],
@@ -19165,11 +19117,6 @@
     "enfranchise": [
         "affranchise"
     ],
-    "engage": [
-        "absorb",
-        "occupy",
-        "engross"
-    ],
     "engender": [
         "beget",
         "father",
@@ -19767,15 +19714,11 @@
         "outmatch",
         "outdo"
     ],
-    "excel": [
-        "surpass",
-        "stand out"
-    ],
     "excel at": [
         "shine at"
     ],
     "except": [
-        "demur"
+        "exclude"
     ],
     "excerpt": [
         "take out",
@@ -21842,10 +21785,6 @@
         "yearn",
         "hanker"
     ],
-    "look": [
-        "seem",
-        "appear"
-    ],
     "look across": [
         "overlook",
         "look out over",
@@ -21861,10 +21800,6 @@
     ],
     "look backward": [
         "look back"
-    ],
-    "look for": [
-        "look to",
-        "anticipate"
     ],
     "look into": [
         "go over",
@@ -22460,15 +22395,6 @@
         "handcuff",
         "cuff"
     ],
-    "manage": [
-        "get by",
-        "grapple",
-        "cope",
-        "make out",
-        "contend",
-        "make do",
-        "deal"
-    ],
     "manducate": [
         "masticate",
         "jaw",
@@ -22567,9 +22493,6 @@
     ],
     "mark out": [
         "mark off"
-    ],
-    "market": [
-        "commercialize"
     ],
     "maroon": [
         "strand"
@@ -24033,13 +23956,10 @@
     ],
     "need": [
         "want",
-        "involve",
-        "call for",
-        "postulate",
-        "ask",
-        "require",
-        "necessitate",
-        "take"
+        "demand",
+        "desire",
+        "lack",
+        "require"
     ],
     "needle": [
         "goad"
@@ -24719,8 +24639,7 @@
         "proscribe"
     ],
     "outline": [
-        "limn",
-        "delineate"
+        "summarize"
     ],
     "outlive": [
         "outlast",
@@ -26007,10 +25926,6 @@
     "seed": [
         "sough",
         "sow"
-    ],
-    "seek": [
-        "search",
-        "look for"
     ],
     "seem": [
         "appear"
@@ -30641,7 +30556,9 @@
         "tag"
     ],
     "tailor": [
-        "cut"
+        "adapt",
+        "alter",
+        "fit"
     ],
     "tailor-make": [
         "customize",
@@ -31100,12 +31017,6 @@
         "fizzle out",
         "fizzle"
     ],
-    "target": [
-        "place",
-        "direct",
-        "aim",
-        "poin"
-    ],
     "tarmac": [
         "macadamize"
     ],
@@ -31263,9 +31174,6 @@
     ],
     "televise": [
         "telecast"
-    ],
-    "tell": [
-        "assure"
     ],
     "tell apart": [
         "secernate",
@@ -32720,9 +32628,6 @@
     ],
     "trust": [
         "believe"
-    ],
-    "try": [
-        "hear"
     ],
     "try for": [
         "go for"
@@ -38006,10 +37911,9 @@
         "burglarize"
     ],
     "help": [
-        "aid"
-    ],
-    "help oneself": [
-        "help"
+        "aid",
+        "assist",
+        "support"
     ],
     "hem in": [
         "circumvent",
@@ -39210,6 +39114,10 @@
     "incorporate": [
         "contain",
         "comprise"
+    ],
+    "increase": [
+        "raise",
+        "grow"
     ],
     "incriminate": [
         "accuse",
@@ -40436,6 +40344,7 @@
     "uncover": [
         "disclose",
         "expose",
+        "reveal",
         "bring to light"
     ],
     "underachieve": [
@@ -40499,9 +40408,6 @@
     ],
     "undersell": [
         "undercut"
-    ],
-    "understand": [
-        "infer"
     ],
     "understate": [
         "minimize",
@@ -41350,7 +41256,10 @@
         "awaken"
     ],
     "walk": [
-        "take the air"
+        "amble",
+        "hike",
+        "step",
+        "stroll"
     ],
     "walk about": [
         "perambulate",
