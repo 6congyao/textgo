@@ -2701,7 +2701,9 @@
         "fall over backwards"
     ],
     "benefit": [
-        "do good"
+        "assist",
+        "enhance",
+        "serve"
     ],
     "benight": [
         "bedim",
@@ -9109,9 +9111,6 @@
         "act out",
         "enact"
     ],
-    "reenforce": [
-        "reinforce"
-    ],
     "re-equip": [
         "rejig"
     ],
@@ -9291,9 +9290,6 @@
     ],
     "reincarnate": [
         "renew"
-    ],
-    "reinforce": [
-        "reenforce"
     ],
     "reinstate": [
         "reestablish",
@@ -9514,7 +9510,8 @@
         "recast"
     ],
     "remove": [
-        "absent"
+        "erase",
+        "take out"
     ],
     "remunerate": [
         "compensate",
@@ -14252,8 +14249,7 @@
         "contend"
     ],
     "continue": [
-        "cover",
-        "extend"
+        "carry on"
     ],
     "contort": [
         "deform",
@@ -16089,12 +16085,8 @@
         "flood"
     ],
     "delve": [
-        "dig up",
-        "dig",
-        "dig out",
-        "dig in",
-        "cut into",
-        "turn over"
+        "burrow",
+        "inquire"
     ],
     "demand": [
         "exact"
@@ -19191,7 +19183,7 @@
         "plunge"
     ],
     "enhance": [
-        "heighten",
+        "improve",
         "raise"
     ],
     "enjoin": [
@@ -21360,10 +21352,7 @@
         "lie"
     ],
     "lie in": [
-        "consist",
-        "belon",
-        "lie",
-        "dwell"
+        "demonstrate"
     ],
     "lie in wait": [
         "scupper",
@@ -25902,14 +25891,6 @@
         "make",
         "score"
     ],
-    "see": [
-        "look",
-        "take care",
-        "attend"
-    ],
-    "see red": [
-        "anger"
-    ],
     "see the light": [
         "reform",
         "straighten out"
@@ -29605,14 +29586,6 @@
         "browbeat",
         "hector"
     ],
-    "struggle": [
-        "sputter",
-        "skin",
-        "scramble",
-        "clamber",
-        "shinny",
-        "shin"
-    ],
     "strum": [
         "thrum"
     ],
@@ -29911,8 +29884,8 @@
         "glaze"
     ],
     "suggest": [
-        "evoke",
-        "paint a picture"
+        "advise",
+        "recommend"
     ],
     "suit": [
         "fit",
@@ -32087,19 +32060,11 @@
         "think about"
     ],
     "trace": [
-        "decipher"
+        "follow",
+        "track"
     ],
     "track": [
-        "tag along",
-        "trail",
-        "give chase",
-        "chase away",
-        "tail",
-        "chase",
-        "dog",
-        "chase after",
-        "go after",
-        "tag"
+        "trail"
     ],
     "track down": [
         "hunt",
@@ -32107,13 +32072,7 @@
         "run"
     ],
     "trade": [
-        "sell",
-        "deal",
-        "deal out",
-        "trade"
-    ],
-    "trade in": [
-        "trade"
+        "swap"
     ],
     "traduce": [
         "drag through the mud",
@@ -32121,22 +32080,8 @@
         "badmouth"
     ],
     "trail": [
-        "tag along",
         "track",
-        "give chase",
-        "chase away",
-        "tail",
-        "chase",
-        "dog",
-        "chase after",
-        "go after",
-        "tag"
-    ],
-    "train": [
-        "direct",
-        "take",
-        "aim",
-        "take aim"
+        "tail"
     ],
     "traipse": [
         "shlep"
@@ -38724,12 +38669,8 @@
         "imagine"
     ],
     "identify": [
-        "distinguish",
-        "discover",
-        "nam",
-        "key out",
-        "describe",
-        "key"
+        "recognize",
+        "determine"
     ],
     "idle": [
         "laze",
@@ -38811,9 +38752,8 @@
         "visualize"
     ],
     "imagine": [
-        "ideate",
-        "conceive of",
-        "envisage"
+        "realize",
+        "fancy"
     ],
     "imbed": [
         "embed",
@@ -40851,11 +40791,10 @@
         "measure"
     ],
     "value": [
-        "apprais",
-        "evaluate",
-        "assess",
-        "measure",
-        "valuate"
+        "appreciate",
+        "cherish",
+        "esteem",
+        "treasure"
     ],
     "vamoose": [
         "skip",

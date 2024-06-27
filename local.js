@@ -10,6 +10,8 @@ let adjSynonyms;
 let verbSynonyms;
 let adverbSynonyms;
 
+const temperature = 1;
+
 const apiProxy = createProxyMiddleware({
     target: 'http://localhost:8088/v1',
     changeOrigin: true,
@@ -85,13 +87,13 @@ const synonymPlugin = {
             if (verbsDict) {
                 let m2 = this.match('#Verb+');
                 m2.map(v => {
-                    if (v.match('(@hasQuote|@hasPeriod|@hasExclamation|@hasQuestionMark|@hasEllipses|@hasSemicolon|@hasColon)').found) {
+                    if (v.match('(@hasComma|@hasQuote|@hasPeriod|@hasExclamation|@hasQuestionMark|@hasEllipses|@hasSemicolon|@hasColon)').found) {
                         return v;
                     }
                     if (v.has('(#Modal+|#Copula+|#Auxiliary+)')) {
                         let arr = v.splitAfter('(#Modal+|#Copula+|#Auxiliary+)').out('array');
                         const len = arr.length;
-                        v = nlp(arr[len-1]);
+                        v = nlp(arr[len - 1]);
                     }
                     v.compute('root');
                     const clean = v.text('root');
@@ -158,7 +160,7 @@ function init() {
 }
 
 function rewrite(content) {
-    let plainText = hotPatch(content);
+    let plainText = prePatch(content);
     const sentences = nlp(plainText).sentences();
     // console.log("<-:" + content);
     sentences.map(s => {
@@ -181,13 +183,15 @@ function load_synonyms(file) {
     }
 }
 
-function addTricks(doc) {
-    const trick1 = ',\u2008';
+function postHandle(content) {
+    const trick1 = '\u2008';
+    const trick2 = ',\u2008';
     const patch1 = '(';
     const patch2 = ')';
     const patch3 = ' ';
 
-    let output = doc.replaceAll(', ', trick1);
+    let output = content.replaceAll('\u200c ', trick1);
+    // output = output.replaceAll(', ', trick2);
     output = output.replaceAll('\u301D', patch1);
     output = output.replaceAll('\u301E', patch2);
     output = output.replaceAll('  ', patch3);
@@ -197,7 +201,38 @@ function addTricks(doc) {
     return output;
 }
 
-function hotPatch(text) {
+function sentenceHandle(sentence) {
+    // let m = sentence.match('(#Modal+|#Copula+|#Preposition+|#Conjunction+|#Pronoun+|#Determiner+)');
+    let m = sentence.match('(#Copula+|#Preposition+|#Conjunction+|#Pronoun+|#Determiner+)');
+    // console.log(m.out('array'));
+    m.map(v => {
+        if (Math.random() <= temperature) {
+            // console.log("##:" + v.text());
+            if (v.match('(@hasQuote|@hasPeriod|@hasExclamation|@hasQuestionMark|@hasEllipses|@hasSemicolon|@hasColon|@hasContraction)').found) {
+                return v;
+            }
+            const target = v.text() + '\u200c';
+            // console.log(target + ' <-> ' + v.text());
+            v.replace(v.text(), target);
+        }
+
+        return v;
+    })
+    return sentence;
+}
+
+function addTricks(doc) {
+    const sentences = nlp(doc).sentences();
+
+    sentences.map(s => {
+        s = sentenceHandle(s);
+        return s;
+    })
+
+    return postHandle(sentences.text());
+}
+
+function prePatch(text) {
     let result = text.replaceAll("\n\n\n", "\n");
     result = result.replaceAll("\n\n", "\n");
     result = result.replaceAll("  ", " ");
