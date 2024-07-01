@@ -381,22 +381,10 @@
     "adapt": [
         "accommodate"
     ],
-    "add": [
-        "add together",
-        "add up"
-    ],
     "add on": [
         "affix",
         "append",
         "supplement"
-    ],
-    "add together": [
-        "add",
-        "add up"
-    ],
-    "add up": [
-        "come",
-        "amount"
     ],
     "addict": [
         "hook"
@@ -445,9 +433,7 @@
         "conjure"
     ],
     "adjust": [
-        "align",
-        "line up",
-        "aline"
+        "regulate"
     ],
     "ad-lib": [
         "extemporize",
@@ -692,11 +678,6 @@
     "alight": [
         "climb down"
     ],
-    "align": [
-        "line up",
-        "adjust",
-        "aline"
-    ],
     "aliment": [
         "nourish",
         "nutrify"
@@ -847,10 +828,6 @@
         "canvass",
         "analyze"
     ],
-    "analyze": [
-        "inspect",
-        "figure out"
-    ],
     "anastomose": [
         "inosculate"
     ],
@@ -964,10 +941,6 @@
         "inunct",
         "oil",
         "embrocat"
-    ],
-    "answer": [
-        "reply",
-        "respond"
     ],
     "answer for": [
         "account"
@@ -2522,12 +2495,10 @@
     ],
     "begin": [
         "start",
-        "set about",
-        "commenc",
-        "set out",
-        "get down",
-        "get",
-        "start out"
+        "go ahead",
+        "set up",
+        "initiate",
+        "launch"
     ],
     "begird": [
         "girt",
@@ -2691,19 +2662,10 @@
         "discombobulate",
         "bewilder"
     ],
-    "bend": [
-        "stoop",
-        "stoop to",
-        "crouch",
-        "bow"
-    ],
-    "bend over backwards": [
-        "fall over backwards"
-    ],
     "benefit": [
         "assist",
         "enhance",
-        "serve"
+        "help"
     ],
     "benight": [
         "bedim",
@@ -5780,7 +5742,8 @@
         "walk around"
     ],
     "perceive": [
-        "comprehend"
+        "realize",
+        "recognize"
     ],
     "perch": [
         "light",
@@ -6360,21 +6323,6 @@
     "plat": [
         "plot"
     ],
-    "play": [
-        "represent",
-        "act"
-    ],
-    "play a joke on": [
-        "hoax",
-        "pull someone's leg"
-    ],
-    "play a trick on": [
-        "flim-flam",
-        "fob",
-        "trick",
-        "fox",
-        "pull a fast one o"
-    ],
     "play along": [
         "follow",
         "accompany"
@@ -6390,13 +6338,6 @@
         "background",
         "downplay"
     ],
-    "play false": [
-        "hoodwink",
-        "lead by the nos",
-        "snow",
-        "bamboozle",
-        "pull the wool over someone's eyes"
-    ],
     "play hooky": [
         "bunk off"
     ],
@@ -6410,13 +6351,6 @@
         "tire",
         "sap",
         "run down"
-    ],
-    "play up": [
-        "cotton up",
-        "sidle up",
-        "suck u",
-        "shine up",
-        "cozy up"
     ],
     "playact": [
         "play",
@@ -7365,9 +7299,8 @@
         "go on"
     ],
     "process": [
-        "action",
-        "sue",
-        "litigate"
+        "deal with",
+        "treat"
     ],
     "proclaim": [
         "promulgate",
@@ -7479,29 +7412,12 @@
         "parade",
         "troop"
     ],
-    "promise": [
-        "assure"
-    ],
     "promote": [
-        "boost",
-        "further",
-        "encourage",
         "advance"
-    ],
-    "prompt": [
-        "inspire",
-        "instigate"
     ],
     "promulgate": [
         "proclaim",
         "exclaim"
-    ],
-    "pronounce": [
-        "sound out",
-        "enunciate",
-        "enounce",
-        "articulate",
-        "say"
     ],
     "proof": [
         "proofread"
@@ -8934,7 +8850,8 @@
         "lean back"
     ],
     "recognize": [
-        "accredit"
+        "perceive",
+        "admit"
     ],
     "recoil": [
         "backfire",
@@ -9071,14 +8988,6 @@
         "correct",
         "compensate",
         "right"
-    ],
-    "reduce": [
-        "cut",
-        "contract",
-        "foreshorten",
-        "abbreviate",
-        "abridge",
-        "shorten"
     ],
     "reduplicate": [
         "repeat",
@@ -9415,7 +9324,8 @@
         "depend on"
     ],
     "remain": [
-        "persist",
+        "continue",
+        "last",
         "stay"
     ],
     "remain down": [
@@ -9790,8 +9700,8 @@
         "bespeak"
     ],
     "require": [
-        "expect",
-        "ask"
+        "call for",
+        "involve"
     ],
     "requite": [
         "repay"
@@ -9954,10 +9864,7 @@
         "revive"
     ],
     "retain": [
-        "keep on",
-        "keep goin",
-        "keep",
-        "continue"
+        "maintain"
     ],
     "retake": [
         "recapture"
@@ -10122,8 +10029,7 @@
         "turn back"
     ],
     "review": [
-        "refresh",
-        "brush up"
+        "revise"
     ],
     "revile": [
         "rail",
@@ -11230,13 +11136,6 @@
         "camp",
         "tent"
     ],
-    "campaign": [
-        "agitate",
-        "fight",
-        "press",
-        "crusade",
-        "push"
-    ],
     "canal": [
         "canalize"
     ],
@@ -11713,9 +11612,8 @@
         "catenate"
     ],
     "cater": [
-        "provide",
-        "ply",
-        "supply"
+        "purvey",
+        "provision"
     ],
     "caterwaul": [
         "yowl"
@@ -13855,14 +13753,6 @@
         "contribute",
         "lead"
     ],
-    "conduct": [
-        "behave",
-        "acquit",
-        "carry",
-        "deport",
-        "comport",
-        "bear"
-    ],
     "confab": [
         "chat",
         "chew the fat",
@@ -15219,10 +15109,6 @@
     ],
     "culminate": [
         "climax"
-    ],
-    "cultivate": [
-        "crop",
-        "work"
     ],
     "cumber": [
         "encumber",
@@ -18070,8 +17956,8 @@
         "beat in"
     ],
     "drink": [
-        "fuddle",
-        "booze"
+        "gulp",
+        "sip"
     ],
     "drink down": [
         "down",
@@ -18081,9 +17967,6 @@
         "pour down",
         "pop",
         "kill"
-    ],
-    "drink in": [
-        "drink"
     ],
     "drink up": [
         "drain the cup"
@@ -18889,6 +18772,11 @@
     "enact": [
         "ordain"
     ],
+    "enable": [
+        "allow",
+        "facilitate",
+        "permit"
+    ],
     "enamor": [
         "capture",
         "becharm",
@@ -19123,10 +19011,9 @@
         "gild"
     ],
     "engineer": [
-        "organize",
-        "direct",
-        "orchestrate",
-        "mastermind"
+        "arrange",
+        "concoct",
+        "devise"
     ],
     "englut": [
         "overeat",
@@ -19300,7 +19187,6 @@
         "result"
     ],
     "ensure": [
-        "assure",
         "guarantee"
     ],
     "entail": [
@@ -19683,11 +19569,8 @@
         "thrill"
     ],
     "examine": [
-        "study",
-        "canvas",
-        "analyse",
-        "canvass",
-        "analyze"
+        "check",
+        "try"
     ],
     "exasperate": [
         "aggravate",
@@ -19730,12 +19613,8 @@
         "stamp out"
     ],
     "excite": [
-        "agitate",
-        "turn on",
-        "commove",
-        "rouse",
-        "charge",
-        "charge up"
+        "inspire",
+        "amaze"
     ],
     "exclaim": [
         "shout",
@@ -21106,12 +20985,8 @@
         "jump out"
     ],
     "learn": [
-        "find out",
-        "determine",
-        "check",
-        "ascertain",
-        "watch",
-        "see"
+        "gain",
+        "determine"
     ],
     "lease": [
         "rent out",
@@ -21621,9 +21496,6 @@
     ],
     "lobby": [
         "buttonhole"
-    ],
-    "localize": [
-        "focalize"
     ],
     "locate": [
         "site",
@@ -23314,10 +23186,6 @@
         "caution",
         "admonish"
     ],
-    "monitor": [
-        "ride herd on",
-        "supervise"
-    ],
     "monkey": [
         "muck about",
         "potter",
@@ -23423,11 +23291,10 @@
         "gesture"
     ],
     "motivate": [
-        "propel",
-        "prompt",
-        "incite",
-        "move",
-        "actuate"
+        "stimulate",
+        "galvanize",
+        "spur",
+        "inspire"
     ],
     "motley": [
         "parti-color"
@@ -26296,23 +26163,6 @@
         "dishonour",
         "disgrace"
     ],
-    "shanghai": [
-        "impress"
-    ],
-    "shape": [
-        "influence",
-        "determine",
-        "regulate",
-        "mold"
-    ],
-    "shape up": [
-        "come on",
-        "come along",
-        "progress",
-        "advance",
-        "get along",
-        "get on"
-    ],
     "share": [
         "portion out",
         "apportion",
@@ -28166,7 +28016,7 @@
         "neuter"
     ],
     "speak": [
-        "address"
+        "talk"
     ],
     "speak up": [
         "animadvert",
@@ -28234,8 +28084,8 @@
         "cave"
     ],
     "spend": [
-        "drop",
-        "expend"
+        "consume",
+        "cost"
     ],
     "spend a penny": [
         "pee",
@@ -29029,14 +28879,7 @@
         "avoid",
         "debar"
     ],
-    "stay": [
-        "bide",
-        "abide"
-    ],
     "stay away": [
-        "keep one's distance",
-        "keep one's hands off",
-        "keep one's eyes off",
         "stand back"
     ],
     "stay fresh": [
@@ -29047,8 +28890,7 @@
     ],
     "stay on": [
         "remain",
-        "continue",
-        "stay"
+        "continue"
     ],
     "stay over": [
         "sleep over"
@@ -29060,9 +28902,6 @@
     ],
     "stay together": [
         "stick together"
-    ],
-    "stay up": [
-        "sit up"
     ],
     "steady down": [
         "root",
@@ -32186,10 +32025,6 @@
         "pass through",
         "move through"
     ],
-    "translate": [
-        "render",
-        "transform"
-    ],
     "transliterate": [
         "transcribe"
     ],
@@ -32321,9 +32156,6 @@
         "care for",
         "cherish"
     ],
-    "treat": [
-        "care for"
-    ],
     "treble": [
         "triple"
     ],
@@ -32335,15 +32167,6 @@
     ],
     "trench": [
         "ditch"
-    ],
-    "trend": [
-        "swerve",
-        "cu",
-        "slue",
-        "slew",
-        "curve",
-        "veer",
-        "sheer"
     ],
     "trespass": [
         "trespass",
@@ -32941,8 +32764,8 @@
         "lift"
     ],
     "facilitate": [
-        "ease",
-        "alleviate"
+        "encourage",
+        "promote"
     ],
     "facsimile": [
         "telefax",
@@ -34531,18 +34354,8 @@
         "foretell"
     ],
     "forecast": [
-        "prognosticate",
-        "presage",
-        "bode",
-        "betoken",
-        "augur",
-        "omen",
-        "auspicate",
-        "prefigure",
-        "predic",
-        "foretell",
-        "portend",
-        "foreshadow"
+        "calculate",
+        "predict"
     ],
     "foreclose": [
         "forbid",
@@ -35477,13 +35290,10 @@
         "extrapolate"
     ],
     "generate": [
-        "bring fort",
-        "beget",
-        "father",
-        "engender",
-        "sire",
-        "mother",
-        "get"
+        "produce",
+        "create",
+        "cause",
+        "develop"
     ],
     "gentle": [
         "entitle",
@@ -37401,8 +37211,7 @@
     ],
     "harness": [
         "rein in",
-        "draw rein",
-        "rein"
+        "control"
     ],
     "harp": [
         "dwell"
@@ -38952,10 +38761,9 @@
         "gaol"
     ],
     "improve": [
-        "meliorate",
-        "amend",
-        "better",
-        "ameliorate"
+        "progress",
+        "reform",
+        "upgrade"
     ],
     "improvise": [
         "ad-lib",
@@ -39027,8 +38835,10 @@
         "enclose"
     ],
     "include": [
-        "admit",
-        "let in"
+        "contain",
+        "involve",
+        "incorporate",
+        "comprise"
     ],
     "incommode": [
         "discommode",
@@ -39057,7 +38867,7 @@
     ],
     "increase": [
         "raise",
-        "grow"
+        "add"
     ],
     "incriminate": [
         "accuse",
@@ -39186,8 +38996,8 @@
         "impose"
     ],
     "influence": [
-        "work",
-        "act upon"
+        "affect",
+        "manipulate"
     ],
     "infract": [
         "transgress",
@@ -39247,10 +39057,9 @@
         "satiate"
     ],
     "inhabit": [
-        "live",
-        "live out",
-        "live in",
-        "dwell"
+        "occupy",
+        "populate",
+        "reside"
     ],
     "inhale": [
         "inspire",
@@ -39295,9 +39104,6 @@
         "bruise",
         "offend",
         "hurt"
-    ],
-    "innovate": [
-        "introduce"
     ],
     "inoculate": [
         "vaccinate",
@@ -39404,8 +39210,7 @@
         "diss"
     ],
     "insure": [
-        "underwrite",
-        "cover"
+        "guarantee"
     ],
     "integrate": [
         "mix",
@@ -39597,9 +39402,6 @@
     ],
     "intrench": [
         "entrench"
-    ],
-    "intrigue": [
-        "fascinate"
     ],
     "introduce": [
         "bring in"
@@ -40636,10 +40438,8 @@
         "elevate"
     ],
     "uphold": [
-        "carry on",
-        "preserve",
-        "continue",
-        "bear on"
+        "support",
+        "maintain"
     ],
     "uplift": [
         "pick up",
@@ -40781,7 +40581,10 @@
         "roll"
     ],
     "validate": [
-        "corroborate"
+        "certify",
+        "confirm",
+        "corroborate",
+        "verify"
     ],
     "valuate": [
         "appraise",

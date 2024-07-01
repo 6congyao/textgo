@@ -87,7 +87,7 @@ const synonymPlugin = {
             if (verbsDict) {
                 let m2 = this.match('#Verb+');
                 m2.map(v => {
-                    if (v.match('(@hasComma|@hasQuote|@hasPeriod|@hasExclamation|@hasQuestionMark|@hasEllipses|@hasSemicolon|@hasColon)').found) {
+                    if (v.match('(@hasHyphen|@hasComma|@hasQuote|@hasPeriod|@hasExclamation|@hasQuestionMark|@hasEllipses|@hasSemicolon|@hasColon)').found) {
                         return v;
                     }
                     if (v.has('(#Modal+|#Copula+|#Auxiliary+)')) {
@@ -105,7 +105,7 @@ const synonymPlugin = {
                             synonym = synonym.charAt(0).toUpperCase() + synonym.slice(1);
                         }
                         console.log('#Swap verbs: ' + v.text() + ' -> ' + synonym);
-                        return this.swap(clean, synonym);
+                        return v.swap(clean, synonym);
                     }
                     return v;
                 })
@@ -195,8 +195,10 @@ function postHandle(content) {
     output = output.replaceAll('\u301D', patch1);
     output = output.replaceAll('\u301E', patch2);
     output = output.replaceAll('  ', patch3);
-    output = output.replaceAll(' \u200d', '');
-    output = output.replaceAll('\u200d', '')
+    output = output.replaceAll('\"**\"', '**')
+    output = output.replaceAll('\"*\"', '*')
+    // output = output.replaceAll(' \u200d', '');
+    // output = output.replaceAll('\u200d', '')
 
     return output;
 }
@@ -238,7 +240,9 @@ function prePatch(text) {
     result = result.replaceAll("  ", " ");
     result = result.replaceAll("(", "\u301D");
     result = result.replaceAll(")", "\u301E");
-    result = result.replaceAll("**", "\u200d**\u200d");
+    // result = result.replaceAll("**", "\u200d**\u200d");
+    result = result.replaceAll("**", "\"**\"");
+    result = result.replaceAll("*", "\"*\"");
 
     return result;
 }
