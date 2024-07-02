@@ -515,12 +515,6 @@
     "aestivate": [
         "estivate"
     ],
-    "affect": [
-        "pretend",
-        "dissemble",
-        "feign",
-        "sham"
-    ],
     "affiance": [
         "engage",
         "betroth",
@@ -1316,7 +1310,8 @@
         "help"
     ],
     "associate": [
-        "consociate"
+        "join",
+        "mix"
     ],
     "assoil": [
         "exonerate",
@@ -1541,14 +1536,9 @@
         "fly"
     ],
     "avoid": [
-        "head off",
-        "deflect",
-        "avert",
-        "obviate",
-        "fend off",
-        "ward of",
-        "stave off",
-        "debar"
+        "evade",
+        "shun",
+        "bypass"
     ],
     "avouch": [
         "avow"
@@ -2468,7 +2458,6 @@
     ],
     "begin": [
         "start",
-        "go ahead",
         "set up",
         "initiate",
         "launch"
@@ -2955,19 +2944,6 @@
         "whir",
         "whizz",
         "whiz"
-    ],
-    "birth": [
-        "give birth",
-        "bear",
-        "deliver",
-        "have"
-    ],
-    "bite": [
-        "bite off",
-        "seize with teeth"
-    ],
-    "bite off": [
-        "snap at"
     ],
     "bivouac": [
         "encamp",
@@ -6961,18 +6937,8 @@
         "connote"
     ],
     "predict": [
-        "forecas",
-        "prognosticate",
-        "presage",
-        "bode",
-        "betoken",
-        "augur",
-        "omen",
-        "auspicate",
-        "prefigure",
-        "foretell",
-        "portend",
-        "foreshadow"
+        "forecast",
+        "foretell"
     ],
     "predominate": [
         "reign",
@@ -9315,7 +9281,8 @@
         "amend"
     ],
     "remember": [
-        "commemorate"
+        "learn",
+        "look back"
     ],
     "remind": [
         "prompt",
@@ -9537,8 +9504,7 @@
         "reclaim"
     ],
     "represent": [
-        "play",
-        "act"
+        "show"
     ],
     "repress": [
         "subdue",
@@ -10290,27 +10256,11 @@
         "roll"
     ],
     "roar": [
-        "bellow"
-    ],
-    "roast": [
-        "make fun",
-        "blackguard",
-        "poke fu",
-        "laugh at",
-        "rib",
-        "jest at",
-        "ridicule",
-        "guy"
+        "growl",
+        "howl"
     ],
     "rob": [
-        "soak",
-        "overcharge",
-        "fleece",
-        "plume",
-        "gazump",
-        "hoo",
-        "pluck",
-        "surcharge"
+        "despoil"
     ],
     "robe": [
         "vest"
@@ -11573,8 +11523,8 @@
         "calk"
     ],
     "cause": [
-        "make",
-        "do"
+        "induce",
+        "provoke"
     ],
 
     "cauterize": [
@@ -13198,7 +13148,9 @@
         "battle"
     ],
     "combine": [
-        "aggregate"
+        "associate",
+        "blend",
+        "fuse"
     ],
     "combust": [
         "burn"
@@ -13603,8 +13555,7 @@
         "confess"
     ],
     "conceive": [
-        "conceptualize",
-        "gestate"
+        "realize"
     ],
     "conceive of": [
         "ideate",
@@ -13948,10 +13899,6 @@
     "conserve": [
         "husband",
         "economize"
-    ],
-    "consider": [
-        "think about",
-        "think over"
     ],
     "consign": [
         "charge"
@@ -14546,19 +14493,6 @@
         "contredanse",
         "contradance",
         "contra danse"
-    ],
-    "couple": [
-        "pair",
-        "mate",
-        "copulate"
-    ],
-    "couple on": [
-        "couple up",
-        "couple"
-    ],
-    "couple up": [
-        "couple on",
-        "couple"
     ],
     "course": [
         "flow from",
@@ -15967,14 +15901,17 @@
         "debauch"
     ],
     "demote": [
-        "bump off",
-        "break",
-        "kick downstairs",
-        "relegate",
-        "bump"
+        "downgrade",
+        "bump",
+        "dismiss"
     ],
     "demur": [
-        "except"
+        "disagree",
+        "hesitate"
+    ],
+    "demystify": [
+        "debunk",
+        "disparage"
     ],
     "denigrate": [
         "defame",
@@ -15990,7 +15927,8 @@
         "designate"
     ],
     "denote": [
-        "announce"
+        "designate",
+        "mean"
     ],
     "denounce": [
         "stigmatize",
@@ -16230,12 +16168,8 @@
         "assign",
         "depute"
     ],
-    "desire": [
-        "hope",
-        "trust"
-    ],
     "desist": [
-        "refrain",
+        "relinquish",
         "abstain"
     ],
     "desolate": [
@@ -16302,17 +16236,8 @@
         "discourage"
     ],
     "deteriorate": [
-        "devolve",
-        "degenerate",
-        "drop"
-    ],
-    "determine": [
-        "find out",
-        "check",
-        "ascertain",
-        "learn",
-        "watch",
-        "see"
+        "decay",
+        "degenerate"
     ],
     "detest": [
         "hate"
@@ -16847,10 +16772,6 @@
     ],
     "discriminate": [
         "know apart"
-    ],
-    "discuss": [
-        "talk about",
-        "discourse"
     ],
     "disdain": [
         "contemn",
@@ -17631,7 +17552,7 @@
         "go through"
     ],
     "downplay": [
-        "background",
+        "minimize",
         "play down"
     ],
     "dowse": [
@@ -19488,8 +19409,8 @@
         "develop"
     ],
     "exacerbate": [
-        "exasperate",
-        "aggravate"
+        "aggravate",
+        "inflame"
     ],
     "exact": [
         "take",
@@ -19764,8 +19685,8 @@
         "overwork"
     ],
     "explore": [
-        "research",
-        "search"
+        "investigate",
+        "research"
     ],
     "expose": [
         "debunk"
@@ -20832,34 +20753,6 @@
     "leach": [
         "percolate"
     ],
-    "lead": [
-        "direct",
-        "conduct"
-    ],
-    "lead astray": [
-        "betray",
-        "deceive"
-    ],
-    "lead by the nose": [
-        "play false",
-        "hoodwink",
-        "snow",
-        "bamboozle",
-        "pull the wool over someone's eyes"
-    ],
-    "lead off": [
-        "commence",
-        "begin",
-        "start"
-    ],
-    "lead on": [
-        "cozen",
-        "deceive",
-        "delude"
-    ],
-    "lead up": [
-        "initiate"
-    ],
     "leaf": [
         "riffle",
         "flip",
@@ -21083,19 +20976,6 @@
         "abate",
         "slack off",
         "slack"
-    ],
-    "level": [
-        "charge",
-        "point"
-    ],
-    "level off": [
-        "level"
-    ],
-    "lever": [
-        "pry",
-        "jimmy",
-        "prise",
-        "prize"
     ],
     "levitate": [
         "hover"
@@ -22413,26 +22293,8 @@
         "grow"
     ],
     "maul": [
-        "mangle"
-    ],
-    "maunder": [
-        "gibber",
-        "piffle",
-        "blabber",
-        "clack",
-        "tittle-tattle",
-        "gabbl",
-        "prate",
-        "twaddle",
-        "tattle",
-        "palaver",
-        "chatter",
-        "blab",
-        "prattle"
-    ],
-    "mean": [
-        "entail",
-        "imply"
+        "mangle",
+        "abuse"
     ],
     "meander": [
         "wander",
@@ -22784,16 +22646,14 @@
         "decrease"
     ],
     "minimize": [
-        "belittle",
-        "derogate",
-        "denigrate"
+        "downplay"
     ],
     "mint": [
         "coin",
-        "strike"
+        "create"
     ],
     "mire": [
-        "bog down"
+        "delay"
     ],
     "misaddress": [
         "misdirect"
@@ -23952,8 +23812,7 @@
         "snack"
     ],
     "note": [
-        "notice",
-        "mark"
+        "notice"
     ],
     "notice": [
         "acknowledge"
@@ -24056,12 +23915,8 @@
         "obscure"
     ],
     "obscure": [
-        "overcloud",
-        "bedim"
-    ],
-    "observe": [
-        "keep",
-        "celebrate"
+        "conceal",
+        "hide"
     ],
     "obsess": [
         "ghost",
@@ -24119,27 +23974,9 @@
         "engross",
         "engage"
     ],
-    "occur": [
-        "come"
-    ],
-    "odorize": [
-        "scent"
-    ],
-    "off": [
-        "polish off",
-        "dispatch",
-        "bump off",
-        "remove",
-        "murder",
-        "hit",
-        "slay"
-    ],
     "offend": [
-        "spite",
-        "wound",
-        "injure",
-        "bruise",
-        "hurt"
+        "displease",
+        "insult"
     ],
     "offer": [
         "provide"
@@ -26094,58 +25931,8 @@
         "masturbate",
         "wank"
     ],
-    "shed": [
-        "cast",
-        "throw off",
-        "throw",
-        "shake off",
-        "drop",
-        "cast off",
-        "throw away"
-    ],
-    "shed blood": [
-        "bleed",
-        "hemorrhage"
-    ],
-    "shed light on": [
-        "elucidat",
-        "clear up",
-        "crystallize",
-        "crystalize",
-        "sort out",
-        "straighten out",
-        "clear",
-        "illuminate",
-        "enlighten"
-    ],
-    "sheer": [
-        "cut",
-        "swerve",
-        "slue",
-        "trend",
-        "slew",
-        "curve",
-        "veer"
-    ],
-    "shell": [
-        "vanquis",
-        "trounce",
-        "beat out",
-        "crush",
-        "beat"
-    ],
     "shell out": [
-        "mete out",
-        "lot",
-        "dispense",
-        "distribute",
-        "administer",
-        "dole ou",
-        "parcel out",
-        "deal out",
-        "dish out",
-        "allot",
-        "deal"
+        "give"
     ],
     "shellac": [
         "shellack"
@@ -28855,25 +28642,12 @@
     "steer": [
         "guide"
     ],
-    "stem": [
-        "halt",
-        "staunch",
-        "stanch"
-    ],
     "step": [
-        "ill-trea",
-        "abuse",
-        "ill-use",
-        "mistreat",
-        "maltreat"
-    ],
-    "step down": [
-        "weaken",
-        "de-escalate"
+        "tread",
+        "walk"
     ],
     "step forward": [
         "come forward",
-        "come ou",
         "step up",
         "come to the fore",
         "step to the fore"
@@ -28885,13 +28659,6 @@
     ],
     "step on": [
         "tread on"
-    ],
-    "step to the fore": [
-        "come forward",
-        "step forward",
-        "come ou",
-        "step up",
-        "come to the fore"
     ],
     "step up": [
         "come forward",
@@ -28905,73 +28672,13 @@
         "pigeonhole"
     ],
     "stew": [
-        "brood",
-        "grizzle"
-    ],
-    "stick": [
-        "bond",
-        "stick to",
-        "adhere",
-        "bind",
-        "hold fast"
-    ],
-    "stick about": [
-        "stick around",
-        "stand by"
-    ],
-    "stick around": [
-        "stick about",
-        "stand by"
-    ],
-    "stick by": [
-        "adhere",
-        "stick",
-        "stand by"
-    ],
-    "stick in": [
-        "insert",
-        "inclose",
-        "enclose",
-        "put in",
-        "introduce"
-    ],
-    "stick on": [
-        "affix"
-    ],
-    "stick out": [
-        "endure",
-        "put u",
-        "support",
-        "stand",
-        "brook",
-        "tolerate",
-        "suffer",
-        "stomach",
-        "digest",
-        "abide",
-        "bear"
-    ],
-    "stick to": [
-        "bond",
-        "adhere",
-        "bind",
-        "hold fast",
-        "stick"
-    ],
-    "stick together": [
-        "stay together"
-    ],
-    "stick up": [
-        "hold up"
-    ],
-    "stick with": [
-        "follow",
-        "stick to"
+        "worry",
+        "steam"
     ],
     "stiffen": [
-        "tighten up",
-        "tighten",
-        "constrain"
+        "reinforce",
+        "solidify",
+        "strengthen"
     ],
     "stifle": [
         "dampen"
@@ -29143,13 +28850,6 @@
     "straighten up": [
         "pull up",
         "draw up"
-    ],
-    "strain": [
-        "deform",
-        "distort"
-    ],
-    "strand": [
-        "maroon"
     ],
     "strangle": [
         "choke"
@@ -31346,15 +31046,6 @@
     "tiller": [
         "stool"
     ],
-    "tilt": [
-        "cant over",
-        "cant",
-        "pitch",
-        "slant"
-    ],
-    "time": [
-        "clock"
-    ],
     "tin": [
         "can",
         "put u"
@@ -31713,55 +31404,16 @@
         "summate"
     ],
     "totter": [
-        "seesaw",
+        "careen",
+        "lurch",
         "teeter"
     ],
-    "touch": [
-        "meet",
-        "adjoin",
-        "contact"
-    ],
-    "touch a chord": [
-        "strike a chord"
-    ],
-    "touch base": [
-        "get in touch",
-        "connect"
-    ],
-    "touch off": [
-        "trigger of",
-        "trip",
-        "spark",
-        "trigger",
-        "activate",
-        "set off",
-        "spark off",
-        "actuate"
-    ],
-    "touch on": [
-        "impact",
-        "bear upon",
-        "affect",
-        "touch",
-        "bear on"
-    ],
-    "touch up": [
-        "retouch"
-    ],
     "tousle": [
-        "dishevel",
-        "tangle"
+        "disarray"
     ],
     "tout": [
-        "gas",
-        "swash",
-        "shoot a line",
-        "boast",
-        "vaunt",
-        "bluster",
-        "gasconad",
-        "blow",
-        "brag"
+        "promote",
+        "trumpet"
     ],
     "tower": [
         "loom",
@@ -31769,15 +31421,12 @@
         "hul"
     ],
     "toy": [
-        "dally",
-        "play",
-        "flirt"
+        "fiddle",
+        "flirt",
+        "tease"
     ],
     "toy with": [
-        "flirt with",
-        "think of",
-        "entertain",
-        "think about"
+        "flirt with"
     ],
     "trace": [
         "follow",
@@ -33963,38 +33612,6 @@
         "page",
         "paginate"
     ],
-    "follow": [
-        "adopt",
-        "espouse"
-    ],
-    "follow out": [
-        "go throug",
-        "follow up",
-        "follow through",
-        "carry out",
-        "implement",
-        "put through"
-    ],
-    "follow through": [
-        "go throug",
-        "follow up",
-        "follow out",
-        "carry out",
-        "implement",
-        "put through"
-    ],
-    "follow up": [
-        "go throug",
-        "follow through",
-        "follow out",
-        "carry out",
-        "implement",
-        "put through"
-    ],
-    "follow up on": [
-        "act on",
-        "pursue"
-    ],
     "foment": [
         "agitate",
         "stir up"
@@ -35548,22 +35165,10 @@
     "girth": [
         "cinch"
     ],
-    "give": [
-        "afford",
-        "open"
-    ],
     "give a damn": [
         "care a hang",
         "give a hang",
         "give a hoot"
-    ],
-    "give a hang": [
-        "care a hang",
-        "give a hoot"
-    ],
-    "give a hoot": [
-        "care a hang",
-        "give a hang"
     ],
     "give away": [
         "grass",
@@ -35580,41 +35185,8 @@
         "return",
         "refund"
     ],
-    "give birth": [
-        "birth",
-        "bear",
-        "deliver",
-        "have"
-    ],
     "give care": [
         "care"
-    ],
-    "give chase": [
-        "tag along",
-        "trail",
-        "track",
-        "chase away",
-        "tail",
-        "chase",
-        "dog",
-        "chase after",
-        "go after",
-        "tag"
-    ],
-    "give ear": [
-        "hang",
-        "pay heed",
-        "advert",
-        "attend"
-    ],
-    "give forth": [
-        "emanate",
-        "exhale"
-    ],
-    "give full measure": [
-        "do one's best",
-        "give one's best",
-        "go all out"
     ],
     "give in": [
         "defer",
@@ -35622,135 +35194,11 @@
         "bow",
         "accede"
     ],
-    "give it a try": [
-        "give it a whirl"
-    ],
-    "give it a whirl": [
-        "give it a try"
-    ],
-    "give it the deep six": [
-        "deep-six"
-    ],
-    "give notice": [
-        "notify",
-        "apprise",
-        "advise",
-        "send word",
-        "apprize"
-    ],
     "give off": [
-        "give out",
-        "emit"
-    ],
-    "give one's best": [
-        "give full measure",
-        "do one's best",
-        "go all out"
-    ],
-    "give out": [
-        "hand out",
-        "distribute",
-        "pass out"
-    ],
-    "give rise": [
-        "produce",
-        "bring about"
-    ],
-    "give suck": [
-        "suck",
-        "bottle-feed",
-        "breastfeed",
-        "nurse",
-        "suckle",
-        "lactate",
-        "wet-nurse"
-    ],
-    "give thanks": [
-        "thank"
-    ],
-    "give the axe": [
-        "can",
-        "force out",
-        "give notice",
-        "dismiss",
-        "sack",
-        "fire",
-        "give the sack",
-        "terminat",
-        "send away"
-    ],
-    "give the bounce": [
-        "give the gate",
-        "give the axe"
-    ],
-    "give the eye": [
-        "give the once over"
-    ],
-    "give the gate": [
-        "give the bounce",
-        "give the axe"
-    ],
-    "give the once over": [
-        "give the eye"
-    ],
-    "give the sack": [
-        "can",
-        "force out",
-        "give notice",
-        "dismiss",
-        "sack",
-        "fire",
-        "terminat",
-        "give the axe",
-        "send away"
-    ],
-    "give tongue to": [
-        "verbalize",
-        "utter",
-        "express"
+        "discharge"
     ],
     "give up": [
         "abandon"
-    ],
-    "give vent": [
-        "ventilate",
-        "vent"
-    ],
-    "give voice": [
-        "articulate",
-        "word",
-        "phrase",
-        "formulate"
-    ],
-    "give way": [
-        "give",
-        "collapse",
-        "founder",
-        "break",
-        "fall in",
-        "cave in"
-    ],
-    "give-up the ghost": [
-        "exit",
-        "buy the farm",
-        "pop off",
-        "expire",
-        "pass",
-        "die out",
-        "kick the bucket",
-        "decease",
-        "croak",
-        "die",
-        "choke",
-        "drop dead",
-        "snuff it",
-        "conk",
-        "die off",
-        "go",
-        "pass away",
-        "die down",
-        "cash in one's chips",
-        "perish"
     ],
     "gladden": [
         "joy"
@@ -37337,13 +36785,6 @@
         "recreate",
         "cheer"
     ],
-    "heat": [
-        "heat up"
-    ],
-    "heat up": [
-        "hot up",
-        "heat"
-    ],
     "heave": [
         "surge",
         "billow"
@@ -37705,89 +37146,10 @@
         "wind",
         "lift"
     ],
-    "hold": [
-        "admit",
-        "accommodate"
-    ],
-    "hold back": [
-        "check",
-        "stop",
-        "contain",
-        "arrest",
-        "turn back"
-    ],
-    "hold close": [
-        "clutch",
-        "cling to",
-        "hold tight"
-    ],
-    "hold dear": [
-        "care for",
-        "cherish",
-        "treasure"
-    ],
-    "hold fast": [
-        "bond",
-        "stick to",
-        "adhere",
-        "bind",
-        "stick"
-    ],
-    "hold firm": [
-        "stand fast",
-        "stand pat",
-        "stand firm"
-    ],
-    "hold forth": [
-        "discourse",
-        "dissertate"
-    ],
-    "hold in": [
-        "hold back",
-        "conceal"
-    ],
-    "hold off": [
-        "wait",
-        "hold back"
-    ],
-    "hold on": [
-        "grasp"
-    ],
-    "hold open": [
-        "keep open",
-        "keep",
-        "save"
-    ],
-    "hold out": [
-        "stretch forth",
-        "extend",
-        "stretch out",
-        "exsert",
-        "put out"
-    ],
-    "hold over": [
-        "carry over"
-    ],
-    "hold still for": [
-        "stand for"
-    ],
-    "hold the line": [
-        "hang on",
-        "hold on"
-    ],
-    "hold tight": [
-        "hold close",
-        "clutch",
-        "cling to"
-    ],
     "hold up": [
-        "hold",
-        "withstand",
-        "defy"
-    ],
-    "hold water": [
-        "stand up",
-        "hold up"
+        "delay",
+        "detain",
+        "postpone"
     ],
     "hole": [
         "hole out"
@@ -38660,7 +38022,10 @@
         "indent"
     ],
     "indicate": [
-        "argue"
+        "signify",
+        "signal",
+        "display",
+        "reveal"
     ],
     "indispose": [
         "disincline"
@@ -39849,7 +39214,7 @@
         "dress down"
     ],
     "underestimate": [
-        "lowball"
+        "undervalue"
     ],
     "undergird": [
         "brace up"
@@ -40246,17 +39611,7 @@
         "nettle"
     ],
     "use": [
-        "apply",
         "utilize"
-    ],
-    "use up": [
-        "run through",
-        "eat up",
-        "exhaust",
-        "deplete",
-        "eat",
-        "wipe ou",
-        "consume"
     ],
     "usher": [
         "show"
