@@ -612,11 +612,7 @@
         "recognize"
     ],
     "agree": [
-        "harmonize",
-        "concord",
-        "fit in",
-        "consort",
-        "accord"
+        "concur"
     ],
     "aid": [
         "assist",
@@ -1017,25 +1013,14 @@
         "fit ou",
         "raiment"
     ],
-    "appeal": [
-        "attract"
-    ],
-    "appear": [
-        "come along"
-    ],
     "appease": [
-        "conciliate",
-        "gentle",
-        "placate",
-        "assuage",
-        "gruntl",
-        "lenify",
-        "mollify",
-        "pacify"
+        "satisfy",
+        "pacify",
+        "calm"
     ],
     "append": [
         "add",
-        "supply"
+        "join"
     ],
     "appertain": [
         "pertain"
@@ -2329,18 +2314,6 @@
         "obnubilate",
         "befog",
         "obscure"
-    ],
-    "become": [
-        "get over",
-        "get ahead",
-        "get along",
-        "go",
-        "get on",
-        "get"
-    ],
-    "become flat": [
-        "die",
-        "pall"
     ],
     "bed": [
         "hit the hay",
@@ -4017,15 +3990,8 @@
         "bracket"
     ],
     "brag": [
-        "gas",
-        "swash",
-        "shoot a line",
-        "boast",
-        "vaunt",
-        "bluster",
-        "gasconad",
-        "blow",
-        "tout"
+        "flaunt",
+        "show off"
     ],
     "braid": [
         "lace",
@@ -4521,25 +4487,9 @@
         "scram",
         "get"
     ],
-    "build": [
-        "work up",
-        "build up",
-        "progress"
-    ],
-    "build on": [
-        "repose on",
-        "rest on",
-        "build upon"
-    ],
     "build up": [
-        "fortify",
-        "gird",
-        "arm"
-    ],
-    "build upon": [
-        "build on",
-        "repose on",
-        "rest on"
+        "amplify",
+        "advertise"
     ],
     "bulge": [
         "bag"
@@ -7117,9 +7067,6 @@
     "prescribe": [
         "order",
         "dictate"
-    ],
-    "present": [
-        "award"
     ],
     "preserve": [
         "keep up",
@@ -9848,9 +9795,6 @@
     "resubmit": [
         "feed back"
     ],
-    "result": [
-        "ensue"
-    ],
     "resume": [
         "restart",
         "re-start"
@@ -11789,9 +11733,6 @@
     "chalk up": [
         "run up"
     ],
-    "challenge": [
-        "dispute"
-    ],
     "chamfer": [
         "bevel"
     ],
@@ -13468,8 +13409,8 @@
         "recommend"
     ],
     "comment": [
-        "annotate",
-        "gloss"
+        "mention",
+        "note"
     ],
     "commercialize": [
         "market"
@@ -19436,11 +19377,6 @@
         "try out",
         "try"
     ],
-    "establish": [
-        "ground",
-        "found",
-        "base"
-    ],
     "esteem": [
         "value",
         "prise",
@@ -20004,36 +19940,19 @@
         "triumph"
     ],
     "exuviate": [
-        "molt",
-        "moult",
-        "shed",
-        "slough"
+        "cast off"
     ],
     "eye": [
-        "eyeball"
-    ],
-    "eyeball": [
-        "eye"
+        "scrutinize",
+        "check out",
+        "inspect"
     ],
     "kayo": [
-        "knock out",
-        "knock cold"
+        "expunge",
+        "exterminate"
     ],
     "keel": [
-        "reel",
-        "stagger",
-        "lurch",
-        "careen",
-        "swag"
-    ],
-    "keen": [
-        "lament"
-    ],
-    "keep": [
-        "proceed",
-        "go along",
-        "continue",
-        "go on"
+        "fall"
     ],
     "keep abreast": [
         "keep up",
@@ -22018,8 +21937,7 @@
         "get off"
     ],
     "maintain": [
-        "asseverate",
-        "assert"
+        "uphold"
     ],
     "make a face": [
         "grimace",
@@ -25946,20 +25864,6 @@
         "preachify",
         "teach"
     ],
-    "serve": [
-        "handle",
-        "present",
-        "attend"
-    ],
-    "serve up": [
-        "serve",
-        "dis",
-        "dish out",
-        "dish up"
-    ],
-    "serve well": [
-        "serve"
-    ],
     "set": [
         "fix",
         "make"
@@ -26496,17 +26400,9 @@
         "garbage down",
         "gobble up"
     ],
-    "show": [
-        "exhibit",
-        "demo",
-        "demonstrate",
-        "present"
-    ],
     "show off": [
-        "ostentate",
         "flaunt",
-        "swan",
-        "flash"
+        "brag"
     ],
     "show up": [
         "come on",
@@ -27849,7 +27745,7 @@
         "monologuize"
     ],
     "solve": [
-        "clear"
+        "deal with"
     ],
     "somnambulate": [
         "sleepwalk"
@@ -29518,15 +29414,11 @@
         "copyread",
         "copyedit"
     ],
-    "subject": [
-        "subjugate"
-    ],
     "subjugate": [
-        "repress",
-        "subdue",
-        "quash",
-        "keep down",
-        "reduc"
+        "overpower",
+        "defeat",
+        "conquer",
+        "enslave"
     ],
     "sublease": [
         "sublet"
@@ -31104,17 +30996,6 @@
         "cut",
         "thin"
     ],
-    "think": [
-        "consider",
-        "believe",
-        "conceive"
-    ],
-    "think about": [
-        "flirt with",
-        "think of",
-        "entertain",
-        "toy with"
-    ],
     "think back": [
         "remember"
     ],
@@ -32486,119 +32367,6 @@
         "eject",
         "throw out"
     ],
-    "turn": [
-        "become"
-    ],
-    "turn a loss": [
-        "lose"
-    ],
-    "turn a nice dime": [
-        "turn a nice dollar",
-        "turn a nice penny"
-    ],
-    "turn a nice dollar": [
-        "turn a nice dime",
-        "turn a nice penny"
-    ],
-    "turn a nice penny": [
-        "turn a nice dime",
-        "turn a nice dollar"
-    ],
-    "turn a profit": [
-        "profit"
-    ],
-    "turn around": [
-        "pick up"
-    ],
-    "turn away": [
-        "avert"
-    ],
-    "turn back": [
-        "double back",
-        "backtrack"
-    ],
-    "turn down": [
-        "lower",
-        "lour"
-    ],
-    "turn in": [
-        "hit the hay",
-        "kip down",
-        "go to sleep",
-        "bed",
-        "sack out",
-        "hit the sack",
-        "retir",
-        "crawl in",
-        "go to bed"
-    ],
-    "turn off": [
-        "put off"
-    ],
-    "turn on": [
-        "agitate",
-        "commove",
-        "rouse",
-        "charge",
-        "charge up",
-        "excite"
-    ],
-    "turn one's stomach": [
-        "sicken",
-        "nauseate"
-    ],
-    "turn out": [
-        "bear",
-        "bear out"
-    ],
-    "turn over": [
-        "consider",
-        "deliberate",
-        "debate",
-        "moot"
-    ],
-    "turn tail": [
-        "head for the hills",
-        "escape",
-        "run",
-        "scat",
-        "run away",
-        "hightail it",
-        "bunk",
-        "lam",
-        "scarper",
-        "fly the coop",
-        "take to the woods",
-        "break awa"
-    ],
-    "turn the tables": [
-        "turn the tide"
-    ],
-    "turn the tide": [
-        "turn the tables"
-    ],
-    "turn thumbs down": [
-        "vote down"
-    ],
-    "turn to": [
-        "address"
-    ],
-    "turn turtle": [
-        "capsize",
-        "turtle"
-    ],
-    "turn up": [
-        "come on",
-        "come out",
-        "surface",
-        "show up"
-    ],
-    "turn up the heat": [
-        "turn up the pressure"
-    ],
-    "turn up the pressure": [
-        "turn up the heat"
-    ],
     "turtle": [
         "turn turtle",
         "capsize"
@@ -32617,23 +32385,8 @@
         "tsk",
         "tut"
     ],
-    "twaddle": [
-        "gibber",
-        "piffle",
-        "blabber",
-        "clack",
-        "tittle-tattle",
-        "maunder",
-        "gabbl",
-        "prate",
-        "tattle",
-        "palaver",
-        "chatter",
-        "blab",
-        "prattle"
-    ],
     "tweak": [
-        "fine-tune"
+        "adjust"
     ],
     "tweedle": [
         "chirp"
@@ -33706,10 +33459,8 @@
         "blandish"
     ],
     "flaunt": [
-        "ostentate",
-        "show off",
-        "flash",
-        "swan"
+        "brag",
+        "show off"
     ],
     "flavor": [
         "season",
@@ -34507,9 +34258,6 @@
     "form": [
         "make",
         "constitute"
-    ],
-    "format": [
-        "arrange"
     ],
     "formulate": [
         "develop",
@@ -36566,8 +36314,8 @@
         "granulate"
     ],
     "grant": [
-        "accord",
-        "allot"
+        "award",
+        "bestow"
     ],
     "granulate": [
         "grain"
@@ -38548,8 +38296,11 @@
         "step"
     ],
     "illustrate": [
-        "exemplify",
-        "instance"
+        "delineate",
+        "depict",
+        "illuminate",
+        "portray",
+        "represent"
     ],
     "image": [
         "pictur",
@@ -38862,8 +38613,8 @@
         "bother"
     ],
     "incorporate": [
-        "contain",
-        "comprise"
+        "absorb",
+        "embody"
     ],
     "increase": [
         "raise",
@@ -39501,14 +39252,6 @@
     "invert": [
         "reverse",
         "turn back"
-    ],
-    "invest": [
-        "adorn",
-        "clothe"
-    ],
-    "investigate": [
-        "enquire",
-        "inquire"
     ],
     "invigilate": [
         "proctor"

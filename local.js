@@ -195,7 +195,6 @@ function postHandle(content) {
     output = output.replaceAll('\u301D', patch1);
     output = output.replaceAll('\u301E', patch2);
     output = output.replaceAll('  ', patch3);
-    output = output.replaceAll('\"**\"', '**')
     output = output.replaceAll('\"*\"', '*')
     // output = output.replaceAll(' \u200d', '');
     // output = output.replaceAll('\u200d', '')
@@ -241,7 +240,6 @@ function prePatch(text) {
     result = result.replaceAll("(", "\u301D");
     result = result.replaceAll(")", "\u301E");
     // result = result.replaceAll("**", "\u200d**\u200d");
-    result = result.replaceAll("**", "\"**\"");
     result = result.replaceAll("*", "\"*\"");
 
     return result;
