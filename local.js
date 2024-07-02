@@ -191,13 +191,11 @@ function postHandle(content) {
     const patch3 = ' ';
 
     let output = content.replaceAll('\u200c ', trick1);
-    // output = output.replaceAll(', ', trick2);
     output = output.replaceAll('\u301D', patch1);
     output = output.replaceAll('\u301E', patch2);
     output = output.replaceAll('  ', patch3);
     output = output.replaceAll('\"*\"', '*')
     // output = output.replaceAll(' \u200d', '');
-    // output = output.replaceAll('\u200d', '')
 
     return output;
 }
