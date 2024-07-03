@@ -1,6 +1,7 @@
 const express = require('express');
 const nlp = require('compromise');
 const fs = require('fs');
+const removeMd = require('remove-markdown');
 const { createProxyMiddleware, responseInterceptor } = require('http-proxy-middleware');
 
 const app = express();
@@ -87,7 +88,7 @@ const synonymPlugin = {
             if (verbsDict) {
                 let m2 = this.match('#Verb+');
                 m2.map(v => {
-                    if (v.match('(@hasHyphen|@hasComma|@hasQuote|@hasPeriod|@hasExclamation|@hasQuestionMark|@hasEllipses|@hasSemicolon|@hasColon)').found) {
+                    if (v.match('(@hasDash|@hasHyphen|@hasComma|@hasQuote|@hasPeriod|@hasExclamation|@hasQuestionMark|@hasEllipses|@hasSemicolon|@hasColon)').found) {
                         return v;
                     }
                     if (v.has('(#Modal+|#Copula+|#Auxiliary+)')) {
@@ -160,8 +161,9 @@ function init() {
 }
 
 function rewrite(content) {
-    let plainText = prePatch(content);
-    const sentences = nlp(plainText).sentences();
+    const plainText = removeMd(content);
+    let patchedText = prePatch(plainText);
+    const sentences = nlp(patchedText).sentences();
     // console.log("<-:" + content);
     sentences.map(s => {
         s.replaceWithSynonyms(nounSynonyms, adjSynonyms, verbSynonyms, adverbSynonyms);

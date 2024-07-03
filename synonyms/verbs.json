@@ -197,9 +197,6 @@
         "take on",
         "take"
     ],
-    "access": [
-        "get at"
-    ],
     "acclaim": [
         "clap",
         "spat",
@@ -244,7 +241,8 @@
         "credit"
     ],
     "accrue": [
-        "fall"
+        "accumulate",
+        "amass"
     ],
     "accumulate": [
         "gather",
@@ -1717,10 +1715,6 @@
     ],
     "bake": [
         "broil"
-    ],
-    "balance": [
-        "equilibrize",
-        "equilibrate"
     ],
     "bale out": [
         "bail out"
@@ -3625,43 +3619,14 @@
         "communize"
     ],
     "bolster": [
-        "bolster up"
-    ],
-    "bolster up": [
-        "bolster"
-    ],
-    "bolt": [
-        "run off",
-        "go off",
-        "decamp",
-        "make off",
-        "absquatulate",
-        "abscond"
-    ],
-    "bolt down": [
-        "shovel in",
-        "garbage down",
-        "gobble up"
-    ],
-    "bolt out": [
-        "beetle off",
-        "run out",
-        "bolt",
-        "run off"
+        "reinforce"
     ],
     "bomb": [
-        "bombard"
+        "wipe out"
     ],
     "bombard": [
-        "barrage"
-    ],
-    "bombilate": [
-        "buzz",
-        "bombinate"
-    ],
-    "bombinate": [
-        "buzz",
-        "bombilate"
+        "assault",
+        "attack"
     ],
     "bond": [
         "adhere",
@@ -3725,29 +3690,6 @@
     "book": [
         "hold",
         "reserve"
-    ],
-    "boom": [
-        "boom out"
-    ],
-    "boom out": [
-        "boom"
-    ],
-    "boost": [
-        "raise",
-        "advance"
-    ],
-    "boot": [
-        "boot out"
-    ],
-    "boot out": [
-        "turf out",
-        "turn ou",
-        "kick out",
-        "expel",
-        "chuck out",
-        "exclude",
-        "eject",
-        "throw out"
     ],
     "bootlick": [
         "kotow",
@@ -4011,75 +3953,7 @@
         "grind"
     ],
     "breach": [
-        "gap"
-    ],
-    "break": [
-        "bankrupt",
-        "smash",
-        "ruin"
-    ],
-    "break apart": [
-        "break up",
-        "crash"
-    ],
-    "break away": [
-        "break",
-        "break out"
-    ],
-    "break camp": [
-        "decamp"
-    ],
-    "break dance": [
-        "break-dance",
-        "break"
-    ],
-    "break down": [
-        "analyse",
-        "take apart",
-        "dissect",
-        "analyze"
-    ],
-    "break in": [
-        "break"
-    ],
-    "break loose": [
-        "get away",
-        "escape"
-    ],
-    "break off": [
-        "discontinue",
-        "stop",
-        "break"
-    ],
-    "break one's back": [
-        "knuckle down",
-        "slave",
-        "buckle down"
-    ],
-    "break open": [
-        "split",
-        "burst"
-    ],
-    "break out": [
-        "break",
-        "break away"
-    ],
-    "break short": [
-        "break off",
-        "cut short"
-    ],
-    "break through": [
-        "come through"
-    ],
-    "break up": [
-        "recess",
-        "adjourn"
-    ],
-    "break water": [
-        "fin"
-    ],
-    "break wind": [
-        "fart"
+        "transgress"
     ],
     "break-dance": [
         "break dance",
@@ -4908,62 +4782,7 @@
         "buttweld"
     ],
     "buy": [
-        "grease one's palms",
-        "bribe",
-        "corrupt"
-    ],
-    "buy at": [
-        "frequent",
-        "patronize",
-        "patronise",
-        "sponsor",
-        "shop at",
-        "shop"
-    ],
-    "buy back": [
-        "repurchase"
-    ],
-    "buy food": [
-        "take out"
-    ],
-    "buy in": [
-        "stock"
-    ],
-    "buy it": [
-        "pip out"
-    ],
-    "buy off": [
-        "pay off"
-    ],
-    "buy out": [
-        "take over",
-        "buy up"
-    ],
-    "buy the farm": [
-        "exit",
-        "pop off",
-        "expire",
-        "pass",
-        "die out",
-        "kick the bucket",
-        "decease",
-        "croak",
-        "die",
-        "choke",
-        "give-up the ghost",
-        "drop dead",
-        "conk",
-        "snuff it",
-        "go",
-        "pass away",
-        "die off",
-        "die down",
-        "cash in one's chips",
-        "perish"
-    ],
-    "buy up": [
-        "take over",
-        "buy out"
+        "purchase"
     ],
     "buzz": [
         "bombinate",
@@ -6092,21 +5911,6 @@
     "pip out": [
         "buy it"
     ],
-    "pipe": [
-        "pipe up"
-    ],
-    "pipe down": [
-        "quieten",
-        "quiet",
-        "quiet dow",
-        "hush",
-        "quiesce"
-    ],
-    "pipe up": [
-        "pipe",
-        "shrill",
-        "shriek"
-    ],
     "pique": [
         "offend"
     ],
@@ -6114,22 +5918,6 @@
         "commandeer",
         "hijack",
         "highjack"
-    ],
-    "piss": [
-        "spend a penny",
-        "pee",
-        "make water",
-        "puddle",
-        "urinate",
-        "piddle",
-        "relieve oneself",
-        "wee",
-        "micturate",
-        "pee-pee",
-        "wee-wee",
-        "take a leak",
-        "make",
-        "pass water"
     ],
     "pit": [
         "oppose",
@@ -6961,8 +6749,10 @@
         "premise"
     ],
     "prefer": [
+        "pick",
+        "go for",
         "choose",
-        "opt"
+        "select"
     ],
     "prefigure": [
         "prognosticate",
@@ -7319,7 +7109,8 @@
     "prolong": [
         "draw out",
         "extend",
-        "protract"
+        "protract",
+        "lengthen"
     ],
     "promenade": [
         "parade",
@@ -7419,10 +7210,10 @@
         "bulge"
     ],
     "prove": [
-        "shew",
-        "establish",
+        "confirm",
         "demonstrate",
-        "show"
+        "show",
+        "substantiate"
     ],
     "provision": [
         "purvey"
@@ -7707,10 +7498,7 @@
         "whelp"
     ],
     "purchase": [
-        "buy up",
-        "buy out",
-        "buy",
-        "buy in"
+        "buy"
     ],
     "puree": [
         "strain"
@@ -8445,15 +8233,10 @@
         "rachet u",
         "ratchet"
     ],
-    "rate": [
-        "range",
-        "plac",
-        "order",
-        "rank",
-        "grade"
-    ],
     "ratify": [
-        "sign"
+        "approve",
+        "confirm",
+        "endorse"
     ],
     "ration": [
         "ration out"
@@ -8718,17 +8501,8 @@
         "reforge"
     ],
     "recede": [
-        "retire",
-        "fall back"
-    ],
-    "receipt": [
-        "acknowledge"
-    ],
-    "receive": [
-        "undergo",
-        "experience",
-        "get",
-        "have"
+        "withdraw",
+        "diminish"
     ],
     "recess": [
         "break up",
@@ -8988,14 +8762,6 @@
     "refrain": [
         "desist",
         "abstain"
-    ],
-    "refresh": [
-        "freshen"
-    ],
-    "refreshen": [
-        "freshen",
-        "refresh",
-        "freshen up"
     ],
     "refund": [
         "repay",
@@ -9422,9 +9188,7 @@
         "revive"
     ],
     "repay": [
-        "return",
-        "give back",
-        "refund"
+        "pay back"
     ],
     "repeal": [
         "overturn",
@@ -9607,15 +9371,6 @@
         "look on",
         "esteem"
     ],
-    "request": [
-        "call for",
-        "quest",
-        "bespeak"
-    ],
-    "require": [
-        "call for",
-        "involve"
-    ],
     "requite": [
         "repay"
     ],
@@ -9623,13 +9378,7 @@
         "rebroadcast"
     ],
     "rescind": [
-        "overturn",
         "repeal",
-        "vacat",
-        "reverse",
-        "annul",
-        "countermand",
-        "lift",
         "revoke"
     ],
     "rescue": [
@@ -9970,22 +9719,9 @@
         "revive"
     ],
     "revoke": [
-        "overturn",
-        "repeal",
         "rescind",
-        "reverse",
-        "annul",
-        "countermand",
-        "lift",
-        "vacate"
-    ],
-    "revolt": [
-        "repel",
-        "gross out",
-        "disgust"
-    ],
-    "revolutionize": [
-        "overturn"
+        "void",
+        "annul"
     ],
     "revolve": [
         "revolve around",
@@ -10641,86 +10377,10 @@
         "rush",
         "go"
     ],
-    "run a risk": [
-        "adventure",
-        "hazard",
-        "chance",
-        "take a chance",
-        "take chances",
-        "gamble",
-        "risk"
-    ],
     "run across": [
         "come across",
         "run into",
-        "encounter",
-        "meet",
-        "see"
-    ],
-    "run afoul": [
-        "contravene",
-        "conflict",
-        "infringe"
-    ],
-    "run aground": [
-        "ground"
-    ],
-    "run along": [
-        "line"
-    ],
-    "run around": [
-        "lark",
-        "gambol",
-        "rollick",
-        "romp",
-        "frisk",
-        "lark about",
-        "disport",
-        "frolic",
-        "sport",
-        "skylark",
-        "cavort"
-    ],
-    "run away": [
-        "head for the hills",
-        "escape",
-        "run",
-        "scat",
-        "hightail it",
-        "bunk",
-        "lam",
-        "scarper",
-        "turn tail",
-        "fly the coop",
-        "take to the woods",
-        "break awa"
-    ],
-    "run down": [
-        "check out"
-    ],
-    "run dry": [
-        "dry out"
-    ],
-    "run for": [
-        "run"
-    ],
-    "run into": [
-        "butt against",
-        "bump into",
-        "jar against",
-        "knock against"
-    ],
-    "run low": [
-        "go",
-        "run short"
-    ],
-    "run off": [
-        "go off",
-        "bolt",
-        "decamp",
-        "make off",
-        "absquatulate",
-        "abscond"
+        "encounter"
     ],
     "run on": [
         "keep going"
@@ -10734,51 +10394,15 @@
         "well over",
         "overflow"
     ],
-    "run roughshod": [
-        "ride roughshod"
-    ],
-    "run short": [
-        "go",
-        "run low"
-    ],
-    "run through": [
-        "use up",
-        "eat up",
-        "exhaust",
-        "deplete",
-        "eat",
-        "wipe ou",
-        "consume"
-    ],
     "run up": [
         "chalk up"
     ],
     "rupture": [
-        "tear apart",
-        "tear up",
-        "tear down",
-        "bust",
-        "tear",
-        "snap"
+        "disrupt",
+        "sunder"
     ],
     "rush": [
-        "hurry",
-        "hasten",
-        "festinate",
-        "look sharp"
-    ],
-    "rush along": [
-        "rush",
-        "belt along",
-        "hie",
-        "cannonball along",
-        "bucket along",
-        "speed up",
-        "pelt along",
-        "hasten",
-        "hotfoot",
-        "speed",
-        "race"
+        "surge"
     ],
     "rush away": [
         "rush off"
@@ -10790,9 +10414,6 @@
         "sally out",
         "leap out",
         "burst forth"
-    ],
-    "rust": [
-        "corrode"
     ],
     "rusticate": [
         "send down"
@@ -13444,7 +13065,8 @@
         "companion"
     ],
     "compare": [
-        "equal"
+        "match",
+        "contrast"
     ],
     "compartmentalize": [
         "cut up"
@@ -13974,11 +13596,6 @@
         "confer",
         "confabulate"
     ],
-    "consume": [
-        "down",
-        "devour",
-        "go through"
-    ],
     "contact": [
         "reach",
         "get hold of",
@@ -14068,9 +13685,6 @@
         "contradance",
         "contra danse",
         "country-dance"
-    ],
-    "contribute": [
-        "assist"
     ],
     "contrive": [
         "devise",
@@ -14174,7 +13788,6 @@
         "concoct"
     ],
     "cool": [
-        "cool down",
         "chill"
     ],
     "cool down": [
@@ -15133,43 +14746,9 @@
     "cybernate": [
         "computerize"
     ],
-    "cycle": [
-        "bicycle",
-        "bike",
-        "pedal",
-        "wheel"
-    ],
-    "cypher": [
-        "figure out",
-        "figure",
-        "calculate",
-        "cipher",
-        "work out",
-        "compute",
-        "reckon"
-    ],
-    "dab": [
-        "pat"
-    ],
-    "dabble": [
-        "paddle",
-        "splash around"
-    ],
-    "dally": [
-        "butterfly",
-        "flirt",
-        "mash",
-        "romance",
-        "chat up",
-        "philander",
-        "coquet",
-        "coquette"
-    ],
     "dam": [
-        "dam up"
-    ],
-    "dam up": [
-        "dam"
+        "clog",
+        "block"
     ],
     "damn": [
         "beshrew",
@@ -15850,7 +15429,8 @@
         "inquire"
     ],
     "demand": [
-        "exact"
+        "appeal",
+        "claim"
     ],
     "demarcate": [
         "delimit",
@@ -16762,10 +16342,12 @@
         "converse"
     ],
     "discover": [
-        "observe",
-        "notice",
+        "come upon",
         "find",
-        "detect"
+        "detect",
+        "uncover",
+        "spot",
+        "realize"
     ],
     "discredit": [
         "disbelieve"
@@ -16779,8 +16361,8 @@
         "scorn"
     ],
     "disembark": [
-        "set down",
-        "debark"
+        "alight",
+        "dismount"
     ],
     "disembarrass": [
         "rid of",
@@ -17034,8 +16616,7 @@
         "dislocate"
     ],
     "display": [
-        "exhibit",
-        "expose"
+        "reveal"
     ],
     "displume": [
         "deplume"
@@ -18466,12 +18047,8 @@
         "arouse"
     ],
     "eliminate": [
-        "extinguish",
-        "wipe out",
-        "decimate",
-        "carry off",
-        "annihilate",
-        "eradicate"
+        "erase",
+        "exclude"
     ],
     "elongate": [
         "stretch"
@@ -18872,11 +18449,6 @@
         "begild",
         "gild"
     ],
-    "engineer": [
-        "arrange",
-        "concoct",
-        "devise"
-    ],
     "englut": [
         "overeat",
         "gormandize",
@@ -19261,10 +18833,6 @@
         "belch",
         "extravasate"
     ],
-    "escalate": [
-        "step up",
-        "intensify"
-    ],
     "escallop": [
         "scallop"
     ],
@@ -19631,15 +19199,8 @@
         "exile",
         "deport"
     ],
-    "expect": [
-        "anticipate"
-    ],
-    "expectorate": [
-        "clear out",
-        "drive out"
-    ],
     "expedite": [
-        "hasten"
+        "precipitate"
     ],
     "expel": [
         "discharge",
@@ -20363,7 +19924,9 @@
         "lace"
     ],
     "lack": [
-        "miss"
+        "need",
+        "require",
+        "want"
     ],
     "lactate": [
         "give suck",
@@ -21000,8 +20563,7 @@
         "certify"
     ],
     "license": [
-        "licence",
-        "certify"
+        "authorize"
     ],
     "lick": [
         "cream",
@@ -22034,9 +21596,6 @@
     "malinger": [
         "skulk"
     ],
-    "malnourish": [
-        "undernourish"
-    ],
     "maltreat": [
         "ill-trea",
         "abuse",
@@ -22065,12 +21624,6 @@
     ],
     "mangle": [
         "maul"
-    ],
-    "manifest": [
-        "evidence",
-        "demonstrate",
-        "attest",
-        "certify"
     ],
     "manifold": [
         "multiply"
@@ -22631,9 +22184,6 @@
     "mince": [
         "moderate",
         "soften"
-    ],
-    "mind": [
-        "bear in mind"
     ],
     "mingle": [
         "jumble"
@@ -24129,14 +23679,6 @@
     "orientate": [
         "orient"
     ],
-    "originate": [
-        "arise",
-        "rise",
-        "uprise",
-        "spring up",
-        "grow",
-        "develop"
-    ],
     "ornament": [
         "grace",
         "embellish",
@@ -24676,8 +24218,10 @@
         "overtire"
     ],
     "overwhelm": [
-        "deluge",
-        "flood out"
+        "destroy",
+        "overcome",
+        "overpower",
+        "swamp"
     ],
     "overwinter": [
         "winter"
@@ -24882,15 +24426,6 @@
     "savage": [
         "crucify",
         "pillory"
-    ],
-    "save": [
-        "pull through",
-        "bring through",
-        "carry through"
-    ],
-    "save up": [
-        "lay aside",
-        "save"
     ],
     "savor": [
         "enjoy",
@@ -28407,39 +27942,12 @@
         "halt",
         "staunch"
     ],
-    "stand": [
-        "stand by",
-        "stand for",
-        "stand firm",
-        "stand out"
-    ],
-    "stand back": [
-        "keep one's distance",
-        "keep one's hands off",
-        "keep one's eyes off",
-        "stay away"
-    ],
     "stand by": [
         "stick about",
         "stick around"
     ],
-    "stand fast": [
-        "hold firm",
-        "stand pat",
-        "stand firm"
-    ],
-    "stand firm": [
-        "withstand",
-        "hold out",
-        "resist"
-    ],
     "stand for": [
         "hold still for"
-    ],
-    "stand guard": [
-        "stand watch",
-        "keep guard",
-        "stand sentinel"
     ],
     "stand in": [
         "substitute",
@@ -28450,26 +27958,11 @@
         "excel",
         "surpass"
     ],
-    "stand pat": [
-        "hold firm",
-        "stand firm",
-        "stand fast"
-    ],
-    "stand sentinel": [
-        "stand watch",
-        "keep guard",
-        "stand guard"
-    ],
     "stand up": [
         "arise",
         "rise",
         "get u",
         "uprise"
-    ],
-    "stand watch": [
-        "keep guard",
-        "stand sentinel",
-        "stand guard"
     ],
     "standardize": [
         "institutionalize"
@@ -28808,25 +28301,15 @@
         "stopper"
     ],
     "store": [
-        "accumulate",
-        "bury",
         "deposit",
-        "freeze",
-        "hide",
-        "hoard",
-        "keep",
-        "lock away",
-        "pack",
-        "put",
-        "save",
-        "stash",
-        "stockpile"
+        "stash"
     ],
     "storm": [
-        "force"
+        "attack",
+        "rush"
     ],
     "straddle": [
-        "range"
+        "bestride"
     ],
     "straggle": [
         "sidetrack",
@@ -32531,18 +32014,8 @@
     "fault": [
         "blame"
     ],
-    "favor": [
-        "favour"
-    ],
-    "favour": [
-        "favor"
-    ],
     "fawn": [
-        "creep",
-        "cringe",
-        "crawl",
-        "grovel",
-        "cower"
+        "grovel"
     ],
     "fax": [
         "facsimile",
@@ -33827,15 +33300,9 @@
         "counterfeit",
         "fake"
     ],
-    "forget": [
-        "draw a blank",
-        "blank out",
-        "block"
-    ],
     "forgo": [
         "give up",
-        "forfeit",
-        "throw overboard",
+        "quit",
         "waive"
     ],
     "fork": [
@@ -33898,12 +33365,7 @@
         "fort"
     ],
     "fortify": [
-        "build up",
-        "gird",
-        "arm"
-    ],
-    "forward": [
-        "send on"
+        "reinforce"
     ],
     "foster": [
         "further"
@@ -34277,7 +33739,8 @@
         "fume"
     ],
     "function": [
-        "officiate"
+        "perform",
+        "operate"
     ],
     "fund raise": [
         "fundraise",
@@ -35772,8 +35235,7 @@
         "chart"
     ],
     "grapple": [
-        "cope",
-        "contend"
+        "wrestle"
     ],
     "grasp": [
         "grok",
@@ -36974,8 +36436,9 @@
         "hike"
     ],
     "hinder": [
-        "handicap",
-        "hamper"
+        "prevent",
+        "prohibit",
+        "slow down"
     ],
     "hinge on": [
         "turn on",
@@ -37829,9 +37292,6 @@
     ],
     "importune": [
         "insist"
-    ],
-    "impose": [
-        "enforce"
     ],
     "impound": [
         "attach",
@@ -40264,23 +39724,6 @@
         "make whoopie",
         "revel"
     ],
-    "waste": [
-        "blow",
-        "squander"
-    ],
-    "waste one's time": [
-        "bum around",
-        "arse about",
-        "arse around",
-        "loll around",
-        "bum",
-        "lounge around",
-        "loaf",
-        "lounge abou",
-        "bum about",
-        "frig around",
-        "loll"
-    ],
     "watch": [
         "find out",
         "determine",
@@ -40288,16 +39731,6 @@
         "ascertain",
         "lear",
         "see"
-    ],
-    "watch out": [
-        "look out",
-        "watch"
-    ],
-    "watch over": [
-        "follow",
-        "watch",
-        "observe",
-        "keep an eye on"
     ],
     "water": [
         "irrigate"
@@ -40334,10 +39767,10 @@
         "lie in wait"
     ],
     "weaken": [
-        "dampen",
-        "break",
-        "damp",
-        "soften"
+        "undermine",
+        "impair",
+        "sap",
+        "wane"
     ],
     "wean": [
         "ablactate"
@@ -40948,56 +40381,8 @@
         "daydream",
         "dream up"
     ],
-    "woosh": [
-        "whoosh"
-    ],
-    "word": [
-        "articulate",
-        "give voice",
-        "phrase",
-        "formulate"
-    ],
-    "work": [
-        "act"
-    ],
-    "work at": [
-        "work on"
-    ],
-    "work on": [
-        "work",
-        "process"
-    ],
-    "work out": [
-        "figure out",
-        "figure",
-        "calculate",
-        "cipher",
-        "compute",
-        "reckon",
-        "cypher"
-    ],
-    "work over": [
-        "beat up",
-        "beat"
-    ],
-    "work through": [
-        "run through",
-        "go through"
-    ],
-    "work up": [
-        "build up",
-        "progress",
-        "build"
-    ],
-    "worm": [
-        "wriggle",
-        "wrestle",
-        "squirm",
-        "writhe",
-        "twist"
-    ],
     "worry": [
-        "care"
+        "unsettle"
     ],
     "worsen": [
         "exasperate",
@@ -41008,12 +40393,6 @@
         "revere",
         "idolize",
         "hero-worship"
-    ],
-    "worst": [
-        "mop up",
-        "pip",
-        "whip",
-        "rack up"
     ],
     "wound": [
         "injure",
