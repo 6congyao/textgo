@@ -16,6 +16,7 @@ const temperature = 1;
 const fastdProxy = createProxyMiddleware({
     target: 'http://localhost:8088/v1',
     changeOrigin: true,
+    selfHandleResponse: true,
     on: {
         proxyReq: (proxyReq, req, res) => {
             proxyReq.setHeader('Authorization', 'Bearer ');
