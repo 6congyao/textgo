@@ -9944,15 +9944,6 @@
         "babble",
         "guggle"
     ],
-    "rise": [
-        "arise",
-        "get up",
-        "stand up",
-        "uprise"
-    ],
-    "rise up": [
-        "rear"
-    ],
     "risk": [
         "adventure",
         "hazard",
@@ -37439,8 +37430,7 @@
         "embody"
     ],
     "increase": [
-        "raise",
-        "add"
+        "grow"
     ],
     "incriminate": [
         "accuse",

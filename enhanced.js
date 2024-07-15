@@ -1,10 +1,8 @@
-const express = require('express');
 const nlp = require('compromise');
 const fs = require('fs');
 const removeMd = require('remove-markdown');
 const { createProxyMiddleware, responseInterceptor } = require('http-proxy-middleware');
 
-const app = express();
 
 let nounSynonyms;
 let adjSynonyms;
@@ -12,24 +10,7 @@ let verbSynonyms;
 let adverbSynonyms;
 
 const temperature = 1;
-
-const fastdProxy = createProxyMiddleware({
-    target: 'http://localhost:8088/v1',
-    changeOrigin: true,
-    on: {
-        proxyReq: (proxyReq, req, res) => {
-            proxyReq.setHeader('Authorization', 'Bearer ');
-            proxyReq.setHeader('Content-Type', 'application/json');
-            proxyReq.setHeader('Accept', '*/*');
-            proxyReq.setHeader('Connection', 'keep-alive');
-        },
-        error: (err, req, res) => {
-            console.log(err);
-        },
-    },
-});
-
-const enhancedProxy = createProxyMiddleware({
+const apiProxy = createProxyMiddleware({
     target: 'http://localhost:8088/v1',
     changeOrigin: true,
     selfHandleResponse: true,
@@ -79,6 +60,7 @@ const enhancedProxy = createProxyMiddleware({
         },
     },
 });
+
 
 // Plugin to replace words with synonyms
 const synonymPlugin = {
@@ -170,6 +152,8 @@ const synonymPlugin = {
 };
 
 function init() {
+    // Extend Compromise with the plugin
+    nlp.extend(synonymPlugin);
     // nounSynonyms = load_synonyms('./synonyms/nouns.json')
     // adjSynonyms = load_synonyms('./synonyms/adjectives.json')
     verbSynonyms = load_synonyms('./synonyms/verbs.json')
@@ -261,14 +245,7 @@ function prePatch(text) {
     return result;
 }
 
-// Extend Compromise with the plugin
-nlp.extend(synonymPlugin);
-
-app.use('/api/v2/enhanced', enhancedProxy);
-app.use('/api/v2/fast', fastdProxy);
-
-// Setting port and serve
-const PORT = process.env.PORT || 8089;
-const server = app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-});
+module.exports = {
+    apiProxy: apiProxy,
+    init: init
+}

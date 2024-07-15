@@ -1,5 +1,6 @@
 const nlp = require('compromise');
 const fs = require('fs');
+const http = require('http');
 const removeMd = require('remove-markdown');
 
 let nounSynonyms;
@@ -16,6 +17,123 @@ function init() {
     // adverbSynonyms = load_synonyms('./synonyms/adverbs.json')
 }
 
+function callParaphraseApi(reqData, sentences_raw) {
+    const postData = JSON.stringify({
+        sentences: reqData,
+    });
+
+    const options = {
+        hostname: 'localhost',
+        port: 6000,
+        path: '/sentences',
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Content-Length': Buffer.byteLength(postData),
+        },
+    };
+
+    const req = http.request(options, (res) => {
+        let data = '';
+
+        res.on('data', (chunk) => {
+            data += chunk;
+        });
+
+        res.on('end', () => {
+            let sentences_filled = JSON.parse(data);
+            let text_masked = sentences_raw.text();
+
+            sentences_filled['sentences'].forEach((sentence, index) => {
+                text_masked = text_masked.replace(sentences_masked[index], sentence)
+            });
+
+            console.log('->:' + addTricks(text_masked));
+            return;
+        });
+    });
+
+    req.on('error', (error) => {
+        console.error(error);
+    });
+
+    req.write(postData);
+    req.end();
+}
+
+
+function callFillMaskBaseApi(reqData, sentences_raw) {
+    const postData = JSON.stringify({
+        sentences: reqData,
+    });
+
+    const options = {
+        hostname: 'localhost',
+        port: 6000,
+        path: '/sentences',
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Content-Length': Buffer.byteLength(postData),
+        },
+    };
+
+    const req = http.request(options, (res) => {
+        let data = '';
+
+        res.on('data', (chunk) => {
+            data += chunk;
+        });
+
+        res.on('end', () => {
+            let sentences_filled = JSON.parse(data);
+            let text_masked = sentences_raw.text();
+
+            sentences_filled['sentences'].forEach((sentence, index) => {
+                text_masked = text_masked.replace(sentences_masked[index], sentence)
+            });
+
+            console.log('->:' + addTricks(text_masked));
+            return;
+        });
+    });
+
+    req.on('error', (error) => {
+        console.error(error);
+    });
+
+    req.write(postData);
+    req.end();
+}
+
+// Plugin to fill mask of sentences
+const robertaPlugin = {
+    api: function (View) {
+        View.prototype.fillMaskInSentences = function () {
+            let m = this.match('#Adjective+');
+            let done = false;
+            console.log(m.out('array'));
+            m.map(v => {
+                if (!done) {
+                    if (v.splitAfter('(#Adverb|#Adjective)').out('array').length > 1) {
+                        return v;
+                    }
+                    if (v.match('(@hasDash|@hasHyphen|@hasComma|@hasQuote|@hasPeriod|@hasExclamation|@hasQuestionMark|@hasEllipses|@hasSemicolon|@hasColon|@hasContraction)').found) {
+                        return v;
+                    }
+                    // if (v.match('@isTitleCase').text() === v.text()) {
+                    //     return v;
+                    // }
+                    console.log(v.text() + ' -> ' + '<mask>');
+                    done = true;
+                    return v.replace(v, '<mask>');
+                }
+                return v;
+            })
+        };
+    }
+};
+
 // Plugin to replace words with synonyms
 const synonymPlugin = {
     api: function (View) {
@@ -23,6 +141,7 @@ const synonymPlugin = {
             if (nounsDict) {
                 // swap nouns
                 let m1 = this.match('#Noun+');
+                console.log(m1.out('array'));
                 m1.compute('root');
                 let nouns = m1.text('root').split(' ');
                 nouns.forEach(term => {
@@ -36,11 +155,10 @@ const synonymPlugin = {
                 });
             }
 
-
             // swap verbs
             if (verbsDict) {
                 let m2 = this.match('#Verb+');
-                console.log(m2.out('array'));
+                // console.log(m2.out('array'));
                 m2.map(v => {
                     console.log(v.text());
                     if (v.match('(@hasDash|@hasHyphen|@hasComma|@hasQuote|@hasPeriod|@hasExclamation|@hasQuestionMark|@hasEllipses|@hasSemicolon|@hasColon|@hasContraction)').found) {
@@ -72,7 +190,7 @@ const synonymPlugin = {
             // swap adjectives
             if (adjsDict) {
                 let m3 = this.match('#Adjective+');
-                // console.log(m3.out('array'));
+                console.log(m3.out('array'));
                 m3.map(v => {
                     const clean = v.text('normal').replace(/\p{P}/gu, "");
                     // console.log(clean);
@@ -83,7 +201,7 @@ const synonymPlugin = {
                             synonym = synonym.charAt(0).toUpperCase() + synonym.slice(1);
                         }
                         console.log('#Swap adjectives: ' + v.text() + ' -> ' + synonym);
-                        return this.replace(clean, synonym);
+                        return v.replace(clean, synonym);
                     }
                     return v;
                 })
@@ -102,7 +220,7 @@ const synonymPlugin = {
                             synonym = synonym.charAt(0).toUpperCase() + synonym.slice(1);
                         }
                         console.log('#Swap adverbs: ' + v.text() + ' -> ' + synonym);
-                        return this.replace(clean, synonym);
+                        return v.replace(clean, synonym);
                     }
                     return v;
                 })
@@ -116,15 +234,29 @@ const synonymPlugin = {
 init();
 // Extend Compromise with the plugin
 nlp.extend(synonymPlugin);
+nlp.extend(robertaPlugin);
 
 // Example text
-// const text = `Let's face it, our phones are basically extensions of ourselves. `;
+// const text = `Driven by population growth and migration from urban rural areas seeking better economic prospects, cities in these countries are expanding at an unprecedented pace.`;
 // const text = `He is like a boy. He liked that girl, anyway he likes. Elon Musk stands as a titan of modern innovation.`;
-const text = `	Drink calcium-fortified orange juice.`;
-
-
-// const text = `The rapid evolution of AI, particularly in natural language processing and machine learning, positions it as a potential replacement for human article writers. Advanced content generation tools like GPT-4 demonstrate the ability to produce high-quality, contextually relevant articles across diverse topics. Trained on massive datasets, these tools can emulate various writing styles and formats, generating content at speeds unmatched by humans. This efficiency makes them invaluable for meeting deadlines and large-scale content demands. AI's capacity to analyze data and trends ensures the creation of timely and accurate articles.  Furthermore, AI writing tools are constantly refined through machine learning, enhancing their ability to handle complex and specialized subjects. Businesses can leverage these tools to reduce costs associated with large writing teams and boost productivity by automating repetitive writing tasks. This allows human writers to focus on more creative and strategic aspects of content creation. However, while AI demonstrates significant potential, it lacks the nuanced understanding, emotional depth, and creativity inherent in human writers. The optimal approach involves a collaborative integration of AI and human expertise, leveraging the strengths of both to produce exceptional content.  Ethical considerations, such as transparency regarding AI-generated content and upholding quality standards, are paramount. While AI excels at generating large volumes of content efficiently, human oversight remains essential to ensure authenticity and emotional resonance. As AI technology advances, it is poised to become an indispensable tool in content creation, augmenting human capabilities and shaping the future of writing. In essence, AI's role in content creation is rapidly expanding, presenting numerous advantages. However, striking a balance between automation and human creativity, while addressing ethical considerations, is crucial to achieving optimal outcomes.`;
-// const text = `Advanced content-generation-tools like GPT-4 demonstrate the ability to produce high-quality.`;
+// const text = `Why Temperatures Are Increasing in Developing Nations – Essay 2\nDeveloping countries, often called the Third World, face a significant challenge: rising temperatures. This global issue has far-reaching consequences for these nations.  Several factors contribute to this warming trend, including climate change, rapid urbanization, deforestation, and socio-economic hurdles. This essay will examine these factors, exploring their interconnectedness and the implications they hold for the affected regions.\nClimate Change: A Global Catalyst\nClimate change is the primary force behind rising global temperatures, and developing countries are no exception.  Human actions, especially the burning of fossil fuels, deforestation, and industrial processes, have dramatically increased greenhouse gas (GHG) concentrations in the atmosphere.  Carbon dioxide (CO2), methane (CH4), and nitrous oxide (N2O) are the main offenders, trapping heat and causing a gradual rise in global temperatures.\nThe Earth's average temperature has increased by about 1.2 degrees Celsius since the late 19th century, according to the Intergovernmental Panel on Climate Change (IPCC).  This warming, however, is not uniform.  Due to complex interactions between atmospheric circulation patterns, geographic features, and regional climate systems, some regions, including many developing countries, are experiencing greater-than-average temperature increases.\nThe Urban Heat Island Effect and Urbanization\nRapid urbanization in developing nations has significantly contributed to rising temperatures.  Driven by population growth and migration from rural areas seeking better economic prospects, cities in these countries are expanding at an unprecedented pace. This urban sprawl frequently results in a phenomenon known as the Urban Heat Island (UHI) effect.\nThe UHI effect occurs when urban areas become significantly hotter than surrounding rural areas due to human activities. Replacing natural vegetation with concrete, asphalt, and buildings increases solar radiation absorption, while reducing green spaces limits cooling through evapotranspiration. Moreover, the high concentration of buildings and human activities generates heat, further raising urban temperatures.\nCities like Lagos in Nigeria, Dhaka in Bangladesh, and Mumbai in India, for example, have seen significant temperature increases in recent decades. The lack of sufficient urban planning and green infrastructure exacerbates the UHI effect, resulting in hotter urban environments and significant health risks for residents.\nDeforestation and Shifting Land Use Patterns\nDeforestation and land use changes are major contributors to rising temperatures in developing countries. Forests play a critical role in climate regulation by absorbing CO2, releasing oxygen, and providing cooling through transpiration. However, widespread deforestation for agriculture, logging, and urban development has resulted in the loss of these critical ecological services.\nDeforestation rates are alarmingly high in regions such as the Amazon Basin, Southeast Asia, and Central Africa.  Converting forests to agricultural land or pasture not only reduces carbon sequestration but also alters local weather patterns. Trees and vegetation release moisture into the atmosphere, which aids in cloud formation and precipitation. Without forests, these areas become drier and hotter, exacerbating the effects of global warming.\nFurthermore, land use changes such as wetland drainage, monoculture plantation expansion, and grassland degradation disrupt local ecosystems and their ability to regulate temperatures. These changes frequently result in a feedback loop, in which rising temperatures further degrade the land, resulting in more deforestation and higher temperatures.\nResource Constraints and Socio-Economic Challenges\nDeveloping countries face distinct socio-economic challenges that exacerbate the effects of rising temperatures. Limited financial resources, inadequate infrastructure, and weak governance structures make it difficult for these countries to implement effective climate change mitigation and adaptation strategies.\nMany Third World countries, for example, rely heavily on agriculture for their livelihoods. Agriculture is highly vulnerable to temperature changes, with rising temperatures resulting in lower crop yields, water scarcity, and increased pest and disease outbreaks. These regions are particularly vulnerable to the effects of rising temperatures due to a lack of resources to invest in climate-resilient agricultural practices.\nFurthermore, rapid population growth in many developing countries puts a strain on natural resources and infrastructure.  As populations grow, so does the demand for energy, water, and food, frequently leading to overexploitation and environmental degradation. This vicious cycle of resource depletion and environmental degradation contributes to rising temperatures and the vulnerability of these regions.`;
+const text = `Why Temperatures in the Third World Are Rising – Essay 2
+A pressing global issue, the phenomenon of rising temperatures carries profound implications for the Third World, often referred to as developing countries. It is a combination of factors, including climate change, urbanization, deforestation, and socio-economic challenges, that can be attributed to the increase in temperatures in these regions. This essay delves into the various reasons behind rising temperatures in the Third World, exploring not only how these factors interplay but also their implications for the affected regions.
+Climate Change: The Global Driver
+What primarily drives rising temperatures globally, including in the Third World, is climate change.  Human activities, particularly the burning of fossil fuels, deforestation, and industrial processes, have caused a significant increase in the concentration of greenhouse gases (GHGs) in the atmosphere. Trapping heat and leading to a gradual increase in global temperatures are the main culprits: carbon dioxide (CO2), methane (CH4), and nitrous oxide (N2O).
+The Earth's average temperature has risen by approximately 1.2 degrees Celsius since the late 19th century, according to the Intergovernmental Panel on Climate Change (IPCC).  Not evenly distributed is this warming; certain regions, including many parts of the Third World, are experiencing higher than average temperature increases.  Involving atmospheric circulation patterns, geographical features, and regional climate systems, the reasons for this uneven warming are complex.
+Urbanization and the Urban Heat Island Effect
+Rising temperatures have been significantly contributed to by rapid urbanization in the Third World.  Driven by population growth and migration from rural areas in search of better economic opportunities, cities in developing countries are expanding at an unprecedented rate.  Often leading to the phenomenon known as the Urban Heat Island (UHI) effect is this urban expansion.
+When urban areas become significantly warmer than their rural surroundings due to human activities, the UHI effect occurs.  Increasing the absorption of solar radiation is the replacement of natural vegetation with concrete, asphalt, and buildings, while the reduction of green spaces limits cooling through evapotranspiration.  Additionally, generating heat and further raising temperatures in urban areas is the high density of buildings and human activities.
+Substantial increases in temperature over recent decades have been witnessed in cities like Lagos in Nigeria, Dhaka in Bangladesh, and Mumbai in India, for instance.  Leading to hotter urban environments and posing significant health risks to residents is the lack of adequate urban planning and green infrastructure, exacerbating the UHI effect.
+Deforestation and Land Use Changes
+Critical factors contributing to rising temperatures in the Third World are deforestation and land use changes.  Playing a vital role in regulating the Earth's climate by absorbing CO2, releasing oxygen, and providing cooling through transpiration are forests.  However, what has led to the loss of these essential ecological services is extensive deforestation for agriculture, logging, and urban development.
+Alarmingly high are deforestation rates in regions like the Amazon Basin, Southeast Asia, and Central Africa.  Not only reducing carbon sequestration but also altering local weather patterns is the conversion of forests into agricultural land or pasture.  Contributing to cloud formation and precipitation is the release of moisture into the atmosphere by trees and vegetation.  Without forests, exacerbating the effects of global warming are these areas that become drier and hotter.
+Furthermore, disrupting local ecosystems and their ability to regulate temperatures are land use changes such as the drainage of wetlands, the expansion of monoculture plantations, and the degradation of grasslands. Often resulting in a feedback loop where rising temperatures further degrade the land, leading to more deforestation and higher temperatures, are these changes.
+Socio-Economic Challenges and Resource Constraints
+A unique set of socio-economic challenges that exacerbate the impact of rising temperatures is faced by developing countries.  Hindering these countries' ability to implement effective climate mitigation and adaptation strategies are limited financial resources, inadequate infrastructure, and weak governance structures. 
+For instance, it is agriculture that many Third World countries rely heavily on for their livelihoods. Highly sensitive to temperature changes is agriculture, with rising temperatures leading to reduced crop yields, water scarcity, and increased pest and disease outbreaks.  Making these regions particularly vulnerable to the impacts of rising temperatures is the lack of resources to invest in climate-resilient agricultural practices.
+Moreover, putting additional pressure on natural resources and infrastructure is the rapid population growth in many developing countries.  Often leading to overexploitation and degradation of the environment is the increase in demand for energy, water, and food as populations grow.  Further contributing to rising temperatures and the vulnerability of these regions is this vicious cycle of resource depletion and environmental degradation. `;
 
 const plainText = removeMd(text);
 
@@ -133,14 +265,36 @@ let text2 = prePatch(plainText);
 // const sentences = text.match(/([^\。.?!？！]+[.?!。？！])/g);
 const sentences = nlp(text2).sentences();
 
-// const sentences = nlp(text)
-// console.log(sentences.text());
+let sentences_masked = [];
+
+// # repalcement
 sentences.map(s => {
     s.replaceWithSynonyms(nounSynonyms, adjSynonyms, verbSynonyms, adverbSynonyms);
-    // console.log('!!!: ' + s.text());
-    // return s.firstTerms().toTitleCase();
     return s;
 })
+
+// # paraphraser
+// sentences.map(s => {
+//     sentences_masked.push(s.text())
+// })
+
+// # roberta
+sentences.map(s => {
+    s.fillMaskInSentences();
+    if (s.text().indexOf('<mask>') != -1) {
+        sentences_masked.push(s.text())
+    }
+
+    return s;
+})
+
+// console.log('!!!: ' + sentences_masked);
+callFillMaskBaseApi(sentences_masked, sentences);
+// callParaphraseApi(sentences_masked, sentences);
+
+
+
+
 // sentences.forEach((sentence, index) => {
 //     // let output = sentenceHandler(sentence)
 //     console.log(`Sentence ${index + 1} in : ${sentence}`);
@@ -152,8 +306,9 @@ sentences.map(s => {
 
 
 // Output the modified text
-console.log('<-:' + text);
-console.log('->:' + addTricks(sentences.text()));
+// console.log('<-:' + text);
+// console.log('->:' + sentences.text());
+// console.log('->:' + addTricks(sentences.text()));
 // console.log('->:' + addTricks(capitalizeFirstLetterOfEachSentence(sentences.text())));
 // console.log("->:" + capitalizeFirstLetterOfEachSentence(sentences.text()));
 
@@ -161,9 +316,6 @@ function prePatch(text) {
     let result = text.replaceAll("\n\n", "\n");
     result = result.replaceAll("(", "\u301D");
     result = result.replaceAll(")", "\u301E");
-    // result = result.replaceAll(":", ": \u200d");
-    // result = result.replaceAll(".", ". \u200d");
-    // result = result.replaceAll("**", "\"**\"");
     result = result.replaceAll("*", "\"*\"");
 
     return result;
@@ -182,10 +334,10 @@ function load_synonyms(file) {
 function addTricks(doc) {
     const sentences = nlp(doc).sentences();
 
-    sentences.map(s => {
-        s = sentenceHandle(s);
-        return s;
-    })
+    // sentences.map(s => {
+    //     s = sentenceHandle(s);
+    //     return s;
+    // })
 
     return postHandle(sentences.text());
 }
