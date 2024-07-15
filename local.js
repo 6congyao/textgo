@@ -45,8 +45,6 @@ const fastdProxy = createProxyMiddleware({
                 } else {
                     // manipulate JSON data here
                     if ('answer' in oriResult) {
-                        // let output = rewrite(oriResult['answer']);
-
                         result['messages'][0]['content'] = oriResult['answer'];
                         result['msg'] = "success";
                     }
