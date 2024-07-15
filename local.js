@@ -23,6 +23,40 @@ const fastdProxy = createProxyMiddleware({
             proxyReq.setHeader('Accept', '*/*');
             proxyReq.setHeader('Connection', 'keep-alive');
         },
+        proxyRes: responseInterceptor(async (responseBuffer, proxyRes, req, res) => {
+            if (proxyRes.headers['content-type'] === 'application/json') {
+                let result = {
+                    messages: [{
+                        "role": "assistant",
+                        "type": "answer",
+                        "content": "",
+                        "content_type": "text"
+                    }],
+                    "code": 0,
+                    "msg": "",
+                };
+
+                let oriResult = JSON.parse(responseBuffer.toString('utf8'));
+
+                if (res.statusCode >= 400) {
+                    result['code'] = oriResult['code'];
+                    result['msg'] = oriResult['message'];
+    
+                } else {
+                    // manipulate JSON data here
+                    if ('answer' in oriResult) {
+                        // let output = rewrite(oriResult['answer']);
+
+                        result['messages'][0]['content'] = oriResult['answer'];
+                        result['msg'] = "success";
+                    }
+                }
+                // return manipulated JSON
+                return JSON.stringify(result);
+            }
+            // return other content-types as-is
+            return responseBuffer;
+        }),
         error: (err, req, res) => {
             console.log(err);
         },
