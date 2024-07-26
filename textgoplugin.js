@@ -12,8 +12,8 @@ const temperature = 1;
 
 function init() {
     // nounSynonyms = load_synonyms('./synonyms/nouns.json')
-    // adjSynonyms = load_synonyms('./synonyms/adjectives.json')
-    verbSynonyms = load_synonyms('./synonyms/verbs.json')
+    adjSynonyms = load_synonyms('./synonyms/adjectives.json')
+    // verbSynonyms = load_synonyms('./synonyms/verbs.json')
     // adverbSynonyms = load_synonyms('./synonyms/adverbs.json')
 }
 
@@ -48,7 +48,7 @@ function callParaphraseApi(reqData, sentences_raw) {
                 text_masked = text_masked.replace(sentences_masked[index], sentence)
             });
 
-            console.log('->:' + addTricks(text_masked));
+            console.log('->:' + postHandle(text_masked));
             return;
         });
     });
@@ -89,11 +89,12 @@ function callFillMaskBaseApi(reqData, sentences_raw) {
             let sentences_filled = JSON.parse(data);
             let text_masked = sentences_raw.text();
 
+            // console.log(sentences_filled)
             sentences_filled['sentences'].forEach((sentence, index) => {
                 text_masked = text_masked.replace(sentences_masked[index], sentence)
             });
 
-            console.log('->:' + addTricks(text_masked));
+            console.log('->:' + postHandle(text_masked));
             return;
         });
     });
@@ -110,11 +111,12 @@ function callFillMaskBaseApi(reqData, sentences_raw) {
 const robertaPlugin = {
     api: function (View) {
         View.prototype.fillMaskInSentences = function () {
-            let m = this.match('#Adjective+');
+            let m = this.match('(#Adverb #Adjective|#Adjective+)');
             let done = false;
             console.log(m.out('array'));
             m.map(v => {
                 if (!done) {
+                    // console.log(v.splitAfter('(#Adverb|#Adjective)').out('array'));
                     if (v.splitAfter('(#Adverb|#Adjective)').out('array').length > 1) {
                         return v;
                     }
@@ -126,7 +128,7 @@ const robertaPlugin = {
                     // }
                     console.log(v.text() + ' -> ' + '<mask>');
                     done = true;
-                    return v.replace(v, '<mask>');
+                    return v.replace(v, '<mask> ' + v.text());
                 }
                 return v;
             })
@@ -192,8 +194,12 @@ const synonymPlugin = {
                 let m3 = this.match('#Adjective+');
                 console.log(m3.out('array'));
                 m3.map(v => {
-                    const clean = v.text('normal').replace(/\p{P}/gu, "");
+                    // const clean = v.text('normal').replace(/\p{P}/gu, "");
                     // console.log(clean);
+                    if (v.match('(@hasDash|@hasHyphen|@hasComma|@hasQuote|@hasPeriod|@hasExclamation|@hasQuestionMark|@hasEllipses|@hasSemicolon|@hasColon|@hasContraction)').found) {
+                        return v;
+                    }
+                    const clean = v.text();
                     if (adjsDict[clean]) {
                         const synonyms = adjsDict[clean];
                         let synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
@@ -210,9 +216,13 @@ const synonymPlugin = {
             // swap advs
             if (adverbsDict) {
                 let m4 = this.match('#Adverb+');
-                // console.log(m4.out('array'));
+                console.log(m4.out('array'));
                 m4.map(v => {
-                    const clean = v.text('normal').replace(/\p{P}/gu, "");
+                    // const clean = v.text('normal').replace(/\p{P}/gu, "");
+                    if (v.match('(@hasDash|@hasHyphen|@hasComma|@hasQuote|@hasPeriod|@hasExclamation|@hasQuestionMark|@hasEllipses|@hasSemicolon|@hasColon|@hasContraction)').found) {
+                        return v;
+                    }
+                    const clean = v.text();
                     if (adverbsDict[clean]) {
                         const synonyms = adverbsDict[clean];
                         let synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
@@ -237,26 +247,39 @@ nlp.extend(synonymPlugin);
 nlp.extend(robertaPlugin);
 
 // Example text
-// const text = `Driven by population growth and migration from urban rural areas seeking better economic prospects, cities in these countries are expanding at an unprecedented pace.`;
+// const text = `OpenAI is committed to democratizing AI research, and its open-source strategies and collaborations with the global AI community reflect that.
+// By opening up its research and tools to researchers and developers around the world, OpenAI promotes innovation and helps speed up the development of AI.`;
 // const text = `He is like a boy. He liked that girl, anyway he likes. Elon Musk stands as a titan of modern innovation.`;
-// const text = `Why Temperatures Are Increasing in Developing Nations – Essay 2\nDeveloping countries, often called the Third World, face a significant challenge: rising temperatures. This global issue has far-reaching consequences for these nations.  Several factors contribute to this warming trend, including climate change, rapid urbanization, deforestation, and socio-economic hurdles. This essay will examine these factors, exploring their interconnectedness and the implications they hold for the affected regions.\nClimate Change: A Global Catalyst\nClimate change is the primary force behind rising global temperatures, and developing countries are no exception.  Human actions, especially the burning of fossil fuels, deforestation, and industrial processes, have dramatically increased greenhouse gas (GHG) concentrations in the atmosphere.  Carbon dioxide (CO2), methane (CH4), and nitrous oxide (N2O) are the main offenders, trapping heat and causing a gradual rise in global temperatures.\nThe Earth's average temperature has increased by about 1.2 degrees Celsius since the late 19th century, according to the Intergovernmental Panel on Climate Change (IPCC).  This warming, however, is not uniform.  Due to complex interactions between atmospheric circulation patterns, geographic features, and regional climate systems, some regions, including many developing countries, are experiencing greater-than-average temperature increases.\nThe Urban Heat Island Effect and Urbanization\nRapid urbanization in developing nations has significantly contributed to rising temperatures.  Driven by population growth and migration from rural areas seeking better economic prospects, cities in these countries are expanding at an unprecedented pace. This urban sprawl frequently results in a phenomenon known as the Urban Heat Island (UHI) effect.\nThe UHI effect occurs when urban areas become significantly hotter than surrounding rural areas due to human activities. Replacing natural vegetation with concrete, asphalt, and buildings increases solar radiation absorption, while reducing green spaces limits cooling through evapotranspiration. Moreover, the high concentration of buildings and human activities generates heat, further raising urban temperatures.\nCities like Lagos in Nigeria, Dhaka in Bangladesh, and Mumbai in India, for example, have seen significant temperature increases in recent decades. The lack of sufficient urban planning and green infrastructure exacerbates the UHI effect, resulting in hotter urban environments and significant health risks for residents.\nDeforestation and Shifting Land Use Patterns\nDeforestation and land use changes are major contributors to rising temperatures in developing countries. Forests play a critical role in climate regulation by absorbing CO2, releasing oxygen, and providing cooling through transpiration. However, widespread deforestation for agriculture, logging, and urban development has resulted in the loss of these critical ecological services.\nDeforestation rates are alarmingly high in regions such as the Amazon Basin, Southeast Asia, and Central Africa.  Converting forests to agricultural land or pasture not only reduces carbon sequestration but also alters local weather patterns. Trees and vegetation release moisture into the atmosphere, which aids in cloud formation and precipitation. Without forests, these areas become drier and hotter, exacerbating the effects of global warming.\nFurthermore, land use changes such as wetland drainage, monoculture plantation expansion, and grassland degradation disrupt local ecosystems and their ability to regulate temperatures. These changes frequently result in a feedback loop, in which rising temperatures further degrade the land, resulting in more deforestation and higher temperatures.\nResource Constraints and Socio-Economic Challenges\nDeveloping countries face distinct socio-economic challenges that exacerbate the effects of rising temperatures. Limited financial resources, inadequate infrastructure, and weak governance structures make it difficult for these countries to implement effective climate change mitigation and adaptation strategies.\nMany Third World countries, for example, rely heavily on agriculture for their livelihoods. Agriculture is highly vulnerable to temperature changes, with rising temperatures resulting in lower crop yields, water scarcity, and increased pest and disease outbreaks. These regions are particularly vulnerable to the effects of rising temperatures due to a lack of resources to invest in climate-resilient agricultural practices.\nFurthermore, rapid population growth in many developing countries puts a strain on natural resources and infrastructure.  As populations grow, so does the demand for energy, water, and food, frequently leading to overexploitation and environmental degradation. This vicious cycle of resource depletion and environmental degradation contributes to rising temperatures and the vulnerability of these regions.`;
-const text = `Why Temperatures in the Third World Are Rising – Essay 2
-A pressing global issue, the phenomenon of rising temperatures carries profound implications for the Third World, often referred to as developing countries. It is a combination of factors, including climate change, urbanization, deforestation, and socio-economic challenges, that can be attributed to the increase in temperatures in these regions. This essay delves into the various reasons behind rising temperatures in the Third World, exploring not only how these factors interplay but also their implications for the affected regions.
-Climate Change: The Global Driver
-What primarily drives rising temperatures globally, including in the Third World, is climate change.  Human activities, particularly the burning of fossil fuels, deforestation, and industrial processes, have caused a significant increase in the concentration of greenhouse gases (GHGs) in the atmosphere. Trapping heat and leading to a gradual increase in global temperatures are the main culprits: carbon dioxide (CO2), methane (CH4), and nitrous oxide (N2O).
-The Earth's average temperature has risen by approximately 1.2 degrees Celsius since the late 19th century, according to the Intergovernmental Panel on Climate Change (IPCC).  Not evenly distributed is this warming; certain regions, including many parts of the Third World, are experiencing higher than average temperature increases.  Involving atmospheric circulation patterns, geographical features, and regional climate systems, the reasons for this uneven warming are complex.
-Urbanization and the Urban Heat Island Effect
-Rising temperatures have been significantly contributed to by rapid urbanization in the Third World.  Driven by population growth and migration from rural areas in search of better economic opportunities, cities in developing countries are expanding at an unprecedented rate.  Often leading to the phenomenon known as the Urban Heat Island (UHI) effect is this urban expansion.
-When urban areas become significantly warmer than their rural surroundings due to human activities, the UHI effect occurs.  Increasing the absorption of solar radiation is the replacement of natural vegetation with concrete, asphalt, and buildings, while the reduction of green spaces limits cooling through evapotranspiration.  Additionally, generating heat and further raising temperatures in urban areas is the high density of buildings and human activities.
-Substantial increases in temperature over recent decades have been witnessed in cities like Lagos in Nigeria, Dhaka in Bangladesh, and Mumbai in India, for instance.  Leading to hotter urban environments and posing significant health risks to residents is the lack of adequate urban planning and green infrastructure, exacerbating the UHI effect.
-Deforestation and Land Use Changes
-Critical factors contributing to rising temperatures in the Third World are deforestation and land use changes.  Playing a vital role in regulating the Earth's climate by absorbing CO2, releasing oxygen, and providing cooling through transpiration are forests.  However, what has led to the loss of these essential ecological services is extensive deforestation for agriculture, logging, and urban development.
-Alarmingly high are deforestation rates in regions like the Amazon Basin, Southeast Asia, and Central Africa.  Not only reducing carbon sequestration but also altering local weather patterns is the conversion of forests into agricultural land or pasture.  Contributing to cloud formation and precipitation is the release of moisture into the atmosphere by trees and vegetation.  Without forests, exacerbating the effects of global warming are these areas that become drier and hotter.
-Furthermore, disrupting local ecosystems and their ability to regulate temperatures are land use changes such as the drainage of wetlands, the expansion of monoculture plantations, and the degradation of grasslands. Often resulting in a feedback loop where rising temperatures further degrade the land, leading to more deforestation and higher temperatures, are these changes.
-Socio-Economic Challenges and Resource Constraints
-A unique set of socio-economic challenges that exacerbate the impact of rising temperatures is faced by developing countries.  Hindering these countries' ability to implement effective climate mitigation and adaptation strategies are limited financial resources, inadequate infrastructure, and weak governance structures. 
-For instance, it is agriculture that many Third World countries rely heavily on for their livelihoods. Highly sensitive to temperature changes is agriculture, with rising temperatures leading to reduced crop yields, water scarcity, and increased pest and disease outbreaks.  Making these regions particularly vulnerable to the impacts of rising temperatures is the lack of resources to invest in climate-resilient agricultural practices.
-Moreover, putting additional pressure on natural resources and infrastructure is the rapid population growth in many developing countries.  Often leading to overexploitation and degradation of the environment is the increase in demand for energy, water, and food as populations grow.  Further contributing to rising temperatures and the vulnerability of these regions is this vicious cycle of resource depletion and environmental degradation. `;
+// const text = `The Rise of OpenAI: A New Era in Artificial Intelligence.
+// OpenAI is rapidly becoming a leader in artificial intelligence (AI), developing state-of-the-art technologies and conducting world-class research.
+// Founded in 2015, OpenAI aims to develop artificial general intelligence (AGI)—highly autonomous systems that outperform humans at most economically valuable work—and make sure that its benefits are shared by everyone.
+// This article looks at how OpenAI is changing the AI game and where it may be heading in the future.
+// One of OpenAI's key strengths is its development of the GPT (Generative Pre-trained Transformer) algorithms that write text that looks similar to how a human would write it, based on input prompts.
+// The ability of GPT algorithms to understand context and structure has made them game changers in natural language processing tasks, including translation, text generation and answering questions.
+// OpenAI is committed to democratizing AI research, and its open-source strategies and collaborations with the global AI community reflect that.
+// By opening up its research and tools to researchers and developers around the world, OpenAI promotes innovation and helps speed up the development of AI.
+// OpenAI can already point to real-world applications of its AI technologies in numerous fields.
+// Its machine-learning algorithms have beaten humans at intricate games such as chess and Go, and its AI is already generating images and video of extraordinary quality.
+// Importantly too, OpenAI takes seriously the ethical issues that arise from its implementation of AI technologies and systems.
+// The organization believes in responsible development of AI and stresses the importance of transparency, fairness, and safety as AI becomes more prevalent.
+// In confronting these challenges, OpenAI endeavors to make sure that AI helps people, rather than doing them harm.
+// Moving forward, OpenAI will continue to push the boundaries of AI, and help humans unlock a portion of its immense potential.
+// With cutting-edge research, collaborative partnerships, and a focus on ethical AI development rounding out its core mission, OpenAI promises to be hugely important to the future of artificial intelligence—and the way in which it will change our lives in the years ahead.`;
+// 
+const text = `Parental Control: Navigating the Digital Age for Child Safety and Well-being.
+As the digital landscape continues evolving, parental control has become increasingly vital in helping parents keep their kids safe and healthy. With digital devices and online platforms capturing the attention of younger generations like never before, parents face more challenges concerning the well-being of their children and it is increasingly being done through technology. Parental control is how parents monitor, manage and help guide their children, to create a healthy and safe digital environment, this article will highlight ways to go about it.
+Why Parental Control Matters.
+From education to play, to social activities, internet access is changing the way children do it all, and while there are many benefits, including interaction and information, there are also pitfalls. Cyberbullying, adult content, contact with potential predators and the amount of time spent plugged in, are just a few of the threats children may face, and parental control is important because of the following.
+Keeping Kids Safe Online.
+The biggest reason that most parents implement parental control to begin with is to keep their kids safe online. The internet is an expansive, largely unfiltered world and children can easily come across things that may be shocking, such as violence and pornography, or that leads to hate. With parental control, parents can use tools to filter and block websites and content so children have a lesser chance of seeing inappropriate material.
+Limiting Bullying.
+Cyberbullying can be just as bad -- if not worse, and parents can monitor their children via parental control throughout their social media to identify problems and be able to act accordingly. Parents can therefore help keep children of cyberbullying.
+Controlling Screen Time.
+Screen time is a new challenge for parents, as an excess of it can affect children physically, psychologically and academically; even socially. With parental control, parents are allowed to limit screen time, schedule the use of devices and provide digital curfews. Parents can do it all in order to create a better balance between adults and children in a digital world.
+Protecting Privacy and Information.
+Kids sometimes don’t realize how important is it not to share too much with strangers online. With parental control, parents can not only help children learn about safety, but also supervise the sharing of information to protect data from strangers as well as family and friends. It’s particularly relevant in an era when identity theft and data breaches are news headlines.
+Teaching Responsible Digital Citizenship..
+Parental control is not only about limiting access and keeping tabs, it’s also about raising responsible kids. Parents can teach their children how to navigate the internet safely and become responsible digital citizens through participation in their kids appliance usage. Good digital citizenship consists of everything from being ethical with technology, to being respectful online, to understanding the ripple effects of clicky actions.`;
 
 const plainText = removeMd(text);
 
@@ -280,6 +303,7 @@ sentences.map(s => {
 
 // # roberta
 sentences.map(s => {
+    // console.log('##' + s.text())
     s.fillMaskInSentences();
     if (s.text().indexOf('<mask>') != -1) {
         sentences_masked.push(s.text())
@@ -334,10 +358,10 @@ function load_synonyms(file) {
 function addTricks(doc) {
     const sentences = nlp(doc).sentences();
 
-    // sentences.map(s => {
-    //     s = sentenceHandle(s);
-    //     return s;
-    // })
+    sentences.map(s => {
+        s = sentenceHandle(s);
+        return s;
+    })
 
     return postHandle(sentences.text());
 }

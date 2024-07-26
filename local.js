@@ -1,6 +1,7 @@
 const express = require('express');
 const nlp = require('compromise');
 const fs = require('fs');
+const http = require('http');
 const removeMd = require('remove-markdown');
 const { createProxyMiddleware, responseInterceptor } = require('http-proxy-middleware');
 
@@ -13,7 +14,7 @@ let adverbSynonyms;
 
 const temperature = 1;
 
-const fastdProxy = createProxyMiddleware({
+const fastProxy = createProxyMiddleware({
     target: 'http://localhost:8088/v1',
     changeOrigin: true,
     selfHandleResponse: true,
@@ -46,7 +47,11 @@ const fastdProxy = createProxyMiddleware({
                 } else {
                     // manipulate JSON data here
                     if ('answer' in oriResult) {
-                        result['messages'][0]['content'] = oriResult['answer'];
+                        let sentences_raw = preRewrite(oriResult['answer'])
+                        let sentences_masked = fastRewrite(sentences_raw);
+                        
+                        const output = await callFillMaskBaseApi(sentences_masked, sentences_raw)
+                        result['messages'][0]['content'] = output;
                         result['msg'] = "success";
                     }
                 }
@@ -95,7 +100,8 @@ const enhancedProxy = createProxyMiddleware({
                 } else {
                     // manipulate JSON data here
                     if ('answer' in oriResult) {
-                        let output = rewrite(oriResult['answer']);
+                        let sentences_raw = preRewrite(oriResult['answer'])
+                        let output = enhancedRewrite(sentences_raw);
 
                         result['messages'][0]['content'] = output;
                         result['msg'] = "success";
@@ -112,6 +118,42 @@ const enhancedProxy = createProxyMiddleware({
         },
     },
 });
+
+function init() {
+    // nounSynonyms = load_synonyms('./synonyms/nouns.json')
+    adjSynonyms = load_synonyms('./synonyms/adjectives.json')
+    // verbSynonyms = load_synonyms('./synonyms/verbs.json')
+    // adverbSynonyms = load_synonyms('./synonyms/adverbs.json')
+}
+
+// Plugin to fill mask of sentences
+const robertaPlugin = {
+    api: function (View) {
+        View.prototype.fillMaskInSentences = function () {
+            let m = this.match('(#Adverb #Adjective|#Adjective+)');
+            let done = false;
+            console.log(m.out('array'));
+            m.map(v => {
+                if (!done) {
+                    // console.log(v.splitAfter('(#Adverb|#Adjective)').out('array'));
+                    if (v.splitAfter('(#Adverb|#Adjective)').out('array').length > 1) {
+                        return v;
+                    }
+                    if (v.match('(@hasDash|@hasHyphen|@hasComma|@hasQuote|@hasPeriod|@hasExclamation|@hasQuestionMark|@hasEllipses|@hasSemicolon|@hasColon|@hasContraction)').found) {
+                        return v;
+                    }
+                    // if (v.match('@isTitleCase').text() === v.text()) {
+                    //     return v;
+                    // }
+                    console.log(v.text() + ' -> ' + '<mask>');
+                    done = true;
+                    return v.replace(v, '<mask> ' + v.text());
+                }
+                return v;
+            })
+        };
+    }
+};
 
 // Plugin to replace words with synonyms
 const synonymPlugin = {
@@ -165,7 +207,11 @@ const synonymPlugin = {
             if (adjsDict) {
                 let m3 = this.match('#Adjective+');
                 m3.map(v => {
-                    const clean = v.text('normal').replace(/\p{P}/gu, "");
+                    // const clean = v.text('normal').replace(/\p{P}/gu, "");
+                    if (v.match('(@hasDash|@hasHyphen|@hasComma|@hasQuote|@hasPeriod|@hasExclamation|@hasQuestionMark|@hasEllipses|@hasSemicolon|@hasColon|@hasContraction)').found) {
+                        return v;
+                    }
+                    const clean = v.text();
                     if (adjsDict[clean]) {
                         const synonyms = adjsDict[clean];
                         let synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
@@ -173,7 +219,7 @@ const synonymPlugin = {
                             synonym = synonym.charAt(0).toUpperCase() + synonym.slice(1);
                         }
                         console.log('#Swap adjectives: ' + v.text() + ' -> ' + synonym);
-                        return this.replace(clean, synonym);
+                        return v.replace(clean, synonym);
                     }
                     return v;
                 })
@@ -183,7 +229,11 @@ const synonymPlugin = {
             if (adverbsDict) {
                 let m4 = this.match('#Adverb+');
                 m4.map(v => {
-                    const clean = v.text('normal').replace(/\p{P}/gu, "");
+                    // const clean = v.text('normal').replace(/\p{P}/gu, "");
+                    if (v.match('(@hasDash|@hasHyphen|@hasComma|@hasQuote|@hasPeriod|@hasExclamation|@hasQuestionMark|@hasEllipses|@hasSemicolon|@hasColon|@hasContraction)').found) {
+                        return v;
+                    }
+                    const clean = v.text();
                     if (adverbsDict[clean]) {
                         const synonyms = adverbsDict[clean];
                         let synonym = synonyms[Math.floor(Math.random() * synonyms.length)];
@@ -191,7 +241,7 @@ const synonymPlugin = {
                             synonym = synonym.charAt(0).toUpperCase() + synonym.slice(1);
                         }
                         console.log('#Swap adverbs: ' + v.text() + ' -> ' + synonym);
-                        return this.replace(clean, synonym);
+                        return v.replace(clean, synonym);
                     }
                     return v;
                 })
@@ -202,17 +252,82 @@ const synonymPlugin = {
     }
 };
 
-function init() {
-    // nounSynonyms = load_synonyms('./synonyms/nouns.json')
-    // adjSynonyms = load_synonyms('./synonyms/adjectives.json')
-    verbSynonyms = load_synonyms('./synonyms/verbs.json')
-    // adverbSynonyms = load_synonyms('./synonyms/adverbs.json')
+function callFillMaskBaseApi(reqData, sentences_raw) {
+    return new Promise((resolve, reject) => {
+        const postData = JSON.stringify({
+            sentences: reqData,
+        });
+
+        const options = {
+            hostname: 'localhost',
+            port: 6000,
+            path: '/sentences',
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Content-Length': Buffer.byteLength(postData),
+            },
+        };
+
+        const req = http.request(options, (res) => {
+            let data = '';
+
+            res.on('data', (chunk) => {
+                data += chunk;
+            });
+
+            res.on('end', () => {
+                let sentences_filled = JSON.parse(data);
+                let text_masked = sentences_raw.text();
+
+                // console.log(sentences_filled)
+                sentences_filled['sentences'].forEach((sentence, index) => {
+                    text_masked = text_masked.replace(reqData[index], sentence)
+                });
+                // console.log('->:' + postHandle(text_masked));
+
+                resolve(postHandle(text_masked));
+            });
+        });
+
+        req.on('error', (error) => {
+            // console.error(error);
+            reject(error);
+        });
+
+        req.write(postData);
+        req.end();
+    });
 }
 
-function rewrite(content) {
+function preRewrite(content) {
     const plainText = removeMd(content);
     let patchedText = prePatch(plainText);
-    const sentences = nlp(patchedText).sentences();
+    return nlp(patchedText).sentences();
+}
+
+function fastRewrite(sentences) {
+    let sentences_masked = [];
+
+    sentences.map(s => {
+        s.replaceWithSynonyms(nounSynonyms, adjSynonyms, verbSynonyms, adverbSynonyms);
+        return s.firstTerms().toTitleCase();;
+    })
+
+    sentences.map(s => {
+        s.fillMaskInSentences();
+        if (s.text().indexOf('<mask>') != -1) {
+            sentences_masked.push(s.text())
+        }
+    
+        return s;
+    })
+
+    // console.log("->:" + sentences.text());
+    return sentences_masked;
+}
+
+function enhancedRewrite(sentences) {
     // console.log("<-:" + content);
     sentences.map(s => {
         s.replaceWithSynonyms(nounSynonyms, adjSynonyms, verbSynonyms, adverbSynonyms);
@@ -296,9 +411,10 @@ function prePatch(text) {
 
 // Extend Compromise with the plugin
 nlp.extend(synonymPlugin);
+nlp.extend(robertaPlugin);
 
 app.use('/api/v2/enhanced', enhancedProxy);
-app.use('/api/v2/fast', fastdProxy);
+app.use('/api/v2/fast', fastProxy);
 
 // Setting port and serve
 const PORT = process.env.PORT || 8089;
