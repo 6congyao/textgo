@@ -12,8 +12,8 @@ const temperature = 1;
 
 function init() {
     // nounSynonyms = load_synonyms('./synonyms/nouns.json')
-    adjSynonyms = load_synonyms('./synonyms/adjectives.json')
     // verbSynonyms = load_synonyms('./synonyms/verbs.json')
+    // adjSynonyms = load_synonyms('./synonyms/adjectives.json')
     // adverbSynonyms = load_synonyms('./synonyms/adverbs.json')
 }
 
@@ -59,6 +59,55 @@ function callParaphraseApi(reqData, sentences_raw) {
 
     req.write(postData);
     req.end();
+}
+
+
+function asyncCallFillMaskBaseApi(reqData, sentences_raw) {
+    return new Promise((resolve, reject) => {
+        const postData = JSON.stringify({
+            sentences: reqData,
+        });
+
+        const options = {
+            hostname: 'localhost',
+            port: 6000,
+            path: '/sentences',
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Content-Length': Buffer.byteLength(postData),
+            },
+        };
+
+        const req = http.request(options, (res) => {
+            let data = '';
+
+            res.on('data', (chunk) => {
+                data += chunk;
+            });
+
+            res.on('end', () => {
+                let sentences_filled = JSON.parse(data);
+                let text_masked = sentences_raw.text();
+
+                // console.log(sentences_filled)
+                sentences_filled['sentences'].forEach((sentence, index) => {
+                    text_masked = text_masked.replace(reqData[index], sentence)
+                });
+                // console.log('->:' + postHandle(text_masked));
+
+                resolve(text_masked);
+            });
+        });
+
+        req.on('error', (error) => {
+            // console.error(error);
+            reject(error);
+        });
+
+        req.write(postData);
+        req.end();
+    });
 }
 
 
@@ -110,7 +159,7 @@ function callFillMaskBaseApi(reqData, sentences_raw) {
 // Plugin to fill mask of sentences
 const robertaPlugin = {
     api: function (View) {
-        View.prototype.fillMaskInSentences = function () {
+        View.prototype.fillMaskBeforeAdjective = function () {
             let m = this.match('(#Adverb #Adjective|#Adjective+)');
             let done = false;
             console.log(m.out('array'));
@@ -123,12 +172,108 @@ const robertaPlugin = {
                     if (v.match('(@hasDash|@hasHyphen|@hasComma|@hasQuote|@hasPeriod|@hasExclamation|@hasQuestionMark|@hasEllipses|@hasSemicolon|@hasColon|@hasContraction)').found) {
                         return v;
                     }
+                    if (v.match('@isTitleCase').text() === v.text()) {
+                        return v;
+                    }
+                    console.log(v.text() + ' -> ' + '<mask>');
+                    done = true;
+                    return v.replace(v, '<mask> ' + v.text());
+                }
+                return v;
+            })
+        };
+        View.prototype.fillMaskAfterOthers = function () {
+            let m = this.match('(#Copula|#Preposition|#Conjunction|#Determiner)');
+            let done = false;
+            console.log(m.out('array'));
+            m.map(v => {
+                if (!done) {
+                    // console.log(v.splitAfter('(#Adverb|#Adjective)').out('array'));
+                    if (v.match('(@hasDash|@hasHyphen|@hasComma|@hasQuote|@hasPeriod|@hasExclamation|@hasQuestionMark|@hasEllipses|@hasSemicolon|@hasColon|@hasContraction)').found) {
+                        return v;
+                    }
                     // if (v.match('@isTitleCase').text() === v.text()) {
                     //     return v;
                     // }
                     console.log(v.text() + ' -> ' + '<mask>');
                     done = true;
+                    return v.replace(v, v.text() + ' <mask>');
+                }
+                return v;
+            })
+        };
+        View.prototype.fillMaskBeforeAdverb = function () {
+            let m = this.match('(#Adverb #Adverb|#Adverb+)');
+            let done = false;
+            console.log(m.out('array'));
+            m.map(v => {
+                if (!done) {
+                    if (v.splitAfter('(#Adverb|#Verb)').out('array').length > 1) {
+                        return v;
+                    }
+                    if (v.match('(@hasDash|@hasHyphen|@hasComma|@hasQuote|@hasPeriod|@hasExclamation|@hasQuestionMark|@hasEllipses|@hasSemicolon|@hasColon|@hasContraction)').found) {
+                        return v;
+                    }
+                    if (v.match('@isTitleCase').text() === v.text()) {
+                        return v;
+                    }
+                    console.log(v.text() + ' -> ' + '<mask>');
+                    done = true;
                     return v.replace(v, '<mask> ' + v.text());
+                }
+                return v;
+            })
+        };
+        View.prototype.fillMaskReplaceVerb = function () {
+            if (this.wordCount() < 5) {
+                return;
+            }
+            // let m = this.match('#Verb');
+            // let m = this.match('#Adverb');
+            let m = this.match('#Adjective');
+            let done = false;
+            console.log(m.out('array'));
+            m.map(v => {
+                if (!done) {
+                    // console.log(v.splitAfter('(#Adverb|#Adjective)').out('array'));
+                    // if (v.splitAfter('(#Adverb|#Adjective)').out('array').length > 1) {
+                    //     return v;
+                    // }
+                    if (v.match('(@hasDash|@hasHyphen|@hasComma|@hasQuote|@hasPeriod|@hasExclamation|@hasQuestionMark|@hasEllipses|@hasSemicolon|@hasColon|@hasContraction)').found) {
+                        return v;
+                    }
+                    // if (v.match('@isTitleCase').text() === v.text()) {
+                    //     return v;
+                    // }
+                    console.log(v.text() + ' -> ' + '<mask>');
+                    done = true;
+                    return v.replace(v, '<mask>');
+                }
+                return v;
+            })
+        };
+        View.prototype.fillMaskReplaceOthers = function () {
+            if (this.wordCount() < 5) {
+                return;
+            }
+            let m = this.match('(#Copula|#Preposition|#Conjunction|#Determiner)');
+            let done = false;
+            console.log(m.out('array'));
+            m.map(v => {
+                if (!done) {
+                    // console.log(v.splitAfter('(#Adverb|#Adjective)').out('array'));
+                    // if (v.splitAfter('(#Adverb|#Adjective)').out('array').length > 1) {
+                    //     return v;
+                    // }
+                    if (v.match('(@hasDash|@hasHyphen|@hasComma|@hasQuote|@hasPeriod|@hasExclamation|@hasQuestionMark|@hasEllipses|@hasSemicolon|@hasColon|@hasContraction)').found) {
+                        return v;
+                    }
+                    // if (v.match('@isTitleCase').text() === v.text()) {
+                    //     return v;
+                    // }
+                    console.log(v.text() + ' -> ' + '<mask>');
+                    done = true;
+                    return v.replace(v, '<mask>');
                 }
                 return v;
             })
@@ -247,8 +392,7 @@ nlp.extend(synonymPlugin);
 nlp.extend(robertaPlugin);
 
 // Example text
-// const text = `OpenAI is committed to democratizing AI research, and its open-source strategies and collaborations with the global AI community reflect that.
-// By opening up its research and tools to researchers and developers around the world, OpenAI promotes innovation and helps speed up the development of AI.`;
+const text = `Increasingly, the health safety issues arise using never-before-dreamed-of technologies, and so increasingly they need informing and mediating.`;
 // const text = `He is like a boy. He liked that girl, anyway he likes. Elon Musk stands as a titan of modern innovation.`;
 // const text = `The Rise of OpenAI: A New Era in Artificial Intelligence.
 // OpenAI is rapidly becoming a leader in artificial intelligence (AI), developing state-of-the-art technologies and conducting world-class research.
@@ -266,27 +410,29 @@ nlp.extend(robertaPlugin);
 // Moving forward, OpenAI will continue to push the boundaries of AI, and help humans unlock a portion of its immense potential.
 // With cutting-edge research, collaborative partnerships, and a focus on ethical AI development rounding out its core mission, OpenAI promises to be hugely important to the future of artificial intelligence—and the way in which it will change our lives in the years ahead.`;
 // 
-const text = `Parental Control: Navigating the Digital Age for Child Safety and Well-being.
-As the digital landscape continues evolving, parental control has become increasingly vital in helping parents keep their kids safe and healthy. With digital devices and online platforms capturing the attention of younger generations like never before, parents face more challenges concerning the well-being of their children and it is increasingly being done through technology. Parental control is how parents monitor, manage and help guide their children, to create a healthy and safe digital environment, this article will highlight ways to go about it.
-Why Parental Control Matters.
-From education to play, to social activities, internet access is changing the way children do it all, and while there are many benefits, including interaction and information, there are also pitfalls. Cyberbullying, adult content, contact with potential predators and the amount of time spent plugged in, are just a few of the threats children may face, and parental control is important because of the following.
-Keeping Kids Safe Online.
-The biggest reason that most parents implement parental control to begin with is to keep their kids safe online. The internet is an expansive, largely unfiltered world and children can easily come across things that may be shocking, such as violence and pornography, or that leads to hate. With parental control, parents can use tools to filter and block websites and content so children have a lesser chance of seeing inappropriate material.
-Limiting Bullying.
-Cyberbullying can be just as bad -- if not worse, and parents can monitor their children via parental control throughout their social media to identify problems and be able to act accordingly. Parents can therefore help keep children of cyberbullying.
-Controlling Screen Time.
-Screen time is a new challenge for parents, as an excess of it can affect children physically, psychologically and academically; even socially. With parental control, parents are allowed to limit screen time, schedule the use of devices and provide digital curfews. Parents can do it all in order to create a better balance between adults and children in a digital world.
-Protecting Privacy and Information.
-Kids sometimes don’t realize how important is it not to share too much with strangers online. With parental control, parents can not only help children learn about safety, but also supervise the sharing of information to protect data from strangers as well as family and friends. It’s particularly relevant in an era when identity theft and data breaches are news headlines.
-Teaching Responsible Digital Citizenship..
-Parental control is not only about limiting access and keeping tabs, it’s also about raising responsible kids. Parents can teach their children how to navigate the internet safely and become responsible digital citizens through participation in their kids appliance usage. Good digital citizenship consists of everything from being ethical with technology, to being respectful online, to understanding the ripple effects of clicky actions.`;
+// const text = `Gender equality in labor force participation, in education and healthcare, and wage parity all yield significant benefits for the economy. According to the McKinsey Global Institute, these forms of gender equality could potentially add $12 trillion to the world economy by 2025.
+// Health and Well-being
+// Gender equality benefits health and well-being. Greater equality in access to healthcare enables women to look after their own health better. Gender equality in education improves women’s health outcomes and those of their families, as educated women are more likely to make informed health choices and to seek medical help as necessary. And gender equality is associated with lower risks of violence against women, a problem that is itself both a cause and a consequence of poor physical and mental health.
+// Political Stability and Peace
+// Gender equality fosters political stability and peace. When women are included in negotiations and in decision-making, they respond differently, bringing up different issues and solutions. Research also suggests that peace settlements in civil wars are more likely to be sustainable when they are negotiated with the participation of women. Women’s political engagement raises the likelihood of their priorities being addressed and, possibly as a consequence, of successful conflict resolution.
+// Challenges to Achieving Gender Equality
+// Given the many benefits associated with gender equality, why is it so difficult to achieve? The reason is simply that gender disparities run deep, and that economic, legal and social structures often conspire to perpetuate inequality. Meeting the challenge of gender inequality requires comprehensive approaches to changing the beliefs of individuals, to reforming the rules of the game found in laws and policies, and to implementing increasingly effective targeted interventions where necessary.
+// Cultural Norms and Stereotypes
+// Cultural norms and stereotypes are an important obstacle to gender equality. The assignment of gender roles in most societies to women as the primary caregivers limits opportunities both for women and for men. In some societies, it restricts women’s access to wage labor, in others, men’s access to caregiving. Stereotypes operate in a variety of ways and at multiple levels.
+// For example, cultural stereotyping can discourage girls from pursuing higher education or entry into science, technology, engineering, and mathematics (STEM) fields. This limits their individual potential, but also deprives their societies of potentially significant scientific contributions.
+// Legal and Policy Barriers
+// Legal and policy barriers contribute to discrimination and to unequal opportunities. For example, some societies have long restricted women’s access to certain sectors of the economy or certain occupations though employment and inheritance laws. Women in other societies earn lower wages than men and receive fewer benefits, including paid leave for pregnancy or illness. Legal reforms and policies aimed at reducing disparities can make important contributions to eliminating gender inequalities.
+// Economic Barriers
+// Economic barriers are both a root cause and a consequence of gender inequality. Women end up over-represented in some of the lowest paying, most insecure and most informal jobs in the world. Gender wage gaps characterize most of the world’s labor markets. Women’s participation in paid work more generally and in formal work specifically is often limited by inadequate access to paid leave for maternity and parental responsibilities.
+// Countering economic inequalities necessarily involves legal and policy measures. Governments can encourage more equal participation in economic and in social life through a variety of means, including eliminating discriminatory laws and practices in the labor market, enforcing work-place safety standards and protecting workers against discrimination.
+// Governments can also promote gender equality by investing in care – in young children, the elderly and those needing medical attention and assistance.`;
 
 const plainText = removeMd(text);
 
 let text2 = prePatch(plainText);
 // console.log(text2);
 // const sentences = text.match(/([^\。.?!？！]+[.?!。？！])/g);
-const sentences = nlp(text2).sentences();
+let sentences = nlp(text2).sentences();
 
 let sentences_masked = [];
 
@@ -304,7 +450,9 @@ sentences.map(s => {
 // # roberta
 sentences.map(s => {
     // console.log('##' + s.text())
-    s.fillMaskInSentences();
+    // s.fillMaskReplaceVerb();
+    // s.fillMaskAfterOthers();
+    s.fillMaskBeforeAdverb();
     if (s.text().indexOf('<mask>') != -1) {
         sentences_masked.push(s.text())
     }
@@ -313,7 +461,44 @@ sentences.map(s => {
 })
 
 // console.log('!!!: ' + sentences_masked);
-callFillMaskBaseApi(sentences_masked, sentences);
+asyncCallFillMaskBaseApi(sentences_masked, sentences).then((latest_doc) => {
+    sentences = nlp(latest_doc).sentences();
+    sentences_masked = [];
+    sentences.map(s => {
+        s.fillMaskBeforeAdjective();
+        if (s.text().indexOf('<mask>') != -1) {
+            sentences_masked.push(s.text())
+        }
+
+        return s;
+    })
+
+    return asyncCallFillMaskBaseApi(sentences_masked, sentences);
+
+}).then((latest_doc) => {
+    sentences = nlp(latest_doc).sentences();
+    sentences_masked = [];
+    sentences.map(s => {
+        // console.log('##' + s.text())
+        // s.fillMaskReplaceOthers();
+        // s.fillMaskAfterOthers();
+        if (s.text().indexOf('<mask>') != -1) {
+            sentences_masked.push(s.text())
+        }
+
+        return s;
+    })
+
+    return asyncCallFillMaskBaseApi(sentences_masked, sentences);
+    
+}).then((latest_doc) => {
+    console.log('->:' + postHandle(latest_doc));
+});
+
+
+
+// sentences = callFillMaskBaseApi(sentences_masked, sentences);
+
 // callParaphraseApi(sentences_masked, sentences);
 
 

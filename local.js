@@ -48,10 +48,15 @@ const fastProxy = createProxyMiddleware({
                     // manipulate JSON data here
                     if ('answer' in oriResult) {
                         let sentences_raw = preRewrite(oriResult['answer'])
-                        let sentences_masked = fastRewrite(sentences_raw);
+                        let sentences_masked = performMask(sentences_raw);
                         
-                        const output = await callFillMaskBaseApi(sentences_masked, sentences_raw)
-                        result['messages'][0]['content'] = output;
+                        let output = await callFillMaskBaseApi(sentences_masked, sentences_raw)
+
+                        sentences_raw = nlp(output).sentences();
+                        sentences_masked = performMask2(sentences_raw);
+
+                        output = await callFillMaskBaseApi(sentences_masked, sentences_raw)
+                        result['messages'][0]['content'] = postHandle(output);
                         result['msg'] = "success";
                     }
                 }
@@ -121,15 +126,15 @@ const enhancedProxy = createProxyMiddleware({
 
 function init() {
     // nounSynonyms = load_synonyms('./synonyms/nouns.json')
-    adjSynonyms = load_synonyms('./synonyms/adjectives.json')
     // verbSynonyms = load_synonyms('./synonyms/verbs.json')
-    // adverbSynonyms = load_synonyms('./synonyms/adverbs.json')
+    // adjSynonyms = load_synonyms('./synonyms/adjectives.json')
+    adverbSynonyms = load_synonyms('./synonyms/adverbs.json')
 }
 
 // Plugin to fill mask of sentences
 const robertaPlugin = {
     api: function (View) {
-        View.prototype.fillMaskInSentences = function () {
+        View.prototype.fillMaskBeforeAdjective = function () {
             let m = this.match('(#Adverb #Adjective|#Adjective+)');
             let done = false;
             console.log(m.out('array'));
@@ -142,9 +147,31 @@ const robertaPlugin = {
                     if (v.match('(@hasDash|@hasHyphen|@hasComma|@hasQuote|@hasPeriod|@hasExclamation|@hasQuestionMark|@hasEllipses|@hasSemicolon|@hasColon|@hasContraction)').found) {
                         return v;
                     }
-                    // if (v.match('@isTitleCase').text() === v.text()) {
-                    //     return v;
-                    // }
+                    if (v.match('@isTitleCase').text() === v.text()) {
+                        return v;
+                    }
+                    console.log(v.text() + ' -> ' + '<mask>');
+                    done = true;
+                    return v.replace(v, '<mask> ' + v.text());
+                }
+                return v;
+            })
+        };
+        View.prototype.fillMaskBeforeAdverb = function () {
+            let m = this.match('(#Adverb #Adverb|#Adverb+)');
+            let done = false;
+            console.log(m.out('array'));
+            m.map(v => {
+                if (!done) {
+                    if (v.splitAfter('(#Adverb|#Verb)').out('array').length > 1) {
+                        return v;
+                    }
+                    if (v.match('(@hasDash|@hasHyphen|@hasComma|@hasQuote|@hasPeriod|@hasExclamation|@hasQuestionMark|@hasEllipses|@hasSemicolon|@hasColon|@hasContraction)').found) {
+                        return v;
+                    }
+                    if (v.match('@isTitleCase').text() === v.text()) {
+                        return v;
+                    }
                     console.log(v.text() + ' -> ' + '<mask>');
                     done = true;
                     return v.replace(v, '<mask> ' + v.text());
@@ -286,7 +313,7 @@ function callFillMaskBaseApi(reqData, sentences_raw) {
                 });
                 // console.log('->:' + postHandle(text_masked));
 
-                resolve(postHandle(text_masked));
+                resolve(text_masked);
             });
         });
 
@@ -306,7 +333,7 @@ function preRewrite(content) {
     return nlp(patchedText).sentences();
 }
 
-function fastRewrite(sentences) {
+function performMask(sentences) {
     let sentences_masked = [];
 
     sentences.map(s => {
@@ -315,7 +342,23 @@ function fastRewrite(sentences) {
     })
 
     sentences.map(s => {
-        s.fillMaskInSentences();
+        s.fillMaskBeforeAdverb();
+        if (s.text().indexOf('<mask>') != -1) {
+            sentences_masked.push(s.text())
+        }
+    
+        return s;
+    })
+
+    // console.log("->:" + sentences.text());
+    return sentences_masked;
+}
+
+function performMask2(sentences) {
+    let sentences_masked = [];
+
+    sentences.map(s => {
+        s.fillMaskBeforeAdjective();
         if (s.text().indexOf('<mask>') != -1) {
             sentences_masked.push(s.text())
         }
