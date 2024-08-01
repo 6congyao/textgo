@@ -135,7 +135,7 @@ function init() {
 const robertaPlugin = {
     api: function (View) {
         View.prototype.fillMaskBeforeAdjective = function () {
-            let m = this.match('(#Adverb #Adjective|#Adjective+)');
+            let m = this.match('(#Adverb #Conjunction? #Adjective|#Adjective+)');
             let done = false;
             console.log(m.out('array'));
             m.map(v => {
@@ -158,7 +158,7 @@ const robertaPlugin = {
             })
         };
         View.prototype.fillMaskBeforeAdverb = function () {
-            let m = this.match('(#Adverb #Adverb|#Adverb+)');
+            let m = this.match('(#Adverb #Conjunction? #Adverb|#Adverb #Conjunction? #Adjective|#Adverb+)');
             let done = false;
             console.log(m.out('array'));
             m.map(v => {
@@ -254,7 +254,8 @@ const synonymPlugin = {
 
             // swap advs
             if (adverbsDict) {
-                let m4 = this.match('#Adverb+');
+                let m4 = this.match('(#Adverb+ #Conjunction? #Adverb+|#Adverb+ #Conjunction? less|#Adverb+)');
+                // let m4 = this.match('#Adverb+');
                 m4.map(v => {
                     // const clean = v.text('normal').replace(/\p{P}/gu, "");
                     if (v.match('(@hasDash|@hasHyphen|@hasComma|@hasQuote|@hasPeriod|@hasExclamation|@hasQuestionMark|@hasEllipses|@hasSemicolon|@hasColon|@hasContraction)').found) {

@@ -73,8 +73,6 @@
         "some",
         "approximately",
         "around",
-        "just about",
-        "or so",
         "roughly",
         "close to"
     ],
@@ -634,7 +632,6 @@
     ],
     "approximately": [
         "about",
-        "or s",
         "more or less",
         "some",
         "around",
@@ -2712,7 +2709,6 @@
     ],
     "roughly": [
         "about",
-        "or s",
         "more or less",
         "some",
         "approximately",
@@ -2965,7 +2961,6 @@
         "approximately",
         "around",
         "just about",
-        "or so",
         "roughly"
     ],
     "close up": [
@@ -5202,7 +5197,6 @@
     ],
     "more or less": [
         "about",
-        "or s",
         "some",
         "approximately",
         "around",
@@ -6840,7 +6834,6 @@
     ],
     "some": [
         "about",
-        "or s",
         "more or less",
         "approximately",
         "around",

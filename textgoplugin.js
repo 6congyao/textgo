@@ -14,7 +14,7 @@ function init() {
     // nounSynonyms = load_synonyms('./synonyms/nouns.json')
     // verbSynonyms = load_synonyms('./synonyms/verbs.json')
     // adjSynonyms = load_synonyms('./synonyms/adjectives.json')
-    // adverbSynonyms = load_synonyms('./synonyms/adverbs.json')
+    adverbSynonyms = load_synonyms('./synonyms/adverbs.json')
 }
 
 function callParaphraseApi(reqData, sentences_raw) {
@@ -160,7 +160,7 @@ function callFillMaskBaseApi(reqData, sentences_raw) {
 const robertaPlugin = {
     api: function (View) {
         View.prototype.fillMaskBeforeAdjective = function () {
-            let m = this.match('(#Adverb #Adjective|#Adjective+)');
+            let m = this.match('(#Adverb #Conjunction? #Adjective|#Adjective+)');
             let done = false;
             console.log(m.out('array'));
             m.map(v => {
@@ -203,7 +203,7 @@ const robertaPlugin = {
             })
         };
         View.prototype.fillMaskBeforeAdverb = function () {
-            let m = this.match('(#Adverb #Adverb|#Adverb+)');
+            let m = this.match('(#Adverb #Conjunction? #Adverb|#Adverb #Conjunction? #Adjective|#Adverb+)');
             let done = false;
             console.log(m.out('array'));
             m.map(v => {
@@ -360,7 +360,7 @@ const synonymPlugin = {
 
             // swap advs
             if (adverbsDict) {
-                let m4 = this.match('#Adverb+');
+                let m4 = this.match('(#Adverb+ #Conjunction? #Adverb+|#Adverb+ #Conjunction? less|#Adverb+)');
                 console.log(m4.out('array'));
                 m4.map(v => {
                     // const clean = v.text('normal').replace(/\p{P}/gu, "");
@@ -392,7 +392,7 @@ nlp.extend(synonymPlugin);
 nlp.extend(robertaPlugin);
 
 // Example text
-const text = `Increasingly, the health safety issues arise using never-before-dreamed-of technologies, and so increasingly they need informing and mediating.`;
+const text = `Parental control becomes more and more important as the digital world grows and parents increasingly rely on tools and mechanisms to keep their children safe and healthy in a world where technology has a growing footprint in children's lives, fast and quickly.`;
 // const text = `He is like a boy. He liked that girl, anyway he likes. Elon Musk stands as a titan of modern innovation.`;
 // const text = `The Rise of OpenAI: A New Era in Artificial Intelligence.
 // OpenAI is rapidly becoming a leader in artificial intelligence (AI), developing state-of-the-art technologies and conducting world-class research.
