@@ -47,8 +47,7 @@ const fastProxy = createProxyMiddleware({
                 } else {
                     // manipulate JSON data here
                     if ('answer' in oriResult) {
-                        // const contentLength = parseInt(req.headers['content-length'], 10);
-                        const contentLength = 380;
+                        const contentLength = parseInt(req.headers['content-length'], 10);
                         if ((oriResult['answer'].length > contentLength * gap_factor) || (oriResult['answer'].length < contentLength / gap_factor)) {
                             res.statusCode = 307;
                             result['code'] = "retry";
