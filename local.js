@@ -13,6 +13,7 @@ let verbSynonyms;
 let adverbSynonyms;
 
 const temperature = 1;
+const gap_factor = 1.5;
 
 const fastProxy = createProxyMiddleware({
     target: 'http://localhost:8088/v1',
@@ -34,7 +35,7 @@ const fastProxy = createProxyMiddleware({
                         "content": "",
                         "content_type": "text"
                     }],
-                    "code": 0,
+                    "code": "",
                     "msg": "",
                 };
 
@@ -43,10 +44,18 @@ const fastProxy = createProxyMiddleware({
                 if (res.statusCode >= 400) {
                     result['code'] = oriResult['code'];
                     result['msg'] = oriResult['message'];
-    
                 } else {
                     // manipulate JSON data here
                     if ('answer' in oriResult) {
+                        // const contentLength = parseInt(req.headers['content-length'], 10);
+                        const contentLength = 380;
+                        if ((oriResult['answer'].length > contentLength * gap_factor) || (oriResult['answer'].length < contentLength / gap_factor)) {
+                            res.statusCode = 307;
+                            result['code'] = "retry";
+                            result['msg'] = "Please retry.";
+                            return JSON.stringify(result);
+                        }
+
                         let sentences_raw = preRewrite(oriResult['answer'])
                         let sentences_masked = performMask(sentences_raw);
                         
@@ -445,6 +454,7 @@ function prePatch(text) {
     let result = text.replaceAll("\n\n\n", "\n");
     result = result.replaceAll("\n\n", "\n");
     result = result.replaceAll("  ", " ");
+    result = result.replaceAll("\u0009", "");
     result = result.replaceAll("(", "\u301D");
     result = result.replaceAll(")", "\u301E");
     // result = result.replaceAll("**", "\u200d**\u200d");

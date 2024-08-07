@@ -410,26 +410,27 @@ const text = `Parental control becomes more and more important as the digital wo
 // Moving forward, OpenAI will continue to push the boundaries of AI, and help humans unlock a portion of its immense potential.
 // With cutting-edge research, collaborative partnerships, and a focus on ethical AI development rounding out its core mission, OpenAI promises to be hugely important to the future of artificial intelligence—and the way in which it will change our lives in the years ahead.`;
 // 
-// const text = `Gender equality in labor force participation, in education and healthcare, and wage parity all yield significant benefits for the economy. According to the McKinsey Global Institute, these forms of gender equality could potentially add $12 trillion to the world economy by 2025.
-// Health and Well-being
-// Gender equality benefits health and well-being. Greater equality in access to healthcare enables women to look after their own health better. Gender equality in education improves women’s health outcomes and those of their families, as educated women are more likely to make informed health choices and to seek medical help as necessary. And gender equality is associated with lower risks of violence against women, a problem that is itself both a cause and a consequence of poor physical and mental health.
-// Political Stability and Peace
-// Gender equality fosters political stability and peace. When women are included in negotiations and in decision-making, they respond differently, bringing up different issues and solutions. Research also suggests that peace settlements in civil wars are more likely to be sustainable when they are negotiated with the participation of women. Women’s political engagement raises the likelihood of their priorities being addressed and, possibly as a consequence, of successful conflict resolution.
-// Challenges to Achieving Gender Equality
-// Given the many benefits associated with gender equality, why is it so difficult to achieve? The reason is simply that gender disparities run deep, and that economic, legal and social structures often conspire to perpetuate inequality. Meeting the challenge of gender inequality requires comprehensive approaches to changing the beliefs of individuals, to reforming the rules of the game found in laws and policies, and to implementing increasingly effective targeted interventions where necessary.
-// Cultural Norms and Stereotypes
-// Cultural norms and stereotypes are an important obstacle to gender equality. The assignment of gender roles in most societies to women as the primary caregivers limits opportunities both for women and for men. In some societies, it restricts women’s access to wage labor, in others, men’s access to caregiving. Stereotypes operate in a variety of ways and at multiple levels.
-// For example, cultural stereotyping can discourage girls from pursuing higher education or entry into science, technology, engineering, and mathematics (STEM) fields. This limits their individual potential, but also deprives their societies of potentially significant scientific contributions.
-// Legal and Policy Barriers
-// Legal and policy barriers contribute to discrimination and to unequal opportunities. For example, some societies have long restricted women’s access to certain sectors of the economy or certain occupations though employment and inheritance laws. Women in other societies earn lower wages than men and receive fewer benefits, including paid leave for pregnancy or illness. Legal reforms and policies aimed at reducing disparities can make important contributions to eliminating gender inequalities.
-// Economic Barriers
-// Economic barriers are both a root cause and a consequence of gender inequality. Women end up over-represented in some of the lowest paying, most insecure and most informal jobs in the world. Gender wage gaps characterize most of the world’s labor markets. Women’s participation in paid work more generally and in formal work specifically is often limited by inadequate access to paid leave for maternity and parental responsibilities.
-// Countering economic inequalities necessarily involves legal and policy measures. Governments can encourage more equal participation in economic and in social life through a variety of means, including eliminating discriminatory laws and practices in the labor market, enforcing work-place safety standards and protecting workers against discrimination.
-// Governments can also promote gender equality by investing in care – in young children, the elderly and those needing medical attention and assistance.`;
+// const text = `Mountain Climbing and the Environment
+// Mountain climbing has become increasingly popular in recent years as more and more people have discovered the pleasures of outdoor activity in the natural world. Unfortunately, the consequences of rapidly growing numbers of climbers and mountaineers are beginning to be felt by mountain environments, which, incidentally, are increasingly recognized to be much more than remote playgrounds for extreme sports enthusiasts. The world’s mountains are among the most biologically diverse as well as aesthetically beautiful parts of the earth, and they play critical roles in regulating global climate patterns. It is important, therefore, to understand some of the impacts of climbing as a popular new form of recreation, as well as the means to reduce its most negative consequences.
+// The Environmental Impact of Mountain Climbing. Mountain climbers can introduce variety of adverse changes to mountain environments. For example:
+// 	Soil Erosion. As more and more people use the trails in high mountain areas -- hundreds of thousands use some of these trails each year -- topsoil is lost and gradual degradation of the fragile alpine and sub-alpine vegetation zones sets in.
+// 	Waste Products. Regular waste of picnic waste is an obvious problem. Less obvious is the excrement of mountain visitors. Recent research in Rocky Mountains has shown that abrupt shifts in the diet of mountain animals can lead to changes in their ecology. The presence of faeces is not, therefore, a problem of simply “tidiness,” but a potential agent of such shifts.
+// 	Wildlife. A number of impacts of high mountain visitation on wildlife can be identified. Include among these are general human visitation disturbances, such as skiing through karst zone and chasing mountain goats into scree areas.
+// 	Atmospheric Impacts. One recent study of skiing impact on some of the alpine vegetation in Utah has provided clear evidence of changes in plant assemblage and biomass as ski activity increased in some of the steepest and oldest geological land forms.
+// Sustainable Approaches to Mountain Recreation. Any approach to regulating or managing mountain climbing comes down to banning, taxing, and restricting climber behavior, and providing positive and not purely negative incitements for their involvement, as well as managing the system to minimize impacts. In many cases, a combination of these approaches will be required.
+// 	1. Banning and Regulation of Climbing/Access.
+// 	2. Taxing Mountain Visitation
+// 	3. Positive Incitements of Participation.
+// 	4. Managing Climber behavior. 
+// 	5. Direct Management of climbs and trails. 
+// 	6. Encouragement of Alternative Mountain Pursuits. 
+// 	7. Comprehensive Management of the Experience
+// 	8. Closing Thoughts on Mountains`;
 
 const plainText = removeMd(text);
-
+// console.log(plainText);
 let text2 = prePatch(plainText);
+
 // console.log(text2);
 // const sentences = text.match(/([^\。.?!？！]+[.?!。？！])/g);
 let sentences = nlp(text2).sentences();
@@ -523,6 +524,7 @@ asyncCallFillMaskBaseApi(sentences_masked, sentences).then((latest_doc) => {
 
 function prePatch(text) {
     let result = text.replaceAll("\n\n", "\n");
+    result = result.replaceAll("\u0009", "");
     result = result.replaceAll("(", "\u301D");
     result = result.replaceAll(")", "\u301E");
     result = result.replaceAll("*", "\"*\"");
