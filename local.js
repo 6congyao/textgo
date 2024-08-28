@@ -13,7 +13,7 @@ let verbSynonyms;
 let adverbSynonyms;
 
 const temperature = 1;
-const gap_factor = 1.5;
+const gap_factor = 1.3;
 
 const fastProxy = createProxyMiddleware({
     target: 'http://localhost:8088/v1',
@@ -47,7 +47,72 @@ const fastProxy = createProxyMiddleware({
                 } else {
                     // manipulate JSON data here
                     if ('answer' in oriResult) {
-                        const contentLength = parseInt(req.headers['content-length'], 10);
+                        const contentLength = parseInt(req.headers['content-length'], 10) - 90;
+                        if ((oriResult['answer'].length > contentLength * gap_factor) || (oriResult['answer'].length < contentLength / gap_factor)) {
+                            res.statusCode = 307;
+                            result['code'] = "retry";
+                            result['msg'] = "Please retry.";
+                            return JSON.stringify(result);
+                        }
+
+                        let sentences_raw = preRewrite(oriResult['answer'])
+                        let sentences_masked = performMask(sentences_raw);
+                        
+                        let output = await callFillMaskBaseApi(sentences_masked, sentences_raw)
+
+                        sentences_raw = nlp(output).sentences();
+                        sentences_masked = performMask2(sentences_raw);
+
+                        output = await callFillMaskBaseApi(sentences_masked, sentences_raw)
+                        result['messages'][0]['content'] = postHandle(output);
+                        result['msg'] = "success";
+                    }
+                }
+                // return manipulated JSON
+                return JSON.stringify(result);
+            }
+            // return other content-types as-is
+            return responseBuffer;
+        }),
+        error: (err, req, res) => {
+            console.log(err);
+        },
+    },
+});
+
+const newEnhancedProxy = createProxyMiddleware({
+    target: 'http://localhost:8088/v1',
+    changeOrigin: true,
+    selfHandleResponse: true,
+    on: {
+        proxyReq: (proxyReq, req, res) => {
+            proxyReq.setHeader('Authorization', 'Bearer ');
+            proxyReq.setHeader('Content-Type', 'application/json');
+            proxyReq.setHeader('Accept', '*/*');
+            proxyReq.setHeader('Connection', 'keep-alive');
+        },
+        proxyRes: responseInterceptor(async (responseBuffer, proxyRes, req, res) => {
+            if (proxyRes.headers['content-type'] === 'application/json') {
+                let result = {
+                    messages: [{
+                        "role": "assistant",
+                        "type": "answer",
+                        "content": "",
+                        "content_type": "text"
+                    }],
+                    "code": "",
+                    "msg": "",
+                };
+
+                let oriResult = JSON.parse(responseBuffer.toString('utf8'));
+
+                if (res.statusCode >= 400) {
+                    result['code'] = oriResult['code'];
+                    result['msg'] = oriResult['message'];
+                } else {
+                    // manipulate JSON data here
+                    if ('answer' in oriResult) {
+                        const contentLength = parseInt(req.headers['content-length'], 10) - 90;
                         if ((oriResult['answer'].length > contentLength * gap_factor) || (oriResult['answer'].length < contentLength / gap_factor)) {
                             res.statusCode = 307;
                             result['code'] = "retry";
@@ -466,7 +531,7 @@ function prePatch(text) {
 nlp.extend(synonymPlugin);
 nlp.extend(robertaPlugin);
 
-app.use('/api/v2/enhanced', enhancedProxy);
+app.use('/api/v2/enhanced', newEnhancedProxy);
 app.use('/api/v2/fast', fastProxy);
 
 // Setting port and serve
